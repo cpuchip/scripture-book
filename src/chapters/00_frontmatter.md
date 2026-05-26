@@ -4,20 +4,17 @@ What AI Engineering Reveals About Eternal Patterns
 </div>
 
 <div style="text-align: center; margin-top: 3in; font-size: 14pt;">
-Michael Stuffleberry
+Michael Stufflebeam
 </div>
 
 <div style="page-break-before: always; margin-top: 1in; font-size: 10pt; text-align: left; text-indent: 0;">
 
-## Copyright
+## Consecration
 
-Copyright © 2026 by Michael Stuffleberry.
+The principles and laws described in this book belong to God; they have merely been discovered and compiled. As such, this work is shared freely. You are welcome to copy, print, distribute, and transmit this manuscript in any form—including entire copies of the PDF—without restriction. The author published this book to obtain a physical copy for personal use and to consecrate these patterns to all who seek truth.
 
-All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
-
-For permissions requests, contact:
-[michael@cpuchip.net](mailto:michael@cpuchip.net)
-[https://cpuchip.net](https://cpuchip.net)
+For inquiries, feedback, or correspondence, contact:
+[stuffleberryco@gmail.com](mailto:stuffleberryco@gmail.com)
 
 First Edition: May 2026
 

@@ -149,7 +149,7 @@ def build():
     os.makedirs(dist_dir, exist_ok=True)
     
     title = config.get("title", "Beyond the Prompt")
-    author = config.get("author", "Michael Stuffleberry")
+    author = config.get("author", "Michael Stufflebeam")
     language = config.get("language", "en-US")
     chapters_list = config.get("chapters", [])
     
