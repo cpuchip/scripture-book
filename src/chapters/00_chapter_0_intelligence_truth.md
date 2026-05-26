@@ -10,7 +10,7 @@
 
 ## The Core Reframe
 
-In 1828, Noah Webster published his landmark American Dictionary. Under the entry for *spirit*, he captured the consensus of post-Enlightenment philosophy and traditional Christian theology: spirit is "an intelligence conceived of apart from any physical organization or embodiment," a "vital essence, force, or energy, as distinct from matter," and "the intelligent, immaterial and immortal part of man." To the nineteenth-century mind, the division was absolute: the physical world was material, but the spiritual world was immaterial.
+In 1828, Noah Webster published his landmark American Dictionary. Under the entry for [*spirit*](https://1828.ibeco.me/word-study/spirit), he captured the consensus of post-Enlightenment philosophy and traditional Christian theology: spirit is "an intelligence conceived of apart from any physical organization or embodiment," a "vital essence, force, or energy, as distinct from matter," and "the intelligent, immaterial and immortal part of man." To the nineteenth-century mind, the division was absolute: the physical world was material, but the spiritual world was immaterial.
 
 Five years later, Joseph Smith received a revelation that collapsed this ancient dualism:
 

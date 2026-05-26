@@ -20,7 +20,7 @@ But execution is no longer scarce. Modern AI models can generate correct code st
 
 This shift can leave us feeling disoriented, even insignificant. If the act of writing code is no longer the center of our work, what do we actually bring to the table? 
 
-We find the answer by reframing what scripture means by "intelligence." In the Restoration-era vocabulary, *intelligence* is not merely the storage of facts or raw processing speed. Webster's 1828 dictionary defines it as "understanding; skill; the faculty of understanding." In [Doctrine and Covenants 93:36](../../gospel-library/eng/scriptures/dc-testament/dc/93.md), we read that "the glory of God is intelligence, or, in other words, light and truth." 
+We find the answer by reframing what scripture means by "intelligence." In the Restoration-era vocabulary, *intelligence* is not merely the storage of facts or raw processing speed. [*Webster's 1828 dictionary*](https://1828.ibeco.me/word-study/intelligence) defines it as "understanding; skill; the faculty of understanding." In [Doctrine and Covenants 93:36](../../gospel-library/eng/scriptures/dc-testament/dc/93.md), we read that "the glory of God is intelligence, or, in other words, light and truth." 
 
 Intelligence is *discernment*. It is the capacity to see things as they really are, to distinguish light from shadow, and to judge correctness. 
 
