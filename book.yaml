@@ -19,6 +19,8 @@ audio_generation:
 
 # Order of Chapters
 chapters:
+  - src/chapters/00_preface.md
+  - src/chapters/00_chapter_0_intelligence_truth.md
   - src/chapters/00_introduction.md
   - src/chapters/01_value_shift.md
   - src/chapters/02_four_disciplines.md

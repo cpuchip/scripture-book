@@ -10,6 +10,9 @@ This book serves as both a software development guide and a personal gospel stud
 
 ## Book Layout
 
+*   **Preface:** The Classroom on the Organized Gospel Life
+*   **Chapter 0:** The Substance of Reality (Intelligence & Truth)
+
 ### Section I: The Creation Pattern
 *   **Chapter 1:** The Value Shift (The bottleneck moves to judgment)
 *   **Chapter 2:** The Four Disciplines (Prompt, Context, Intent, Spec)
