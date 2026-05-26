@@ -1,6 +1,9 @@
 # Scripture Book — Beyond the Prompt
 
-This subproject compiles our gospel and AI studies into a published book format (PDF for KDP print-on-demand, EPUB for ebooks, and auto-narrated audio).
+The canonical project instructions are documented in:
+@.github/copilot-instructions.md
+
+---
 
 ## Directory Structure
 

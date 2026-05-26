@@ -34,9 +34,9 @@ Eighteen years of experience is a talent. Our scars from production failures, ou
 
 ## The Engineering Parallel
 
-In the tech industry, we see this value shift play out in real time. As author Tony Trejo observes in his *Value Shift Framework*: "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it." 
+In the tech industry, we see this value shift play out in real time. As author Tony Trejo observes in his [*Value Shift Framework*](https://tonytrejodev.medium.com/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472): "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it." 
 
-Before AI, we spent eighty percent of our energy on implementation mechanics and twenty percent on design. Now, the ratio has inverted. The skill is no longer prompting; as engineer Milan Jovanović writes, "It's owning correctness."
+Before AI, we spent eighty percent of our energy on implementation mechanics and twenty percent on design. Now, the ratio has inverted. The skill is no longer prompting; as engineer [Milan Jovanović](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) writes, "It's owning correctness."
 
 This exact dynamic is modeled in the scriptural account of the Creation. In [Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md), we find a phrasing that differs sharply from the Genesis narrative:
 

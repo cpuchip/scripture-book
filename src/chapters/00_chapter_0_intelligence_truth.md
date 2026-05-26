@@ -29,7 +29,7 @@ And in Section 88, he adds:
 > "My voice is Spirit; my Spirit is truth; truth abideth and hath no end; and if it be in you it shall abound."
 > — [Doctrine and Covenants 88:66](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)
 
-If we follow the links of this chain, the conclusion is inescapable: the words of Christ are spirit (John 6:63); all spirit is matter (D&C 131:7); *therefore*, the words of eternal life are composed of a physical, material substance. They are composed of a highly refined, pure matter that exists at the highest end of the existence spectrum.
+If we follow the links of this chain, the conclusion is inescapable: the words of Christ are spirit ([John 6:63](../../gospel-library/eng/scriptures/nt/john/6.md)); all spirit is matter ([D&C 131:7](../../gospel-library/eng/scriptures/dc-testament/dc/131.md)); *therefore*, the words of eternal life are composed of a physical, material substance. They are composed of a highly refined, pure matter that exists at the highest end of the existence spectrum.
 
 ```
 Intelligence <——> Spirit <——> Coarse Element

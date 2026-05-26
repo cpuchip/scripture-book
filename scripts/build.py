@@ -92,7 +92,7 @@ def markdown_to_html(md_text, is_epub=False):
     md_text = re.sub(r'^# (.*?)$', r'<h1>\1</h1>', md_text, flags=re.MULTILINE)
     
     # Blockquotes (gospel style)
-    md_text = re.sub(r'^> (.*?)$', r'<blockquote><p>\1</p></blockquote>', md_text, flags=re.MULTILINE)
+    md_text = re.sub(r'^&gt;\s?(.*?)$', r'<blockquote><p>\1</p></blockquote>', md_text, flags=re.MULTILINE)
     # Merge consecutive blockquotes
     md_text = md_text.replace('</blockquote>\n<blockquote>', '\n')
     
@@ -110,6 +110,11 @@ def markdown_to_html(md_text, is_epub=False):
     md_text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', md_text)
     md_text = re.sub(r'\*(.*?)\*', r'<em>\1</em>', md_text)
     
+    # Normalize block-level tag boundaries with double newlines so they split into separate blocks
+    for tag in ['h1', 'h2', 'h3', 'blockquote', 'div', 'ul', 'ol', 'pre', 'hr']:
+        md_text = md_text.replace(f'<{tag}', f'\n\n<{tag}')
+        md_text = md_text.replace(f'</{tag}>', f'</{tag}>\n\n')
+        
     # Paragraphs (lines separated by double newlines, not starting with tags)
     blocks = md_text.split('\n\n')
     for i, block in enumerate(blocks):
@@ -117,7 +122,7 @@ def markdown_to_html(md_text, is_epub=False):
         if not block_stripped:
             continue
         # If it doesn't start with a structural tag, wrap in <p>
-        if not re.match(r'^<(h1|h2|h3|ul|li|blockquote|div|hr|!--)', block_stripped):
+        if not re.match(r'^</?(?:h1|h2|h3|ul|ol|li|blockquote|div|hr|pre|code|!--)', block_stripped):
             # If we're inside a div or blockquote, be careful
             blocks[i] = f'<p>{block_stripped}</p>'
             

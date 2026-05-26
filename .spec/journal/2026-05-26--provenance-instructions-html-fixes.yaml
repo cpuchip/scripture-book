@@ -1,0 +1,33 @@
+date: 2026-05-26
+session: provenance-instructions-html-fixes
+type: execution
+workstream: WS7
+
+summary: |
+  Fixed blockquote rendering and paragraph wrapping HTML bugs in the python build script.
+  Linked unlinked scripture references in Chapter 0 (John 6:63 and D&C 131:7) and external professional quotes in Chapter 1 (Tony Trejo and Milan Jovanović).
+  Migrated chapter provenance logs from the IDE brain scratch folder to the repository's `.scratch/` directory to preserve the research audit trail.
+  Created shared agent guidelines in `.github/copilot-instructions.md` and updated `CLAUDE.md` to reference them, establishing a cross-agent memory process.
+
+discoveries:
+  - Isolated blockquotes and raw HTML div tags from standard paragraph text by introducing a block-level boundary normalization step (injecting double newlines around tag starts/ends) in build.py. This resolved both literal `&gt;` leaks and invalid `<p></div></p>` wrapping.
+
+carry_forward:
+  - Draft Section III chapters (Chapters 8, 9, and 10) and the Zion Conclusion (Chapter 11).
+  - Update layout metadata as the final drafts are compiled.
+
+files_changed:
+  - projects/scripture-book/scripts/build.py
+  - projects/scripture-book/src/chapters/00_chapter_0_intelligence_truth.md
+  - projects/scripture-book/src/chapters/01_value_shift.md
+  - projects/scripture-book/.github/copilot-instructions.md
+  - projects/scripture-book/CLAUDE.md
+  - projects/scripture-book/.scratch/provenance_preface.md
+  - projects/scripture-book/.scratch/provenance_chapter_0.md
+  - projects/scripture-book/.scratch/provenance_chapter_1.md
+  - projects/scripture-book/.scratch/provenance_chapter_2.md
+  - projects/scripture-book/.scratch/provenance_chapter_3.md
+  - projects/scripture-book/.scratch/provenance_chapter_4.md
+  - projects/scripture-book/.scratch/provenance_chapter_5.md
+  - projects/scripture-book/.scratch/provenance_chapter_6.md
+  - projects/scripture-book/.scratch/provenance_chapter_7.md
