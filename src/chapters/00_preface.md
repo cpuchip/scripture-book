@@ -52,9 +52,9 @@ But as the tools shift, the principles do not. Whether I am writing comments for
 
 The software industry is rapidly catching on to these agentic workflows—planning before creating, taking counsel, and verifying outputs. They are discovering the laws of organized intelligence, but they do not yet realize they are discovering eternal patterns. 
 
-We have a responsibility to make these patterns known. I am reminded of the warning in the Book of Mormon:
+We have a responsibility to make these patterns known. In the Doctrine and Covenants, we find a description of a world seeking light but drowned in noise, which applies directly to the software industry today:
 
-> "Now they did not sin ignorantly, for they knew the will of God concerning them, for it had been taught unto them; therefore they did wilfully rebel against God."
-> — [3 Nephi 6:18](../../gospel-library/eng/scriptures/bofm/3-ne/6.md)
+> "For there are many yet on the earth among all sects, parties, and denominations, who are blinded by the subtle craftiness of men, whereby they lie in wait to deceive, and who are only kept from the truth because they know not where to find it—"
+> — [Doctrine and Covenants 123:12](../../gospel-library/eng/scriptures/dc-testament/dc/123.md)
 
-Once we understand the laws of creation and stewardship, we can no longer act ignorantly. We cannot treat our tools—or our lives—as spaces for mindless consumption or chaotic reaction. We are under covenant to bring light and truth to the world, organizing the intelligence placed in our hands according to the laws we have been taught. This book is our attempt to write down those laws.
+In the rush of marketing hype, technical jargon, and shifting tools, developers are looking for a stable foundation. They are seeking how to build things that are correct and good, but they are often blinded by the surrounding noise. Once we see these eternal creation patterns—once we understand that software engineering is a training ground for organizing intelligence under law—we have a responsibility to share it. This book is our attempt to write down those laws.
