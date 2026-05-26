@@ -10,6 +10,7 @@ This book serves as both a software development guide and a personal gospel stud
 
 ## Book Layout
 
+*   **Frontmatter:** Title Page, Copyright Page, and Colophon
 *   **Preface:** The Classroom on the Organized Gospel Life
 *   **Chapter 0:** The Substance of Reality (Intelligence & Truth)
 

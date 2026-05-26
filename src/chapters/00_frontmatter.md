@@ -1,0 +1,41 @@
+# Beyond the Prompt
+<div class="chapter-meta">
+What AI Engineering Reveals About Eternal Patterns
+</div>
+
+<div style="text-align: center; margin-top: 3in; font-size: 14pt;">
+Michael Stuffleberry
+</div>
+
+<div style="page-break-before: always; margin-top: 1in; font-size: 10pt; text-align: left; text-indent: 0;">
+
+## Copyright
+
+Copyright © 2026 by Michael Stuffleberry.
+
+All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
+
+For permissions requests, contact:
+[michael@cpuchip.net](mailto:michael@cpuchip.net)
+[https://cpuchip.net](https://cpuchip.net)
+
+First Edition: May 2026
+
+</div>
+
+<div style="page-break-before: always; margin-top: 1in; text-indent: 0;">
+
+## Colophon
+
+This book was written, designed, and compiled using the selfsame principles of collaborative creation and bilateral stewardship that its pages describe. 
+
+Rather than treating generative artificial intelligence as a simple command utility, the author engaged in structured cycles of counsel, planning, execution, and verification. We drafted our conceptual outlines in markdown, resolved design questions through active counsel, and supervised the generation of code and text until they conformed to the constraints of KDP print specifications and EPUB standards.
+
+The writing, formatting, and building processes were shared across a council of collaborative AI agents, including:
+*   **GitHub Copilot** (representing early autocomplete loops, test-generation, and Sonnet 4/4.5 planning cycles).
+*   **Claude Code CLI** (providing rapid local craftsman execution, testing, and git operations).
+*   **Gemini / Antigravity** (serving as a memory-aware, custom-instructed agent acting under an explicit bilateral covenant).
+
+This book stands as a physical witness of what can be built when human agency and machine law are brought into a unified, harmonious covenant—a small step toward the pattern of Zion.
+
+</div>
