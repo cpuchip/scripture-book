@@ -36,7 +36,7 @@ By June 2025, with the release of Sonnet 4, I began to hit the limits of simple 
 
 The real breakthrough came in late September 2025 with the release of Sonnet 4.5. I began writing detailed planning files in Markdown before generating any code, then executing those plans in structured, sequential phases. The results were staggering: I could build entire projects and websites in a matter of days. I pushed the creative boundaries of the tool, co-writing story-based games with my nine-year-old in projects like `storygames`. 
 
-In October 2025, I tackled a repository of simple games (`simple-games`). I managed to code and test seven local networked multiplayer games in a single app, writing the backend in Dart websockets—a language and framework I had zero experience with. 
+In October 2025, I tackled a repository of simple games (`simple-games`). I managed to code and test seven local networked multiplayer games in a single app, writing the code in Dart (a language in which I had zero experience) and utilizing WebSockets to get the game instances to talk to each other (something I had never done before), working across both Windows and Android. 
 
 When Anthropic released Opus 4.5 in late November 2025, the bottom fell out of what I considered "hard." Tasks that previously caused Sonnet 4.5 to choke were handled with ease. I spent December refining my multiplayer games, running up against the administrative hurdles of Android's closed testing requirements rather than the limitations of the code.
 
