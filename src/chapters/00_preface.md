@@ -32,7 +32,7 @@ Around that same time, in October 2022, I began playing with image generation us
 
 The true shift occurred in August 2023. I woke up from a dream with a distinct, pressing impression: *I had to learn how to use AI effectively.* 
 
-Immediately after that dream, I came across an interview with Stability AI founder Emad Mostaque on the Danny Jones Podcast ([Danny Jones Podcast — AI is about to FLIP your life upside down](https://youtu.be/Se91Pn3xxSs)). Hearing his perspective on the imminent scale of technological change was a catalyst. It set me on a path of intense study. I began consuming podcasts, YouTube videos, and blog articles, picking up what worked and what failed. 
+Immediately after that dream, I came across an interview with Stability AI founder Emad Mostaque on Tom Bilyeu's Impact Theory ([Impact Theory — AI is about to FLIP your life upside down](https://youtu.be/Se91Pn3xxSs)). Hearing his perspective on the imminent scale of technological change was a catalyst. It set me on a path of intense study. I began consuming podcasts, YouTube videos, and blog articles, picking up what worked and what failed. 
 
 Where I experimented most was not in isolated sandboxes, but on complex enterprise work projects that spanned hundreds of microservices. Trying to implement changes, maintain coherence, and coordinate code across that massive landscape was a crucible. It was in this environment that I learned how critical these principles really were. When you are writing code across hundreds of microservices, you cannot simply guess or dump raw prompts; you must plan, establish clear covenants (interfaces and requirements), communicate structured intent, and verify diligently.
 
