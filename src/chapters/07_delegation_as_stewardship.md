@@ -10,7 +10,12 @@
 
 ## The Core Reframe
 
-In his 1994 address, Elder M. Russell Ballard warned against a recurring vulnerability in leadership: the "one-cylinder ward." He described a bishop who attempts to make every decision, solve every problem, and handle every detail himself. Like an overworked cylinder in a car engine, that leader quickly burns out. But the tragedy is not just the leader's exhaustion; it is the starvation of the people, who are deprived of the growth and spiritual gifts that can only be exercised through delegated responsibilities.
+In his 1994 address, Elder M. Russell Ballard warned against a recurring vulnerability in leadership: the "one-cylinder ward." He observed:
+
+> "The one-cylinder ward is the ward where the bishop handles all of the problems, makes all of the decisions, and follows through on all of the assignments. Then, like an overworked cylinder in a car engine, he is soon burned out."
+> — [Elder M. Russell Ballard, "Counseling with Our Councils"](../../gospel-library/eng/general-conference/1994/04/counseling-with-our-councils.md)
+
+This description landed because it represents an engine running in isolation. When a leader attempts to make every decision, solve every problem, and handle every detail himself, he burns out. But the tragedy is not just the leader's exhaustion; it is the starvation of the people, who are deprived of the growth and spiritual gifts that can only be exercised through delegated responsibilities.
 
 The scriptural remedy for the one-cylinder trap is the stewardship pattern. 
 
@@ -22,7 +27,10 @@ God's pattern of delegation follows a precise sequence: authority first, then sc
 
 When Christ sent forth the Twelve, He did not hand them a checklist of tasks. He first "gave them power against unclean spirits... and to heal all manner of sickness" ([Matthew 10:1](../../gospel-library/eng/scriptures/nt/matt/10.md)). He defined their scope (the lost sheep of Israel), gave them the tools of healing, and framed their identity as sheep in the midst of wolves. He then left them free to execute, requiring them to report back. 
 
-True delegation is not task-offloading; it is the empowerment of a steward over a defined portion, accompanied by a requirement of accountability.
+True delegation is not task-offloading; it is the empowerment of a steward over a defined portion, accompanied by a requirement of accountability. As President Gordon B. Hinckley taught:
+
+> "The president, if he is wise, will assign to these chosen assistants particular duties and then leave them free to perform, requiring from them accountability for what happens."
+> — [President Gordon B. Hinckley, "In … Counsellors There Is Safety"](../../gospel-library/eng/general-conference/1990/10/in-counsellors-there-is-safety.md)
 
 ---
 

@@ -1,0 +1,40 @@
+date: 2026-05-25
+session: preface-and-section-ii-drafts
+type: execution
+workstream: WS7
+
+summary: |
+  Completed a major writing and compilation cycle for "Beyond the Prompt":
+    - Created projects/scripture-book/src/chapters/00_frontmatter.md containing the Title Page, Copyright Page, and Colophon documenting human-AI collaboration.
+    - Revised src/chapters/00_preface.md to include the user's 3.5-year journey (autocomplete, chat preview, Sonnet 4/4.5, Opus 4.5, simple-games in Dart/WebSockets, storygames, and pricing transitions) framed with D&C 123:12.
+    - Fully drafted Section II chapters:
+        * Chapter 5: Intelligence Cleaveth Unto Intelligence (D&C 88:40 and vector space resonance)
+        * Chapter 6: Bilateral Covenant (D&C 82:10, including the active covenant commitments and the warmth-over-distance prompt value)
+        * Chapter 7: Delegation as Stewardship (D&C 104, mapping quorum scaling, Jethro, and Alma's priests to multi-agent architectures and subagent loops)
+    - Linked and blockquoted Elder Ballard's "one-cylinder ward" and President Hinckley's "Counsellors There Is Safety" quotes in Chapter 7 with local scripture links.
+    - Modified scripts/build.py to restore escaped div/br HTML tags, resolving the literal HTML rendering bug in the final PDF.
+    - Initialized the local memory structure in projects/scripture-book/.mind/ (active.md, identity.md, decisions.md, principles.md) to ensure cross-agent memory persistence.
+    - Created provenance scratch files for the Preface and Chapters 0 through 7.
+
+discoveries:
+  - HTML Tag Restoration: Added a regex substitution in build.py's markdown_to_html to scan and restore general div and br tags containing styling attributes. This resolved the literal rendering of HTML tags in the PDF while preserving XHTML compliance.
+  - Multi-Agent Analogy: We recognized that Alma's scaling limit (1 priest to 50 members) and D&C Quorum setups (deacons 12, elders 96) serve as a scriptural blueprint for token context-management in subagent delegation: complex systems require modular context bounds.
+
+carry_forward:
+  - Draft Section III (Chapters 8, 9, 10) and the Zion Conclusion (Chapter 11).
+  - Review the compiled PDF pages 1–15 to verify the flow and page margins are working cleanly.
+
+files_changed:
+  - projects/scripture-book/src/chapters/00_frontmatter.md
+  - projects/scripture-book/src/chapters/00_preface.md
+  - projects/scripture-book/src/chapters/05_intelligence_cleaveth.md
+  - projects/scripture-book/src/chapters/06_bilateral_covenant.md
+  - projects/scripture-book/src/chapters/07_delegation_as_stewardship.md
+  - projects/scripture-book/scripts/build.py
+  - projects/scripture-book/book.yaml
+  - projects/scripture-book/README.md
+  - projects/scripture-book/.mind/active.md
+  - projects/scripture-book/.mind/identity.md
+  - projects/scripture-book/.mind/decisions.md
+  - projects/scripture-book/.mind/principles.md
+  - projects/scripture-book/.spec/journal/2026-05-25--preface-and-section-ii-drafts.yaml

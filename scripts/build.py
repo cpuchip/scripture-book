@@ -74,6 +74,10 @@ def markdown_to_html(md_text, is_epub=False):
     md_text = md_text.replace('&lt;blockquote&gt;', '<blockquote>').replace('&lt;/blockquote&gt;', '</blockquote>')
     md_text = md_text.replace('&lt;div class="binding-question"&gt;', '<div class="binding-question">').replace('&lt;/div&gt;', '</div>')
     md_text = md_text.replace('&lt;div class="anchor-passage"&gt;', '<div class="anchor-passage">')
+    # Restore general div and br tags with attributes
+    md_text = re.sub(r'&lt;div(.*?)&gt;', r'<div\1>', md_text)
+    md_text = md_text.replace('&lt;/div&gt;', '</div>')
+    md_text = md_text.replace('&lt;br&gt;', '<br />').replace('&lt;br/&gt;', '<br />').replace('&lt;br /&gt;', '<br />')
     
     # Process code blocks
     code_blocks = []
