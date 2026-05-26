@@ -9,6 +9,9 @@ import os
 import re
 import uuid
 import zipfile
+import hashlib
+import sys
+import shutil
 
 # Helper to parse YAML-like book.yaml config
 def parse_yaml(path):
@@ -38,11 +41,13 @@ def parse_yaml(path):
                 current_key = None
     return data
 
-# Convert local gospel-library relative links to absolute online LDS.org links
+# Convert local gospel-library relative links to absolute online LDS.org links and compile standard links
 def convert_gospel_links(html_content):
     def replace_link(match):
         text = match.group(1)
         path = match.group(2)
+        if text == "qr":
+            return match.group(0)
         if "gospel-library" in path:
             # Extract subpath after gospel-library/eng/
             sub_match = re.search(r'gospel-library/eng/(.*?)(?:\.md)?(?:#|$)', path)
@@ -60,13 +65,78 @@ def convert_gospel_links(html_content):
                     else:
                         return f'<a href="{base_url}?lang=eng&amp;id=p{start_v}#p{start_v}">{text}</a>'
                 return f'<a href="{base_url}?lang=eng">{text}</a>'
-        return match.group(0)
+        return f'<a href="{path}">{text}</a>'
 
     # Match markdown link: [text](path)
     return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', replace_link, html_content)
 
-# Simple Markdown to XHTML parser
-def markdown_to_html(md_text, is_epub=False):
+def generate_local_qr(url, dist_dir):
+    # Ensure qrcode is installed
+    try:
+        import qrcode
+        import qrcode.image.svg
+    except ImportError:
+        print("Installing required 'qrcode' library for local QR code generation...")
+        import subprocess
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "qrcode"])
+        import qrcode
+        import qrcode.image.svg
+
+    qr_dir = os.path.join(dist_dir, "images", "qr")
+    os.makedirs(qr_dir, exist_ok=True)
+    
+    # Generate a unique stable filename for this URL
+    url_hash = hashlib.md5(url.encode('utf-8')).hexdigest()[:8]
+    filename = f"qr_{url_hash}.svg"
+    filepath = os.path.join(qr_dir, filename)
+    
+    # Generate SVG QR code if it doesn't exist
+    if not os.path.exists(filepath):
+        factory = qrcode.image.svg.SvgImage
+        qr = qrcode.QRCode(
+            version=1,
+            error_correction=qrcode.constants.ERROR_CORRECT_L,
+            box_size=10,
+            border=4,
+            image_factory=factory
+        )
+        qr.add_data(url)
+        qr.make(fit=True)
+        img = qr.make_image()
+        with open(filepath, 'wb') as f:
+            img.save(f)
+        print(f"Generated QR code: {filename} -> {url}")
+        
+    return f"images/qr/{filename}"
+
+def parse_inline_markdown(text):
+    # Escape raw text first
+    text = text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    
+    # Bold and Italics
+    text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
+    text = re.sub(r'\*(.*?)\*', r'<em>\1</em>', text)
+    
+    # Run link conversions (which converts both gospel and normal markdown links to HTML <a> tags)
+    text = convert_gospel_links(text)
+    
+    return text
+
+def markdown_to_html(md_text, is_epub=False, dist_dir=None):
+    if dist_dir is None:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.dirname(script_dir)
+        dist_dir = os.path.join(project_root, "dist")
+        
+    # Extract footnote definitions: [^id]: content
+    footnote_defs = {}
+    def extract_footnote_def(match):
+        fn_id = match.group(1)
+        fn_content = match.group(2).strip()
+        footnote_defs[fn_id] = fn_content
+        return ""
+    md_text = re.sub(r'^\[\^([^\]]+)\]:\s*(.*?)$', extract_footnote_def, md_text, flags=re.MULTILINE)
+
     # Escape HTML special chars (excluding block elements we wrap)
     md_text = md_text.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
     
@@ -136,6 +206,42 @@ def markdown_to_html(md_text, is_epub=False):
     # Convert local/relative markdown links to online LDS.org links
     md_text = convert_gospel_links(md_text)
     
+    # Convert QR codes: [qr](url)
+    def replace_qr(match):
+        url = match.group(1)
+        relative_path = generate_local_qr(url, dist_dir)
+        return f'<img src="{relative_path}" class="qr-code" alt="QR Code" />'
+        
+    md_text = re.sub(r'\[qr\]\(([^)]+)\)', replace_qr, md_text)
+    
+    # Convert footnote definitions QR codes and inline markdown
+    for fn_id in footnote_defs:
+        content = footnote_defs[fn_id]
+        content = parse_inline_markdown(content)
+        content = re.sub(r'\[qr\]\(([^)]+)\)', replace_qr, content)
+        footnote_defs[fn_id] = content
+        
+    # Replace footnote references [^id]
+    refs_found = []
+    def replace_footnote_ref(match):
+        fn_id = match.group(1)
+        if fn_id in footnote_defs:
+            if fn_id not in refs_found:
+                refs_found.append(fn_id)
+            idx = refs_found.index(fn_id) + 1
+            return f'<sup><a href="#fn-{fn_id}" id="fnref-{fn_id}" class="footnote-ref">{idx}</a></sup>'
+        return match.group(0)
+        
+    md_text = re.sub(r'\[\^([^\]]+)\]', replace_footnote_ref, md_text)
+    
+    # Append footnotes section if found
+    if refs_found:
+        fn_section = ['<div class="footnotes">', '<hr />', '<ol>']
+        for fn_id in refs_found:
+            fn_section.append(f'<li id="fn-{fn_id}">{footnote_defs[fn_id]} <a href="#fnref-{fn_id}" class="footnote-backref">↩</a></li>')
+        fn_section.extend(['</ol>', '</div>'])
+        md_text += '\n\n' + '\n'.join(fn_section)
+        
     return md_text
 
 def build():
@@ -168,7 +274,7 @@ def build():
         title_match = re.search(r'^# (.*?)$', md_content, re.MULTILINE)
         ch_title = title_match.group(1) if title_match else os.path.basename(chapter_path)
         
-        html_body = markdown_to_html(md_content)
+        html_body = markdown_to_html(md_content, dist_dir=dist_dir)
         parsed_chapters.append({
             "title": ch_title,
             "filename": os.path.basename(chapter_path).replace('.md', '.xhtml'),
@@ -243,6 +349,19 @@ blockquote { margin: 5% 10%; font-style: italic; }
     spine_items = ""
     nav_points = ""
     
+    # Process images for EPUB
+    qr_images_dir = os.path.join(dist_dir, "images", "qr")
+    temp_images_dir = os.path.join(temp_dir, "OEBPS", "images", "qr")
+    manifest_image_items = ""
+    
+    if os.path.exists(qr_images_dir):
+        os.makedirs(temp_images_dir, exist_ok=True)
+        for f_name in os.listdir(qr_images_dir):
+            if f_name.endswith('.svg'):
+                shutil.copy2(os.path.join(qr_images_dir, f_name), os.path.join(temp_images_dir, f_name))
+                item_id = f_name.replace('.', '_').replace('-', '_')
+                manifest_image_items += f'    <item id="{item_id}" href="images/qr/{f_name}" media-type="image/svg+xml"/>\n'
+    
     for idx, ch in enumerate(parsed_chapters):
         ch_filename = ch['filename']
         ch_title = ch['title']
@@ -284,7 +403,7 @@ blockquote { margin: 5% 10%; font-style: italic; }
   <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="style" href="style.css" media-type="text/css"/>
-{manifest_items}  </manifest>
+{manifest_items}{manifest_image_items}  </manifest>
   <spine toc="ncx">
 {spine_items}  </spine>
 </package>"""
@@ -326,6 +445,11 @@ blockquote { margin: 5% 10%; font-style: italic; }
         for ch in parsed_chapters:
             filename = ch['filename']
             z.write(os.path.join(temp_dir, "OEBPS", filename), f"OEBPS/{filename}", compress_type=zipfile.ZIP_DEFLATED)
+            
+        # Pack SVG QR codes if they exist in temp folder
+        if os.path.exists(temp_images_dir):
+            for f_name in os.listdir(temp_images_dir):
+                z.write(os.path.join(temp_images_dir, f_name), f"OEBPS/images/qr/{f_name}", compress_type=zipfile.ZIP_DEFLATED)
             
     # Clean up temp files
     for root, dirs, files in os.walk(temp_dir, topdown=False):

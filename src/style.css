@@ -162,3 +162,38 @@ hr {
 .anchor-passage {
     margin-bottom: 2rem;
 }
+
+/* Footnotes */
+.footnotes {
+    font-size: 9pt;
+    line-height: 1.4;
+    color: #444;
+    margin-top: 2rem;
+    page-break-inside: avoid;
+}
+
+.footnotes hr {
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.footnote-ref a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footnote-backref {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin-left: 0.3em;
+}
+
+.qr-code {
+    display: inline-block;
+    border: 1px solid #eee;
+    padding: 3px;
+    background: #fff;
+    margin-top: 4px;
+    width: 70px;
+    height: 70px;
+}
