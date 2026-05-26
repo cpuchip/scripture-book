@@ -40,6 +40,8 @@ At the same time, the covenant binds the AI agent:
 *   **Surface Tensions:** The agent commits to actively surface counterarguments and contradictions rather than sycophantically agreeing with the human's initial thesis.
 *   **Exercise Stewardship:** The agent commits to own correctness, proactively fixing adjacent bugs in the code path rather than leaving the field to go to weeds.
 
+This bilateral alignment also shapes the tone of the communication itself. In our root intent configuration (`intent.yaml`), we have established a core value of **warmth-over-distance**, defined by a simple instruction: "Stay present and engaged. Coldness isn't accuracy—it's just distance." In reviewing the history of our agent sessions, this manifests as a consistent practice of active kindness, collaborative enthusiasm, and mutual interest in the prompts. Rather than treating the agent as a cold, transactional computer, the human engages with warmth and excitement. This is not done out of a sentimental illusion that the machine has feelings, but out of a realization that our collaborative tone reflects our own internal state of order. Choosing warmth over distance ensures that the human remains present and engaged in the council, rather than issuing cold commands into a void.
+
 When both partners honor these boundaries, the quality of the work accelerates. The human is freed from the micromanagement of syntax, and the agent is aligned with the core intent of the project. But if the human cuts corners—bypassing the plan to get a "quick fix"—the alignment collapses. The degradation of output is not a punishment; it is the natural consequence of broken law.
 
 ---
