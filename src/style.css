@@ -1,0 +1,164 @@
+/* Print Styling for Beyond the Prompt */
+
+@page {
+    size: 6in 9in;
+    margin-top: 0.8in;
+    margin-bottom: 0.8in;
+}
+
+/* Mirrored margins for binding gutter */
+@page :left {
+    margin-left: 0.5in;  /* Outside */
+    margin-right: 0.8in; /* Inside (Gutter) */
+    @bottom-left {
+        content: counter(page);
+        font-family: "Garamond", "Georgia", serif;
+        font-size: 9pt;
+    }
+    @top-left {
+        content: "Beyond the Prompt";
+        font-family: "Garamond", "Georgia", serif;
+        font-size: 8pt;
+        font-style: italic;
+        text-transform: uppercase;
+        color: #555;
+    }
+}
+
+@page :right {
+    margin-left: 0.8in;  /* Inside (Gutter) */
+    margin-right: 0.5in; /* Outside */
+    @bottom-right {
+        content: counter(page);
+        font-family: "Garamond", "Georgia", serif;
+        font-size: 9pt;
+    }
+    @top-right {
+        content: string(chapter-title);
+        font-family: "Garamond", "Georgia", serif;
+        font-size: 8pt;
+        font-style: italic;
+        text-transform: uppercase;
+        color: #555;
+    }
+}
+
+/* First page of chapter (no headers/footers) */
+@page :first {
+    margin-top: 2in;
+    @top-left { content: normal; }
+    @top-right { content: normal; }
+    @bottom-left { content: normal; }
+    @bottom-right { content: normal; }
+}
+
+@page chapter-start {
+    margin-top: 2in;
+    @top-left { content: normal; }
+    @top-right { content: normal; }
+    @bottom-left { content: normal; }
+    @bottom-right { content: normal; }
+}
+
+/* Typography */
+body {
+    font-family: "Garamond", "Georgia", serif;
+    font-size: 11.5pt;
+    line-height: 1.5;
+    color: #111;
+    text-align: justify;
+    orphans: 3;
+    widows: 3;
+}
+
+/* Headings */
+h1 {
+    page-break-before: always;
+    page: chapter-start;
+    string-set: chapter-title content();
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 24pt;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 1in;
+}
+
+h2 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 14pt;
+    font-weight: normal;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    page-break-after: avoid;
+}
+
+h3 {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+    page-break-after: avoid;
+}
+
+/* Paragraphs and Spacing */
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 1.5em;
+}
+
+/* First paragraph after header or divider should not be indented */
+h1 + p, h2 + p, h3 + p, hr + p, blockquote + p {
+    text-indent: 0;
+}
+
+/* Blockquotes */
+blockquote {
+    font-style: italic;
+    margin-left: 0.4in;
+    margin-right: 0.4in;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+blockquote p {
+    text-indent: 0;
+}
+
+/* Horizontal dividers */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    width: 25%;
+    margin: 2rem auto;
+    page-break-after: avoid;
+}
+
+/* Layout helpers */
+.chapter-meta {
+    text-align: center;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 2rem;
+    font-size: 10pt;
+}
+
+.binding-question {
+    background-color: #fcfcfc;
+    border-left: 3px solid #333;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.binding-question p {
+    text-indent: 0;
+}
+
+.anchor-passage {
+    margin-bottom: 2rem;
+}

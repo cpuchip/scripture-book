@@ -1,0 +1,33 @@
+title: "Beyond the Prompt: What AI Engineering Reveals About Eternal Patterns"
+author: "Michael Stuffleberry"
+language: "en-US"
+
+# KDP Print Specifications
+trim_size:
+  width: 6.0 # in inches
+  height: 9.0 # in inches
+margins:
+  top: 0.75 # in inches
+  bottom: 0.75 # in inches
+  outside: 0.5 # in inches
+  inside: 0.75 # in inches (gutter for ~100-150 pages)
+
+# Google Play Books Audiobook Specs
+audio_generation:
+  format: "epub"
+  optimize_for_tts: true
+
+# Order of Chapters
+chapters:
+  - src/chapters/00_introduction.md
+  - src/chapters/01_value_shift.md
+  - src/chapters/02_four_disciplines.md
+  - src/chapters/03_spiritual_before_temporal.md
+  - src/chapters/04_watched_until_they_obeyed.md
+  - src/chapters/05_intelligence_cleaveth.md
+  - src/chapters/06_bilateral_covenant.md
+  - src/chapters/07_delegation_as_stewardship.md
+  - src/chapters/08_mechanics_of_refinement.md
+  - src/chapters/09_hope_and_the_veil.md
+  - src/chapters/10_softening_what_i_cannot_soften.md
+  - src/chapters/11_conclusion_zion.md
