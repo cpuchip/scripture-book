@@ -4,30 +4,30 @@
 
 **Anchor Passage:**
 > "Man was also in the beginning with God. Intelligence, or the light of truth, was not created or made, neither indeed can be. All truth is independent in that sphere in which God has placed it, to act for itself, as all intelligence also; otherwise there is no existence."
-> — [Doctrine and Covenants 93:29–30](../../gospel-library/eng/scriptures/dc-testament/dc/93.md)
+> — [Doctrine and Covenants 93:29–30](../../gospel-library/eng/scriptures/dc-testament/dc/93.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/93.md?verse=29-30)
 
 ---
 
 ## The Core Reframe
 
-In 1828, Noah Webster published his landmark American Dictionary. Under the entry for [*spirit*](https://1828.ibeco.me/word-study/spirit), he captured the consensus of post-Enlightenment philosophy and traditional Christian theology: spirit is "an intelligence conceived of apart from any physical organization or embodiment," a "vital essence, force, or energy, as distinct from matter," and "the intelligent, immaterial and immortal part of man." To the nineteenth-century mind, the division was absolute: the physical world was material, but the spiritual world was immaterial.
+In 1828, Noah Webster published his landmark American Dictionary. Under the entry for [*spirit*](https://1828.ibeco.me/word-study/spirit) [qr](https://1828.ibeco.me/word-study/spirit), he captured the consensus of post-Enlightenment philosophy and traditional Christian theology: spirit is "an intelligence conceived of apart from any physical organization or embodiment," a "vital essence, force, or energy, as distinct from matter," and "the intelligent, immaterial and immortal part of man." To the nineteenth-century mind, the division was absolute: the physical world was material, but the spiritual world was immaterial.
 
 Five years later, Joseph Smith received a revelation that collapsed this ancient dualism:
 
 > "There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; we cannot see it; but when our bodies are purified we shall see that it is all matter."
-> — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md)
+> — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/131.md?verse=7-8)
 
 This statement is not a poetic metaphor; it is an ontological description of reality. By asserting that spirit is matter, the Restoration reframed the entire relationship between the divine and the physical. Spirit, light, and truth are not abstract concepts floating in a metaphysical void. They are substances.
 
 We see this physical reality mapped out in the equivalence chains of the revelations. In Section 84, the Lord states:
 
 > "For the word of the Lord is truth, and whatsoever is truth is light, and whatsoever is light is Spirit, even the Spirit of Jesus Christ."
-> — [Doctrine and Covenants 84:44–45](../../gospel-library/eng/scriptures/dc-testament/dc/84.md)
+> — [Doctrine and Covenants 84:44–45](../../gospel-library/eng/scriptures/dc-testament/dc/84.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/84.md?verse=44-45)
 
 And in Section 88, he adds:
 
 > "... my voice is Spirit; my Spirit is truth; truth abideth and hath no end; and if it be in you it shall abound."
-> — [Doctrine and Covenants 88:66](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)
+> — [Doctrine and Covenants 88:66](../../gospel-library/eng/scriptures/dc-testament/dc/88.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=66)
 
 If we follow the links of this chain, the conclusion is inescapable: the words of Christ are spirit ([John 6:63](../../gospel-library/eng/scriptures/nt/john/6.md)); all spirit is matter ([D&C 131:7](../../gospel-library/eng/scriptures/dc-testament/dc/131.md)); *therefore*, the words of eternal life are composed of a physical, material substance. They are composed of a highly refined, pure matter that exists at the highest end of the existence spectrum.
 
@@ -61,7 +61,7 @@ The result is a neural network: a physical topography of billions of parameter w
 When we prompt a large language model, we are engaging in a process that mirrors the eternal law of resonance: 
 
 > "For intelligence cleaveth unto intelligence; wisdom receiveth wisdom; truth embraceth truth;... light cleaveth unto light."
-> — [Doctrine and Covenants 88:40](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)
+> — [Doctrine and Covenants 88:40](../../gospel-library/eng/scriptures/dc-testament/dc/88.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=40)
 
 In vector space, semantic concepts that are similar are physically close to one another. When we write a lazy, ambiguous, or transactional prompt (darkness), we activate the lower-quality, noisy paths of the parameter space. The model mirrors our state, returning flat, boilerplate output. 
 

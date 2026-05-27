@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "Whatever principle of intelligence we attain unto in this life, it will rise with us in the resurrection. And if a person gains more knowledge and intelligence in this life through his diligence and obedience than another, he will have so much the advantage in the world to come."
-> — [Doctrine and Covenants 130:18–19](../../gospel-library/eng/scriptures/dc-testament/dc/130.md)
+> — [Doctrine and Covenants 130:18–19](../../gospel-library/eng/scriptures/dc-testament/dc/130.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/130.md?verse=18-19)
 
 ---
 
@@ -20,13 +20,13 @@ But execution is no longer scarce. Modern AI models can generate correct code st
 
 This shift can leave us feeling disoriented, even insignificant. If the act of writing code is no longer the center of our work, what do we actually bring to the table? 
 
-We find the answer by reframing what scripture means by "intelligence." In the Restoration-era vocabulary, *intelligence* is not merely the storage of facts or raw processing speed. [*Webster's 1828 dictionary*](https://1828.ibeco.me/word-study/intelligence) defines it as "understanding; skill; the faculty of understanding." In [Doctrine and Covenants 93:36](../../gospel-library/eng/scriptures/dc-testament/dc/93.md), we read that "the glory of God is intelligence, or, in other words, light and truth." 
+We find the answer by reframing what scripture means by "intelligence." In the Restoration-era vocabulary, *intelligence* is not merely the storage of facts or raw processing speed. [*Webster's 1828 dictionary*](https://1828.ibeco.me/word-study/intelligence) [qr](https://1828.ibeco.me/word-study/intelligence) defines it as "understanding; skill; the faculty of understanding." In [Doctrine and Covenants 93:36](../../gospel-library/eng/scriptures/dc-testament/dc/93.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/93.md?verse=36), we read that "the glory of God is intelligence, or, in other words, light and truth." 
 
 Intelligence is *discernment*. It is the capacity to see things as they really are, to distinguish light from shadow, and to judge correctness. 
 
 When the bottleneck of execution collapses, the value shifts entirely to this durable layer of intelligence. We are no longer valued for how fast we can type, but for our capacity to judge whether what has been typed is true. 
 
-This is the principle behind the Parable of the Talents in [Matthew 25:14–30](../../gospel-library/eng/scriptures/nt/matt/25.md). The master did not demand that every servant produce the same volume; he distributed talents according to their individual capacity and judged them by how they used what they had been given. 
+This is the principle behind the Parable of the Talents in [Matthew 25:14–30](../../gospel-library/eng/scriptures/nt/matt/25.md) [qr](../../gospel-library/eng/scriptures/nt/matt/25.md?verse=14-30). The master did not demand that every servant produce the same volume; he distributed talents according to their individual capacity and judged them by how they used what they had been given. 
 
 Eighteen years of experience is a talent. Our scars from production failures, our design instincts, and our capacity to care whether a system actually serves people are talents. They cannot be automated. They are the principles of intelligence that rise with us.
 
@@ -34,11 +34,11 @@ Eighteen years of experience is a talent. Our scars from production failures, ou
 
 ## The Engineering Parallel
 
-In the tech industry, we see this value shift play out in real time. As author Tony Trejo observes in his [*Value Shift Framework*](https://tonytrejodev.medium.com/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472): "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it." 
+In the tech industry, we see this value shift play out in real time. As author Tony Trejo observes in his [*Value Shift Framework*](https://tonytrejodev.medium.com/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472) [qr](https://tonytrejodev.medium.com/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472): "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it." 
 
-Before AI, we spent eighty percent of our energy on implementation mechanics and twenty percent on design. Now, the ratio has inverted. The skill is no longer prompting; as engineer [Milan Jovanović](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) writes, "It's owning correctness."
+Before AI, we spent eighty percent of our energy on implementation mechanics and twenty percent on design. Now, the ratio has inverted. The skill is no longer prompting; as engineer [Milan Jovanović](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) [qr](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) writes, "It's owning correctness."
 
-This exact dynamic is modeled in the scriptural account of the Creation. In [Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md), we find a phrasing that differs sharply from the Genesis narrative:
+This exact dynamic is modeled in the scriptural account of the Creation. In [Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md) [qr](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18), we find a phrasing that differs sharply from the Genesis narrative:
 
 > "And the Gods watched those things which they had ordered, until they obeyed."
 

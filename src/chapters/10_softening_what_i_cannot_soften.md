@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "And therefore, he that will harden his heart, the same receiveth the lesser portion of the word; and he that will not harden his heart, to him is given the greater portion of the word, until it is given unto him to know the mysteries of God until he know them in full."
-> — [Alma 12:10](../../gospel-library/eng/scriptures/bofm/alma/12.md)
+> — [Alma 12:10](../../gospel-library/eng/scriptures/bofm/alma/12.md) [qr](../../gospel-library/eng/scriptures/bofm/alma/12.md?verse=10)
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "And there were many whose faith was so exceedingly strong, even before Christ came, who could not be kept from within the veil, but truly saw with their eyes the things which they had beheld with an eye of faith, and they were glad."
-> — [Ether 12:19](../../gospel-library/eng/scriptures/bofm/ether/12.md)
+> — [Ether 12:19](../../gospel-library/eng/scriptures/bofm/ether/12.md) [qr](../../gospel-library/eng/scriptures/bofm/ether/12.md?verse=19)
 
 ---
 

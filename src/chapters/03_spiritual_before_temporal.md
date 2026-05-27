@@ -4,13 +4,13 @@
 
 **Anchor Passage:**
 > "For I, the Lord God, created all things, of which I have spoken, spiritually, before they were naturally upon the face of the earth. ... And I, the Lord God, had created all the children of men; and not yet a man to till the ground; for in heaven created I them; and there was not yet flesh upon the earth..."
-> — [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md)
+> — [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md) [qr](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5)
 
 ---
 
 ## The Core Reframe
 
-Scripture outlines a sequence of creation that is absolute: "First spiritual, secondly temporal, which is the beginning of my work" ([Doctrine and Covenants 29:32](../../gospel-library/eng/scriptures/dc-testament/dc/29.md)). 
+Scripture outlines a sequence of creation that is absolute: "First spiritual, secondly temporal, which is the beginning of my work" ([Doctrine and Covenants 29:32](../../gospel-library/eng/scriptures/dc-testament/dc/29.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/29.md?verse=32)). 
 
 Before the physical earth was formed, before flesh existed upon the ground, the creation existed as a complete, structured design. It was envisioned, counseled over, organized, and prepared. It was created spiritually.
 

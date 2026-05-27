@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them."
-> — [Moses 7:18](../../gospel-library/eng/scriptures/pgp/moses/7.md)
+> — [Moses 7:18](../../gospel-library/eng/scriptures/pgp/moses/7.md) [qr](../../gospel-library/eng/scriptures/pgp/moses/7.md?verse=18)
 
 ---
 

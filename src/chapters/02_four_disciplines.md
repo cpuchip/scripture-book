@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "Organize yourselves; prepare every needful thing; and establish a house, even a house of prayer, a house of fasting, a house of faith, a house of learning, a house of glory, a house of order, a house of God."
-> — [Doctrine and Covenants 88:119](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)
+> — [Doctrine and Covenants 88:119](../../gospel-library/eng/scriptures/dc-testament/dc/88.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=119)
 
 ---
 

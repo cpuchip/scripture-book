@@ -70,6 +70,30 @@ def convert_gospel_links(html_content):
     # Match markdown link: [text](path)
     return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', replace_link, html_content)
 
+def resolve_gospel_path(path):
+    if "gospel-library" not in path:
+        return path
+    
+    # Extract subpath after gospel-library/eng/
+    sub_match = re.search(r'gospel-library/eng/([^?#]*?)(?:\.md)?(?:[?#]|$)', path)
+    if not sub_match:
+        return path
+    subpath = sub_match.group(1)
+    base_url = f"https://www.churchofjesuschrist.org/study/{subpath}"
+    
+    # Extract verse number from query parameter (?verse=18 or ?verse=17-18)
+    # or from hash anchor (#p18 or #18)
+    verse_match = re.search(r'(?:\?verse=|#p?)(\d+)(?:[-–](\d+))?', path)
+    if verse_match:
+        start_v = verse_match.group(1)
+        end_v = verse_match.group(2)
+        if end_v:
+            return f"{base_url}?lang=eng&id=p{start_v}-p{end_v}#p{start_v}"
+        else:
+            return f"{base_url}?lang=eng&id=p{start_v}#p{start_v}"
+            
+    return f"{base_url}?lang=eng"
+
 def generate_local_qr(url, dist_dir):
     # Ensure qrcode is installed
     try:
@@ -209,7 +233,8 @@ def markdown_to_html(md_text, is_epub=False, dist_dir=None):
     # Convert QR codes: [qr](url)
     def replace_qr(match):
         url = match.group(1)
-        relative_path = generate_local_qr(url, dist_dir)
+        resolved_url = resolve_gospel_path(url)
+        relative_path = generate_local_qr(resolved_url, dist_dir)
         return f'<img src="{relative_path}" class="qr-code" alt="QR Code" />'
         
     md_text = re.sub(r'\[qr\]\(([^)]+)\)', replace_qr, md_text)

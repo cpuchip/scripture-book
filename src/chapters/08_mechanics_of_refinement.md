@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; We cannot see it; but when our bodies are purified we shall see that it is all matter."
-> — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md)
+> — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/131.md?verse=7-8)
 
 ---
 
