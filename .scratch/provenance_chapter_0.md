@@ -33,11 +33,10 @@
 *   **Source:** [D&C 131:7-8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md)
 *   **Manuscript status:** ✅ exact match (book joins v.7 and v.8 with a semicolon — substantively identical).
 
-### 3. Doctrine and Covenants 84:45 *(not 44–45 as currently cited in manuscript)*
+### 3. Doctrine and Covenants 84:45
 *   **Verified canonical text (v.45):** "For the word of the Lord is truth, and whatsoever is truth is light, and whatsoever is light is Spirit, even the Spirit of Jesus Christ."
-*   **Verified canonical text (v.44, for context, NOT in book's quote):** "For you shall live by every word that proceedeth forth from the mouth of God."
 *   **Source:** [D&C 84:45](../../gospel-library/eng/scriptures/dc-testament/dc/84.md)
-*   **Manuscript status:** 🟡 wording exact, **but citation should read `D&C 84:45`** — v.44 contains different content. Council item.
+*   **Manuscript status:** ✅ exact match. Cite range corrected 2026-05-26 from prior `84:44–45` to `84:45`; v.44 reads "For you shall live by every word that proceedeth forth from the mouth of God." and was not in the quoted text.
 
 ### 4. Doctrine and Covenants 88:66
 *   **Verified canonical text:** "Behold, that which you hear is as the voice of one crying in the wilderness—in the wilderness, because you cannot see him—my voice, because my voice is Spirit; my Spirit is truth; truth abideth and hath no end; and if it be in you it shall abound."

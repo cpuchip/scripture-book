@@ -1,0 +1,81 @@
+date: 2026-05-26
+session: no-council-manuscript-fixes
+type: execution
+workstream: WS7
+summary: |
+  Following the morning's audit + provenance redemption commit (65b0a4f), Michael authorized
+  applying the manuscript fixes that did not require council. Three fixes landed:
+
+  Ch 0 — cite range correction.
+    Old: "[Doctrine and Covenants 84:44-45]" with URL anchor verse=44-45.
+    New: "[Doctrine and Covenants 84:45]" with URL anchor verse=45.
+    Reason: v.44 reads "For you shall live by every word that proceedeth forth from the
+    mouth of God." — not in the quoted text. The quote is wholly contained in v.45.
+
+  Ch 3 — Becoming app locator (T6).
+    Old: "(the Becoming app)"
+    New: "(the [Becoming app](https://ibeco.me))"
+    Reason: review Section 4 flagged that the chapter referenced the app concretely but
+    gave the reader no way to find it. One-line fix.
+
+  Ch 4 — Abraham 5:2 misattribution paragraph rewrite.
+    Old: "In Abraham 5:2, we read that on the seventh day the Gods rested and 'counseled
+    among themselves.' This was a session of reflection..."
+    New: "Abraham 5:2 names the seventh time as the rest 'from all our work which we have
+    counseled' — the entire creative arc bracketed by counsel on the front and rest on the
+    back. The Moses account makes the evaluation step explicit: on the seventh day God
+    'saw that they were good' (Moses 3:2). The Sabbath is not a pause from creation; it is
+    the step where the whole system is evaluated as a unit and pronounced good."
+    Reason: the phrase "counseled among themselves" does not appear in Abr 5:2 — it
+    appears in Abr 4:26 and 5:3. The chapter's theological point (sabbath as evaluation
+    moment) is preserved; the scriptural anchor is corrected. Moses 3:2 added as the
+    explicit "saw that they were good" verse since Abr 5:2 doesn't actually make the
+    evaluation claim.
+
+  Held until council/check:
+    - T1 (Ch 0 vs Ch 5 redundancy) — Michael wants to read those chapters first.
+    - Ch 1 Webster *intelligence* — Michael's 30-second browser check on 1828.ibeco.me.
+    - Ch 6 honest footnote final wording — Michael's voice pass.
+    - T4 (Ch 7 four-element schema) — teaching judgment council item.
+    - Ch 1 Trejo redirect URL, Ch 5 D&C 88:32 italic styling — minor, bundled with the
+      structural fixes.
+
+  Provenance files updated to reflect resolutions:
+    - provenance_chapter_0.md: D&C 84:45 entry promoted from 🟡 to ✅ with note that the
+      cite range was corrected.
+    - provenance_chapter_4.md: Abr 5:2 entry promoted from 🔴 to ✅ with note about the
+      paragraph rewrite; Moses 3:2 added as a new entry #4 (other entries renumbered).
+    - review-2026-05-26-claude.md Section 8 summary updated to show 3 of 7 council items
+      now resolved.
+    - .mind/active.md rewritten next-steps section with the new state.
+
+discoveries:
+  - "The Ch 4 paragraph rewrite is a worked example of redemptive work as method: name the
+    drift, rewrite against canon, add the verse that actually says what the chapter needs
+    (Moses 3:2 'saw that they were good'). The theological point gets stronger, not
+    weaker, by matching it to the verse that actually supports it."
+  - "T6 (Becoming app locator) turned out to be a one-line link — the lowest-effort
+    enhancement in the entire audit. Worth doing immediately because it costs nothing and
+    makes a concrete reference into a verifiable one."
+  - "Michael correctly intuited the Ch 0 vs Ch 5 tension before reading my audit. The
+    structural redundancy is real enough that two independent readers feel it. Council on
+    T1 is necessary, not optional."
+
+carry_forward:
+  - "Michael's browser check on 1828.ibeco.me/word/intelligence — likely 30 seconds."
+  - "Council on T1 (Ch 0 vs Ch 5 redundancy) after Michael has read both chapters."
+  - "Council on Ch 6 honest footnote final wording."
+  - "Council on T4 (Ch 7 four-element delegation schema)."
+  - "Then: bundle remaining minor fixes (Trejo URL, Ch 5 styling) with whatever T1/T4
+    decides."
+  - "Then: Section III drafting (Ch 8-11)."
+
+files_changed:
+  - src/chapters/00_chapter_0_intelligence_truth.md
+  - src/chapters/03_spiritual_before_temporal.md
+  - src/chapters/04_watched_until_they_obeyed.md
+  - .scratch/provenance_chapter_0.md
+  - .scratch/provenance_chapter_4.md
+  - .scratch/review-2026-05-26-claude.md
+  - .mind/active.md
+  - .spec/journal/2026-05-26--no-council-manuscript-fixes.yaml

@@ -43,7 +43,7 @@ We capture this in a collaborative planning document: a *specification*. This do
 
 When this specification is complete, the physical creation becomes almost an inevitability. We can hand the specification to the AI and say, "Build Phase 1." Because the AI has the full, unified blueprint in its context, it produces code that is clean, integrated, and architecturally sound from the very first line.
 
-A real example of this is the tracking app we built for this project (the Becoming app). The planning specification was 743 lines long before a single line of code was written. It detailed every database table, every API endpoint, and every user interface flow. When we finally began the physical creation, the AI generated over a thousand lines of correct, working code across thirteen files in a single pass. 
+A real example of this is the tracking app we built for this project (the [Becoming app](https://ibeco.me)). The planning specification was 743 lines long before a single line of code was written. It detailed every database table, every API endpoint, and every user interface flow. When we finally began the physical creation, the AI generated over a thousand lines of correct, working code across thirteen files in a single pass. 
 
 Furthermore, this spiritual creation persists. When we run out of time mid-project, the specification acts as a temporal bookmark. The next chat session does not start from scratch; it reads the specification and the progress summary, picking up precisely where the last session ended. 
 

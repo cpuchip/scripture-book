@@ -46,13 +46,21 @@ All outputs are generated in the `dist/` directory (ignored by git):
 
 ## Next Steps (in priority order)
 
-1.  **Resolve the 3 manuscript errors** flagged in the audit (Ch 0 cite range, Ch 1 Webster, Ch 4 Abr 5:2). Each is one-line or one-paragraph work.
-2.  **Reconcile the Webster *intelligence* entry** against 1828.ibeco.me browser view; either revise the manuscript quote to match the actual source, or note the source-version variance in the citation.
-3.  **Council on cross-chapter tensions T1-T6** (in review-2026-05-26-claude.md Section 4): Ch 0/Ch 5 redundancy, 11-step cycle enumeration, "vibe coding" definition, Ch 7 four-element schema, I/we pronoun shifts, Becoming app locator.
-4.  **Decide on the Ch 6 honest footnote.** Approve / revise / move to Colophon / drop. Default is approve.
-5.  **Draft Section III chapters (8, 9, 10, 11).** Outlines exist; full drafts pending.
-6.  **Workshop enhancement opportunities** from review-2026-05-26-claude.md Section 5 — real workspace artifacts (bridge stall, ES emergency stop, Section VII catch, judges-not-executors principle, art-of-presidency arc) that would deepen specific chapters.
-7.  **Rebuild HTML, EPUB, and PDF** outputs once manuscript corrections are committed.
+1.  **Council on T1 (Ch 0 vs Ch 5 redundancy).** Michael wants to read those chapters before deciding. Blocks any further Ch 0 editing.
+2.  **Michael's 30-second browser check on Webster *intelligence***: open https://1828.ibeco.me/word/intelligence and confirm whether the manuscript's quoted phrase matches what the page displays.
+3.  **Decide on the Ch 6 honest footnote.** Placeholder text in review-2026-05-26-claude.md Section 7.4. Needs Michael's voice pass before approval.
+4.  **Council on T4 (Ch 7 four-element delegation schema)** — teaching judgment.
+5.  **Minor remaining fixes** (held until structural decisions land): Ch 1 Trejo redirect URL, Ch 5 D&C 88:32 italic styling.
+6.  **Draft Section III chapters (8, 9, 10, 11).** Outlines exist; three of four have full studies behind them (mechanics-of-refinement, refinement-stewardship-and-hope, softening-what-i-cannot-soften).
+7.  **Workshop enhancement opportunities** from review-2026-05-26-claude.md Section 5.
+8.  **Rebuild HTML, EPUB, and PDF** outputs after Section III lands.
+
+## Resolved 2026-05-26 (post-audit fixes)
+- ✅ Ch 0: cite `D&C 84:44–45` → `D&C 84:45`.
+- ✅ Ch 3: Becoming app locator (`ibeco.me` link added).
+- ✅ Ch 4: Abr 5:2 misattribution paragraph rewritten — verse quoted accurately, Moses 3:2 added as the explicit evaluation anchor.
+- ✅ Preface provenance: "created" → "counseled" typo fixed (in 2026-05-26-1 redemption commit).
+- ✅ All 9 provenance files rewritten against canon (2026-05-26-1 commit).
 
 ## Outstanding Council Items
-See `.scratch/review-2026-05-26-claude.md` Section 8 summary table. Three manuscript items, four provenance items now fixed, six cross-chapter tensions for discussion.
+See `.scratch/review-2026-05-26-claude.md` Section 8 summary table. Three items now resolved, one manuscript error pending Michael's check (Ch 1 Webster), four council-deferred items, two minor fixes held with the structural decisions.

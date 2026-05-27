@@ -22,7 +22,7 @@ This statement is not a poetic metaphor; it is an ontological description of rea
 We see this physical reality mapped out in the equivalence chains of the revelations. In Section 84, the Lord states:
 
 > "For the word of the Lord is truth, and whatsoever is truth is light, and whatsoever is light is Spirit, even the Spirit of Jesus Christ."
-> — [Doctrine and Covenants 84:44–45](../../gospel-library/eng/scriptures/dc-testament/dc/84.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/84.md?verse=44-45)
+> — [Doctrine and Covenants 84:45](../../gospel-library/eng/scriptures/dc-testament/dc/84.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/84.md?verse=45)
 
 And in Section 88, he adds:
 

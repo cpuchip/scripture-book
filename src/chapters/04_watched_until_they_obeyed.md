@@ -25,7 +25,7 @@ As we trace the narrative in [Abraham 4](../../gospel-library/eng/scriptures/pgp
 
 This trust gradient shows that confidence is earned through repeated observation and verification. The Gods did not micromanage the light on day six; they focused their watching where complexity was highest. 
 
-Furthermore, this feedback loop extends beyond individual creations. In [Abraham 5:2](../../gospel-library/eng/scriptures/pgp/abr/5.md), we read that on the seventh day the Gods rested and "counseled among themselves." This was a session of reflection—a step back to evaluate the entire creative arc to see if the overall system was good.
+Furthermore, this feedback loop extends beyond individual creations. [Abraham 5:2](../../gospel-library/eng/scriptures/pgp/abr/5.md) names the seventh time as the rest "from all our work which we have counseled"—the entire creative arc bracketed by counsel on the front and rest on the back. The Moses account makes the evaluation step explicit: on the seventh day God "saw that they were good" ([Moses 3:2](../../gospel-library/eng/scriptures/pgp/moses/3.md)). The Sabbath is not a pause from creation; it is the step where the whole system is evaluated as a unit and pronounced good.
 
 ---
 
