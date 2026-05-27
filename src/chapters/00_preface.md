@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "And the Gods said among themselves: On the seventh time we will end our work, which we have counseled; and we will rest on the seventh time from all our work which we have counseled."
-> — [Abraham 5:2](../../gospel-library/eng/scriptures/pgp/abr/5.md)
+> — [Abraham 5:2](../../gospel-library/eng/scriptures/pgp/abr/5.md) [qr](../../gospel-library/eng/scriptures/pgp/abr/5.md?verse=2)
 
 ---
 
