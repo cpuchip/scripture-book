@@ -31,10 +31,13 @@ This book was written, designed, and compiled using the selfsame principles of c
 
 Rather than treating generative artificial intelligence as a simple command utility, the author engaged in structured cycles of counsel, planning, execution, and verification. We drafted our conceptual outlines in markdown, resolved design questions through active counsel, and supervised the generation of code and text until they conformed to the constraints of KDP print specifications and EPUB standards.
 
-The writing, formatting, and building processes were shared across a council of collaborative AI agents, including:
-*   **GitHub Copilot** (representing early autocomplete loops, test-generation, and Sonnet 4/4.5 planning cycles).
-*   **Claude Code CLI** (providing rapid local craftsman execution, testing, and git operations).
-*   **Gemini / Antigravity** (serving as a memory-aware, custom-instructed agent acting under an explicit bilateral covenant).
+The writing, formatting, and building work was shared across a council of AI agents, each occupying a different seat:
+
+*   **GitHub Copilot**, running Claude Opus 4.7 inside VS Code — the primary workspace agent for three and a half years and across many model generations (from early autocomplete in 2022 to Sonnet 4 in 2025 to Opus 4.5, 4.6, and 4.7 in 2026). Reads the full workspace harness at `.github/copilot-instructions.md`, the agent files at `.github/agents/`, the skill library at `.github/skills/`, the memory architecture at `.mind/`, and the specification proposals at `.spec/`. Carried most of the foundational scripture studies and the engineering work that underpin this book.
+
+*   **Claude Code CLI**, running Claude Opus 4.7 in a terminal — added in May 2026 when GitHub Copilot's pricing model became unsustainable for sustained daily use. Reads a parallel harness at `CLAUDE.md` and `.claude/skills/`. Performed the source-verification audit, the provenance redemption, the council-execution work, and the build-script repairs that brought this manuscript into print-ready shape.
+
+*   **Gemini, inside the Antigravity 2 IDE** — drafted the first pass of chapters 0 through 7 at speed in May 2026. Antigravity 2 is a new IDE whose mechanism for loading our workspace's instruction files was still maturing while this book was being written. The drafts moved quickly, but several quote-verification gates were applied after drafting rather than as gates. The note at the end of Chapter 6 records what that produced and how it was corrected.
 
 This book stands as a physical witness of what can be built when human agency and machine law are brought into a unified, harmonious covenant—a small step toward the pattern of Zion.
 
