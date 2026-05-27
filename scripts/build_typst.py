@@ -178,10 +178,15 @@ def preprocess_html_blocks(md_content):
         results = []
         item_num = 1
         # Each <li> spans one line with predictable structure
+        # Match each <li> with flexible body capture. Some items have the period right
+        # after the verb's closing span ("binding. A mutual agreement…"); others have
+        # body content first and the period later ("naming the why."). Capture whatever
+        # text follows the verb up to the optional eng-tag or the closing </li>, then
+        # clean the body (strip leading period + whitespace, ensure trailing period).
         li_pattern = re.compile(
             r'<li class="(eng-step|scripture-step)">'
             r'<span class="cycle-step-name">([^<]+)</span>\s*[—-]\s*'
-            r'<span class="cycle-step-verb">([^<]+)</span>\.\s*'
+            r'<span class="cycle-step-verb">([^<]+)</span>'
             r'(.*?)'
             r'(?:\s*<span class="eng-tag">eng</span>)?\s*'
             r'</li>',
@@ -191,12 +196,16 @@ def preprocess_html_blocks(md_content):
             kind_class = li_match.group(1)
             name = li_match.group(2).strip()
             verb = li_match.group(3).strip()
-            body = li_match.group(4).strip().rstrip('.').strip()
-            # Re-add trailing period if body is non-empty
-            if body and not body.endswith('.'):
+            # Body capture may start with a period (verb-immediately-followed-by-period
+            # pattern) or with body text directly. Strip leading period + whitespace,
+            # then trailing whitespace, then re-add a trailing period for sentence form.
+            body = li_match.group(4).strip()
+            body = body.lstrip('.').strip()
+            body = body.rstrip('.').strip()
+            if body:
                 body_text = body + '.'
             else:
-                body_text = body
+                body_text = ''
             is_eng = kind_class == 'eng-step'
             kind = "eng" if is_eng else "scripture"
             eng_flag = "true" if is_eng else "false"
