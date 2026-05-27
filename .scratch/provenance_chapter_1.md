@@ -11,15 +11,13 @@
 
 ## Webster 1828 Definitions
 
-### *intelligence* (n.) — **DISCREPANCY: needs reconciliation**
-*   **Manuscript quotes Webster 1828 as defining intelligence as:** "understanding; skill; the faculty of understanding."
-*   **What the workspace `webster_define` MCP returns for *intelligence*:**
-    - Synonyms: "Understanding; intellect; instruction; advice; notice; notification; news; information; report."
-    - Sense 1: "The act or state of knowing; the exercise of the understanding."
-    - Sense 2: "The capacity to know or understand; readiness of comprehension; the intellect, as a gift or an endowment."
-*   The word "skill" does not appear in the MCP-returned entry. The phrase "the faculty of understanding" does not appear verbatim.
-*   **Verified against:** `mcp__webster__webster_define` workspace MCP tool, 2026-05-26.
-*   **Manuscript status:** 🔴 cited as a direct quote with quotation marks; the source the workspace returns does not contain the phrasing. Either (a) the manuscript drafted from paraphrase rather than from canon and needs revision, or (b) the actual original Webster 1828 (perhaps as rendered on the live site at [1828.ibeco.me/word/intelligence](https://1828.ibeco.me/word/intelligence)) differs from what the MCP returns. **Action: open 1828.ibeco.me/word/intelligence in a browser and reconcile.** Council item.
+### *intelligence* (n.)
+*   **Verified canonical text (sense 1):** "The act or state of knowing; the exercise of the understanding."
+*   **Verified canonical text (sense 2):** "The capacity to know or understand; readiness of comprehension; the intellect, as a gift or an endowment."
+*   **Verified against:** `mcp__webster__webster_define` workspace MCP tool + raw JSON at `projects/1828-illuminated/frontend/src/data/definitions-1828.json:136` + 1828.ibeco.me canonical seed path. Triply confirmed 2026-05-26.
+*   **Source for reader:** [1828.ibeco.me/word/intelligence](https://1828.ibeco.me/word/intelligence).
+*   **Quoted portion in manuscript (after 2026-05-27 rewrite):** "the exercise of the understanding" and "the capacity to know or understand"
+*   **Manuscript status:** ✅ exact match. Council ratification 2026-05-27 replaced the prior fabricated quote ("understanding; skill; the faculty of understanding"), which contained the phrase "skill" — a word absent from the canonical entry. Both new phrases are verbatim from senses 1 and 2.
 
 ## Direct Quotes & Scripture Citations
 
@@ -49,10 +47,9 @@
 
 ### 5. Tony Trejo — "The Value Shift Framework"
 *   **Verified quote:** "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it."
-*   **Source (current canonical URL after Medium redirect):** [medium.com/codetodeploy/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472](https://medium.com/codetodeploy/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472)
+*   **Source (canonical URL):** [medium.com/codetodeploy/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472](https://medium.com/codetodeploy/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472)
 *   **Verified against:** Live article via WebFetch, 2026-05-26.
-*   **Manuscript status:** ✅ exact match.
-*   **Note:** the manuscript currently links to the `tonytrejodev.medium.com` subdomain which 302-redirects. Consider updating manuscript to the canonical destination URL.
+*   **Manuscript status:** ✅ exact match. Manuscript URL updated 2026-05-27 from the `tonytrejodev.medium.com` 302-redirect source to the canonical destination.
 
 ### 6. Milan Jovanović — LinkedIn post
 *   **Verified surrounding text:** "If you're trying to 'stay relevant' in the AI era, the skill isn't prompting. It's owning correctness."
@@ -61,4 +58,4 @@
 *   **Manuscript status:** ✅ "It's owning correctness." is exact. Consider quoting the full pairing for context.
 
 ---
-**Verification log:** All scripture quotes verified character-for-character against the gospel-library on 2026-05-26. External web citations verified via live WebFetch the same day. The Webster *intelligence* entry remains an open council item — see Ch 1 manuscript and `review-2026-05-26-claude.md` Section 3.
+**Verification log:** All scripture quotes verified character-for-character against the gospel-library on 2026-05-26. External web citations verified via live WebFetch the same day. The Webster *intelligence* entry was reconciled 2026-05-27 — manuscript rewritten with canonical phrases from senses 1 and 2 of the entry. Trejo URL updated to the canonical post-redirect destination 2026-05-27.

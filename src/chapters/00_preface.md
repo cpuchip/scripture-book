@@ -66,3 +66,5 @@ We have a responsibility to make these patterns known. In the Doctrine and Coven
 > — [Doctrine and Covenants 123:12](../../gospel-library/eng/scriptures/dc-testament/dc/123.md)
 
 In the rush of marketing hype, technical jargon, and shifting tools, developers are looking for a stable foundation. They are seeking how to build things that are correct and good, but they are often blinded by the surrounding noise. Once we see these eternal creation patterns—once we understand that software engineering is a training ground for organizing intelligence under law—we have a responsibility to share it. This book is our attempt to write down those laws.
+
+A note on voice: throughout this book, "I" marks moments of personal experience—when I am recounting a specific memory, decision, or moment from my own life. "We" is the collaborative voice: between human and AI agents, between collaborators on a project, and between writer and reader walking the same path together.

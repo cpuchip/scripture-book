@@ -1,0 +1,135 @@
+date: 2026-05-27
+session: council-execution
+type: execution
+workstream: WS7
+summary: |
+  Michael and Claude Opus 4.7 (Claude Code) ran a structured council on all open items from
+  the 2026-05-26 audit. Used AskUserQuestion repeatedly for clean ratification — each item
+  presented with concrete recommendation + brief rationale + 2-4 options. Michael ratified
+  or modified each in turn. All 7 manuscript / soft-precision items and all 6 cross-chapter
+  tensions closed in one session.
+
+  Council ratifications applied in this commit:
+
+  1. Ch 1 Webster *intelligence* — replaced manuscript's "understanding; skill; the faculty
+     of understanding" (the phrase "skill" is absent from canon, triply confirmed against
+     webster-mcp + JSON file + 1828.ibeco.me canonical seed path) with verbatim canon from
+     senses 1 and 2: "the exercise of the understanding" and "the capacity to know or
+     understand."
+
+  2. T1 (Ch 0 vs Ch 5 redundancy) — Path B (differentiate by binding question). Ch 0 stays
+     including the "not magic conjurers" close. Ch 5's Engineering Parallel rewritten to
+     pivot from re-deriving vector-space math (now owned by Ch 0) to the posture/practice
+     angle. Opens with "Chapter 0 mapped the physics... what that physics demands of us is
+     a posture." Pulls warmth-over-distance from the workspace covenant as the practice
+     discipline.
+
+  3. T4 (Ch 7 four-element delegation schema) — sharpened. Authority/scope/capacity/identity
+     now read as discovery from Matthew 10:1-16 with each element anchored to its specific
+     verse. Authority = v.1; Scope = v.5-6; Capacity = v.8 (gift) + v.19-20 (supplementation);
+     Identity = v.16.
+
+  4. Ch 6 honest-footnote — sidebar format ratified, receipt-style voice, ~150 words.
+     Placeholder text added at end of Ch 6 inside a .production-note div. Michael will do
+     voice surgery in a separate pass. Cites D&C 82:10 ("when ye do not what I say, ye have
+     no promise") as the pattern. Names what happened: 3 manuscript errors, 4 audit-trail
+     errors, one fabricated D&C 104:11-12 quote.
+
+  5. T2 (11-step cycle enumeration) — NEW file at src/chapters/00_eleven_step_reference.md.
+     Verb-paired list with the seven verbs from the 2026-05-23 Episode 2 teaching script.
+     Step 8 (Atonement) verb refined from "recovering" to "re-aiming" per Michael's pointer
+     to study/hope-and-the-grammar-of-pairs.md ("Repentance, in this frame, is not first a
+     re-doing of behavior but a re-aiming of the eye"). Color enabled: two muted hues —
+     slate-blue for engineering disciplines (1/4/5/6), sage/amber for the seven the
+     framework does not reach. Inline [eng] tags on engineering steps. Closing beat
+     borrowed from Episode 2: "Four down. Seven to go. The seven are not more organizing."
+     book.yaml reordered to place this between Introduction and Ch 0 in standard reading
+     order; this reorders Michael's original (Ch 0 before Introduction) — flagged for his
+     final say.
+
+  6. T3 (vibe coding) — left as-is. The em-dash inline definition does the work.
+
+  7. T5 (I vs we pronoun shifts) — convention note added to Preface. Voice audit confirmed
+     the book already follows the convention: all "I" instances are personal experience
+     (Preface chronology) or first-person commitments in Becoming Commitment sections. No
+     conversions needed.
+
+  8. Minor bundle — Trejo URL updated from tonytrejodev.medium.com 302-redirect source to
+     medium.com/codetodeploy canonical destination. Ch 5 D&C 88:32 styling fixed (covered
+     in item 2 above).
+
+  Build infrastructure:
+  - src/style.css extended with .production-note, .cycle-list, .eng-step, .scripture-step,
+    .cycle-step-name, .cycle-step-verb, .eng-tag classes.
+  - book.yaml chapter sequence updated.
+  - New provenance file .scratch/provenance_eleven_step_reference.md.
+  - Existing provenance files for Ch 1, 5, 6, 7 updated to reflect resolutions.
+  - .scratch/review-2026-05-26-claude.md Section 8 summary updated to show all council
+    items closed.
+  - .mind/active.md rewritten with current state.
+
+discoveries:
+  - "AskUserQuestion-driven council is a clean shape for structured collaboration. Eight
+    items, each presented with concrete recommendation + 2-4 options. Michael could
+    ratify, modify, or redirect on each. No ambiguity about what was decided. Worth
+    re-using for similar future councils."
+  - "The hope-and-the-grammar-of-pairs study sharpened the Atonement verb from 'recovering'
+    (passive, after-the-fact) to 're-aiming' (active, vision-discipline). Repentance as
+    re-aiming of the eye is the doctrinally accurate framing — and the verb shift gives
+    the eleven-step list a more tactile motion. Michael's intuition that a study could
+    sharpen the verb was correct."
+  - "Voice audit confirmed the book ALREADY follows its own pronoun convention. The
+    convention note in the Preface formalizes what is already true. Authors of modular
+    studies tend to write Becoming Commitments in first-person naturally; the discipline
+    held without an explicit rule. Worth noting for future projects."
+  - "Cross-pollination across workstreams: the teaching workstream's Episode 2 script
+    (2026-05-23) had already done the verb-pairing work for the seven framework-untouched
+    steps. The book's reference page borrowed those verbs verbatim. Two products from the
+    same source material reinforcing each other. The Episode 2 script's verb-pairings are
+    now load-bearing for both the video and the book."
+  - "The book's most important new content is arguably the Ch 6 production-note sidebar
+    rather than any of the manuscript fixes. It turns a real failure of process into the
+    book's strongest credibility moment. The book teaches the bilateral covenant; the book
+    records its own covenant break and recovery. That recursive honesty is the rarest
+    feature in a teaching book."
+
+carry_forward:
+  - "Voice surgery on the Ch 6 production-note sidebar placeholder. Shape is locked; voice
+    is open. Michael's pass."
+  - "Rebuild dist/ artifacts after this commit lands. Verify (a) reference page color
+    renders correctly in print PDF, (b) production-note sidebar renders cleanly, (c) EPUB
+    still validates, (d) the new chapter sequence (Introduction before Ch 0) doesn't break
+    anything in build.py / build_typst.py."
+  - "Michael ratify or revert the book.yaml chapter reorder (Introduction now before Ch
+    0 to make the reference page placement coherent)."
+  - "Begin drafting Section III chapters. Three of four have full studies behind them:
+    Ch 8 from study/mechanics-of-refinement.md, Ch 9 from
+    study/refinement-stewardship-and-hope.md, Ch 10 from
+    study/softening-what-i-cannot-soften.md. Ch 11 (Conclusion: Zion) needs a Zion-specific
+    study or can draw from study/zion-blueprint.md, study/enoch.md,
+    study/enoch-charity.md."
+  - "Optional enhancement workshop from review file Section 5 — concrete workspace
+    artifacts (bridge stall, ES emergency stop, Section VII catch, judges-not-executors,
+    art-of-presidency) that could deepen Ch 0-7 if Michael wants a polish pass before
+    Section III."
+  - "Cross-pollination check between this book and the Episode 2 teaching script — both
+    products are converging on the four-disciplines + seven-unmapped structure. Worth a
+    council on whether they should reference each other explicitly or stay independent."
+
+files_changed:
+  - src/chapters/01_value_shift.md
+  - src/chapters/05_intelligence_cleaveth.md
+  - src/chapters/06_bilateral_covenant.md
+  - src/chapters/07_delegation_as_stewardship.md
+  - src/chapters/00_preface.md
+  - src/chapters/00_eleven_step_reference.md
+  - book.yaml
+  - src/style.css
+  - .scratch/provenance_chapter_1.md
+  - .scratch/provenance_chapter_5.md
+  - .scratch/provenance_chapter_6.md
+  - .scratch/provenance_chapter_7.md
+  - .scratch/provenance_eleven_step_reference.md
+  - .scratch/review-2026-05-26-claude.md
+  - .mind/active.md
+  - .spec/journal/2026-05-27--council-execution.yaml

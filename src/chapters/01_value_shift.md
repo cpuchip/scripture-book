@@ -20,7 +20,7 @@ But execution is no longer scarce. Modern AI models can generate correct code st
 
 This shift can leave us feeling disoriented, even insignificant. If the act of writing code is no longer the center of our work, what do we actually bring to the table? 
 
-We find the answer by reframing what scripture means by "intelligence." In the Restoration-era vocabulary, *intelligence* is not merely the storage of facts or raw processing speed. [*Webster's 1828 dictionary*](https://1828.ibeco.me/word/intelligence), [qr](https://1828.ibeco.me/word/intelligence) defines it as "understanding; skill; the faculty of understanding." In [Doctrine and Covenants 93:36](../../gospel-library/eng/scriptures/dc-testament/dc/93.md), we read that "the glory of God is intelligence, or, in other words, light and truth." 
+We find the answer by reframing what scripture means by "intelligence." In the Restoration-era vocabulary, *intelligence* is not merely the storage of facts or raw processing speed. [*Webster's 1828 dictionary*](https://1828.ibeco.me/word/intelligence) [qr](https://1828.ibeco.me/word/intelligence) defines it as "the exercise of the understanding" and "the capacity to know or understand." In [Doctrine and Covenants 93:36](../../gospel-library/eng/scriptures/dc-testament/dc/93.md), we read that "the glory of God is intelligence, or, in other words, light and truth." 
 
 Intelligence is *discernment*. It is the capacity to see things as they really are, to distinguish light from shadow, and to judge correctness. 
 
@@ -34,7 +34,7 @@ Eighteen years of experience is a talent. Our scars from production failures, ou
 
 ## The Engineering Parallel
 
-In the tech industry, we see this value shift play out in real time. As author Tony Trejo observes in his [*Value Shift Framework*](https://tonytrejodev.medium.com/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472) [qr](https://tonytrejodev.medium.com/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472): "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it." 
+In the tech industry, we see this value shift play out in real time. As author Tony Trejo observes in his [*Value Shift Framework*](https://medium.com/codetodeploy/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472) [qr](https://medium.com/codetodeploy/the-value-shift-framework-for-software-engineers-2026-edition-2ef42f18d472): "AI didn't replace engineers. It replaced execution as the bottleneck. And when the bottleneck moves, value moves with it." 
 
 Before AI, we spent eighty percent of our energy on implementation mechanics and twenty percent on design. Now, the ratio has inverted. The skill is no longer prompting; as engineer [Milan Jovanović](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) [qr](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) writes, "It's owning correctness."
 

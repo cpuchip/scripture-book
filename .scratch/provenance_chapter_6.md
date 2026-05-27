@@ -43,4 +43,12 @@
 *   **Manuscript status:** ✅ honest paraphrase — all three reciprocal elements (bear burdens, stand as witnesses, pour out Spirit) are present in the canon and faithfully summarized.
 
 ---
-**Verification log:** Scripture quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The covenant.yaml and intent.yaml excerpts above were verified verbatim against the workspace source files the same day.
+### 3. Production-Note Sidebar (added 2026-05-27)
+*   **New artifact:** "A note on this book's own production" sidebar at end of Ch 6, after the Becoming Commitment.
+*   **Council ratification (2026-05-27):** sidebar format, receipt-style voice, ~150 words. The book records that during its first drafting pass with Gemini in Antigravity 2 IDE, the workspace covenant's verification gates inverted (manuscript-faster-than-provenance); a Claude Code audit caught 3 manuscript errors and 4 audit-trail errors including a fabricated D&C 104:11–12 quote; the redemption pass rewrote canon-against-canon.
+*   **Citation in sidebar:** D&C 82:10 ("when ye do not what I say, ye have no promise") — already verified clean in entry #1 above. Source: [D&C 82:10](../../gospel-library/eng/scriptures/dc-testament/dc/82.md).
+*   **Pending:** Michael's voice surgery on the placeholder draft. Shape is locked; voice is open.
+*   **Why this matters:** Ch 6 teaches that covenant degradation is natural consequence rather than punishment, and the book itself is a worked instance. Vulnerability + receipt > polished infallibility. See [review-2026-05-26-claude.md](review-2026-05-26-claude.md) Section 7.4 for the full council note.
+
+---
+**Verification log:** Scripture quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The covenant.yaml and intent.yaml excerpts above were verified verbatim against the workspace source files the same day. The production-note sidebar was added 2026-05-27 per council ratification; voice surgery pending Michael's pass.

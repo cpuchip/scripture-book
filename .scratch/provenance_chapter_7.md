@@ -36,11 +36,21 @@
 *   **Source:** [Mosiah 18:18](../../gospel-library/eng/scriptures/bofm/mosiah/18.md)
 *   **Manuscript status:** ✅ exact partial.
 
-### 5. Matthew 10:1 (partial)
-*   **Verified canonical text:** "And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease."
-*   **Quoted portion:** "gave them power against unclean spirits... and to heal all manner of sickness"
-*   **Source:** [Matthew 10:1](../../gospel-library/eng/scriptures/nt/matt/10.md)
-*   **Manuscript status:** ✅ exact partial; ellipsis correctly omits "to cast them out."
+### 5. Matthew 10:1, 5–6, 8, 16, 19–20 (delegation schema, verse-anchored)
+After the 2026-05-27 council ratification (T4 — sharpen with verse-by-verse anchors), the Ch 7 delegation paragraph cites each element of the schema to its specific verse.
+
+*   **Verified canonical text v.1:** "And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease."
+    *   Quoted (authority): "gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease"
+*   **Verified canonical text v.5–6:** "These twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not: But go rather to the lost sheep of the house of Israel."
+    *   Quoted (scope): "Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not: But go rather to the lost sheep of the house of Israel"
+*   **Verified canonical text v.8:** "Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give."
+    *   Quoted (capacity, part 1): "freely ye have received, freely give"
+*   **Verified canonical text v.16:** "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves."
+    *   Quoted (identity): "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves"
+*   **Verified canonical text v.19–20:** "But when they deliver you up, take no thought how or what ye shall speak: for it shall be given you in that same hour what ye shall speak. For it is not ye that speak, but the Spirit of your Father which speaketh in you."
+    *   Quoted (capacity, part 2): "it shall be given you in that same hour what ye shall speak. For it is not ye that speak, but the Spirit of your Father which speaketh in you"
+*   **Source:** [Matthew 10](../../gospel-library/eng/scriptures/nt/matt/10.md)
+*   **Manuscript status:** ✅ all five passages exact (each as partial quote). The schema now reads as discovery from Matt 10:1–16 rather than framework imposed on top.
 
 ### 6. Abraham 4:18 (partial — reused from Ch 4 as the stewardship-watching anchor)
 *   **Verified canonical text:** "And the Gods watched those things which they had ordered until they obeyed."
@@ -60,4 +70,4 @@
 *   **Manuscript status:** ✅ exact match.
 
 ---
-**Verification log:** All scripture and conference talk quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The D&C 104:11-12 fabrication in the prior provenance file (caught in the audit pass) is the single most serious provenance error in the project — the manuscript itself was always correct; only the audit trail was wrong. This rewrite puts the audit trail back in alignment with canon.
+**Verification log:** All scripture and conference talk quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The D&C 104:11-12 fabrication in the prior provenance file (caught in the audit pass) is the single most serious provenance error in the project — the manuscript itself was always correct; only the audit trail was wrong. This rewrite puts the audit trail back in alignment with canon. Per council ratification 2026-05-27 (T4), the Ch 7 delegation schema paragraph was rewritten with verse-by-verse anchors so each element of authority/scope/capacity/identity reads as discovery from Matt 10:1–16, not framework imposed on top.

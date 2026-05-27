@@ -198,3 +198,88 @@ hr {
     height: 65px;
 }
 
+/* Production-note sidebar (used in Ch 6 honest footnote) */
+.production-note {
+    background-color: #f8f6f0;
+    border: 1px solid #d4cfc0;
+    border-left: 4px solid #a89968;
+    padding: 1rem 1.25rem;
+    margin: 2rem 0;
+    page-break-inside: avoid;
+    font-size: 10.5pt;
+}
+
+.production-note h3 {
+    font-size: 11pt;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    color: #5a4d2a;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.production-note p {
+    text-indent: 0;
+    margin-bottom: 0.6rem;
+    text-align: left;
+}
+
+.production-note p:last-child {
+    margin-bottom: 0;
+}
+
+/* Eleven-step reference page */
+.cycle-list {
+    list-style: decimal outside;
+    padding-left: 1.6em;
+    margin: 1.5rem 0;
+}
+
+.cycle-list li {
+    margin: 0.55rem 0;
+    padding: 0.45rem 0.65rem;
+    border-radius: 3px;
+    text-indent: 0;
+    line-height: 1.45;
+    page-break-inside: avoid;
+}
+
+.cycle-list li.eng-step {
+    background-color: #eef2f6;
+    border-left: 3px solid #4a6480;
+}
+
+.cycle-list li.scripture-step {
+    background-color: #f4f0e6;
+    border-left: 3px solid #998b5e;
+}
+
+.cycle-list li::marker {
+    font-weight: bold;
+    color: #555;
+}
+
+.cycle-step-name {
+    font-weight: bold;
+}
+
+.cycle-step-verb {
+    font-style: italic;
+}
+
+.eng-tag {
+    display: inline-block;
+    font-size: 8pt;
+    color: #4a6480;
+    background-color: #ffffff;
+    border: 1px solid #4a6480;
+    padding: 0 0.4em;
+    border-radius: 2px;
+    margin-left: 0.4em;
+    vertical-align: 1pt;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+

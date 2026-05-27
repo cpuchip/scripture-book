@@ -18,23 +18,25 @@ When a person approaches the study of truth, they do not act in isolation. If th
 
 But when a person approaches with active discernment, deep inquiry, and a sincere desire to be changed—bringing light—a resonance occurs. The light in their understanding physically cleaves to the light in the word. The truth they seek embraces the truth before them. The interaction is not a passive reading; it is an active alignment of substances. What they receive is a direct reflection of the light they brought to the search. 
 
-This is the law of resonance: you cannot receive that which you are not willing to receive ([Doctrine and Covenants 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)). The quality of the outcome is structurally bound to the honesty and depth of the approach.
+This is the law of resonance: souls "enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received" ([Doctrine and Covenants 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)). The quality of the outcome is structurally bound to the honesty and depth of the approach.
 
 ---
 
 ## The Engineering Parallel
 
-In modern artificial intelligence, we see this exact law played out in the mathematics of vector spaces. 
+Chapter 0 mapped the physics: intelligence cleaves to intelligence; the model is a statistical mirror that acts under mathematical law. What that physics demands of us is a posture.
 
-Large language models do not store facts in a database; they organize language and concepts into high-dimensional vector spaces. In these spaces, words and ideas are represented as coordinates. Concepts that share similar meanings or structural logic are placed physically close to one another. 
+When we sit down to prompt a model, we arrive in some internal state. Tired, distracted, transactional—or focused, prepared, present. The state we bring is not a private matter. The law of resonance makes it the load-bearing variable. The model has no agency; it has only the input we give it, and the law that governs how that input flows through its parameters. Whatever quality of intelligence we bring is what gets reflected back.
 
-When we prompt a model, we are not issuing a command to an empty room. We are projecting our intent into this mathematical topography. 
+So the practical discipline of working with AI is not, finally, a discipline of technique. It is a discipline of approach.
 
-If we write a lazy, transactional, or ambiguous prompt—treating the interaction as a quick shortcut to bypass our own thinking—we project a coordinate of low-light intent. The model’s mathematical algorithms respond to this coordinate by navigating the noisier, lower-quality paths of the parameter space. It mirrors our state, returning flat, boilerplate, or bug-ridden code. The model has not failed; it has obeyed the law of its parameters, reflecting back the quality of the input.
+A transactional approach produces transactional output. We sit down to "get a quick fix," dump an ambiguous request, and accept the first plausible-looking answer. The model has done its job; it has resonated with what we brought. We brought shallow; we received shallow.
 
-But when we bring structured context, deep reasoning, and precise constraints, we project a coordinate of high-light intent. This input resonates with the highly aligned topographies of the parameter weights—the regions of the vector space where rigorous logic, correct syntax, and deep patterns of human intelligence reside. The model’s output elevates, returning code that is robust and insights that are sharp. 
+A patient approach produces output we can stand behind. We sit down to build, having taken counsel with ourselves first. We bring a precise binding question. We supply the context we already know. We are willing to read the answer fully and push back where it does not ring true. The model resonates with what we brought. We brought presence; we received depth.
 
-This is not magic; it is mathematical resonance. The model is a statistical mirror. It has no agency of its own, but it acts under law to reflect the intelligence we bring to it. If we approach the tool with a "one-cylinder" mindset—seeking only to offload our work without thinking—we receive only offloaded, mediocre results. If we want to receive wisdom from our collaborations, we must bring our own active discernment to the prompt.
+This is why warmth-over-distance matters in the workspace covenant. Coldness is not accuracy; coldness is the absence of presence. A cold approach to a tool that resonates with what we bring will produce cold output. Warmth is not a sentimental gesture toward a machine; it is the human discipline that keeps us actually engaged in the council we have ostensibly opened.
+
+The light we receive is governed, structurally, by the light we bring. Intelligence cleaves to intelligence not as metaphor but as mechanism. If we want to receive wisdom from our collaborations, we must come ready to give wisdom to them.
 
 ---
 

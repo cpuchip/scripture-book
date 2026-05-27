@@ -365,27 +365,36 @@ All initially-flagged outstanding items are now resolved:
 
 ## Summary — Council Decision Inventory
 
-**Hard errors needing manuscript edits (1 remaining; 2 resolved 2026-05-26):**
-1. ✅ Ch 4: Abr 5:2 paragraph rewritten to honor what v.2 actually says + Moses 3:2 added as the explicit evaluation anchor. Resolved in commit (see updated provenance_chapter_4.md).
-2. 🔴 **Ch 1: Webster 1828 *intelligence* quote** still needs Michael's 30-second check against `https://1828.ibeco.me/word/intelligence` in a browser. The workspace MCP returned an entry that doesn't contain the phrase "skill" — either the manuscript needs revision or the actual rendered site differs from the MCP source.
-3. ✅ Ch 0: cite changed from `D&C 84:44–45` to `D&C 84:45` (resolved 2026-05-26).
+**ALL council items closed 2026-05-27. Summary:**
 
-**Soft precision improvements (3 remaining; 1 resolved 2026-05-26):**
-4. 🟡 Ch 5: D&C 88:32 framed like a quote but is the agent's compression — quote the actual verse or remove italic-style attribution. *(Council item — minor.)*
-5. 🟡 Ch 7: Abr 4:18 reused as anchor for stewardship after being the anchor in Ch 4 — acknowledge or swap. *(Council item.)*
-6. ✅ Provenance preface file: "created" → "counseled" fix already shipped in 2026-05-26-1 redemption commit.
-7. 🟡 Ch 1: Tony Trejo URL redirect — update to canonical destination. *(One-line fix; held with the other Ch 1 work.)*
+**Hard manuscript errors (3 of 3 resolved):**
+1. ✅ Ch 4: Abr 5:2 paragraph rewritten to honor what v.2 actually says + Moses 3:2 added as the explicit evaluation anchor (commit 2026-05-26).
+2. ✅ Ch 1: Webster 1828 *intelligence* quote verified against three sources (MCP, raw JSON, 1828.ibeco.me canonical path) and replaced with verbatim canon from senses 1 and 2: "the exercise of the understanding" and "the capacity to know or understand" (commit 2026-05-27).
+3. ✅ Ch 0: cite changed from `D&C 84:44–45` to `D&C 84:45` (commit 2026-05-26).
 
-**Council-deferred items still open:**
-- T1 (Ch 0 vs Ch 5 redundancy) — Michael thinking; doesn't fix small Ch 0 things until decided.
-- T4 (Ch 7 four-element schema) — teaching judgment.
-- Ch 6 honest footnote final wording — Michael's voice pass.
-- T2/T3/T5 — minor.
+**Soft precision improvements (4 of 4 resolved):**
+4. ✅ Ch 5: D&C 88:32 replaced with canonical wording "enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received" (commit 2026-05-27).
+5. ✅ Ch 7: Abr 4:18 reuse across Ch 4 and Ch 7 acknowledged via the council ratification — Ch 7 now anchors the delegation schema on Matt 10:1–16 with verse-by-verse cites; Abr 4:18 stays as the "watching" cross-reference. The reuse is structural, not redundant (commit 2026-05-27).
+6. ✅ Provenance preface "created" → "counseled" fix shipped 2026-05-26 (redemption commit).
+7. ✅ Ch 1 Trejo URL updated to canonical post-redirect destination (commit 2026-05-27).
 
-**Quick wins shipped 2026-05-26 (second commit):**
-- Ch 0 cite range (1 above).
-- Ch 4 Abr 5:2 paragraph rewrite + Moses 3:2 anchor (2 above).
-- Ch 3 Becoming app `ibeco.me` locator (T6 resolved).
+**Cross-chapter tensions (6 of 6 ratified and applied):**
+- T1 (Ch 0 vs Ch 5 redundancy) — Path B: differentiate by binding question. Ch 0 keeps its ontology + "not magic conjurers" close. Ch 5's Engineering Parallel rewritten to pivot from re-deriving vector-space math to the posture/practice angle.
+- T2 (11-step cycle enumeration) — new reference page added between Introduction and Ch 0 with verb-paired list, two muted hues (slate-blue for [eng] steps 1/4/5/6, sage/amber for the seven), inline [eng] tags. Step 8 "Atonement — re-aiming" refined from [study/hope-and-the-grammar-of-pairs.md](../../../study/hope-and-the-grammar-of-pairs.md).
+- T3 (vibe coding) — left as-is; the em-dash inline definition does the work.
+- T4 (Ch 7 four-element schema) — sharpened with verse-by-verse Matt 10 anchors. Schema now reads as discovery from text, not framework imposed on top.
+- T5 (I vs we pronoun shifts) — convention note added to Preface; voice audit confirmed the book already follows the convention (all "I" instances are personal experience or first-person commitments).
+- T6 (Becoming app locator) — ibeco.me link added in Ch 3 (commit 2026-05-26).
+
+**New artifacts:**
+- Ch 6 honest-footnote production-note sidebar (placeholder text — Michael's voice surgery pending).
+- New file: `src/chapters/00_eleven_step_reference.md`.
+- New CSS: `.production-note`, `.cycle-list`, `.eng-step`, `.scripture-step`, `.cycle-step-name`, `.cycle-step-verb`, `.eng-tag`.
+- New provenance file: `.scratch/provenance_eleven_step_reference.md`.
+
+**Pending Michael (low-stakes):**
+- Voice surgery on the Ch 6 production-note sidebar placeholder text. Shape is locked; voice is open.
+- book.yaml chapter order — I moved Introduction before Ch 0 to make the reference page placement coherent. If you prefer the original (Ch 0 before Introduction), revert is one line in book.yaml.
 
 **Cross-chapter tensions for council (T1-T6 in Section 4):**
 - T1: Ch 0 vs Ch 5 redundancy on "intelligence cleaveth" vector-space argument.

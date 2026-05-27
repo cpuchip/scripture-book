@@ -16,12 +16,17 @@
 *   **Source:** [D&C 88:40](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)
 *   **Manuscript status:** ✅ exact partial; trailing ellipsis honest.
 
-### 2. Doctrine and Covenants 88:32 — 🟡 **MANUSCRIPT FRAMES AS QUOTE BUT PARAPHRASES**
-*   **What the manuscript says:** *"you cannot receive that which you are not willing to receive ([Doctrine and Covenants 88:32])."*
-*   **Verified canonical Doctrine and Covenants 88:32 in full:** "And they who remain shall also be quickened; nevertheless, they shall return again to their own place, to enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received."
-*   The manuscript's phrasing compresses and reverses the verse's logic. The verse says souls *do* enjoy what they are willing to receive — a positive reception statement — while also naming the loss (they don't enjoy what they *might* have received). The manuscript's negation ("cannot receive that which you are not willing to receive") is the agent's compression, not the scripture's words.
+### 2. Doctrine and Covenants 88:32
+*   **Verified canonical text (full v.32):** "And they who remain shall also be quickened; nevertheless, they shall return again to their own place, to enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received."
+*   **Quoted portion in manuscript (after 2026-05-27 rewrite):** "enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received"
 *   **Source:** [D&C 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)
-*   **Manuscript status:** 🟡 the principle named is real and the verse supports it, but the manuscript italicizes the line in a way that reads as a direct quote. Council item: either quote the actual verse fragment ("to enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received") or drop the italic styling and paraphrase plainly.
+*   **Manuscript status:** ✅ exact match. Council ratification 2026-05-27 replaced the prior italicized paraphrase ("you cannot receive that which you are not willing to receive") with canonical wording that lets the verse speak in its own language.
+
+### 3. Engineering Parallel rewrite (2026-05-27)
+*   **Council ratification (T1):** Ch 0 vs Ch 5 redundancy resolved by Path B — differentiate by binding question rather than collapse one chapter.
+*   **Ch 0 stays:** the matter-spectrum ontology, including the "not magic conjurers" close.
+*   **Ch 5 Engineering Parallel rewritten:** pivots from re-deriving vector-space math (now owned by Ch 0) to the posture/practice angle. Opens with "Chapter 0 mapped the physics... what that physics demands of us is a posture." Builds on Ch 0's groundwork without rebuilding it. Pulls in `warmth-over-distance` from the workspace covenant as the practice discipline.
+*   **No new direct scripture quotes** in the rewritten Engineering Parallel — references the law of resonance already established by D&C 88:40 (anchor) and the Becoming Commitment's existing practice items.
 
 ---
-**Verification log:** All scripture quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The D&C 88:32 paraphrase-as-quote issue is logged as a 🟡 council item in [review-2026-05-26-claude.md](review-2026-05-26-claude.md) Section 1.
+**Verification log:** All scripture quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The D&C 88:32 paraphrase-as-quote issue was resolved 2026-05-27 by replacement with canonical wording. Engineering Parallel section rewritten 2026-05-27 per council ratification T1 (Path B — differentiate Ch 0 and Ch 5 by binding question).

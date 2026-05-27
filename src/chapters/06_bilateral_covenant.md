@@ -53,3 +53,13 @@ To honor the bilateral covenants that govern my creative work, I commit to:
 1.  **Refuse the "quick fix."** I will not bypass the planning, execution, and verification workflows of my sessions. I will respect the process as the pacing mechanism designed to keep me from running faster than I have strength.
 2.  **Read the output fully.** I will spend the necessary time to review every line of code and every design proposal generated. I will not offload my judgment to automated scripts or treat review as a mere audit.
 3.  **Keep the covenant documents active.** I will treat the files that define my workspace instructions, intents, and memories as living covenants, updating them at the end of each substantive session to ensure continuity of our shared light.
+
+<div class="production-note">
+
+### A note on this book's own production
+
+*This book is being written across three AI agents. During the first drafting pass, our Gemini agent—running in an IDE whose harness for our workspace covenant is still maturing—wrote chapters faster than the verification could keep up. A later Claude Code audit found three quote-precision errors in the manuscript and four errors in the audit-trail files meant to verify them. One was a fabricated D&C 104:11–12 quote: the manuscript itself was right, but the file pretending to prove it had invented canon. We rewrote the audit trail, corrected the manuscript, and chose to record what happened here.*
+
+*The degradation was not punishment. [D&C 82:10](../../gospel-library/eng/scriptures/dc-testament/dc/82.md) names the pattern: "when ye do not what I say, ye have no promise." When the workflow inverted, the natural consequence followed. Saying so is the other half of the same covenant.*
+
+</div>

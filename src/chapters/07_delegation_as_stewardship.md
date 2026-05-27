@@ -23,9 +23,17 @@ When Moses attempted to judge every dispute among the children of Israel from mo
 
 This same scaling ratio appears when Alma organized the church at the waters of Mormon, ordaining "one priest to every fifty of their number" ([Mosiah 18:18](../../gospel-library/eng/scriptures/bofm/mosiah/18.md)). Alma set strict doctrinal guardrails—the priests were to teach nothing save repentance and faith—but he left them free to labor with their own hands for their support, trusting the Spirit to quicken their understanding.
 
-God's pattern of delegation follows a precise sequence: authority first, then scope, then capacity, and finally identity. 
+God's pattern of delegation, as Christ models it when He sends the Twelve, follows a precise sequence: authority first, then scope, then capacity, and finally identity. Matthew 10:1–16 records each step in turn.
 
-When Christ sent forth the Twelve, He did not hand them a checklist of tasks. He first "gave them power against unclean spirits... and to heal all manner of sickness" ([Matthew 10:1](../../gospel-library/eng/scriptures/nt/matt/10.md)). He defined their scope (the lost sheep of Israel), gave them the tools of healing, and framed their identity as sheep in the midst of wolves. He then left them free to execute, requiring them to report back. 
+**Authority and tools** come first. He "gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease" ([Matthew 10:1](../../gospel-library/eng/scriptures/nt/matt/10.md)). Before any work is named, the disciples are equipped.
+
+**Scope** comes next. They are commanded, "Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not: But go rather to the lost sheep of the house of Israel" ([Matthew 10:5–6](../../gospel-library/eng/scriptures/nt/matt/10.md)). The portion is defined.
+
+**Capacity** is named both as gift and as practice: "freely ye have received, freely give" ([Matthew 10:8](../../gospel-library/eng/scriptures/nt/matt/10.md)). And when the work demands more than the stewards have prepared, Christ promises supplementation in the moment: "it shall be given you in that same hour what ye shall speak. For it is not ye that speak, but the Spirit of your Father which speaketh in you" ([Matthew 10:19–20](../../gospel-library/eng/scriptures/nt/matt/10.md)).
+
+**Identity** is the last thing He names, and the heaviest. "Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves" ([Matthew 10:16](../../gospel-library/eng/scriptures/nt/matt/10.md)). The disciples know who they are before they meet the resistance.
+
+He then leaves them free to execute, requiring them to report back. 
 
 True delegation is not task-offloading; it is the empowerment of a steward over a defined portion, accompanied by a requirement of accountability. As President Gordon B. Hinckley taught:
 
