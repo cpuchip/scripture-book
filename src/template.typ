@@ -193,4 +193,49 @@
   align(center, block(width: 25%, pad(y: 1.5em, line(length: 100%, stroke: 0.5pt + rgb("#dddddd")))))
 }
 
+// Production-note sidebar (used in Ch 6 honest footnote)
+#let production-note(body) = {
+  set par(first-line-indent: 0pt, leading: 0.65em)
+  v(1em)
+  rect(
+    width: 100%,
+    stroke: (left: 3pt + rgb("#a89968"), rest: 0.5pt + rgb("#d4cfc0")),
+    inset: (x: 1.2em, y: 1em),
+    fill: rgb("#f8f6f0"),
+    radius: 2pt,
+    text(size: 10pt, body)
+  )
+  v(1em)
+}
+
+// Eleven-step cycle list step item.
+// kind = "eng" (slate-blue) or "scripture" (warm sage/amber).
+// eng = true adds an inline ENG tag.
+#let cycle-step(num, name, verb, body, kind: "scripture", eng: false) = {
+  let bg = if kind == "eng" { rgb("#eef2f6") } else { rgb("#f4f0e6") }
+  let accent = if kind == "eng" { rgb("#4a6480") } else { rgb("#998b5e") }
+
+  block(
+    width: 100%,
+    inset: (left: 0.9em, right: 0.7em, y: 0.45em),
+    fill: bg,
+    stroke: (left: 3pt + accent),
+    radius: 2pt,
+    above: 0.3em,
+    below: 0.3em,
+  )[
+    #set par(first-line-indent: 0pt, leading: 0.6em)
+    #text(weight: "bold", fill: rgb("#555555"))[#str(num).]
+    #text(weight: "bold")[#name] —
+    #text(style: "italic")[#verb].
+    #body
+    #if eng [#h(0.3em)#box(
+      stroke: 0.7pt + accent,
+      inset: (x: 0.4em, y: 0.1em),
+      radius: 1.5pt,
+      baseline: 0.1em,
+    )[#text(size: 7pt, fill: accent, weight: "regular", tracking: 0.5pt)[ENG]]]
+  ]
+}
+
 

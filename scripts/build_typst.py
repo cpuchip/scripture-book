@@ -109,7 +109,7 @@ def convert_inline_markdown(text, dist_dir):
     # Escape any hash symbols in text so they don't break Typst syntax
     # (except when they represent headings or functions we emit)
     # We do a safe replacement of raw '#' that aren't heading indicators, code, or known Typst functions we emit
-    text = re.sub(r'#(?!(link|margin-qr|align|text|v|pagebreak|set|hr|blockquote|binding-question|anchor-passage|import|show|let)\b)', r'\#', text)
+    text = re.sub(r'#(?!(link|margin-qr|align|text|v|pagebreak|set|hr|blockquote|binding-question|anchor-passage|production-note|cycle-step|import|show|let)\b)', r'\#', text)
     
     # Resolve and replace QR codes: [qr](url)
     def replace_qr(match):
@@ -144,6 +144,80 @@ def convert_inline_formatting(text):
     # Convert temporary bold token -> *text*
     text = text.replace('__BOLD_TEMP__', '*')
     return text
+
+def preprocess_html_blocks(md_content):
+    """Convert specific HTML markup patterns in the markdown source to Typst function calls.
+    Handles:
+      - <div class="production-note">...</div> -> #production-note[...]
+      - <ol class="cycle-list">...<li class="eng-step|scripture-step">...</li>...</ol>
+        -> series of #cycle-step(num, "name", "verb", "body", kind: "eng|scripture", eng: true|false)
+    """
+    # Production-note sidebar
+    def replace_production_note(match):
+        inner = match.group(1).strip()
+        # Convert the ### heading inside to inline styled text (avoids breaking the chapter TOC)
+        # Use rgb(r, g, b) integer components so the convert_inline_markdown # escape doesn't touch
+        # the color value (rgb("#hex") would be mangled). #5a4d2a = (90, 77, 42).
+        inner = re.sub(
+            r'^###\s+(.+?)\s*$',
+            r'#text(style: "italic", weight: "bold", fill: rgb(90, 77, 42), size: 11pt)[\1]\n',
+            inner, count=1, flags=re.MULTILINE
+        )
+        return f'#production-note[\n{inner}\n]'
+
+    md_content = re.sub(
+        r'<div class="production-note">\s*\n(.*?)\n\s*</div>',
+        replace_production_note,
+        md_content,
+        flags=re.DOTALL
+    )
+
+    # Eleven-step cycle list <ol class="cycle-list">
+    def replace_cycle_list(match):
+        inner = match.group(1)
+        results = []
+        item_num = 1
+        # Each <li> spans one line with predictable structure
+        li_pattern = re.compile(
+            r'<li class="(eng-step|scripture-step)">'
+            r'<span class="cycle-step-name">([^<]+)</span>\s*[—-]\s*'
+            r'<span class="cycle-step-verb">([^<]+)</span>\.\s*'
+            r'(.*?)'
+            r'(?:\s*<span class="eng-tag">eng</span>)?\s*'
+            r'</li>',
+            re.DOTALL
+        )
+        for li_match in li_pattern.finditer(inner):
+            kind_class = li_match.group(1)
+            name = li_match.group(2).strip()
+            verb = li_match.group(3).strip()
+            body = li_match.group(4).strip().rstrip('.').strip()
+            # Re-add trailing period if body is non-empty
+            if body and not body.endswith('.'):
+                body_text = body + '.'
+            else:
+                body_text = body
+            is_eng = kind_class == 'eng-step'
+            kind = "eng" if is_eng else "scripture"
+            eng_flag = "true" if is_eng else "false"
+            # Escape any embedded quotes in the body text
+            body_escaped = body_text.replace('"', '\\"')
+            results.append(
+                f'#cycle-step({item_num}, "{name}", "{verb}", "{body_escaped}", '
+                f'kind: "{kind}", eng: {eng_flag})'
+            )
+            item_num += 1
+        return '\n\n'.join(results)
+
+    md_content = re.sub(
+        r'<ol class="cycle-list">\s*\n(.*?)\n\s*</ol>',
+        replace_cycle_list,
+        md_content,
+        flags=re.DOTALL
+    )
+
+    return md_content
+
 
 def markdown_to_typst(md_content, dist_dir):
     blocks = md_content.split('\n\n')
@@ -290,7 +364,7 @@ def build():
     
     typst_content = []
     # Setup document metadata and template import
-    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr')
+    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step')
     typst_content.append(f'#show: project.with(title: "{title}", author: "{author}")\n')
     
     for chapter_path in chapters_list:
@@ -317,6 +391,9 @@ def build():
             md_content = md_content.replace('## Consecration', '== Consecration')
             md_content = md_content.replace('## Colophon', '== Colophon')
             
+        # Preprocess any custom HTML patterns (production-note, cycle-list) before markdown conversion
+        md_content = preprocess_html_blocks(md_content)
+
         ch_typst = markdown_to_typst(md_content, dist_dir)
         typst_content.append(ch_typst)
         typst_content.append("\n")
