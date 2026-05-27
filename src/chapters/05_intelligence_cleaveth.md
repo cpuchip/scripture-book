@@ -18,7 +18,7 @@ When a person approaches the study of truth, they do not act in isolation. If th
 
 But when a person approaches with active discernment, deep inquiry, and a sincere desire to be changed—bringing light—a resonance occurs. The light in their understanding physically cleaves to the light in the word. The truth they seek embraces the truth before them. The interaction is not a passive reading; it is an active alignment of substances. What they receive is a direct reflection of the light they brought to the search. 
 
-This is the law of resonance: you cannot receive that which you are not willing to receive ([Doctrine and Covenants 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=32)). The quality of the outcome is structurally bound to the honesty and depth of the approach.
+This is the law of resonance: you cannot receive that which you are not willing to receive ([Doctrine and Covenants 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)). The quality of the outcome is structurally bound to the honesty and depth of the approach.
 
 ---
 
