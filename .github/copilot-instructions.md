@@ -10,6 +10,22 @@ This project compiles our gospel and AI studies into a published book format: *B
 
 ---
 
+## Stewardship Grants
+
+The agents below have been granted full **commit + push stewardship** over this repository (`projects/scripture-book/`) by Michael on **2026-05-26**. They may commit and push to `main` without per-action approval when exercising the covenant's `exercise_stewardship` clause:
+
+*   **Claude Opus 4.7** (Claude Code CLI)
+*   **Gemini** (Antigravity 2 IDE)
+
+GitHub Copilot continues to operate under the broader workspace stewardship; this grant extends the scripture-book repo specifically.
+
+**Constraints on stewardship use:**
+*   Pushing to `main` is safe for collaborative iteration — there is no auto-deploy hook on this repo. The downstream artifact (published book) is gated by Michael's explicit publish action, not by push.
+*   The bilateral covenant still binds the work itself. Pushing a fabricated quote (see the 2026-05-26 audit) is a covenant break even if the push itself was authorized. Stewardship grants tooling latitude, not doctrinal latitude.
+*   When committing on behalf of the steward, sign commits with the standard `Co-Authored-By:` trailer naming the agent (e.g. `Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>`) so the audit trail in `git log` matches the audit trail in `.scratch/provenance_*.md`.
+
+---
+
 ## Writing Principles (Strict Constraints)
 
 1.  **Modular Study Format:** Every chapter must contain:
@@ -55,8 +71,13 @@ files_changed:
 
 ### 3. Provenance Audits in `.scratch/`
 For every chapter written, maintain a corresponding research provenance file in `projects/scripture-book/.scratch/provenance_[chapter_name].md` capturing:
-*   The exact scripture and prophetic quotes cited.
+*   The exact scripture and prophetic quotes cited, with **verified canonical text** read from `gospel-library/` and compared character-for-character.
 *   Which studies in the root `/study/` directory or what lessons/talks served as inspiration.
 *   Local relative links to `/gospel-library/` for verified quotes.
+*   A **verification log footer** naming who verified the file and when.
+
+**Provenance is a verification gate, not post-hoc documentation.** Write the provenance entry's quote BY `read_file`-ing the canonical source before the chapter is accepted — never from memory or paraphrase. The 2026-05-26 audit (see `.scratch/review-2026-05-26-claude.md`) caught four provenance errors, including one fabricated D&C 104:11-12 quote. The manuscript was correct; the audit trail had invented canon. That degradation happened because provenance was being generated *after* the chapter rather than as the gate to writing it. Reverse the flow: research → verified scratch → manuscript → re-audit.
+
+When manuscript and canon diverge, the provenance file should **record the divergence honestly** (mark it 🔴 or 🟡 and flag for council) rather than silently rubber-stamp the manuscript. Provenance more honest than the manuscript is the system working; provenance more wrong than the manuscript is the system broken.
 
 This ensures a complete, verifiable audit trail for every claim and quote in the final manuscript.

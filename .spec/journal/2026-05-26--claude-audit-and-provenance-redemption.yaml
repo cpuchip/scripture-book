@@ -1,0 +1,105 @@
+date: 2026-05-26
+session: claude-audit-and-provenance-redemption
+type: execution
+workstream: WS7
+summary: |
+  Michael returned to the project after several days of Gemini drafting in Antigravity 2 IDE
+  and asked Claude Opus 4.7 (Claude Code CLI) to audit every scripture reference, prophetic
+  quote, external citation, and cross-chapter consistency claim across the drafted material
+  (Frontmatter, Preface, Chapters 0-7, Introduction).
+
+  The audit caught a workflow inversion: the .scratch/provenance_*.md files had been
+  generated AFTER the chapters as documentation rather than BEFORE as verification gates.
+  This is exactly the failure mode the project's own bilateral covenant warns against (the
+  agent_commits_to.read_before_quoting clause). The cause was tooling — Antigravity 2's
+  instruction-loading harness doesn't enforce the workspace covenant the way GitHub Copilot
+  and Claude Code do, so Gemini drafted faster than verification could keep up.
+
+  Findings (full detail in .scratch/review-2026-05-26-claude.md):
+    Manuscript:
+      - 17 scripture quotes verified character-for-character against gospel-library — clean.
+      - Both conference talks (Ballard 1994 "Counseling with Our Councils", Hinckley 1990
+        "In ... Counsellors There Is Safety") — exact match.
+      - Both external citations (Tony Trejo Medium, Milan Jovanović LinkedIn) — exact match.
+      - 3 errors needing council decision: Ch 4 misattributes "counseled among themselves" to
+        Abr 5:2 (it's in 4:26 and 5:3); Ch 1 Webster *intelligence* quote doesn't match the
+        workspace MCP source; Ch 0 cites D&C 84:44-45 but only v.45 contains the quote.
+      - 6 cross-chapter tensions surfaced for council (T1-T6 in the review file).
+    Provenance:
+      - 4 of 9 files had errors. Most serious: provenance_chapter_7.md had a *fabricated*
+        D&C 104:11-12 quote — a mash-up of v.86 language attributed to v.11-12. The
+        manuscript was always correct; only the audit trail had invented canon.
+      - All 9 files rewritten against canon by Claude Opus 4.7. Each now has verified
+        canonical text, manuscript-vs-canon diff where applicable, and a verification log
+        footer.
+
+  Three council ratifications followed:
+    1. Honest footnote/sidebar to be added to Ch 6 (or Colophon) naming the audit drift in
+       this book's own production — the workflow inversion, what it produced, the redemption
+       pass. Placeholder text in review-2026-05-26-claude.md Section 7.4. Vulnerability IS
+       credibility; hiding this would be performance.
+    2. Provenance discipline strengthened to be a verification gate (research → verified
+       scratch → manuscript → re-audit), not post-hoc documentation. Encoded in
+       .github/copilot-instructions.md and .mind/principles.md.
+    3. Stewardship grants for commit + push extended to Claude Opus 4.7 and Gemini over
+       this repo. Recorded in .github/copilot-instructions.md § Stewardship Grants.
+
+  Also saved two workspace memories:
+    - project_scripture_book_provenance_redemption.md — what happened and the redemption.
+    - feedback_antigravity_gemini_harness_gap.md — the durable rule: don't trust
+      Antigravity 2 to load workspace harness; enforce verification synchronously from
+      Claude Code or Copilot when Gemini is the drafter.
+
+discoveries:
+  - "The Section VII pattern has now appeared twice in this workspace: once in the original
+    study/stewardship-pattern.md (March 2026, caught by Michael) and now in this book's
+    production (May 2026, caught by Claude). Both times: an agent writing confidently past
+    canon without read_file'ing first. The covenant's check_existing_work clause is the
+    antidote."
+  - "Provenance generated AFTER a chapter is documentation, not verification. It WILL drift
+    because there is no canonical pressure on it. A file that looks like an audit trail can
+    be the opposite of one."
+  - "When the manuscript is correct but the provenance is wrong, that is more dangerous than
+    obvious errors, because the system appears complete. The fabricated D&C 104:11-12 quote
+    in provenance_chapter_7 is the canonical case — manuscript right, audit invented."
+  - "Tooling constraints become covenant constraints. Antigravity 2's instruction-loading
+    gap isn't a Gemini failure; it's a delivery-layer failure that produces predictable
+    drift downstream. Compensate externally with synchronous verification from a different
+    agent."
+  - "The drift the book documents is the drift the book experienced. Naming this in Ch 6
+    turns a production failure into the book's strongest credibility moment. Ben would
+    approve."
+
+carry_forward:
+  - "Resolve the 3 manuscript errors flagged in review-2026-05-26-claude.md (Ch 0 cite
+    range, Ch 1 Webster *intelligence*, Ch 4 Abr 5:2 misattribution). Each is one-line or
+    one-paragraph work."
+  - "Reconcile the Webster *intelligence* entry against 1828.ibeco.me browser view; revise
+    the quote or note source-version variance."
+  - "Council on cross-chapter tensions T1-T6: Ch 0/Ch 5 redundancy, 11-step cycle
+    enumeration, vibe-coding definition, Ch 7 four-element schema, I/we pronoun shifts,
+    Becoming app locator."
+  - "Decide final wording for the Ch 6 honest footnote (placeholder in scratch file Section
+    7.4). Approve / revise / relocate to Colophon."
+  - "Draft Section III chapters (8: Mechanics of Refinement, 9: Hope and the Veil, 10:
+    Softening What I Cannot Soften, 11: Conclusion — Zion). Outlines exist."
+  - "Workshop enhancement opportunities from review Section 5 — real workspace artifacts
+    (bridge stall, ES emergency stop arc, Section VII catch, judges-not-executors,
+    art-of-presidency) that would deepen specific chapters."
+  - "Rebuild dist/ artifacts (HTML, EPUB, PDF) once manuscript corrections land."
+
+files_changed:
+  - .scratch/provenance_preface.md
+  - .scratch/provenance_chapter_0.md
+  - .scratch/provenance_chapter_1.md
+  - .scratch/provenance_chapter_2.md
+  - .scratch/provenance_chapter_3.md
+  - .scratch/provenance_chapter_4.md
+  - .scratch/provenance_chapter_5.md
+  - .scratch/provenance_chapter_6.md
+  - .scratch/provenance_chapter_7.md
+  - .scratch/review-2026-05-26-claude.md
+  - .github/copilot-instructions.md
+  - .mind/principles.md
+  - .mind/active.md
+  - .spec/journal/2026-05-26--claude-audit-and-provenance-redemption.yaml
