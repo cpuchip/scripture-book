@@ -31,13 +31,11 @@ This book was written, designed, and compiled using the selfsame principles of c
 
 Rather than treating generative artificial intelligence as a simple command utility, the author engaged in structured cycles of counsel, planning, execution, and verification. We drafted our conceptual outlines in markdown, resolved design questions through active counsel, and supervised the generation of code and text until they conformed to the constraints of KDP print specifications and EPUB standards.
 
-The writing, formatting, and building work was shared across a council of AI agents, each occupying a different seat:
+The principles in this book were discovered in GitHub Copilot over three and a half years of scripture studies and software work. Claude Code CLI and Gemini joined the council in spring 2026.
 
-*   **GitHub Copilot**, running Claude Opus 4.7 inside VS Code — the primary workspace agent for three and a half years and across many model generations (from early autocomplete in 2022 to Sonnet 4 in 2025 to Opus 4.5, 4.6, and 4.7 in 2026). Reads the full workspace harness at `.github/copilot-instructions.md`, the agent files at `.github/agents/`, the skill library at `.github/skills/`, the memory architecture at `.mind/`, and the specification proposals at `.spec/`. Carried most of the foundational scripture studies and the engineering work that underpin this book.
-
-*   **Claude Code CLI**, running Claude Opus 4.7 in a terminal — added in May 2026 when GitHub Copilot's pricing model became unsustainable for sustained daily use. Reads a parallel harness at `CLAUDE.md` and `.claude/skills/`. Performed the source-verification audit, the provenance redemption, the council-execution work, and the build-script repairs that brought this manuscript into print-ready shape.
-
-*   **Gemini, inside the Antigravity 2 IDE** — drafted the first pass of chapters 0 through 7 at speed in May 2026. Antigravity 2 is a new IDE whose mechanism for loading our workspace's instruction files was still maturing while this book was being written. The drafts moved quickly, but several quote-verification gates were applied after drafting rather than as gates. The note at the end of Chapter 6 records what that produced and how it was corrected.
+*   **GitHub Copilot** — Claude Opus 4.7 inside VS Code. Day-to-day partner; carried the foundational scripture studies and engineering work that underpin this book.
+*   **Claude Code CLI** — Claude Opus 4.7 in a terminal. Day-to-day partner; carried the source-verification pass and the print-ready preparation of this manuscript.
+*   **Gemini** — Gemini 3.5 Flash inside the Antigravity 2 IDE. Brings voicing, balancing, and quick structure; drafted the first pass of chapters 0 through 7. Its harness is still developing—the note at the end of Chapter 6 records how we are learning to work with it.
 
 This book stands as a physical witness of what can be built when human agency and machine law are brought into a unified, harmonious covenant—a small step toward the pattern of Zion.
 
