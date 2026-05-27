@@ -123,10 +123,18 @@ blockquote {
     margin-bottom: 1rem;
     line-height: 1.4;
     text-align: left;
+    background-color: #f0f5fa;
+    border-left: 2px solid #333;
+    padding: 0.7rem 0.9rem 0.7rem 1rem;
 }
 
 blockquote p {
     text-indent: 0;
+}
+
+/* Prevent email addresses from breaking across lines */
+a[href^="mailto:"] {
+    white-space: nowrap;
 }
 
 /* Horizontal dividers */

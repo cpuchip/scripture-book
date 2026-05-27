@@ -182,8 +182,8 @@
   rect(
     width: 100%,
     stroke: (left: 1.5pt + rgb("#333333")),
-    inset: (left: 1em, y: 0.5em),
-    fill: none,
+    inset: (left: 1em, right: 0.8em, y: 0.7em),
+    fill: rgb("#f0f5fa"),
     text(style: "italic", body)
   )
 }

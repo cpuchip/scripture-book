@@ -1,4 +1,4 @@
-# Introduction: Beyond the Prompt
+# Introduction
 
 For five months, I have worked daily with AI models to write code, design systems, and study the gospel. 
 
@@ -15,7 +15,7 @@ The questions we must ask are no longer *how* to write code, but:
 *   Does this design conform to the truth of reality?
 *   How do we organize our tools so they serve us rather than consume us?
 
-To answer these questions, we do not need more engineering frameworks. We need the oldest pattern of creation ever recorded: the eleven-step creation cycle from the books of Moses and Abraham, and the covenant stewardship pattern of delegation.
+Those questions reach past the engineering literature, and the patterns that answer them are eternal. We call them the eleven-step creation cycle, and they are found in Moses and Abraham in the Pearl of Great Price. They show how the Gods organized chaos into a working world under a bilateral covenant of stewardship. That pattern governs anything we want to build well.
 
 ## How to Read This Book
 

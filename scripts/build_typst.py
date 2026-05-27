@@ -127,7 +127,12 @@ def convert_inline_markdown(text, dist_dir):
         resolved_url = resolve_gospel_path(path)
         # Apply nested formatting inside the link text if needed
         conv_text = convert_inline_formatting(link_text)
-        return f'#link("{resolved_url}")[{conv_text}]'
+        link_typst = f'#link("{resolved_url}")[{conv_text}]'
+        # Prevent line-breaking inside email links so the address does not split
+        # across lines (mailto links are otherwise broken by justified text)
+        if resolved_url.startswith('mailto:'):
+            link_typst = f'#box[{link_typst}]'
+        return link_typst
         
     text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', replace_link, text)
 
@@ -388,11 +393,15 @@ def build():
             
         if "frontmatter.md" in chapter_path:
             # Replace subtitle
-            md_content = md_content.replace('<div class="chapter-meta">\nWhat AI Engineering Reveals About Eternal Patterns\n</div>', 
+            md_content = md_content.replace('<div class="chapter-meta">\nWhat AI Engineering Reveals About Eternal Patterns\n</div>',
                                             '#align(center)[#text(size: 12pt, style: "italic")[What AI Engineering Reveals About Eternal Patterns]]\n')
-            # Replace author
-            md_content = md_content.replace('<div style="text-align: center; margin-top: 3in; font-size: 14pt;">\nMichael Stufflebeam\n</div>',
-                                            '#v(2.5in)\n#align(center)[#text(size: 14pt)[Michael Stufflebeam]]\n')
+            # Replace author. Margin-top is variable (3in originally; 1.5in once the
+            # title-page epigraph was added). Use a regex with capture so both work.
+            md_content = re.sub(
+                r'<div style="text-align: center; margin-top: ([\d.]+in); font-size: 14pt;">\s*\nMichael Stufflebeam\s*\n</div>',
+                lambda m: f'#v({m.group(1)})\n#align(center)[#text(size: 14pt)[Michael Stufflebeam]]\n',
+                md_content
+            )
             # Replace Consecration page and Colophon page blocks
             md_content = re.sub(r'<div style="page-break-before:\s*always;\s*margin-top:\s*1in;[^>]*?>\s*(.*?)\s*</div>',
                                 r'#pagebreak()\n#v(1in)\n#set text(size: 10pt)\n\1', md_content, flags=re.DOTALL)
