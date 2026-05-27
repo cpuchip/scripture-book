@@ -3,7 +3,7 @@
 **Binding Question:** How does the divine pattern of planning a day spiritually before physical execution reveal the core workflow of collaborative creation with AI?
 
 **Anchor Passage:**
-> "And the Gods said among themselves: On the seventh time we will end our work, which we have counseled; and we will rest on the seventh time from all our work which we have created."
+> "And the Gods said among themselves: On the seventh time we will end our work, which we have counseled; and we will rest on the seventh time from all our work which we have counseled."
 > — [Abraham 5:2](../../gospel-library/eng/scriptures/pgp/abr/5.md)
 
 ---
@@ -32,9 +32,9 @@ Around that same time, in October 2022, I began playing with image generation us
 
 The true shift occurred in August 2023. I woke up from a dream with a distinct, pressing impression: *I had to learn how to use AI effectively.* 
 
-Immediately after that dream, I came across an interview with Stability AI founder Emad Mostaque on Tom Bilyeu's Impact Theory.[^catalyst] Hearing his perspective on the imminent scale of technological change was a catalyst. It set me on a path of intense study. I began consuming podcasts, YouTube videos, and blog articles, picking up what worked and what failed. 
+Immediately after that dream, I came across an interview with Stability AI founder Emad Mostaque on Tom Bilyeu's Impact Theory. [qr](https://youtu.be/Se91Pn3xxSs) Hearing his perspective on the imminent scale of technological change was a catalyst. It set me on a path of intense study. I began consuming podcasts, YouTube videos, and blog articles, picking up what worked and what failed. 
 
-In that interview, Emad outlined a concept that would define the next three years of my work: the idea of the AI as an "infinite grad"—a pool of graduate-level intelligence that can execute any task instantly, dropping the cost of digital creation to zero. He explained how a neural network like Stable Diffusion compresses terabytes of data down to a two-gigabyte "knowledge filter" containing only the underlying principles. This concept of filtering out noise to isolate pure principles immediately collided with my study of scriptural light and truth in Doctrine and Covenants 93. Furthermore, when he described Meta's *Cicero* experiment—where multiple AI models collaborated and checked one another's reasoning to outperform humans—I saw a clear reflection of the collaborative Creation pattern in Abraham 4. This single interview became the catalyst. I realized that the value was shifting from raw execution to the scarce commodity of human correctness, and that to manage this "infinite grad" workforce, we needed bilateral covenants, structured council, and rigorous verification harnesses.
+In that interview, Emad outlined the concept of the AI as an "infinite grad"—a pool of graduate-level intelligence that can execute any task instantly, dropping the cost of digital creation to zero. He explained how a neural network like Stable Diffusion compresses terabytes of data down to a two-gigabyte "knowledge filter" containing only the underlying principles. Looking back now, it is easy to see how these ideas would outline my next three years of work—how the concept of filtering out noise to isolate pure principles aligned with D&C 93, or how Meta's *Cicero* experiment reflected the collaborative Creation pattern in Abraham 4. In truth, these parallels came slowly, line upon line, as I struggled to manage this "infinite grad" workforce in my daily coding. Only in hindsight has it become clear that to work with these systems effectively, we needed bilateral covenants, structured counsel, and rigorous verification harnesses.
 
 Where I experimented most was not in isolated sandboxes, but on complex enterprise work projects that spanned hundreds of microservices. Trying to implement changes, maintain coherence, and coordinate code across that massive landscape was a crucible. It was in this environment that I learned how critical these principles really were. When you are writing code across hundreds of microservices, you cannot simply guess or dump raw prompts; you must plan, establish clear covenants (interfaces and requirements), communicate structured intent, and verify diligently.
 
@@ -66,5 +66,3 @@ We have a responsibility to make these patterns known. In the Doctrine and Coven
 > — [Doctrine and Covenants 123:12](../../gospel-library/eng/scriptures/dc-testament/dc/123.md)
 
 In the rush of marketing hype, technical jargon, and shifting tools, developers are looking for a stable foundation. They are seeking how to build things that are correct and good, but they are often blinded by the surrounding noise. Once we see these eternal creation patterns—once we understand that software engineering is a training ground for organizing intelligence under law—we have a responsibility to share it. This book is our attempt to write down those laws.
-
-[^catalyst]: Emad Mostaque interview on Tom Bilyeu's Impact Theory: *AI is about to FLIP your life upside down* (July 2023). Watch on YouTube: [https://youtu.be/Se91Pn3xxSs](https://youtu.be/Se91Pn3xxSs) [qr](https://youtu.be/Se91Pn3xxSs)

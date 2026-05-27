@@ -3,7 +3,7 @@
 **Binding Question:** How do we scale complex creations without descending into micromanagement or losing alignment?
 
 **Anchor Passage:**
-> "And I give unto you this privilege, this once, that you may be organized, with your stewardships, every man in his stewardship; and a steward shall be appointed over his portion, that it may be mine, and that no man shall say it is his own."
+> "It is wisdom in me; therefore, a commandment I give unto you, that ye shall organize yourselves and appoint every man his stewardship; That every man may give an account unto me of the stewardship which is appointed unto him."
 > — [Doctrine and Covenants 104:11–12](../../gospel-library/eng/scriptures/dc-testament/dc/104.md)
 
 ---

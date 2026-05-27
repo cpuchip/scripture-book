@@ -189,11 +189,12 @@ hr {
 }
 
 .qr-code {
-    display: inline-block;
+    float: right;
+    margin: 4px 0 8px 12px;
     border: 1px solid #eee;
     padding: 3px;
     background: #fff;
-    margin-top: 4px;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
 }
+

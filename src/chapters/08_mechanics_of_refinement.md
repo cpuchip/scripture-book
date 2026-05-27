@@ -3,7 +3,7 @@
 **Binding Question:** How does the relationship between spirit, matter, and eternal law govern our capacity for personal refinement?
 
 **Anchor Passage:**
-> "All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; ... For all intelligence will accept of truth, and if it does not it is under condemnation, for the scriptures are before you."
+> "There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; We cannot see it; but when our bodies are purified we shall see that it is all matter."
 > — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md)
 
 ---
