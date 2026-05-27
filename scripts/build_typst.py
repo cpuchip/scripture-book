@@ -202,6 +202,13 @@ def markdown_to_typst(md_content, dist_dir):
                         lines.append(line)
                 quote_content = '\n'.join(lines)
                 conv_quote = convert_inline_markdown(quote_content, dist_dir)
+                # Move margin-qr to the beginning of the blockquote to align with the first line
+                qr_match = re.search(r'#margin-qr\("[^"]+"\)', conv_quote)
+                if qr_match:
+                    qr_str = qr_match.group(0)
+                    conv_quote = conv_quote.replace(qr_str, '').strip()
+                    conv_quote = re.sub(r'\s{2,}', ' ', conv_quote)
+                    conv_quote = f'{qr_str} {conv_quote}'
                 typst_blocks.append(f'  #blockquote[\n    {conv_quote}\n  ]\n]')
                 in_anchor = False # closed anchor passage block
             continue
@@ -217,6 +224,13 @@ def markdown_to_typst(md_content, dist_dir):
                     lines.append(line)
             quote_content = '\n'.join(lines)
             conv_quote = convert_inline_markdown(quote_content, dist_dir)
+            # Move margin-qr to the beginning of the blockquote to align with the first line
+            qr_match = re.search(r'#margin-qr\("[^"]+"\)', conv_quote)
+            if qr_match:
+                qr_str = qr_match.group(0)
+                conv_quote = conv_quote.replace(qr_str, '').strip()
+                conv_quote = re.sub(r'\s{2,}', ' ', conv_quote)
+                conv_quote = f'{qr_str} {conv_quote}'
             
             if in_anchor:
                 typst_blocks.append(f'  #blockquote[\n    {conv_quote}\n  ]\n]')
