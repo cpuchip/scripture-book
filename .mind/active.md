@@ -5,7 +5,7 @@ This project compiles our gospel and AI studies into a published book format: *B
 
 ## Current Status
 
-### Manuscript (Frontmatter, Preface, Chapters 0–7) — DRAFTED, AUDITED, COUNCIL CLOSED
+### Manuscript (All Chapters 0–11) — DRAFTED, VERIFIED, COMPILED
 *   **Frontmatter:** [00_frontmatter.md](../src/chapters/00_frontmatter.md) — Title, Copyright, Colophon.
 *   **Preface:** [00_preface.md](../src/chapters/00_preface.md) — Classroom origin story, 3.5-year AI history, D&C 123:12 reframe, voice convention note (2026-05-27).
 *   **Introduction:** [00_introduction.md](../src/chapters/00_introduction.md) — Now placed before Ch 0 in `book.yaml` reading order (2026-05-27, pending Michael ratify).
@@ -13,7 +13,11 @@ This project compiles our gospel and AI studies into a published book format: *B
 *   **Chapter 0:** [00_chapter_0_intelligence_truth.md](../src/chapters/00_chapter_0_intelligence_truth.md) — Substance of reality. D&C 84:45 cite corrected; Ch 0/Ch 5 differentiated per Path B (Ch 0 stays as ontology).
 *   **Section I (Chapters 1–4):** Drafted. Ch 1 Webster *intelligence* fixed + Trejo URL updated (2026-05-27). Ch 3 Becoming app locator added (2026-05-26). Ch 4 Abr 5:2 paragraph rewritten with Moses 3:2 anchor (2026-05-26).
 *   **Section II (Chapters 5–7):** Drafted. Ch 5 Engineering Parallel rewritten to posture/practice angle (2026-05-27); D&C 88:32 styling fixed. Ch 6 production-note sidebar added (placeholder voice, Michael voice surgery pending). Ch 7 delegation schema sharpened with Matt 10:1–16 verse anchors.
-*   **Section III (Chapters 8–11):** Skeleton outlines only. Not yet drafted.
+*   **Section III (Chapters 8–11):** DRAFTED, VERIFIED, COMPILED (2026-05-27).
+    - **Chapter 8:** [08_mechanics_of_refinement.md](../src/chapters/08_mechanics_of_refinement.md) — Refinement as structural reorganization of spirit-matter under celestial law (D&C 131:7-8).
+    - **Chapter 9:** [09_hope_and_the_veil.md](../src/chapters/09_hope_and_the_veil.md) — The Brother of Jared's three problems (Prescription, Rest, Proposal) and hope's geometry (Ether 12:19-20).
+    - **Chapter 10:** [10_softening_what_i_cannot_soften.md](../src/chapters/10_softening_what_i_cannot_soften.md) — The asymmetry of heart-softening; stopping active hardening to let grace visit (Alma 12:10).
+    - **Chapter 11:** [11_conclusion_zion.md](../src/chapters/11_conclusion_zion.md) — Consecration and collective alignment mirroring distributed systems and consensus (Moses 7:18).
 
 ### 2026-05-26/27 — Audit + Council + Execution Cycle (SHIPPED in four commits)
 - **Commit 1 (65b0a4f, 2026-05-26):** Audit pass + provenance redemption + stewardship grants.
