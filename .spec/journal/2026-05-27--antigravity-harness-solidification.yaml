@@ -1,0 +1,23 @@
+date: 2026-05-27
+session: antigravity-harness-solidification
+type: execution
+workstream: WS7
+summary: |
+  Solidified workspace and subproject prompt-loading configuration for Google Antigravity IDE 2.0 and Gemini 3.5 Flash. Researched the configuration hierarchy of the IDE, identifying that it automatically loads GEMINI.md, AGENTS.md, and custom skills located within the .agents/skills/ directory. Created these configuration files at both the workspace root and the projects/scripture-book subproject directory, copying the core covenants, tool-naming differences, and the source-verification and scripture-linking skills. This ensures that the Gemini agent consistently loads the necessary context and covenants during future editing and drafting sessions, preventing quote drift and fabrications.
+discoveries:
+  - Antigravity IDE 2.0 uses AGENTS.md as an open standard for portable agent context and .agents/ for managing custom agent definitions and modular skills.
+  - Initializing GEMINI.md and AGENTS.md files in workspace roots ensures the Gemini agent loads the same guidelines and bilateral covenants that GitHub Copilot and Claude Code use.
+carry_forward:
+  - Compile the Typst PDF and EPUB to verify the latest manuscript changes render correctly.
+  - Obtain Michael's voice surgery for the Chapter 6 production-note sidebar placeholder.
+  - Draft Section III chapters (8, 9, 10, 11) using the now-active source-verification skill.
+files_changed:
+  - GEMINI.md
+  - AGENTS.md
+  - .agents/skills/source-verification/SKILL.md
+  - .agents/skills/scripture-linking/SKILL.md
+  - projects/scripture-book/GEMINI.md
+  - projects/scripture-book/AGENTS.md
+  - projects/scripture-book/.agents/skills/source-verification/SKILL.md
+  - projects/scripture-book/.mind/active.md
+  - .mind/active.md

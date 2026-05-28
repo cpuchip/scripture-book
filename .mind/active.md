@@ -15,10 +15,11 @@ This project compiles our gospel and AI studies into a published book format: *B
 *   **Section II (Chapters 5–7):** Drafted. Ch 5 Engineering Parallel rewritten to posture/practice angle (2026-05-27); D&C 88:32 styling fixed. Ch 6 production-note sidebar added (placeholder voice, Michael voice surgery pending). Ch 7 delegation schema sharpened with Matt 10:1–16 verse anchors.
 *   **Section III (Chapters 8–11):** Skeleton outlines only. Not yet drafted.
 
-### 2026-05-26/27 — Audit + Council + Execution Cycle (SHIPPED in three commits)
+### 2026-05-26/27 — Audit + Council + Execution Cycle (SHIPPED in four commits)
 - **Commit 1 (65b0a4f, 2026-05-26):** Audit pass + provenance redemption + stewardship grants.
 - **Commit 2 (a6a1501, 2026-05-26):** No-council manuscript fixes (Ch 0 cite, Ch 3 locator, Ch 4 paragraph).
 - **Commit 3 (this commit, 2026-05-27):** Council-ratified fixes + new reference page + voice convention + CSS.
+- **Commit 4 (2026-05-27):** Solidified Antigravity IDE 2.0 & Gemini 3.5 Flash harness (GEMINI.md, AGENTS.md, .agents/).
 
 All audit findings now resolved. The full audit report at [.scratch/review-2026-05-26-claude.md](../.scratch/review-2026-05-26-claude.md) Section 8 shows 7 of 7 council items closed.
 
