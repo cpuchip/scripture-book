@@ -24,12 +24,12 @@ For readers who desire to deepen their study of these patterns, the following cu
 
 ---
 
-## Deep-Dive Study Notes
+## Deep-Dive Studies
 
-The detailed theological research and source-verifications that underpin these chapters are preserved in the following workspace study files:
+The detailed theological research that underpins these chapters is published in full on cpuchip.net. Each study is linked below and QR-coded so the reader of the printed book can scan straight through to the source.
 
-*   **Heart-Softening Economics:** [study/softening-what-i-cannot-soften.md](../../../study/softening-what-i-cannot-soften.md) — The primary exegesis on the division of labor in conversion, active vs. passive hardening, and the morning-hour test.
-*   **The Zion Blueprint:** [study/zion-blueprint.md](../../../study/zion-blueprint.md) — Detailed mapping of Jesus' Nephite civilization manual and the 365-year timeline of Enoch.
-*   **The Physics of Atonement:** [study/mechanics-of-refinement.md](../../../study/mechanics-of-refinement.md) — An exploration of D&C 93, physical spirit-matter, and the Holy Ghost's role as a refining agent.
-*   **Barge Architecture:** [study/brother-of-jared-three-problems.md](../../../study/brother-of-jared-three-problems.md) — Full analysis of the Prescription, Rest, and Proposal stewardship tiers in Ether.
-*   **The Attentional Geometry of Hope:** [study/hope-and-the-grammar-of-pairs.md](../../../study/hope-and-the-grammar-of-pairs.md) — Details the grammar of hope as an anchor cast within the veil.
+*   **Heart-Softening Economics:** [Softening What I Cannot Soften](https://cpuchip.net/studies/softening-what-i-cannot-soften) [qr](https://cpuchip.net/studies/softening-what-i-cannot-soften) — The primary exegesis on the division of labor in conversion, active vs. passive hardening, and the morning-hour test.
+*   **The Zion Blueprint:** [The Blueprint of Zion](https://cpuchip.net/studies/zion-blueprint) [qr](https://cpuchip.net/studies/zion-blueprint) — Detailed mapping of Jesus' Nephite civilization manual and the 365-year timeline of Enoch.
+*   **The Physics of Atonement:** [The Mechanics of Refinement](https://cpuchip.net/studies/mechanics-of-refinement) [qr](https://cpuchip.net/studies/mechanics-of-refinement) — An exploration of D&C 93, physical spirit-matter, and the Holy Ghost's role as a refining agent.
+*   **Barge Architecture:** [The Brother of Jared's Three Problems](https://cpuchip.net/studies/brother-of-jared-three-problems) [qr](https://cpuchip.net/studies/brother-of-jared-three-problems) — Full analysis of the Prescription, Rest, and Proposal stewardship tiers in Ether.
+*   **The Attentional Geometry of Hope:** [Hope, and the Grammar of Pairs](https://cpuchip.net/studies/hope-and-the-grammar-of-pairs) [qr](https://cpuchip.net/studies/hope-and-the-grammar-of-pairs) — Details the grammar of hope as an anchor cast within the veil.
