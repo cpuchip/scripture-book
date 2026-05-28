@@ -18,6 +18,10 @@ This project compiles our gospel and AI studies into a published book format: *B
     - **Chapter 9:** [09_hope_and_the_veil.md](../src/chapters/09_hope_and_the_veil.md) — The Brother of Jared's three problems (Prescription, Rest, Proposal) and hope's geometry (Ether 12:19-20).
     - **Chapter 10:** [10_softening_what_i_cannot_soften.md](../src/chapters/10_softening_what_i_cannot_soften.md) — The asymmetry of heart-softening; stopping active hardening to let grace visit (Alma 12:10).
     - **Chapter 11:** [11_conclusion_zion.md](../src/chapters/11_conclusion_zion.md) — Consecration and collective alignment mirroring distributed systems and consensus (Moses 7:18).
+*   **Backmatter (Chapters 12–14):** DRAFTED, VERIFIED, COMPILED (2026-05-27).
+    - **Chapter 12 (Epilogue):** [12_epilogue_silent_loop.md](../src/chapters/12_epilogue_silent_loop.md) — Concluding meta-reflection on the co-authoring relationship, the Gods watching in silence (Abraham 4:18), and the steward's charge.
+    - **Chapter 13 (Glossary):** [13_glossary_of_fused_terms.md](../src/chapters/13_glossary_of_fused_terms.md) — Dictionary mapping Gospel vocabulary (Intelligence, Zion, Covenant) to Software Engineering parallels.
+    - **Chapter 14 (Recommended Study):** [14_further_reading.md](../src/chapters/14_further_reading.md) — Suggestions for further reading, detailing scripture anchors, conference talks, and workspace study notes.
 
 ### 2026-05-26/27 — Audit + Council + Execution Cycle (SHIPPED in four commits)
 - **Commit 1 (65b0a4f, 2026-05-26):** Audit pass + provenance redemption + stewardship grants.
