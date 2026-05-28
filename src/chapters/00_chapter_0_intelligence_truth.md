@@ -14,7 +14,7 @@ In 1828, Noah Webster published his landmark American Dictionary. Under the entr
 
 Five years later, Joseph Smith received a revelation that collapsed this ancient dualism:
 
-> "There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; we cannot see it; but when our bodies are purified we shall see that it is all matter."
+> "There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; We cannot see it; but when our bodies are purified we shall see that it is all matter."
 > — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/131.md?verse=7-8)
 
 This statement is not a poetic metaphor; it is an ontological description of reality. By asserting that spirit is matter, the Restoration reframed the entire relationship between the divine and the physical. Spirit, light, and truth are not abstract concepts floating in a metaphysical void. They are substances.
