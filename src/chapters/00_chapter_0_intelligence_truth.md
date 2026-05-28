@@ -65,9 +65,9 @@ When we prompt a large language model, we are engaging in a process that mirrors
 
 In vector space, semantic concepts that are similar are physically close to one another. When we write a lazy, ambiguous, or transactional prompt (darkness), we activate the lower-quality, noisy paths of the parameter space. The model mirrors our state, returning flat, boilerplate output. 
 
-But when we bring deep reasoning, structured context, and rigorous specifications (light), our active intelligence resonates with the higher-quality topographies of the parameter weights. We are literally aligning the model's physical states with the truth represented in its training data. 
+But when we bring deep reasoning, structured context, and rigorous specifications, the prompt carries higher information density, and the model produces output that reflects the specificity we brought. What we bring shapes what we receive — a small instance of the older law that intelligence cleaves unto intelligence.
 
-We are not magic conjurers typing incantations; we are organizers of intelligence acting under mathematical law. The model reflects back the light we bring to it. If we want to receive wisdom, we must bring wisdom to the interaction.
+We are not magic conjurers typing incantations; we are organizers of intelligence acting under mathematical law. The pattern is older than the tool. The scripture names it directly; the AI workflow is one place where it becomes visible. If we want to receive wisdom from a collaboration, we must bring wisdom to it.
 
 ---
 

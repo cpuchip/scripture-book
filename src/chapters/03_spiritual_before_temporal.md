@@ -41,9 +41,9 @@ The solution is to build the spiritual creation first. Before writing a single l
 
 We capture this in a collaborative planning document: a *specification*. This document is the spiritual creation of the software. It exists before any code is generated. 
 
-When this specification is complete, the physical creation becomes almost an inevitability. We can hand the specification to the AI and say, "Build Phase 1." Because the AI has the full, unified blueprint in its context, it produces code that is clean, integrated, and architecturally sound from the very first line.
+When this specification is complete, physical creation becomes far more tractable. We hand the specification to the AI and say, "Build Phase 1." With the unified blueprint in context, the first pass is architecturally coherent — not perfect, but the foundation holds, and the bugs that remain are recoverable rather than structural. The principle is older than the tool: design before doing.
 
-A real example of this is the tracking app we built for this project (the [Becoming app](https://ibeco.me)). The planning specification was 743 lines long before a single line of code was written. It detailed every database table, every API endpoint, and every user interface flow. When we finally began the physical creation, the AI generated over a thousand lines of correct, working code across thirteen files in a single pass. 
+A real example is the Becoming app at [ibeco.me](https://ibeco.me). We tested the principle by drafting a 743-line planning specification before a single line of code was written — every database table, every API endpoint, every user interface flow. When we then handed the spec to the AI, the first pass produced over a thousand lines of code across thirteen files. There was still work to do afterward, as on any project — but the foundation was sound from the start, because the design was sound first. [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md) had the pattern long before we did. 
 
 Furthermore, this spiritual creation persists. When we run out of time mid-project, the specification acts as a temporal bookmark. The next chat session does not start from scratch; it reads the specification and the progress summary, picking up precisely where the last session ended. 
 
