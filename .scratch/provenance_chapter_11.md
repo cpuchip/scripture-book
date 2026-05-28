@@ -13,6 +13,13 @@
 *   *Verification:* Verified character-for-character in [Moses 7:18](../../gospel-library/eng/scriptures/pgp/moses/7.md) (line 45).
 *   *Status:* 🟢 Verified Clean
 
+### 1b. Doctrine and Covenants 38:27 *(added 2026-05-28 — prior provenance gap)*
+*   **Verified canonical text (full v.27):** "Behold, this I have given unto you as a parable, and it is even as I am. I say unto you, be one; and if ye are not one ye are not mine."
+*   **Quoted portion in manuscript:** "I say unto you, be one; and if ye are not one ye are not mine"
+*   **Source:** [D&C 38:27](../../gospel-library/eng/scriptures/dc-testament/dc/38.md)
+*   **Verification:** Verified character-for-character on 2026-05-28.
+*   **Manuscript status:** ✅ exact partial. The verse was used in the manuscript without a corresponding provenance entry in the initial 2026-05-27 audit. The 2026-05-28 Claude Code audit caught the gap; added here for completeness.
+
 ### 2. Moses 7:62–63
 *   *Quote:* `"And righteousness will I send down out of heaven; and truth will I send forth out of the earth, to bear testimony of mine Only Begotten; his resurrection from the dead; yea, and also the resurrection of all men; and righteousness and truth will I cause to sweep the earth as with a flood, to gather out mine elect from the four quarters of the earth, unto a place which I shall prepare, an Holy City, that my people may gird up their loins, and be looking forth for the time of my coming; for there shall be my tabernacle, and it shall be called Zion, a New Jerusalem. And the Lord said unto Enoch: Then shalt thou and all thy city meet them there, and we will receive them into our bosom, and they shall see us; and we will fall upon their necks, and they shall fall upon our necks, and we will kiss each other;"`
 *   *Verification:* Verified character-for-character in [Moses 7:62-63](../../gospel-library/eng/scriptures/pgp/moses/7.md) (lines 133-135).
