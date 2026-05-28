@@ -5,6 +5,42 @@ This project compiles our gospel and AI studies into a published book format: *B
 
 ## Current Status
 
+> **2026-05-28 evening — FULL FIVE-PASS AUDIT COMPLETE (no manuscript changes; council-ready).**
+> Five independent audit passes are landed in `.draft/`. The council document at [`.draft/00-COUNCIL.md`](../.draft/00-COUNCIL.md) is the entry point — read it first when you return. It synthesizes:
+> - **`01-editor-pass.md`** — Claude Opus 4.7 in-house editor pass (structural, voice, content gaps)
+> - **`02-frontmatter-weaving.md`** — Five options (A–E) for the "5 chapter-zeros" problem
+> - **`03-gospel-reader-pass.md`** — Faithful Latter-day Saint reader perspective (independent subagent)
+> - **`04-ai-reader-pass.md`** — Skeptical senior engineer reader (independent subagent)
+> - **`05-editing-research.md`** — Web research on crossover non-fiction editing (Lewis, Lanier, Peterson, Newport, Capra critique, Tipler critique, Hodgson model, plus 4 currently-selling Christian-AI titles)
+> - **`06-fact-check-results.md`** — Verified scripture facts (30+ verses against canon)
+>
+> **Convergences (multiple passes independently flagged):**
+> - Front matter is 28% of book vs 3–8% in published comparables. **Demote the 3.5-year journey out of the preface.**
+> - Ch 6 production-note sidebar is the most credible content in the book per both alt-readers. **Elevate it.**
+> - Ch 10's heart-softening → connection pooling parallel is the most strained in the book per all three reader passes. **Replace with gardening (Mark 4 / Alma 32).**
+> - "AI has no soul" boundary stated only once (Ch 4 line 46) — needs explicit type-and-shadow statement somewhere.
+> - Chapters 0, 8, 9, 10 have engineering parallels in need of voice surgery. Ch 0's "topographies of higher-quality parameter weights" is technically wrong; Ch 8 has three specific ML vocabulary errors.
+>
+> **Verified factual fixes (`06-fact-check-results.md`):**
+> - **Ch 11 Moses 7:68** — chapter says Enoch walked 365 years; canon says Zion lasted 365 years. Real factual error.
+> - **Ch 8 Oaks + Bednar quotes** — verbatim verified but unattributed. Inline citations needed.
+> - **Ch 0 vs Ch 8 D&C 131:7-8** — capitalization inconsistency ("we" vs "We").
+> - **Ch 2 bacteriopolis "10 hours"** — unverified, likely fabricated; journal reports "230M wasted input tokens" with no hour count.
+>
+> **What the alt-readers said:**
+> - Gospel reader: "read first" = **Ch 5**; "best original contribution" = **Ch 7's Authority → Scope → Capacity → Identity sequence**.
+> - Engineer reader: "most credible" = **Ch 6**; "weakest" = **Ch 8**.
+>
+> **2026-05-29 early morning addition — Multi-model brainstorm passed** ([`.draft/07-multi-model-brainstorm.md`](../.draft/07-multi-model-brainstorm.md), $0.32, ~7 minutes). Four pg-ai-stewards brainstorm-lens pipelines fired in parallel: Six Hats (kimi-k2.6), Reverse (kimi-k2.6), SCAMPER (qwen3.6-plus), Crazy 8s (qwen3.6-plus). Surfaced **three new Tier 1+ items** added to the top of `00-COUNCIL.md`:
+>   - **NEW-1 / RQ1.0a** — Add Strong/Medium/Speculative confidence column to 11-step reference page. Three lenses converge on the "retrospective numerology" risk.
+>   - **NEW-2 / RQ1.0b** — Directional editing pass: eliminate every AI→gospel validation sentence (the single largest credibility killer per all three independent sources).
+>   - **NEW-3 / RQ1.0c** — Big directional flow decision: open scripture-first (gospel as primary, AI converged on it) or observation-first (AI behavior as the question, scripture as the answer)?
+>   - **RQ1.0d** — Upgrade Tier 1.4 to a recurring "Stewardship Boundary" callout per chapter, or keep as one paragraph?
+> Plus three Tier 2 items (covenant.yaml ↔ D&C 82:10 side-by-side per SCAMPER 3.2; "watching" as dual-use scripture study method per SCAMPER 3.5; close Epilogue with unresolved-questions per Crazy 8s #8) and three Tier 4 carry-forwards (title reconsideration per Six Hats Red; predictive test chapter; guest engineer interviews).
+>
+> **No manuscript changes made.** All findings are documented in `.draft/` for council ratification.
+> Next session: AskUserQuestion through the **ten** Tier 1 / Tier 1+ council questions (RQ1.0a through RQ1.0d + RQ1 through RQ6) in `00-COUNCIL.md`.
+
 ### Manuscript (All Chapters 0–11) — DRAFTED, VERIFIED, COMPILED
 *   **Frontmatter:** [00_frontmatter.md](../src/chapters/00_frontmatter.md) — Title, Copyright, Colophon.
 *   **Preface:** [00_preface.md](../src/chapters/00_preface.md) — Classroom origin story, 3.5-year AI history, D&C 123:12 reframe, voice convention note (2026-05-27).
