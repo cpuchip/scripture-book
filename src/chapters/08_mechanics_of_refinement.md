@@ -42,6 +42,8 @@ The mechanism of refinement, then, is not abstract. The soul keeps the eye fixed
 
 The shape rhymes. The substances do not. A developer learning to prompt is being refined against an objective they came to know through correction; a soul being sanctified is being refined against a Person who came to know them through suffering. The shape is the same because the same Author wrote both patterns of refinement. The substance is different because only one of them was made in His image, and only one of them is being shaped into the likeness of the One who suffered for it.
 
+The mechanism is named. What the loop requires from the steward — keeping the eye fixed, keeping the grip on the standard, keeping the willingness to produce honest output — is not single. It is three postures, held at once.
+
 ---
 
 ## Becoming Commitment
