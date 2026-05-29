@@ -12,6 +12,8 @@
 
 ## The Core Reframe
 
+Covenant gives us the binding; stewardship gives us the scaling. The previous chapter bound two parties in mutual commitment; this one asks how that commitment extends to many without fracturing.
+
 In his 1994 address, Elder M. Russell Ballard warned against a recurring vulnerability in leadership: the "one-cylinder ward." He observed:
 
 > "The one-cylinder ward is the ward where the bishop handles all of the problems, makes all of the decisions, and follows through on all of the assignments. Then, like an overworked cylinder in a car engine, he is soon burned out."
@@ -63,10 +65,9 @@ When a master agent (Moses/Alma) encounters a task that exceeds its immediate ca
   (Search & Research)      (Code Execution)
 ```
 
-In structuring this delegation, we follow the scriptural pattern:
-1.  **Authority & Tools:** We equip the subagent with specific tools—such as read, write, or grep search—giving it the power to act within its sphere.
-2.  **Scope & Portion:** We limit its context. We do not pass it the entire workspace; we pass it only the files and lines relevant to its task.
-3.  **Accountability:** We do not micro-manage its internal processing. We set the boundaries, issue the task, and then "watch until it obeys" ([Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md)). The subagent must return its output to the master agent for review and verification.
+This is the same shape Jethro pressed upon Moses—rulers of thousands, of hundreds, of fifties, of tens ([Exodus 18:21](../../gospel-library/eng/scriptures/ot/ex/18.md), named above)—rendered in software: a presiding context that delegates defined portions to stewards beneath it.
+
+In structuring this delegation, we follow the same scriptural sequence. We equip the subagent with authority and tools first—read, write, or grep search—giving it power to act within its sphere. We define its scope, limiting its context to only the files and lines its task requires rather than the whole workspace. Then we hold it accountable: we do not micromanage its internal processing, but we set the boundaries, issue the task, and "watch until it obeys" ([Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md)). The subagent returns its output to the master agent for review and verification.
 
 If the subagent encounters an error that exceeds its local scope, it does not crash the system. It follows a structured escalation protocol, passing the error back to the master agent (like the teachers and priests bringing a difficult case to Alma, who then escalates it to God). The master agent adjusts the plan, reframes the intent, and redelegates.
 

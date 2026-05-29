@@ -37,6 +37,8 @@ In working with AI, we live inside this feedback loop daily. Many people approac
 
 This is the trust gradient in action. When we begin a new project or work with a new model, we must watch every line. We review the syntax, verify the database queries, and run the tests. As the model proves reliable within a specific domain, we transition from "watching until" to a calibrated trust where we focus our attention on new, complex logic.
 
+The industry has built instruments for exactly this watching. Test suites and evals gate output before it ships. Observability traces let us inspect each step an agent takes. Watchdogs and budgets cap an agent's time, tokens, or iterations before it can run away—the runaway in Chapter 2 happened because no such watchdog was set. These are the modern instruments of "watching until they obey."
+
 We must balance when to steer and when to let the model run. We steer when the output violates our architectural specification, when it solves the wrong problem, or when it introduces latent security vulnerabilities. We let it run when the implementation is functionally correct, even if it uses a style slightly different from our own. Like the Gods, who commanded the waters to bring forth creatures "after their kind" rather than specifying every species of fish, we specify the organizing principles and verify the outcomes.
 
 We must also watch our instruments, not just the code. When conducting scriptural research, we might generate a list of verses. But if we fail to watch *how* we found them, we miss the depth. In one study session on the Godhead, the AI generated a clean document using keyword search. But when we verified the search method and directed it to use our semantic vector database, it instantly surfaced non-obvious, critical passages—like [2 Peter 1:4](../../gospel-library/eng/scriptures/nt/2-pet/1.md) ("partakers of the divine nature")—that keyword searches had missed entirely.
@@ -54,5 +56,5 @@ AI has no agency; it acts by law and statistical pattern. Your agency—your lig
 To implement the watching pattern in my development work and personal life, I commit to:
 
 1.  **Own the verification.** I will not accept AI output without reviewing it. I will test both the happy path and the edge cases, watching until the code conforms to the specification.
-2.  **Practice the seventh-day review.** Every week, I will pause my creative execution to conduct a meta-review of my workflows, asking: What tools are stalling? Where has my thinking become shallow? I will document these reflections in a dedicated log.
+2.  **Practice the seventh-day review.** I aim to pause weekly to conduct a meta-review of my workflows, asking: What tools are stalling? Where has my thinking become shallow? When I keep the rhythm, I document these reflections in a dedicated log.
 3.  **Honor the agency of choice.** I will not delegate architectural decisions or scriptural interpretations to the model. I will take responsibility for the vision and the judgment, using the AI to expand my capacity to serve, but never to replace my agency.

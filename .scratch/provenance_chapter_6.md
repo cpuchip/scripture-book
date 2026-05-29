@@ -51,4 +51,18 @@
 *   **Why this matters:** Ch 6 teaches that covenant degradation is natural consequence rather than punishment, and the book itself is a worked instance. Vulnerability + receipt > polished infallibility. See [review-2026-05-26-claude.md](review-2026-05-26-claude.md) Section 7.4 for the full council note.
 
 ---
-**Verification log:** Scripture quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The covenant.yaml and intent.yaml excerpts above were verified verbatim against the workspace source files the same day. The production-note sidebar was added 2026-05-27 per council ratification; voice surgery pending Michael's pass.
+### 4. Mosiah 5:5 (added 2026-05-29, Tier 2.8 — willing-covenant strengthening)
+*   **Verified canonical text v.5:** "And we are willing to enter into a covenant with our God to do his will, and to be obedient to his commandments in all things that he shall command us, all the remainder of our days, that we may not bring upon ourselves a never-ending torment, as has been spoken by the angel, that we may not drink out of the cup of the wrath of God."
+*   **Manuscript quote (partial, bracketed for grammar):** "were willing to enter into a covenant with [their] God to do his will... all the remainder of [their] days"
+*   **Source:** [Mosiah 5:5](../../gospel-library/eng/scriptures/bofm/mosiah/5.md) — verified via `gospel_get` 2026-05-29.
+*   **Manuscript status:** ✅ exact match within the elision. Original first-person plural ("our God," "our days") rendered as bracketed third-person ("[their] God," "[their] days") to fit the narrative frame; ellipsis marks the omission of the never-ending-torment clause. Honest partial quotation.
+*   **Why added:** King Benjamin's people supply the *willingness* axis of covenant (distinct from Mosiah 18:8-10's reciprocal-duties axis already in the chapter). Grounds the control-vs-covenant contrast: covenant is adopted from within, not imposed from outside.
+
+---
+### 5. AI-failures-as-doctrinal-types paragraph (added 2026-05-29, Tier 2.6 — no new quote)
+*   **New artifact:** bounding paragraph at the end of the Engineering Parallel naming the inverse parallel (hallucination→false revelation, drift→apostasy, corrupted data→false traditions) and then explicitly declining to press it into identity.
+*   **No scripture quoted.** The paragraph names doctrinal categories in paraphrase only; it makes no direct citation requiring verification.
+*   **Why added:** the gospel-reader audit pass (03-gospel-reader-pass.md §9) flagged that a careful reader arrives at this inversion unaided and may go further than the author would; naming-and-bounding it is the safer move. The bound is the imago Dei boundary: "tools failing under law, not souls falling under sin."
+
+---
+**Verification log:** Scripture quotes verified character-for-character against the gospel-library on 2026-05-26 by Claude Opus 4.7. The covenant.yaml and intent.yaml excerpts above were verified verbatim against the workspace source files the same day. The production-note sidebar was added 2026-05-27 per council ratification. 2026-05-29 (Claude Opus 4.8, chapters 2-7 audit-application pass): Mosiah 5:5 verified verbatim via `gospel_get` and recorded as entry #4; AI-failures bounding paragraph added with no new citation (entry #5). Control-vs-covenant framing and preface forward-reference to the production note added the same day — prose only, no new quotes.

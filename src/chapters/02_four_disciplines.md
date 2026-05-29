@@ -10,6 +10,8 @@
 
 ---
 
+> **For the reader who doesn't work in software:** You do not need to follow the technical names in this chapter to follow the book. Here is all you need to carry forward: the software industry has named four ways of working with AI, and we will see that they cover only four of the eleven steps in scripture's pattern for creation. The rest of this book is about the seven steps the industry has not named. If a term below is unfamiliar, let it pass—the doctrine does not depend on it.
+
 ## The Core Reframe
 
 In [Doctrine and Covenants 88:119](../../gospel-library/eng/scriptures/dc-testament/dc/88.md), the first verb the Lord commands is *organize*. 

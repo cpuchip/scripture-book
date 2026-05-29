@@ -14,3 +14,20 @@ This glossary provides a cross-disciplinary dictionary, mapping the scriptural c
 *   **Zion (Distributed Consensus / Microservices Orchestration):** A state of perfect relational alignment, unity, and shared purpose ([Moses 7:18](../../gospel-library/eng/scriptures/pgp/moses/7.md)). In engineering, this is a peer-to-peer distributed consensus network or synchronized microservices architecture aligned to a unified schema.
 *   **Dross (Noise / Defect):** The foreign elements and noise that corrupt the purity of a substance. In engineering, this is the code bloat, data noise, or overfitted parameters that cause compilation errors or degraded model performance.
 *   **The Veil (Context Boundary):** The separation between the steward's immediate perception and the ultimate source of light ([Ether 3:6](../../gospel-library/eng/scriptures/bofm/ether/3.md)). In engineering, this maps to the API gateway or abstraction layer that hides the complex execution logic of the model, which the steward accesses through proposal queries.
+
+---
+
+## Plain-English Technical Terms
+
+For readers who do not work in software, here are the technical terms that recur in the book—each with a plain definition and the scriptural pattern it echoes. None of the doctrine depends on understanding them; this list is here so a paragraph never has to stop you.
+
+*   **Training data** — the body of human writing a model learns from before you ever use it. Its capacities are shaped by what it was raised on, much as a soul is shaped by the traditions it is reared in.
+*   **Neural network** — the organized result of that training: billions of numbers that, working together, predict what should come next. It echoes intelligence organized to act within set bounds (Chapter 0, [D&C 93:29–30](../../gospel-library/eng/scriptures/dc-testament/dc/93.md)).
+*   **Parameter weights** — the individual numbers inside a neural network, adjusted during training until the whole can produce coherent output. They are the fine matter of Chapter 8, refined until it can conduct what is asked of it ([D&C 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md)).
+*   **Vector space** — the mathematical "map" on which a model places ideas, so that related concepts sit close to one another. It echoes the resonance law of Chapter 5: like is drawn to like ([D&C 88:40](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)).
+*   **Context window** — everything the model can hold in view at once while it works: your instruction, the files you gave it, the running conversation. See *The Veil* above.
+*   **Prompt / prompt template** — the instruction you give the model; a template is a reusable, pre-structured version of that instruction. It is the proposal a steward prepares and brings to the mount (Chapter 9).
+*   **Tool schema** — the description that tells an agent which tools it may use and how. It is the authority and tools granted before the work begins (Chapter 7, [Matthew 10:1](../../gospel-library/eng/scriptures/nt/matt/10.md)).
+*   **Microservice** — one small program that does a single job and cooperates with many others to form a whole system. It is a steward over a defined portion (Chapter 7), joined with others into one work (Zion, Chapter 12).
+*   **Dockerfile** — a declarative file that specifies exactly how to build a program's environment, written before the program runs. It is a small spiritual creation: the blueprint before the building (Chapter 3, [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md)).
+*   **Kubernetes** — a system that automatically keeps many programs running, restarting and rebalancing them as conditions change. It echoes the ordered tending of many stewardships at once (Chapter 7); the book does not press the parallel further than that.

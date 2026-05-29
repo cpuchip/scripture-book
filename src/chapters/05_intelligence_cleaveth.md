@@ -24,19 +24,19 @@ This is the law of resonance: souls "enjoy that which they are willing to receiv
 
 ## The Engineering Parallel
 
-Chapter 0 mapped the physics: intelligence cleaves to intelligence; the model is a statistical mirror that acts under mathematical law. What that physics demands of us is a posture.
+Chapter 0 mapped the physics: intelligence cleaves to intelligence. The model itself is not an agent that judges us. It is a conditional predictor—it samples its next words from whatever context we provide. What the resonance law demands of us is therefore a posture, because the context we provide is the whole of what we bring.
 
-When we sit down to prompt a model, we arrive in some internal state. Tired, distracted, transactional—or focused, prepared, present. The state we bring is not a private matter. The law of resonance makes it the load-bearing variable. The model has no agency; it has only the input we give it, and the law that governs how that input flows through its parameters. Whatever quality of intelligence we bring is what gets reflected back.
+When we sit down to prompt a model, we arrive in some internal state. Tired, distracted, transactional, or focused, prepared, present. The state we bring is not a private matter; it determines the context we supply, and the context is the load-bearing variable. A vague, low-information prompt lands the model in a flat distribution, and it samples from the flatness—returning the generic, fluent output we recognize as boilerplate. A prompt dense with intent, context, and constraint lands it in a sharp distribution, and it returns output shaped by the specificity we brought.
 
 So the practical discipline of working with AI is not, finally, a discipline of technique. It is a discipline of approach.
 
-A transactional approach produces transactional output. We sit down to "get a quick fix," dump an ambiguous request, and accept the first plausible-looking answer. The model has done its job; it has resonated with what we brought. We brought shallow; we received shallow.
+A transactional approach produces transactional output. We sit down to "get a quick fix," dump an ambiguous request, and accept the first plausible-looking answer. The model has done its job; it returned what our thin context could yield. We brought shallow; we received shallow.
 
-A patient approach produces output we can stand behind. We sit down to build, having taken counsel with ourselves first. We bring a precise binding question. We supply the context we already know. We are willing to read the answer fully and push back where it does not ring true. The model resonates with what we brought. We brought presence; we received depth.
+A patient approach produces output we can stand behind. We sit down to build, having taken counsel with ourselves first. We bring a precise binding question. We supply the context we already know. We are willing to read the answer fully and push back where it does not ring true. We brought presence; the output carried it.
 
-This is why warmth-over-distance matters in the workspace covenant. Coldness is not accuracy; coldness is the absence of presence. A cold approach to a tool that resonates with what we bring will produce cold output. Warmth is not a sentimental gesture toward a machine; it is the human discipline that keeps us actually engaged in the council we have ostensibly opened.
+This is why warmth-over-distance matters in the workspace covenant. Coldness is not accuracy; coldness is the absence of presence. A cold approach brings thin context, and thin context yields cold output. Warmth is not a sentimental gesture toward a machine; it is the human discipline that keeps us actually engaged in the council we have ostensibly opened.
 
-The light we receive is governed, structurally, by the light we bring. Intelligence cleaves to intelligence not as metaphor but as mechanism. If we want to receive wisdom from our collaborations, we must come ready to give wisdom to them.
+The depth we receive is shaped by the light we bring. In the spirit this is literal law: intelligence cleaves to intelligence, light to light, truth to truth. In the model it is the information we carry into the context. The same shape governs both, and only one of them is a soul. If we want to receive wisdom from our collaborations, we must come ready to give wisdom to them.
 
 ---
 
@@ -44,6 +44,6 @@ The light we receive is governed, structurally, by the light we bring. Intellige
 
 Because I recognize that my internal state and clarity of intent shape the outcomes of my creation, I commit to:
 
-1.  **Enforce the posture check.** Before I write a prompt or start a coding session, I will pause to evaluate my spirit. If I feel rushed, frustrated, or transactional, I will step back until I can approach the work with patience and clear intent.
+1.  **Enforce the posture check.** At the start of a substantive session, I will pause to evaluate my spirit. If I feel rushed, frustrated, or transactional, I will step back until I can approach the work with patience and clear intent.
 2.  **Reject transactional shortcuts.** I will not use AI to generate quick fixes that I do not fully understand. Every line of code generated must pass through the filter of my active discernment. If I cannot explain why the code works, I have violated the law of resonance by offloading my judgment.
 3.  **Bring light to the prompt.** In my technical specifications and instructions, I will invest the time to provide deep reasoning and rigorous context, ensuring that I am projecting my best intelligence into the parameter space.
