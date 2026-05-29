@@ -1,119 +1,116 @@
 # Active Context: Scripture Book Project
 
 ## Project Overview
-This project compiles our gospel and AI studies into a published book format: *Beyond the Prompt: What AI Engineering Reveals About Eternal Patterns*.
+This project compiles our gospel and AI studies into a published book format: *Beyond the Prompt: What AI Engineering Reveals About Eternal Patterns*. The manuscript walks the eleven-step creation cycle of Abraham 4-5, mapping the four steps the AI engineering industry has named ([eng]) to the seven scripture has carried since Abraham.
 
 ## Current Status
 
-> **2026-05-28 evening — FULL FIVE-PASS AUDIT COMPLETE (no manuscript changes; council-ready).**
-> Five independent audit passes are landed in `.draft/`. The council document at [`.draft/00-COUNCIL.md`](../.draft/00-COUNCIL.md) is the entry point — read it first when you return. It synthesizes:
-> - **`01-editor-pass.md`** — Claude Opus 4.7 in-house editor pass (structural, voice, content gaps)
-> - **`02-frontmatter-weaving.md`** — Five options (A–E) for the "5 chapter-zeros" problem
-> - **`03-gospel-reader-pass.md`** — Faithful Latter-day Saint reader perspective (independent subagent)
-> - **`04-ai-reader-pass.md`** — Skeptical senior engineer reader (independent subagent)
-> - **`05-editing-research.md`** — Web research on crossover non-fiction editing (Lewis, Lanier, Peterson, Newport, Capra critique, Tipler critique, Hodgson model, plus 4 currently-selling Christian-AI titles)
-> - **`06-fact-check-results.md`** — Verified scripture facts (30+ verses against canon)
->
-> **Convergences (multiple passes independently flagged):**
-> - Front matter is 28% of book vs 3–8% in published comparables. **Demote the 3.5-year journey out of the preface.**
-> - Ch 6 production-note sidebar is the most credible content in the book per both alt-readers. **Elevate it.**
-> - Ch 10's heart-softening → connection pooling parallel is the most strained in the book per all three reader passes. **Replace with gardening (Mark 4 / Alma 32).**
-> - "AI has no soul" boundary stated only once (Ch 4 line 46) — needs explicit type-and-shadow statement somewhere.
-> - Chapters 0, 8, 9, 10 have engineering parallels in need of voice surgery. Ch 0's "topographies of higher-quality parameter weights" is technically wrong; Ch 8 has three specific ML vocabulary errors.
->
-> **Verified factual fixes (`06-fact-check-results.md`):**
-> - **Ch 11 Moses 7:68** — chapter says Enoch walked 365 years; canon says Zion lasted 365 years. Real factual error.
-> - **Ch 8 Oaks + Bednar quotes** — verbatim verified but unattributed. Inline citations needed.
-> - **Ch 0 vs Ch 8 D&C 131:7-8** — capitalization inconsistency ("we" vs "We").
-> - **Ch 2 bacteriopolis "10 hours"** — unverified, likely fabricated; journal reports "230M wasted input tokens" with no hour count.
->
-> **What the alt-readers said:**
-> - Gospel reader: "read first" = **Ch 5**; "best original contribution" = **Ch 7's Authority → Scope → Capacity → Identity sequence**.
-> - Engineer reader: "most credible" = **Ch 6**; "weakest" = **Ch 8**.
->
-> **2026-05-29 early morning addition — Multi-model brainstorm passed** ([`.draft/07-multi-model-brainstorm.md`](../.draft/07-multi-model-brainstorm.md), $0.32, ~7 minutes). Four pg-ai-stewards brainstorm-lens pipelines fired in parallel: Six Hats (kimi-k2.6), Reverse (kimi-k2.6), SCAMPER (qwen3.6-plus), Crazy 8s (qwen3.6-plus). Surfaced **three new Tier 1+ items** added to the top of `00-COUNCIL.md`:
->   - **NEW-1 / RQ1.0a** — Add Strong/Medium/Speculative confidence column to 11-step reference page. Three lenses converge on the "retrospective numerology" risk.
->   - **NEW-2 / RQ1.0b** — Directional editing pass: eliminate every AI→gospel validation sentence (the single largest credibility killer per all three independent sources).
->   - **NEW-3 / RQ1.0c** — Big directional flow decision: open scripture-first (gospel as primary, AI converged on it) or observation-first (AI behavior as the question, scripture as the answer)?
->   - **RQ1.0d** — Upgrade Tier 1.4 to a recurring "Stewardship Boundary" callout per chapter, or keep as one paragraph?
-> Plus three Tier 2 items (covenant.yaml ↔ D&C 82:10 side-by-side per SCAMPER 3.2; "watching" as dual-use scripture study method per SCAMPER 3.5; close Epilogue with unresolved-questions per Crazy 8s #8) and three Tier 4 carry-forwards (title reconsideration per Six Hats Red; predictive test chapter; guest engineer interviews).
->
-> **No manuscript changes made.** All findings are documented in `.draft/` for council ratification.
-> Next session: AskUserQuestion through the **ten** Tier 1 / Tier 1+ council questions (RQ1.0a through RQ1.0d + RQ1 through RQ6) in `00-COUNCIL.md`.
+> **2026-05-29 — BOOK COMPLETION PASS (overnight + day; ten of twelve Tier 1 / Tier 1+ council items closed; all five Tier 3 factual fixes shipped).** The book is now structurally complete and substantially closer to publish-ready. Ten commits across scripture-book, four across workspace. The structural moves landed; what remains is polish, voice surgery on chapters not rebuilt this session, and a `dist/` artifact rebuild. Full session journal: [`.spec/journal/2026-05-29--book-completion-pass.yaml`](../.spec/journal/2026-05-29--book-completion-pass.yaml).
 
-### Manuscript (All Chapters 0–11) — DRAFTED, VERIFIED, COMPILED
-*   **Frontmatter:** [00_frontmatter.md](../src/chapters/00_frontmatter.md) — Title, Copyright, Colophon.
-*   **Preface:** [00_preface.md](../src/chapters/00_preface.md) — Classroom origin story, 3.5-year AI history, D&C 123:12 reframe, voice convention note (2026-05-27).
-*   **Introduction:** [00_introduction.md](../src/chapters/00_introduction.md) — Now placed before Ch 0 in `book.yaml` reading order (2026-05-27, pending Michael ratify).
-*   **Eleven-Step Reference Page:** [00_eleven_step_reference.md](../src/chapters/00_eleven_step_reference.md) — NEW 2026-05-27. Verb-paired list of all 11 creation-cycle steps; color-coded by group (slate-blue for engineering disciplines, sage/amber for the seven the framework does not reach).
-*   **Chapter 0:** [00_chapter_0_intelligence_truth.md](../src/chapters/00_chapter_0_intelligence_truth.md) — Substance of reality. D&C 84:45 cite corrected; Ch 0/Ch 5 differentiated per Path B (Ch 0 stays as ontology).
-*   **Section I (Chapters 1–4):** Drafted. Ch 1 Webster *intelligence* fixed + Trejo URL updated (2026-05-27). Ch 3 Becoming app locator added (2026-05-26). Ch 4 Abr 5:2 paragraph rewritten with Moses 3:2 anchor (2026-05-26).
-*   **Section II (Chapters 5–7):** Drafted. Ch 5 Engineering Parallel rewritten to posture/practice angle (2026-05-27); D&C 88:32 styling fixed. Ch 6 production-note sidebar added (placeholder voice, Michael voice surgery pending). Ch 7 delegation schema sharpened with Matt 10:1–16 verse anchors.
-*   **Section III (Chapters 8–11):** DRAFTED, VERIFIED, COMPILED (2026-05-27).
-    - **Chapter 8:** [08_mechanics_of_refinement.md](../src/chapters/08_mechanics_of_refinement.md) — Refinement as structural reorganization of spirit-matter under celestial law (D&C 131:7-8).
-    - **Chapter 9:** [09_hope_and_the_veil.md](../src/chapters/09_hope_and_the_veil.md) — The Brother of Jared's three problems (Prescription, Rest, Proposal) and hope's geometry (Ether 12:19-20).
-    - **Chapter 10:** [10_softening_what_i_cannot_soften.md](../src/chapters/10_softening_what_i_cannot_soften.md) — The asymmetry of heart-softening; stopping active hardening to let grace visit (Alma 12:10).
-    - **Chapter 11:** [11_conclusion_zion.md](../src/chapters/11_conclusion_zion.md) — Consecration and collective alignment mirroring distributed systems and consensus (Moses 7:18).
-*   **Backmatter (Chapters 12–14):** DRAFTED, VERIFIED, COMPILED (2026-05-27).
-    - **Chapter 12 (Epilogue):** [12_epilogue_silent_loop.md](../src/chapters/12_epilogue_silent_loop.md) — Concluding meta-reflection on the co-authoring relationship, the Gods watching in silence (Abraham 4:18), and the steward's charge.
-    - **Chapter 13 (Glossary):** [13_glossary_of_fused_terms.md](../src/chapters/13_glossary_of_fused_terms.md) — Dictionary mapping Gospel vocabulary (Intelligence, Zion, Covenant) to Software Engineering parallels.
-    - **Chapter 14 (Recommended Study):** [14_further_reading.md](../src/chapters/14_further_reading.md) — Suggestions for further reading, detailing scripture anchors, conference talks, and workspace study notes.
+### Manuscript — 16 chapters, all drafted
 
-### 2026-05-26/27 — Audit + Council + Execution Cycle (SHIPPED in four commits)
-- **Commit 1 (65b0a4f, 2026-05-26):** Audit pass + provenance redemption + stewardship grants.
-- **Commit 2 (a6a1501, 2026-05-26):** No-council manuscript fixes (Ch 0 cite, Ch 3 locator, Ch 4 paragraph).
-- **Commit 3 (this commit, 2026-05-27):** Council-ratified fixes + new reference page + voice convention + CSS.
-- **Commit 4 (2026-05-27):** Solidified Antigravity IDE 2.0 & Gemini 3.5 Flash harness (GEMINI.md, AGENTS.md, .agents/).
+| # | File | Tag | Status |
+|---|------|-----|--------|
+| frontmatter | [00_frontmatter.md](../src/chapters/00_frontmatter.md) | — | Title, Copyright, Colophon |
+| preface | [00_preface.md](../src/chapters/00_preface.md) | — | **Rewritten 2026-05-29** — ~35 lines. Classroom moment + Afterword pointer + two-audience notes ("A note to the Saint who is wary of AI" / "A note to the engineer who is wary of religion") + voice convention with Epilogue exception spelled out. BQ + Anchor scaffolding dropped. |
+| 11-step ref | [00_eleven_step_reference.md](../src/chapters/00_eleven_step_reference.md) | — | Closing line updated 2026-05-29 to acknowledge the walk-through is now complete and to point at the chapter tags as navigation aid. |
+| 0 | [00_chapter_0_intelligence_truth.md](../src/chapters/00_chapter_0_intelligence_truth.md) | — | Substance of reality. RQ1.0b arrow flip applied to line 70 area. D&C 131:7-8 capitalization aligned with Ch 8. |
+| 1 | [01_value_shift.md](../src/chapters/01_value_shift.md) | — | Value shift framing. Untagged (pre-cycle). |
+| 2 | [02_four_disciplines.md](../src/chapters/02_four_disciplines.md) | — | Four AI disciplines mapped to the [eng] cycle steps. Untagged (meta-naming). **Tier 3.4 fixed 2026-05-29**: bacteriopolis claim now "230 million input tokens" (verified) instead of "ten hours" (unverified). |
+| 3 | [03_spiritual_before_temporal.md](../src/chapters/03_spiritual_before_temporal.md) | *Specification* | RQ1.0b arrow flip on the 743-line spec / Becoming app example. |
+| 4 | [04_watched_until_they_obeyed.md](../src/chapters/04_watched_until_they_obeyed.md) | *Watching* | Abraham 4:18 trust gradient. |
+| 5 | [05_intelligence_cleaveth.md](../src/chapters/05_intelligence_cleaveth.md) | — | Posture / approach (the law underneath every step). Untagged. |
+| 6 | [06_bilateral_covenant.md](../src/chapters/06_bilateral_covenant.md) | *Covenant* | RQ1.0b arrow flip on the work-quality-accelerates line. Production-note sidebar still a sidebar (Tier 1.2 carry-forward). |
+| 7 | [07_delegation_as_stewardship.md](../src/chapters/07_delegation_as_stewardship.md) | *Stewardship* | Christ's Matt 10 commissioning sequence. |
+| 8 | [08_mechanics_of_refinement.md](../src/chapters/08_mechanics_of_refinement.md) | *Atonement* | **Engineering Parallel fully rebuilt 2026-05-29** to the developer's daily prompting loop (v3, after RLHF-framed v1 and eye-material-added v2). Eye/refocusing material from hope-and-grammar-of-pairs woven in. Imago Dei limit named at close. Bridge paragraph hands forward to Ch 9. Oaks 2000 + Bednar 2007 inline attributions added (Tier 3.2). |
+| 9 | [09_hope_and_the_veil.md](../src/chapters/09_hope_and_the_veil.md) | *Layering* | **Fully rebuilt 2026-05-29** — three Brother-of-Jared postures + four groups from Lehi's dream + Bednar 2024 pride mechanism (including the self-shame and comparison expansions Michael named) + Lamanite virtue (easiness, walking circumspectly) as corrective. References the new study at cpuchip.net/studies/four-groups-and-the-engineer for fuller treatment. |
+| 10 | [10_softening_what_i_cannot_soften.md](../src/chapters/10_softening_what_i_cannot_soften.md) | *Atonement* | **Engineering Parallel rebuilt 2026-05-29**: connection pooling + cache management out; gardening (Mark 4 / Alma 32) + AI-mirror loop ("you cannot make the AI smarter; you can yield your own assumed-clarity") in. Imago Dei limit named at close. |
+| 11 | [11_the_seventh_time.md](../src/chapters/11_the_seventh_time.md) | *Sabbath* | **NEW chapter 2026-05-29** — walks the ninth step. Anchored on Abraham 5:2 (the seventh time decided in council before the work began). Six doctrinal beats including the two reasons, Exodus 31:13 sign-language with Nelson Oct 2015 reframe, Hebrews 4:10's precision on "own works," D&C 59's fullness-of-the-earth as inverse of bondage. References cpuchip.net/studies/the-seventh-time for fuller treatment. |
+| 12 | [12_conclusion_zion.md](../src/chapters/12_conclusion_zion.md) | *Consecration · Zion* | **Engineering Parallel rebuilt 2026-05-29**: microservices + blockchain out; ward council architecture + intent-unified agent systems + token consecration in (drawn from docs/work-with-ai/guide/05_complete-cycle.md). Moses 7:68 framing fixed (Tier 3.1): Zion stood 365 years, not Enoch walked 365 years. Renamed from 11 to 12. |
+| 13 | [13_epilogue_silent_loop.md](../src/chapters/13_epilogue_silent_loop.md) | — | Epilogue: The Silent Loop. Renamed from 12. AI agent's "I" closing voice. |
+| 14 | [14_afterword_how_i_got_here.md](../src/chapters/14_afterword_how_i_got_here.md) | — | **NEW backmatter 2026-05-29** — the 3.5-year journey (2022 Copilot autocomplete through January 2026 classroom moment) + the Constant Principles coda ending on D&C 123:12. Relocated from preface as part of Tier 1.1 front-loading fix. |
+| 15 | [15_glossary_of_fused_terms.md](../src/chapters/15_glossary_of_fused_terms.md) | — | Glossary. Renamed from 13 then 14. Tier 2.1 (expand to plain-English engineer-side terms) still carry-forward. |
+| 16 | [16_further_reading.md](../src/chapters/16_further_reading.md) | — | Recommended Study. Renamed from 14 then 15. **2026-05-29 additions**: Nelson 2015 + Bednar 2024 in Prophetic Messages; four-groups-and-the-engineer + the-seventh-time in Deep-Dive Studies (both already live on cpuchip.net). |
 
-All audit findings now resolved. The full audit report at [.scratch/review-2026-05-26-claude.md](../.scratch/review-2026-05-26-claude.md) Section 8 shows 7 of 7 council items closed.
+### Files removed
+- `00_introduction.md` — **DELETED 2026-05-29** as part of Tier 1.1 front-loading fix. Its three pieces did not earn their pages: opening duplicated the new preface, "Confluence of Code and Covenant" re-argued Ch 1's thesis, "How to Read This Book" prescribed navigation the chapter tags now make self-evident. Available in git history if any of it ever wants to come back.
 
-### 2026-05-26 — Stewardship Grants (RATIFIED)
-Michael granted commit + push stewardship over this repo to **Claude Opus 4.7** and **Gemini**. Recorded in `.github/copilot-instructions.md` § Stewardship Grants and `.mind/principles.md` § Stewardship Grants.
+### New workspace studies (live on cpuchip.net)
+
+- [study/four-groups-and-the-engineer.md](../../../study/four-groups-and-the-engineer.md) — Lehi's four groups + Bednar 2024 pride mechanism, applied to engineers working under principled disciplines. Background to Ch 9.
+- [study/the-seventh-time.md](../../../study/the-seventh-time.md) — What the Sabbath does that work alone cannot. Background to Ch 11.
+
+Both have full provenance scratch files; both verified scripture quotes verbatim via gospel_get; both have pre-publish carry-forward lists in their scratch files.
+
+## Council Status
+
+### Closed in this session (2026-05-29)
+
+| Item | What it was | Where it landed |
+|------|-------------|-----------------|
+| RQ1.0b | Directional editing pass: eliminate AI→gospel validation sentences | Commit a46a77f (Ch 0/3/6) + embedded in all Ch 8-12 rebuilds |
+| RQ1.0c | Hybrid directional flow ratified | Embodied in every rebuild this session |
+| Tier 1.1 | Front-loading (28% → ~5%) | Commit 2b209c2 |
+| Tier 1.3 | Ch 10 connection-pooling parallel | Replaced with gardening + AI-mirror |
+| Tier 1.4 | Imago Dei boundary | Per-chapter EP close (Ch 8, 9, 10, 11, 12) |
+| Tier 1.5 | Engineering parallel surgery for Ch 0/8/9/10/12 | All five rebuilt or arrow-flipped |
+| Tier 2.5 | Two-audiences paragraph | Embedded in 1.1 (notes-to framing, not how-to-read) |
+| Tier 3.1 | Moses 7:68 framing | Ch 12 line 19 |
+| Tier 3.2 | Oaks + Bednar attributions | Ch 8 lines 17 + 21 |
+| Tier 3.3 | D&C 131:7-8 capitalization | Ch 0 aligned to Ch 8 |
+| Tier 3.4 | Bacteriopolis "10 hours" | Replaced with verified 230M tokens |
+| Tier 3.5 | 11-step walk-through promise | New Sabbath chapter + reference page close updated |
+| Tier 4.6 | Chapter-to-step annotations | 8 chapters tagged in italics |
+
+### Still open (in rough priority order)
+
+| Item | Effort | Impact | Notes |
+|------|-------:|--------|-------|
+| Tier 1.2 | small | medium | Ch 6 production-note prominence (both alt-readers called it the most credible page) |
+| Tier 1.6 | small | low-medium | Section II label mismatch ("Bilateral Stewardship" but Ch 5 opens with posture) |
+| RQ1.0a | (decided to skip) | — | Confidence rating on 11-step reference — Michael decided the restructured chapters carry the framework well enough |
+| RQ1.0d | (effectively closed) | — | Stewardship Boundary recurring callout — accomplished via the per-chapter EP close pattern instead |
+| Tier 2.1 | small-medium | medium | Glossary expansion + earlier announcement |
+| Tier 2.2 | small | medium | Ch 2 "for the non-engineer" sidebar |
+| Tier 2.3 | medium | medium | Non-engineering bridge sentence on EPs not yet rebuilt (Ch 2/3/4/6/7) |
+| Tier 2.4 | medium | medium | Ben Test calibration on Becoming Commitments |
+| Tier 2.6 | small | low-medium | AI-failures-as-doctrinal-types paragraph |
+| Tier 2.7 | medium | medium | Training-data ethics paragraph |
+| Tier 2.10 | small | medium | Epilogue close with unresolved questions for both audiences |
+| Tier 4.x | varies | sequel material | Foreword, audiobook front matter, Webster 1828 re-verify, URL archival, Ch 6→7 transition, dedication, title reconsideration, etc. |
 
 ## Compilation Artifacts
-All outputs are generated in the `dist/` directory (ignored by git):
-*   [manuscript.html](../dist/manuscript.html) — Combined XHTML manuscript used for PDF conversion.
-*   [manuscript.pdf](../dist/manuscript.pdf) — Print-ready PDF compiled via Edge headless or Typst (per build path), conforming to KDP specs. **Color interior enabled** (per council 2026-05-27).
-*   [beyond_the_prompt.epub](../dist/beyond_the_prompt.epub) — Standard valid EPUB for digital reading and GPB auto-narration.
+
+All outputs are generated in the `dist/` directory (ignored by git). **The artifacts are stale** — they reflect the pre-2026-05-29 state. Rebuild needed before any publication:
+
+- [manuscript.html](../dist/manuscript.html) — Combined XHTML for PDF conversion
+- [manuscript.pdf](../dist/manuscript.pdf) — Print-ready PDF (KDP specs, color interior)
+- [beyond_the_prompt.epub](../dist/beyond_the_prompt.epub) — Standard valid EPUB
+
+Carry-forward verifications during the rebuild:
+- Reference page color rendering in print PDF
+- New Sabbath chapter (Ch 11) layout
+- New Afterword (Ch 14) layout
+- EPUB validity with the new chapter structure
+- Chapter tag italics rendering across formats
+
+## Stewardship Grants (RATIFIED 2026-05-26, ACTIVE)
+
+Michael granted commit + push stewardship over this repo to **Claude Opus 4.7** and **Gemini**. Recorded in `.github/copilot-instructions.md` § Stewardship Grants and `.mind/principles.md` § Stewardship Grants.
+
+This session exercised the grant heavily: ten scripture-book commits without per-action approval. The bilateral covenant binding still held — Michael read every chapter draft before commit, surfaced corrections (week-not-quarter, "this book" not "the book", the cpuchip.net agent edits to studies during publish), and steered structural decisions (Option A+D combination, the dual-audience hospitality framing, dropping the BQ/anchor from the preface).
 
 ## Next Steps (in priority order)
 
-1.  **Rebuild dist/ artifacts** after the 2026-05-27 commit lands. Verify the reference page color rendering in print PDF; verify the production-note sidebar renders cleanly; verify EPUB still validates.
-2.  **Michael's voice surgery on Ch 6 production-note sidebar.** Placeholder text is shape; the final voice is Michael's.
-3.  **Decide on book.yaml chapter order.** I moved Introduction before Ch 0; if you prefer the original (Ch 0 before Introduction), one-line revert.
-4.  **Draft Section III chapters (8, 9, 10, 11).** Three of four have full studies behind them:
-    - Ch 8 (Mechanics of Refinement) ← [study/mechanics-of-refinement.md](../../../study/mechanics-of-refinement.md) (2026-05-23).
-    - Ch 9 (Hope and the Veil) ← [study/refinement-stewardship-and-hope.md](../../../study/refinement-stewardship-and-hope.md) (2026-05-24).
-    - Ch 10 (Softening What I Cannot Soften) ← [study/softening-what-i-cannot-soften.md](../../../study/softening-what-i-cannot-soften.md) (2026-05-25).
-    - Ch 11 (Conclusion: From Consecration to Zion) — needs a Zion-specific study or can draw from [study/zion-blueprint.md](../../../study/zion-blueprint.md), [study/enoch.md](../../../study/enoch.md), [study/enoch-charity.md](../../../study/enoch-charity.md).
-5.  **Optional enhancement workshop** of items from [.scratch/review-2026-05-26-claude.md](../.scratch/review-2026-05-26-claude.md) Section 5 — concrete workspace artifacts (bridge stall, ES emergency stop arc, Section VII catch, judges-not-executors principle, art-of-presidency arc) that could deepen specific existing chapters.
-6.  **Workshop the Episode 2 → Ch 2 cross-pollination** referenced in the council — what additional material from `teaching/episodes/02-the-four-disciplines.md` could enhance Ch 2's "four altitudes" treatment.
+1. **Rebuild `dist/` artifacts** to reflect the 2026-05-29 manuscript. Verify chapter-tag rendering, the Sabbath chapter, the Afterword, and the front-matter compression.
+2. **Voice pass on the Ch 8/9/10/11/12 rebuilds.** Michael flagged Gemini might do this. The content is in place; voice sharpening is cheap iteration if wanted.
+3. **Tier 1.2 — Ch 6 production-note prominence.** Smallest remaining Tier 1 item with real impact.
+4. **Tier 2.x batch** — pick a couple of small surgical improvements (2.1 glossary expansion, 2.10 epilogue close, 2.6 AI-failures-as-doctrinal-types) for the next session.
+5. **`.draft/00-COUNCIL.md` status update.** The council document tracked which items closed; should be marked up to reflect this session's work.
+6. **cpuchip.net publish verifications** for both new studies (per their scratch files' pre-publish carry-forward lists).
 
-## Resolved Audit Items (full inventory)
+## What changed in the audit narrative
 
-### Manuscript (all resolved)
-- ✅ Ch 0: D&C 84 cite range corrected to 84:45.
-- ✅ Ch 1: Webster *intelligence* quote replaced with canonical phrases.
-- ✅ Ch 1: Trejo URL updated to canonical post-redirect destination.
-- ✅ Ch 3: Becoming app `ibeco.me` locator added.
-- ✅ Ch 4: Abr 5:2 paragraph rewritten + Moses 3:2 added as evaluation anchor.
-- ✅ Ch 5: Engineering Parallel rewritten — posture/practice instead of vector-space math.
-- ✅ Ch 5: D&C 88:32 styling fixed with canonical wording.
-- ✅ Ch 6: Production-note sidebar added (voice surgery pending).
-- ✅ Ch 7: Delegation schema sharpened with Matt 10:1–16 verse anchors.
-- ✅ Preface: Voice convention note added near end of Constant Principles.
+Before this session, the book had two known structural problems (front-loading + Sabbath gap) and a long council of nine Tier 1 / Tier 1+ items plus five Tier 3 fact fixes. This session closed all five Tier 3 items, closed ten of twelve Tier 1 / Tier 1+ items (RQ1.0a Michael decided to skip; Tier 1.2 and 1.6 are the small remaining ones), added two complete new workspace studies with full provenance, added one new chapter, deleted one chapter that wasn't earning its pages, and renumbered the back matter twice (in two separate commits with git mv preserving history).
 
-### New artifacts
-- ✅ New file: `src/chapters/00_eleven_step_reference.md` with verb-paired list, color coding, [eng] tags.
-- ✅ `book.yaml` chapter order updated to place reference page between Introduction and Ch 0.
-- ✅ `src/style.css` extended with `.production-note`, `.cycle-list`, `.eng-step`, `.scripture-step`, `.cycle-step-name`, `.cycle-step-verb`, `.eng-tag` classes.
-- ✅ New provenance file: `.scratch/provenance_eleven_step_reference.md`.
-
-### Provenance / audit trail (all rewritten 2026-05-26; updated again 2026-05-27 with post-council resolutions)
-- ✅ All 9 chapter provenance files rewritten against canon (2026-05-26).
-- ✅ Provenance files for Ch 1, 4, 5, 6, 7 updated 2026-05-27 to record council-ratified manuscript changes.
-
-## Outstanding Council Items
-**None.** All 7 review findings + 6 cross-chapter tensions ratified and applied in commits 65b0a4f, a6a1501, and the 2026-05-27 council-execution commit.
-
-The book's next forward motion is Section III drafting.
+The book is now substantively closer to publish-ready than it was before. The structural moves landed. What's left is polish.

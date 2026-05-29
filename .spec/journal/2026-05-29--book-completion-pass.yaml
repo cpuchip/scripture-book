@@ -1,0 +1,285 @@
+date: 2026-05-29
+session: book-completion-pass
+type: execution
+workstream: WS6
+summary: |
+  Marathon work session across the full council document. Closed ten of twelve
+  Tier 1 / Tier 1+ items from the audit. Closed all five Tier 3 verified factual
+  fixes. Closed the largest structural items (front-loading + engineering-parallel
+  surgery on five chapters + new chapter for the missing Sabbath step). Wrote two
+  new workspace studies with full provenance discipline. Multiple commits across
+  scripture-book + workspace repos.
+
+  Three core ratifications drove everything else:
+
+  1. RQ1.0c — hybrid directional flow ratified. The 4 [eng] chapters flow
+     "AI-noticed-it → recognition → gospel framing." The 7 non-[eng] chapters
+     flow "scripture → engineering question → application." Both serve the
+     same thesis (gospel as the lens; AI as the lit thing) without putting
+     AI in the validation seat. Embodied across every Ch 8-12 rebuild.
+
+  2. RQ1.0b — directional editing pass. Three flagged sentences flipped
+     (Ch 0 line 70, Ch 3 line 44, Ch 6 line 45) in commit a46a77f. Plus
+     the new EP rebuilds carry the directionality structurally.
+
+  3. RQ1.1 — front-loading fix (Option A + revised Option D). Preface
+     trimmed to ~35 lines (was ~70). Introduction deleted entirely.
+     Afterword created as new Ch 14 with the 3.5-year journey + Constant
+     Principles material. Two-audiences notes added to the preface as
+     hospitality ("A note to the Saint who is wary of AI" / "A note to
+     the engineer who is wary of religion") — Michael's distinction
+     between notes-to and how-to-read framing was the key reframe.
+
+  Five chapter rebuilds (the engineering parallel section of each):
+
+  Ch 8 (Atonement step — Mechanics of Refinement) — three iterations.
+     v1 used post-training alignment (RLHF / Constitutional AI / DPO) as
+     the parallel. Engineer-reader concerns surfaced. v2 incorporated
+     the eye/refocusing material from the hope-and-grammar-of-pairs study
+     and named the imago Dei limit. Michael flagged that 99% of readers
+     don't train models. v3 moved the parallel to the developer's
+     daily prompting loop ("the model stays the same; you change") —
+     same orientation+correction structure, but in the reader's actual
+     lived experience. v3 holds.
+
+  Ch 9 (Layering step — Hope and the Veil) — rebuilt around three
+     Brother-of-Jared stewardship postures (Prescription / Rest / Proposal)
+     + four groups from Lehi's dream + Bednar 2024 pride mechanism +
+     Lamanite virtue (easiness, walking circumspectly). The pride
+     mechanism expanded beyond external mockery to include self-shame
+     and comparison — Michael's contribution that maps cleanly to
+     Bednar's pride framing.
+
+  Ch 10 (Atonement step — Softening) — connection-pooling + cache management
+     out (the most strained parallel per all three reader passes). Gardening
+     (Mark 4 / Alma 32, already in scripture) as primary doctrinal parallel.
+     AI-output-as-mirror-of-vague-intent as the engineering echo ("you cannot
+     make the AI smarter; you can yield your own assumed-clarity").
+
+  Ch 11 NEW (Sabbath step — The Seventh Time) — full new chapter walking
+     the ninth step of the eleven-step creation cycle. Anchored on
+     Abraham 5:2 (the seventh time named in council before the work
+     began). Six doctrinal beats including the two reasons (creation at
+     Sinai + Egypt in Moab), the sign-language reframe (Exodus 31:13 +
+     Nelson Oct 2015), Hebrews 4:10's precision on "own works," and
+     D&C 59's fullness-of-the-earth as inverse of bondage. Engineering
+     parallel: retrospectives-during-sprints aren't Sabbath; the discipline
+     is stopping entirely; two cadences (weekly + end-of-cycle); the
+     "saw they were good" pronouncement engineers usually skip.
+
+  Ch 12 (was Ch 11, Consecration · Zion) — microservices-orchestration
+     and blockchain-consensus framing replaced with ward council architecture
+     + intent-unified agent systems + token consecration. Drew directly
+     from Michael's pre-existing guide work in docs/work-with-ai/. The
+     Reverse-lens insight that microservices optimize for partition tolerance
+     (the opposite of "one heart and one mind") sharpened the rebuild.
+
+  Two new workspace studies, both with full provenance discipline:
+
+  study/four-groups-and-the-engineer.md — Bednar 2024's "In the Space of
+     Not Many Years" reading of Lehi's Group 2 fall as a pride failure,
+     applied to engineers who learned the discipline of working with AI.
+     The pride mechanism (prosperity → pride → forgetting → boasting →
+     Spirit withdraws) mapped to engineers under their own form of
+     prosperity. The Lamanite virtue (easiness, circumspect walking,
+     daily discipline) as the corrective. Currently live on cpuchip.net.
+
+  study/the-seventh-time.md — What the Sabbath does that work alone cannot.
+     The seventh time decided in council before the work began (Abraham 5:2).
+     The "saw they were good" pronouncement built into the rest. The two
+     reasons (creation + Egypt) as descriptions of the same Lord. Nelson's
+     pivot from rules to sign. Hebrews 4:10's precision on "own works."
+     All twelve scripture quotes verified verbatim via gospel_get this
+     session. Nelson 2015 verified verbatim against local talk file.
+     Currently live on cpuchip.net.
+
+  Verified factual fixes (all Tier 3 from the council):
+
+  Tier 3.1 — Moses 7:68 framing in Ch 12 (was 11). "Enoch walked 365 years"
+     → "Zion stood among his people for 365 years." Canon refers to Zion's
+     duration, not Enoch's walking-with-God span. The 133,225-days math
+     preserved.
+
+  Tier 3.2 — Oaks + Bednar attributions in Ch 8. Both verified verbatim
+     against local talk files; inline citations added. Oaks: "The Challenge
+     to Become," October 2000 GC. Bednar: "Clean Hands and a Pure Heart,"
+     October 2007 GC.
+
+  Tier 3.3 — D&C 131:7-8 capitalization aligned. Ch 0 brought into line
+     with Ch 8 (capital "We" preserving canonical verse 8 start).
+
+  Tier 3.4 — Ch 2 bacteriopolis claim. "Ran for ten hours" replaced with
+     verified "burned through 230 million input tokens" from the ES
+     emergency-stop journal. Michael confirmed the actual runtime was
+     under an hour; the token count is the concrete, verifiable figure.
+
+  Tier 3.5 — 11-step walk-through promise. Closed via the new Sabbath
+     chapter (the last of the seven non-[eng] steps without a chapter)
+     + 11-step reference page closing line updated to acknowledge
+     completion + chapter-tag pointer added.
+
+  Chapter tagging — All 8 walkable chapters tagged with their cycle-step
+     word in single-line italics under the H1, no extra text. Reader
+     makes the connection from the reference page's verb-paired list.
+
+  Front matter restructure (Tier 1.1) — five sources in the editing-research
+     audit converged on weave-or-afterword the personal narrative + dissolve
+     the introduction. Multi-model brainstorm added the two-audiences
+     hospitality frame. Both moves landed in one structural sweep. Front
+     matter dropped from ~250 lines (28% of an 80-page book) to ~110 lines
+     (~5%, in range with Lewis, Lanier, Peterson, Newport, Sapiens, Bushman).
+
+  Two renumber operations were done across the session:
+  - First: Ch 11-14 → Ch 12-15 when the Sabbath chapter was inserted as Ch 11
+  - Second: Ch 14-15 → Ch 15-16 when the Afterword was inserted as Ch 14
+  Both used git mv to preserve history.
+
+  Recommended Study (now Ch 16) updated to include Nelson 2015 + Bednar 2024
+  in Prophetic Messages, plus the two new studies in Deep-Dive Studies.
+
+discoveries:
+  - Michael's distinction between "notes to" the dual audiences and "how to
+    read for" them landed as the cleanest possible Option D execution.
+    Hospitality framing instead of prescription matches the warmth-over-
+    distance value better than any audience-translation-key formulation I
+    proposed. Lesson generalized: when offering navigation aid to readers,
+    address them in second person as guests rather than instructing them
+    in third person as students.
+
+  - The Ch 8 v1 → v2 → v3 iteration was a real-time enactment of the
+    Group B dynamic the four-groups study describes. Michael did not start
+    the session knowing what the Ch 8 EP should be. Neither did I. But we
+    both kept the grip on something (what this chapter was actually about,
+    what good output for this book would look like), and the standard
+    revealed the answer through the loop. The session's process literally
+    rehearsed the chapter's thesis. We chose not to name this meta-pattern
+    in the book itself; the lived demonstration is the proof, not the
+    explanation.
+
+  - Bednar's October 2024 reading of 1 Nephi 8:28 as a pride failure
+    (rather than as a "scoffers got loud" failure) was the load-bearing
+    discovery of the session. It unified the three forms of Group 2's
+    eye-drift (external scoffing, self-shame, comparison) under a single
+    structural root. The new four-groups study and the new Ch 9 rebuild
+    both rest on this read.
+
+  - The seventh-time framing in Abraham 5:2 ("On the seventh time we will
+    end our work, which we have counseled; and we will rest on the seventh
+    time from all our work which we have counseled") is sharper than the
+    Genesis/Moses framing because it names the rest as decided IN COUNCIL,
+    before the work began. The Sabbath is the structural close decided upfront,
+    not the afterthought. This framing is now the anchor for Ch 11 and the
+    binding-question pivot for the seventh-time study.
+
+  - The two-reasons of the fourth commandment (creation at Sinai, Egypt in
+    Moab) are not in competition; they describe the same Lord from two
+    angles. The Sabbath remembers both that He built rest into the world AND
+    He broke the slavery-economy that violated it. Nelson's "rich slave"
+    footnote (a millionaire who works seven days a week is a slave) lands
+    this in a way most modern Sabbath teaching does not.
+
+  - Workspace docs/work-with-ai/guide/05_complete-cycle.md was a goldmine
+    for the Ch 12 (was 11) rebuild — Michael had already worked out the
+    ward-council-vs-conductor model and the intent-unified-agent-systems
+    framing months ago. Gemini's microservices-blockchain framing for the
+    original Ch 11 had not drawn from this. Lesson: when Gemini drafts
+    in the post-harness era, the source-verification problem is largely
+    fixed but the doctrinal-imagination problem persists — Gemini drafted
+    Ch 11 without knowing the workspace already had a stronger answer.
+    Adjacent-Surface Audit caught this only because we explicitly
+    searched workspace material for source-doc alignment before the rebuild.
+
+  - The pace at which a Group 3 engineer can drift to Group 2 is faster
+    in AI development than in the broader scriptural pattern Bednar
+    teaches from Helaman. Michael revised the Ch 9 framing from "in the
+    space of not many quarters" to "in the space of not many weeks"
+    explicitly to acknowledge that AI velocity compresses the timescale.
+    The principle holds; the cadence is sharper.
+
+  - Long collaborative writing sessions hold up to many iterations when
+    the source material is verified-against-canon at every step. The
+    four-groups and seventh-time studies have provenance files recording
+    exactly what was verified, by which tool, against which source. The
+    pre-cpuchip.net-publish carry-forward in each scratch file makes the
+    eventual public-publish pass much smaller because the verification
+    debt is named and bounded.
+
+carry_forward:
+  - Tier 1.2 — Ch 6 production-note prominence. Sidebar is still a sidebar.
+    Both alt-readers called it the most credible page in the book. Worth
+    elevating to a boxed callout, page break, or short chapter.
+  - Tier 1.6 — Section II label mismatch. "Bilateral Stewardship" but Ch 5
+    opens with posture, not delegation. Small rename of section title or
+    chapter move.
+  - Tier 2.1 — Glossary expansion + announce earlier. Currently 10 terms.
+    Could add 5-10 plain-English engineer-side definitions.
+  - Tier 2.2 — Ch 2 "for the non-engineer" sidebar.
+  - Tier 2.3 — Non-engineering bridge sentence on EPs not yet rebuilt
+    (Ch 2/3/4/6/7).
+  - Tier 2.4 — Ben Test calibration on Becoming Commitments across all
+    chapters.
+  - Tier 2.6 — AI-failures-as-doctrinal-types paragraph (hallucination →
+    false revelation, drift → apostasy).
+  - Tier 2.7 — Training-data ethics paragraph somewhere in the book.
+  - Tier 2.10 — Epilogue close with unresolved questions for both audiences.
+  - Tier 4.x — Foreword (4.1), audiobook front matter (4.2), Webster 1828
+    re-verification (4.3), external URL archival (4.4), Ch 6→7 transition
+    bridging (4.5), dedication (4.8), title reconsideration (4.9).
+  - Rebuild dist/ artifacts. The reference page color rendering, the new
+    Sabbath chapter's print layout, the EPUB validation — all need a
+    build pass before any publication.
+  - cpuchip.net publish verifications for both new studies. The seventh-
+    time study had a pre-publish carry-forward list in its scratch file:
+    Nelson 2015 verbatim re-check, Webster 1828 entries for "easiness"
+    and "circumspectly" if a deeper etymology pass is wanted, possible
+    title broadening for non-LDS audience.
+  - Voice pass on the Ch 8/9/10/11/12 rebuilds. Michael flagged that
+    Gemini might do this. The content is in place; voice sharpening is
+    cheap iteration if wanted.
+  - .draft/00-COUNCIL.md status update. The council document was the
+    entry point Michael used to navigate this session's work; it should
+    be updated to reflect which items closed.
+
+files_changed:
+  - projects/scripture-book/src/chapters/00_preface.md (rewritten)
+  - projects/scripture-book/src/chapters/00_introduction.md (DELETED)
+  - projects/scripture-book/src/chapters/00_chapter_0_intelligence_truth.md (D&C 131 cap + arrow flip)
+  - projects/scripture-book/src/chapters/00_eleven_step_reference.md (closing line tightened)
+  - projects/scripture-book/src/chapters/02_four_disciplines.md (Tier 3.4 230M tokens)
+  - projects/scripture-book/src/chapters/03_spiritual_before_temporal.md (arrow flip + tag)
+  - projects/scripture-book/src/chapters/04_watched_until_they_obeyed.md (tag)
+  - projects/scripture-book/src/chapters/06_bilateral_covenant.md (arrow flip + tag)
+  - projects/scripture-book/src/chapters/07_delegation_as_stewardship.md (tag)
+  - projects/scripture-book/src/chapters/08_mechanics_of_refinement.md (Oaks+Bednar attr + EP rebuild v3 + bridge + tag)
+  - projects/scripture-book/src/chapters/09_hope_and_the_veil.md (full rebuild + four groups + Bednar 2024 + tag)
+  - projects/scripture-book/src/chapters/10_softening_what_i_cannot_soften.md (EP rebuild gardening+AI-mirror + tag)
+  - projects/scripture-book/src/chapters/11_the_seventh_time.md (NEW Sabbath chapter)
+  - projects/scripture-book/src/chapters/12_conclusion_zion.md (was 11; H1 bump + EP rebuild ward council + Moses 7:68 fix + tag)
+  - projects/scripture-book/src/chapters/13_epilogue_silent_loop.md (was 12; rename only)
+  - projects/scripture-book/src/chapters/14_afterword_how_i_got_here.md (NEW Afterword)
+  - projects/scripture-book/src/chapters/15_glossary_of_fused_terms.md (was 13 then 14; rename only)
+  - projects/scripture-book/src/chapters/16_further_reading.md (was 14 then 15; rename + Nelson 2015 + Bednar 2024 + Four Groups + Seventh Time additions)
+  - projects/scripture-book/book.yaml (intro removed; seventh-time inserted at 11; afterword inserted at 14; backmatter renumbered)
+  - study/four-groups-and-the-engineer.md (NEW workspace study)
+  - study/.scratch/four-groups-and-the-engineer.md (NEW provenance)
+  - study/the-seventh-time.md (NEW workspace study)
+  - study/.scratch/the-seventh-time.md (NEW provenance)
+  - projects/scripture-book/.mind/active.md (refreshed alongside this journal)
+
+commits:
+  scripture-book:
+    - a46a77f — Flip three AI→gospel validation arrows (RQ1.0b)
+    - 2dd8577 — Ch 11 rebuild: ward council, not microservices
+    - b1841db — Refine language Ch 0 + Ch 8 (Michael's commit during session)
+    - 23fb3c7 — Enhance Ch 9 stewardship-postures (Michael's commit)
+    - 83dfd21 — Tag eight chapters with their 11-step cycle word
+    - 7a37fa6 — Add Ch 11: The Seventh Time (Sabbath chapter)
+    - 2d15add — Renumber Ch 11-14 → Ch 12-15
+    - c99af62 — Acknowledge cycle walk + add Nelson 2015 + Bednar 2024 + new studies to Ch 15 (now 16)
+    - 9fa7b1f — Ch 2: replace "10 hours" with verified 230M tokens (Tier 3.4)
+    - 2b209c2 — Tier 1.1 front-loading fix (preface rewrite + intro delete + afterword + renumber)
+  workspace:
+    - 0d5d831 — Add four-groups-and-the-engineer study
+    - a08d07a — four-groups pre-publish verification fixes
+    - 60f6fba — four-groups Michael's edits during cpuchip.net publish
+    - 9636819 — Add the-seventh-time study + provenance
