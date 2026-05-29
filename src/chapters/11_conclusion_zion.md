@@ -1,5 +1,7 @@
 # Chapter 11: From Consecration to Zion
 
+*Consecration · Zion*
+
 **Binding Question:** How does the daily cycle of individual refinement accumulate to build a Zion society?
 
 **Anchor Passage:**

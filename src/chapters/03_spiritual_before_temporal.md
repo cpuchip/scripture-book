@@ -1,5 +1,7 @@
 # Chapter 3: Spiritual Before Temporal
 
+*Specification*
+
 **Binding Question:** Why must we create all things spiritually before they are created naturally, and what does this look like in AI collaboration?
 
 **Anchor Passage:**

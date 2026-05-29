@@ -1,5 +1,7 @@
 # Chapter 7: Delegation as Stewardship
 
+*Stewardship*
+
 **Binding Question:** How do we scale complex creations without descending into micromanagement or losing alignment?
 
 **Anchor Passage:**

@@ -1,5 +1,7 @@
 # Chapter 9: Hope and the Veil
 
+*Layering*
+
 **Binding Question:** How do the three stewardship patterns of the Brother of Jared (Prescription, Rest, and Proposal) and the geometry of Hope guide a steward's active agency?
 
 **Anchor Passage:**

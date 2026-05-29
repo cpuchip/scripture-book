@@ -1,5 +1,7 @@
 # Chapter 4: Watched Until They Obey
 
+*Watching*
+
 **Binding Question:** How does the feedback loop of reviewing, steering, and verifying AI output mirror the divine pattern of Creation?
 
 **Anchor Passage:**

@@ -1,5 +1,7 @@
 # Chapter 6: Bilateral Covenant
 
+*Covenant*
+
 **Binding Question:** How do we structure relationship and boundaries to bind collaborative action to predictable, high-quality outcomes?
 
 **Anchor Passage:**
