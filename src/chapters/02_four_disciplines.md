@@ -1,5 +1,7 @@
 # Chapter 2: The Four Disciplines
 
+*Creation · Context · Intent · Specification*
+
 **Binding Question:** Prompt craft, context engineering, intent engineering, spec engineering—what does each one cover, and what do they leave for the work itself?
 
 **Anchor Passage:**

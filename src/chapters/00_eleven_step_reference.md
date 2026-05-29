@@ -7,7 +7,7 @@ This book references these eleven steps throughout — the pattern by which the 
   <li class="scripture-step"><span class="cycle-step-name">Covenant</span> — <span class="cycle-step-verb">binding</span>. A mutual agreement with commitments on both sides.</li>
   <li class="scripture-step"><span class="cycle-step-name">Stewardship</span> — <span class="cycle-step-verb">entrusting</span>. Handing real authority within bounds.</li>
   <li class="eng-step"><span class="cycle-step-name">Specification</span> — <span class="cycle-step-verb">blueprinting</span>. The spiritual creation before any physical doing. <span class="eng-tag">eng</span></li>
-  <li class="eng-step"><span class="cycle-step-name">Line upon Line</span> — <span class="cycle-step-verb">layering</span>. Understanding built in stages across many sessions. <span class="eng-tag">eng</span></li>
+  <li class="eng-step"><span class="cycle-step-name">Line upon Line</span> — <span class="cycle-step-verb">context</span>. Understanding built in stages across many sessions; what the industry calls context engineering. <span class="eng-tag">eng</span></li>
   <li class="eng-step"><span class="cycle-step-name">Physical Creation</span> — <span class="cycle-step-verb">executing</span>. The actual interaction where work happens. <span class="eng-tag">eng</span></li>
   <li class="scripture-step"><span class="cycle-step-name">Watching</span> — <span class="cycle-step-verb">observing</span>. Abraham 4:18 — until they obeyed.</li>
   <li class="scripture-step"><span class="cycle-step-name">Atonement</span> — <span class="cycle-step-verb">re-aiming</span>. Turning the eye back to intent when drift happens.</li>
