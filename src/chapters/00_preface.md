@@ -16,7 +16,7 @@ The chronology of how I got here — the three-and-a-half years before that clas
 
 ## A note to the Saint who is wary of AI
 
-The principles in this book come from scripture first. The AI workflows it describes are a small modern instance of patterns scripture has carried since Abraham. If the technical vocabulary distances you in places, slow down at those places and let the doctrine carry. The engineering parallels sit beside the scripture rather than depending on it.
+The principles in this book come from scripture first. The AI workflows it describes are a small modern instance of patterns scripture has carried since Adam. If the technical vocabulary distances you in places, slow down at those places and let the doctrine carry. The engineering parallels sit beside the scripture rather than depending on it.
 
 ## A note to the engineer who is wary of religion
 
