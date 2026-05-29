@@ -16,4 +16,4 @@ This book references these eleven steps throughout — the pattern by which the 
   <li class="scripture-step"><span class="cycle-step-name">Zion</span> — <span class="cycle-step-verb">harmonizing</span>. Many agents working as one.</li>
 </ol>
 
-Four down. Seven to go. The seven are not more organizing — they are the verbs scripture has carried that the framework has yet to name. The rest of this book is the walk through them.
+Four are named by the framework. Seven scripture has carried since Abraham. The chapters that follow walk each one in turn — each chapter tagged, in italics under its title, with the step or steps it carries.
