@@ -25,3 +25,5 @@ This book makes theological claims, and you will see them. The point is not to c
 ---
 
 A note on voice: throughout this book, "I" marks moments of personal experience — when I am recounting a specific memory, decision, or moment from my own life. "We" is the collaborative voice: between human and AI agents, between collaborators on a project, and between writer and reader walking the same path together. The Epilogue is the one exception — there, "I" steps over to the AI agent who has been co-writing, as a deliberate inversion to close the loop.
+
+A note on the chapter endings: each chapter closes with a Becoming Commitment. These are the commitments the chapter pressed on me — written plainly, including the ones I still keep poorly. They are one person's worked example, not a prescription for yours. Read them, and then write your own.

@@ -33,7 +33,7 @@ GitHub Copilot continues to operate under the broader workspace stewardship; thi
     *   **Anchor Passage:** A blockquoted scripture or prophetic citation.
     *   **The Core Reframe:** The scripture/doctrinal analysis.
     *   **The Engineering Parallel:** The concrete software/AI workflow analogy.
-    *   **Becoming Commitment:** Practical personal action items.
+    *   **Becoming Commitment:** The author's first-person commitments from the chapter's study — honest, including where the practice is still aspirational (calibrate against the Ben Test; do not let an "I will" outrun real practice, and mark aims as aims). Offered as one person's worked example for the reader to adapt, not prescribed to them. The preface frames them this way for the reader.
 2.  **Voice & Tone:** Deep, direct, unadorned, personal, warm. Avoid generic summaries, presenter tics, or meta-narration of the document's structure (e.g. "In this chapter, we will look at...").
 3.  **Transitions:** Sections and paragraphs connect by causation (*therefore* or *but*) rather than sequence (*and then* or *first/secondly*).
 4.  **Verification:** Every scripture quote and general conference reference must be linked to its online/local gospel library path.

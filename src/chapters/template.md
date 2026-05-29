@@ -22,4 +22,4 @@
 
 ## Becoming Commitment
 
-[Close with a personal commitment and action plan. How does this reframe change daily habits, behaviors, or studies?]
+[Close with the author's first-person commitments drawn from this chapter — honest, including where the practice is still aspirational. Calibrate against the Ben Test: do not let an "I will [daily X]" outrun real practice; mark aims as aims ("I am working toward..."). These are one person's worked example for the reader to adapt, not a prescription. The preface frames them this way for the reader.]
