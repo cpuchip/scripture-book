@@ -102,3 +102,48 @@ files_changed:
   - src/chapters/15_glossary_of_fused_terms.md
   - .scratch/provenance_chapter_6.md
   - .mind/active.md
+
+addendum_ben_test:
+  commit: 42f93e5
+  summary: |
+    Same-session follow-on: Michael asked for the Ben Test on Ch 8-11 Becoming
+    Commitments. Applied it with his actual-practice answers as the calibration
+    source -- the test requires the human's lived truth; I can categorize
+    exposure from the text but cannot assign a practice rate.
+
+    Kept (confirmed practiced): Ch 10 #1 morning bow; Ch 8 #3 daily repentance
+    folded into morning worship; Ch 9 #1 prayer + scripture most-days, often via
+    the study/chat itself. Calibrated to honest aspirational: Ch 10 #2 (first
+    hour), Ch 11 #1/#2/#3/#4 (Sabbath cluster). Ch 11 #3 made consistent with the
+    Ch 4 #2 calibration from the morning pass.
+
+    Michael chose "own it (dogfooding)" for the Sabbath irony. Added a Ch 11
+    production-note in the Ch 6 register: the chapter committing to Sabbath rest
+    was built on Sabbath/late-night work, added to a focus-list a prior
+    work-sabbath (2026-05-23) had deliberately excluded -- while naming what IS
+    kept (the between-session cessation: leave the work at night, worship in the
+    morning, then plan). Voice open for Michael's pass.
+  discoveries:
+    - The Ben Test's calibration input MUST come from the human. The two-question
+      AskUserQuestion split (daily / weekly) drew out nuance no guess would have
+      reached -- repentance folded into worship, scripture via our chats, the
+      daily between-session pause as the real seed of the weekly Sabbath.
+    - "Name what IS working" mattered as much as flagging overclaim. Several
+      commitments stayed in "I will" because they are genuinely practiced.
+      Calibrating those down would have been false humility -- a Ben Test failure
+      in reverse.
+    - Owning the Sabbath gap is the same credibility mechanism as the Ch 6
+      production note. The book's strongest pages are where it admits its own
+      failure under its own standard.
+  new_finding_provenance_drift:
+    - provenance_chapter_11.md still describes the OLD Ch 11 ("From Consecration
+      to Zion" = current Ch 12). The completion pass renumbered chapters but not
+      the provenance files; the new Sabbath Ch 11 and the Ch 14 Afterword have no
+      provenance file. Renumbering drift in the exact area the 2026-05-26
+      redemption addressed. Flagged, not fixed -- needs a dedicated pass to
+      renumber and write the missing provenance files.
+  files_changed:
+    - src/chapters/10_softening_what_i_cannot_soften.md
+    - src/chapters/11_the_seventh_time.md
+    - .mind/active.md
+    - .spec/journal/2026-05-29--chapters-2-7-audit-pass.yaml
