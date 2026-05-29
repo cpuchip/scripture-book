@@ -1,4 +1,4 @@
-# Chapter 11: From Consecration to Zion
+# Chapter 12: From Consecration to Zion
 
 *Consecration · Zion*
 
