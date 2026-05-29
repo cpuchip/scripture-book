@@ -1,0 +1,104 @@
+date: 2026-05-29
+session: chapters-2-7-audit-application-pass
+type: execution
+workstream: WS7
+summary: |
+  Second session of the day (after the BOOK COMPLETION PASS). Michael asked a
+  focused question: "go through our draft feedback and look at chapters 2-7,
+  which we really haven't touched this round yet, and see what suggestions we
+  were given that are directly applicable there."
+
+  Read all six audit passes (.draft/01 editor, 03 gospel-reader, 04 ai-reader,
+  05 editing-research, 06 fact-check, 07 multi-model-brainstorm) + the 00-COUNCIL
+  synthesis against the CURRENT text of Ch 2-7. Built a chapter-by-chapter map
+  distinguishing what the completion pass already landed (Ch 2 230M-token fix +
+  tags; Ch 3 + Ch 6 arrow flips) from what was still open and directly applicable.
+
+  Presented the map; Michael selected ALL FOUR proposed batches via AskUserQuestion.
+  Executed three of them as voice/accessibility/calibration edits and held the
+  fourth (Ch 5 mechanism reframe) for a thesis-level decision, which I surfaced
+  as a three-option AskUserQuestion with before/after previews. Michael chose
+  Option B (information-density reframe).
+
+  One commit (2928bc9), 9 files. NOT pushed -- held for review.
+
+  What shipped:
+  - Ch 2: "for the reader who doesn't work in software" sidebar (Tier 2.2).
+  - Glossary: new "Plain-English Technical Terms" section, 10 terms, each with a
+    plain definition + a parallel to an anchor ALREADY verified elsewhere in the
+    book (no new quotes); announced in the preface wary-Saint note (Tier 2.1).
+    Kubernetes deliberately NOT mapped to grace (the engineer's flag).
+  - Ch 4: named the modern watching instruments -- evals, observability traces,
+    watchdogs/budgets -- with a callback to the Ch 2 runaway (ai-reader S4.4);
+    Becoming #2 calibrated from "every week" to aspirational (Ben Test, Tier 2.4).
+  - Ch 5: information-density reframe of the Engineering Parallel (RQ Option B).
+    Kept the posture/discipline-of-approach heart and "coldness is the absence of
+    presence"; changed the mechanism from literal resonance-in-the-weights to
+    information density; relocated the LITERAL claim to the spiritual law and
+    closed on the imago-Dei line ("the same shape governs both, and only one of
+    them is a soul"). Becoming #1 calibrated from "before I write a prompt" to
+    "at the start of a substantive session."
+  - Ch 6: Mosiah 5:5 (verified verbatim via gospel_get) at the control-vs-covenant
+    pivot -- the WILLINGNESS axis, distinct from Mosiah 18's reciprocal-duties axis
+    already in the chapter (Tier 2.8, light form); AI-failures-as-doctrinal-types
+    bounding paragraph (Tier 2.6); preface engineer-note now forward-references the
+    production note as the book's dogfooding evidence (part of Tier 1.2).
+  - Ch 7: "Covenant gives us the binding; stewardship gives us the scaling" bridge
+    (Tier 4.5); delegation bullet list tightened to prose (editor S5); ASCII diagram
+    linked back to Jethro's "rulers of fifties" (gospel-reader S2).
+  - Reference page step 5: dropped the "across many sessions" overclaim the engineer
+    caught -- context engineering curates a single inference's environment.
+
+discoveries:
+  - The completion pass had ALREADY absorbed the two engineer overstatement flags on
+    Ch 3 (S3.5 "clean from the first line"; S3.6 "thousand lines in a single pass")
+    via the RQ1.0b directional pass. Current Ch 3 reads almost verbatim the engineer's
+    suggested fix. The audit corpus stays useful across sessions -- re-reading it
+    against current text is how you avoid re-litigating closed items.
+  - The single sharpest convergence touching 2-7 was Ch 5's "statistical mirror" line:
+    the gospel reader tripped on it as cold language; the engineer disengaged at the
+    literal-mechanism claim. Two readers, same phrase, different reasons. That is the
+    highest-confidence kind of signal the multi-pass method produces.
+  - Option B (info-density) turned out to be MORE consistent with the hybrid flow
+    Michael already ratified (RQ1.0c: gospel = lens, AI = lit thing) than the status
+    quo was. The engineer's #1 credibility edit and the book's own directional thesis
+    pointed the same way. When the skeptic's fix and the author's thesis converge,
+    take it.
+  - Tier 2.8 ("covenant.yaml side-by-side") was a brainstorm framing, not a literal
+    spec. Implemented as a Mosiah 5 willingness paragraph rather than a side-by-side
+    table -- the chapter already lists human/agent duties in parallel prose, and a
+    table risked bloating the book's strongest chapter (both alt-readers' warning:
+    the book is at its best lean). Surfaced the deviation to Michael rather than
+    silently substituting.
+  - .scratch/ is TRACKED in the scripture-book sub-repo (workspace-root Glob skipped
+    it because the workspace .gitignore ignores it, but the sub-repo commits it). So
+    provenance is part of the git audit trail here -- recorded the Mosiah 5:5
+    verification as provenance_chapter_6.md entry #4 before committing.
+
+carry_forward:
+  - PUSH decision: commit 2928bc9 is local-only, held for Michael's review. Push when
+    he's looked (or says go).
+  - Tier 2.7 (training-data ethics paragraph) was NOT in the executed batches -- still
+    open, theological weight, Michael's call on how to engage.
+  - Tier 2.4 remainder: Ben Test calibration on Ch 8-11 Becoming Commitments (Ch 9 #3
+    "bring molten stones to the mount" flagged mythical; Ch 8 #3 "repent as daily
+    structural reset" flagged heavy).
+  - Tier 1.2 visual elevation of the production note (boxed callout / page break) is
+    now a TYPOGRAPHY-pass item, folded in with the QR-alignment / font-family / page-break
+    work still pending on the Typst template.
+  - dist/ artifacts are still stale (pre-2026-05-29). A rebuild via build.ps1 / build.sh
+    should follow once content settles.
+  - The Ch 2 sidebar and glossary section are plain blockquotes/markdown; a styled
+    callout treatment can come in the typography pass.
+
+files_changed:
+  - src/chapters/00_preface.md
+  - src/chapters/00_eleven_step_reference.md
+  - src/chapters/02_four_disciplines.md
+  - src/chapters/04_watched_until_they_obeyed.md
+  - src/chapters/05_intelligence_cleaveth.md
+  - src/chapters/06_bilateral_covenant.md
+  - src/chapters/07_delegation_as_stewardship.md
+  - src/chapters/15_glossary_of_fused_terms.md
+  - .scratch/provenance_chapter_6.md
+  - .mind/active.md

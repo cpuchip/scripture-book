@@ -7,6 +7,8 @@ This project compiles our gospel and AI studies into a published book format: *B
 
 > **2026-05-29 — BOOK COMPLETION PASS (overnight + day; ten of twelve Tier 1 / Tier 1+ council items closed; all five Tier 3 factual fixes shipped).** The book is now structurally complete and substantially closer to publish-ready. Ten commits across scripture-book, four across workspace. The structural moves landed; what remains is polish, voice surgery on chapters not rebuilt this session, and a `dist/` artifact rebuild. Full session journal: [`.spec/journal/2026-05-29--book-completion-pass.yaml`](../.spec/journal/2026-05-29--book-completion-pass.yaml).
 
+> **2026-05-29 (later) — CHAPTERS 2–7 AUDIT-APPLICATION PASS.** Applied the still-open `.draft/` audit findings to the chapters NOT rebuilt in the completion pass. One commit (`2928bc9`), 9 files. **Closed:** Tier 2.1 (glossary expansion + preface announcement), 2.2 (Ch 2 non-engineer sidebar), 2.6 (AI-failures-as-types paragraph in Ch 6). **Advanced:** 2.4 (Ben Test — Ch 4 #2 + Ch 5 #1 calibrated; Ch 8–11 commitments still open), 2.3 (Ch 7 bridge added; Ch 2 via sidebar), 1.5 (Ch 5 info-density reframe — RQ **Option B**, Michael's thesis call: literal resonance stays spiritual, model is where its shape is seen, imago-Dei close). **Ch 6:** Mosiah 5:5 willing-covenant strengthening (Tier 2.8 implemented as a *willingness paragraph*, not a literal side-by-side table — judgment call to avoid bloating the strongest chapter; fuller side-by-side still available if wanted) + preface forward-ref to the production note. **Ch 4:** named evals / observability / watchdogs as the watching instruments. **Reference page** step-5 dropped the "across many sessions" overclaim the engineer flagged. Journal: [`.spec/journal/2026-05-29--chapters-2-7-audit-pass.yaml`](../.spec/journal/2026-05-29--chapters-2-7-audit-pass.yaml). **NOT pushed** — held for Michael's review.
+
 ### Manuscript — 16 chapters, all drafted
 
 | # | File | Tag | Status |
@@ -66,18 +68,16 @@ Both have full provenance scratch files; both verified scripture quotes verbatim
 
 | Item | Effort | Impact | Notes |
 |------|-------:|--------|-------|
-| Tier 1.2 | small | medium | Ch 6 production-note prominence (both alt-readers called it the most credible page) |
+| Tier 1.2 | small | medium | Ch 6 production-note **visual** prominence — preface forward-ref shipped 2026-05-29; boxed-callout / page-break elevation is now a **typography-pass** item, not a content one |
 | Tier 1.6 | small | low-medium | Section II label mismatch ("Bilateral Stewardship" but Ch 5 opens with posture) |
-| RQ1.0a | (decided to skip) | — | Confidence rating on 11-step reference — Michael decided the restructured chapters carry the framework well enough |
-| RQ1.0d | (effectively closed) | — | Stewardship Boundary recurring callout — accomplished via the per-chapter EP close pattern instead |
-| Tier 2.1 | small-medium | medium | Glossary expansion + earlier announcement |
-| Tier 2.2 | small | medium | Ch 2 "for the non-engineer" sidebar |
-| Tier 2.3 | medium | medium | Non-engineering bridge sentence on EPs not yet rebuilt (Ch 2/3/4/6/7) |
-| Tier 2.4 | medium | medium | Ben Test calibration on Becoming Commitments |
-| Tier 2.6 | small | low-medium | AI-failures-as-doctrinal-types paragraph |
-| Tier 2.7 | medium | medium | Training-data ethics paragraph |
+| Tier 2.7 | medium | medium | Training-data ethics paragraph (not in the 2026-05-29 batch; theological weight — Michael's call on how to engage) |
+| Tier 2.4 (partial) | small | medium | Ben Test on **Ch 8–11** Becoming Commitments (Ch 4/5 calibrated 2026-05-29) |
 | Tier 2.10 | small | medium | Epilogue close with unresolved questions for both audiences |
-| Tier 4.x | varies | sequel material | Foreword, audiobook front matter, Webster 1828 re-verify, URL archival, Ch 6→7 transition, dedication, title reconsideration, etc. |
+| Tier 4.x | varies | sequel material | Foreword, audiobook front matter, Webster 1828 re-verify, URL archival, dedication, title reconsideration, etc. |
+| RQ1.0a | (skipped) | — | Confidence rating on 11-step reference — Michael decided the restructured chapters carry it |
+| RQ1.0d | (closed) | — | Stewardship Boundary callout — done via the per-chapter EP close pattern |
+
+**Closed in the 2026-05-29 chapters-2–7 pass:** Tier 2.1 (glossary + announcement), 2.2 (Ch 2 sidebar), 2.6 (AI-failures-as-types), 2.3 (bridges: Ch 2 via sidebar + Ch 7; Ch 3/4 already had them), 2.8 (light "willingness" form), 1.5 (Ch 5 reframe completes the engineer-voice surgery across Ch 0/5/8/9/10/12), Tier 4.5 (Ch 6→7 transition).
 
 ## Compilation Artifacts
 
