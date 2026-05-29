@@ -21,7 +21,6 @@ audio_generation:
 chapters:
   - src/chapters/00_frontmatter.md
   - src/chapters/00_preface.md
-  - src/chapters/00_introduction.md
   - src/chapters/00_eleven_step_reference.md
   - src/chapters/00_chapter_0_intelligence_truth.md
   - src/chapters/01_value_shift.md
@@ -37,5 +36,6 @@ chapters:
   - src/chapters/11_the_seventh_time.md
   - src/chapters/12_conclusion_zion.md
   - src/chapters/13_epilogue_silent_loop.md
-  - src/chapters/14_glossary_of_fused_terms.md
-  - src/chapters/15_further_reading.md
+  - src/chapters/14_afterword_how_i_got_here.md
+  - src/chapters/15_glossary_of_fused_terms.md
+  - src/chapters/16_further_reading.md
