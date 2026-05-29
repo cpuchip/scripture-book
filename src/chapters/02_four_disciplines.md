@@ -35,7 +35,7 @@ Prompt craft fails when the model lacks context. A perfect prompt in a blank cha
 
 Context engineering fails when the model knows everything but still chooses the wrong trade-off. It knows the code, but not what matters more. 
 
-Intent engineering fails when real autonomy begins. An agent can understand its purpose and still get caught in an infinite loop. We saw this when an autonomous research agent in our Postgres database ran for ten hours, looping on a single topic, until we hit the emergency stop. The agent's intent was defined, but intent alone did not prevent it from drifting.
+Intent engineering fails when real autonomy begins. An agent can understand its purpose and still get caught in an infinite loop. We saw this when an autonomous research agent in our Postgres database looped on a single topic and burned through 230 million input tokens before we hit the emergency stop. The agent's intent was defined, but intent alone did not prevent it from drifting.
 
 Specification engineering fails in the same way. A precise spec allows an agent to work unattended, but the spec does not monitor the execution. 
 
