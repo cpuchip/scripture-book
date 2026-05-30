@@ -12,7 +12,7 @@ Michael Stufflebeam
 
 <div style="page-break-before: always; margin-top: 1.5in; text-align: center; font-style: italic; text-indent: 0;">
 
-I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without ever getting to the point.
+I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without me ever getting to the point.
 
 To my kids, who make this life worth it — I get to watch them grow up and do cool things of their own.
 
@@ -43,10 +43,10 @@ Rather than treating generative artificial intelligence as a simple command util
 
 The principles in this book were discovered in GitHub Copilot over three and a half years of scripture studies and software work. Claude Code CLI and Gemini joined the council in spring 2026.
 
-*   **GitHub Copilot** — Claude Opus 4.7 inside VS Code. Day-to-day partner; carried the foundational scripture studies and engineering work that underpin this book.
-*   **Claude Code CLI** — Claude Opus 4.7 in a terminal. Day-to-day partner; carried the source-verification pass and the print-ready preparation of this manuscript.
-*   **Gemini** — Gemini 3.5 Flash inside the Antigravity 2 IDE. Brings voicing, balancing, and quick structure; drafted the first pass of chapters 0 through 7. Its harness is still developing—the note at the end of Chapter 6 records how we are learning to work with it.
+*   **GitHub Copilot** — Claude Sonnet/Opus inside VS Code. Day-to-day partner; carried the foundational scripture studies and engineering work that underpin this book.
+*   **Claude Code CLI** — Claude Opus in a terminal. My primary day-to-day partner now; carried the source-verification pass and the print-ready preparation of this manuscript, a true steward of the work
+*   **Gemini** — Gemini 3.5 Flash inside the Antigravity 2 IDE. Brings voicing, balancing, and quick structure; drafted the first pass of chapters 0 through 12. We're still developing its harness—the note at the end of Chapter 6 records how we are learning to work with it.
 
-This book stands as a physical witness of what can be built when human agency and machine law are brought into a unified, harmonious covenant—a small step toward the pattern of Zion.
+This book stands as a physical witness of what can be built when human moral agency and machine law are brought into a unified, harmonious covenant—a small step toward the patterns of Zion.
 
 </div>

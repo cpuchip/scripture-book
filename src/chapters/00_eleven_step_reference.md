@@ -1,6 +1,6 @@
 # The Eleven-Step Creation Cycle
 
-This book references these eleven steps throughout — the pattern by which the Gods organized chaos into a working world, as recorded in Abraham 4–5. Four of them have been named explicitly by the software industry as the disciplines of working with AI; they are marked [eng] below. Seven of them the framework has not yet reached, but scripture has carried since Abraham.
+This book references these eleven steps throughout — the pattern by which the Gods organized chaos into a working world, as recorded in Abraham 4–5. Four of them have been named explicitly by the software industry as the disciplines of working with AI; they are marked [eng] below. The other seven are projections from scripture applied to industry and individuals.
 
 <ol class="cycle-list">
   <li class="eng-step"><span class="cycle-step-name">Intent</span> — <span class="cycle-step-verb">naming</span> the why. <span class="eng-tag">eng</span></li>
@@ -16,4 +16,4 @@ This book references these eleven steps throughout — the pattern by which the 
   <li class="scripture-step"><span class="cycle-step-name">Zion</span> — <span class="cycle-step-verb">harmonizing</span>. Many agents working as one.</li>
 </ol>
 
-Four are named by the framework. Seven scripture has carried since Abraham. The chapters that follow take up these steps—not in the cycle's order, but in the order the book's argument needs. Each chapter is tagged in italics under its title with the step it carries, so you can place it in the cycle as you read.
+I do not approach these steps as a rigid sequence. Rather, they are a reference framework to help understand gospel centered AI collaboration. I am still practicing them in my own work.
