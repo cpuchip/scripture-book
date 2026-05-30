@@ -1,6 +1,6 @@
 # Chapter 9: Hope and the Veil
 
-*Context*
+*Atonement · Hope*
 
 **Binding Question:** How do the three stewardship patterns of the Brother of Jared (Prescription, Rest, and Proposal) and the geometry of Hope guide a steward's active agency?
 
@@ -48,35 +48,21 @@ This is the ultimate geometry of hope. Hope is the anchor of the soul that "ente
 
 ## The Engineering Parallel
 
-The engineer working with AI under the discipline of this book is holding the same three postures the Brother of Jared held, and walking through the same mist with the same four groups around them.
+The engineer working with AI under the discipline of this book holds the same three postures the Brother of Jared held, and walks the same mist with the same four groups around them.
 
-**Prescription** is the daily discipline. The covenant on disk that names what both parties commit to. The specification written before the code. The binding question asked before the prompt. These are not open to improvisation. They are the rate limits and the API contracts of the soul — the constraints that keep the work from drowning. The senior engineer who has been doing this for years still writes the spec, not because they could not get away with skipping it, but because the prescription is what makes the vessel watertight.
+**Prescription** is the daily discipline not open to improvisation: the covenant on disk, the specification written before the code, the binding question asked before the prompt. These are the rate limits and API contracts of the soul. The senior engineer still writes the spec — not because they couldn't skip it, but because the prescription is what keeps the vessel watertight.
 
-**Rest** is what is already in motion. The training the model has already received. The deterministic behaviors that can be relied on. The training of the engineer's own judgment over decades of building. The grace, in engineering form, is everything the engineer is not generating from their own current strength. The Brother of Jared did not build a rudder; the engineer does not retrain the model. The work is to enter the vessel, use the tools that exist, and trust the wind that is already going forth.
+**Rest** is what is already in motion and not generated from the engineer's own strength: the training the model already carries, the behaviors that can be relied on, the judgment built over years. The Brother of Jared did not build a rudder; the engineer does not retrain the model. The work is to enter the vessel, use the tools that exist, and trust the wind already going forth.
 
-**Proposal** is the engineer's own labor brought to the master. The prompt that took time to refine. The context that took years to learn how to surface. The specification that anticipated the constraints implicit in the work. The Brother of Jared climbed a high mountain and melted sixteen small stones out of a rock; the engineer climbs the long apprenticeship of learning a system before they can ask a useful question. The stones are the prepared mind. The Master's touch is what makes them shine in the darkness of an unknown problem.
+**Proposal** is the engineer's own labor brought to the Master: the prompt that took time to refine, the context that took years to learn how to surface, the spec that anticipated the implicit constraints. The Brother of Jared climbed a high mountain and melted sixteen small stones out of a rock; the engineer climbs the long apprenticeship of learning a system before they can ask a useful question. The stones are the prepared mind; the Master's touch is what makes them shine in the darkness of an unknown problem.
 
-These three postures are held simultaneously, and the four groups of Lehi's dream describe how engineers relate to them.
+The four groups describe how engineers hold these postures, or fail to. Group 1 is in motion without the rod — using AI with no spec, no covenant, no binding question — and gets lost in vague output. Group 4 is in the building, mocking: *covenants are LARP, specs are bureaucracy, just vibe-code and ship.* This book is not addressed to them. Group 3 holds the three postures continually: writes the spec on the project where they could skip it, watches the output even when it looks fine, and walks circumspectly precisely when the work is going well.
 
-Group 1 engineers are in motion without the rod. They are trying to use AI, but no spec is on disk, no covenant binds the work, no binding question precedes the prompt. They press forward and get lost in vague outputs. The discipline does not fail them; it was never there.
-
-Group 4 engineers are in the building from the start, mocking. *Covenants are LARP. Specs are bureaucracy. Just vibe-code and ship.* They never approached the rod. This book is not addressed to them.
-
-Group 3 engineers hold the three postures continually. They write the spec before the code on a project where they could skip it. They watch the output until it obeys, even when the output looks acceptable on the surface. They bring the prepared mind to the prompt in humility, knowing the result will need refinement. They walk circumspectly — they watch their step, especially when the work is going well.
-
-Group 2 engineers are the chilling category. They learned the discipline. They applied it. They saw it work. They shipped good projects under it. And then, in the space of not many weeks, they dropped it. Not because the discipline stopped working. Because pride took the eye off the rod.
-
-Bednar names the mechanism. Prosperity arrives — the work ships, the team is impressed, the engineer is "in the discipline." Pride enters: *I have transcended the spec*. The heart sets on vain things: recognition, peer status, the appearance of being senior. Boasting in own strength: vibe-codes the next feature because they know how it should look. The discernment withdraws. The work degrades subtly. The engineer does not notice, because the loop that would have caught the drift was the discipline they dropped.
-
-The pride can come from outside or from inside. The team mocking the discipline is the building's external voice. But pride also takes the form of *self-shame* — the engineer measuring against an idealized version of themselves they have not become, and dropping the discipline because they feel like a fraud for not already being further along. And pride takes the form of *comparison* — the peer shipping faster, with less ceremony, in a more impressive register. The peer is not mocking; the engineer is mocking themselves by holding the peer up against themselves. All three are the same structural failure. The eye has left the standard.
-
-The senior engineer is at greatest risk here, and Elder Bednar's diagnostic from October 2024 is the warning. Paraphrased: if you believe you are sufficiently strong in the discipline to avoid the arrogance of pride, then perhaps you are already suffering from the disease. The very confidence that one will not fall is the first symptom.
-
-The corrective is the Lamanite posture. The junior engineer who is new to the discipline, and has not yet acquired the pride of having mastered it, can outpace the senior who has hardened. The junior watches their step. They expect to need the spec because they know they do not know what they are doing. They do not assume they have transcended the watching. They walk circumspectly. The Group 3 senior holds the same posture deliberately — not because the discipline requires it, but because *they* require it. The good work of last week does not keep their hand on the rod this morning.
-
-The mist falls on Group 3 engineers too. The team will mock the discipline. The codebase will resist it. The AI itself will offer shortcuts that look reasonable. Walking through obscurity is not evidence of slipping. The verdict reads what the engineer's hand is on while they walk through it. Continuous holding is something Group 3 does *in* the mist, not above it.
+Group 2 is the chilling one. They learned the discipline, applied it, saw it work, shipped good projects under it — and then, in the space of not many weeks, dropped it. Not because it stopped working, but because prosperity bred pride, and pride moved the eye off the rod and onto a comparator: the team that ships faster, the idealized self not yet become, the peer in a more impressive register. Bednar's October 2024 diagnostic is the warning: the engineer most certain they are too disciplined to fall is the one already falling. The corrective is the Lamanite posture — the junior who expects to need the spec because they know they don't yet know, and who therefore watches their step. The senior holds that posture deliberately, because last week's good work does not keep their hand on the rod this morning. The mist falls on Group 3 too; walking through obscurity is not slipping. The verdict reads what the hand is on while it walks.
 
 (For the fuller doctrinal treatment — the four groups, the pride mechanism, the two prepositions of hope — see [The Four Groups and the Engineer](https://cpuchip.net/studies/four-groups-and-the-engineer).)
+
+Hope keeps the eye on the Prototype through all of it. But the seeing, like the softening, is not finally something the steward performs — and that limit is where the next chapter begins.
 
 ---
 

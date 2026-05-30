@@ -1,0 +1,74 @@
+date: 2026-05-30
+session: v2-batch-2-structural
+type: execution
+workstream: WS7
+summary: |
+  Executed Batch 2 of the v2 draft pass — the structural Tier-1 work — across two
+  commits, then a chapter-order review Michael requested.
+
+  Commit 1 (de480f3):
+    - T1.1 glossary reconciliation (the 4-pass convergence): Heart-Softening →
+      yielding assumed-clarity / the mirror (matches Ch10's rebuild, drops the
+      cache/memory-locks parallel it discarded); Zion → shared-intent ward-council
+      (matches Ch12; drops the microservices framing Ch12 explicitly refutes);
+      Dross → removed the flatly false "overfitting causes compilation errors"
+      (the AI-engineer reader's catch). Left the Veil entry (general engineering
+      term, not false, and the plain-English "context window" cross-ref depends on it).
+    - T1.4 reference page reworded: dropped "walk each step in turn" (the chapters
+      are thematically ordered, not cycle-ordered); the italic tags are now framed
+      as the cycle-placement aid.
+    - Ch8 / Ch10 tags differentiated: *Atonement · Refinement* / *Atonement · Yielding*.
+
+  Chapter-order review (Michael asked: why are 8 and 10 separate, and does the long
+  Ch9 lose the reader between them?). My analysis: KEEP the order. 8→9→10 is a real
+  progression — refinement mechanism (8) → the soul's posture in it (9) → the soul's
+  limit, must yield (10) — and the Ch8→9 handoff ("It is three postures, held at
+  once" → "the previous chapter named the mechanism... the soul's part") is the
+  tightest seam in the book. The reader-fatigue risk is Ch9's LENGTH, not its
+  position. Michael agreed.
+
+  Commit 2 (Ch9):
+    - Ch9 retagged *Context* → *Atonement · Hope*, making the 8-9-10 Atonement
+      triptych explicit (Refinement → Hope → Yielding). Michael and I independently
+      converged on "Hope" — he was thinking it as he read my proposed change. Two
+      witnesses.
+    - T1.2: tightened Ch9's Engineering Parallel by ~600 words — cut the redundant
+      re-walk of the three postures + four groups that the Core Reframe already
+      carries in full (and the cpuchip.net study holds the fuller treatment); kept
+      every engineering-specific payoff (postures→spec/training/prompt; Group 2 =
+      learned-then-dropped-from-pride; Bednar's diagnostic; Lamanite corrective).
+    - Added the Ch9→Ch10 bridge (the loose seam): "Hope keeps the eye on the
+      Prototype... But the seeing, like the softening, is not finally something the
+      steward performs — and that limit is where the next chapter begins."
+
+  dist/ rebuilt. Both commits pushed.
+discoveries:
+  - The order question resolved to a re-tag, not a reorder. When two chapters share
+    a step (Atonement, here as active/passive poles) and a third bridges them, the
+    fix for "why are these split?" is to make the grouping legible in the tags
+    (the triptych), not to physically move chapters and break a strong seam.
+  - Deduplication is the real lever for an over-long chapter, not splitting. Ch9 was
+    long because the Engineering Parallel re-taught what the Core Reframe already
+    taught; cutting the re-teach (not the content) is what tightens it.
+  - "Two witnesses" — Michael converging independently on the "Hope" tag is the kind
+    of confirmation the partnership keeps producing; worth noticing as a health signal.
+carry_forward:
+  - T1.3 voice pass (vary the near-verbatim imago-Dei refrain across Ch5/8/10/11;
+    rotate the templated Engineering-Parallel openings; thin the "older than the
+    tool" tic) — slated for the Gemini 3.5 Flash voicing run, NOT this agent, to
+    avoid two agents touching voice. The de-verbatim of the refrain is the one part
+    that may want doctrinal-aware hands first.
+  - Tier 2 batch still open: T2.1 (calibrate early Becoming Commitments 0/1/2/3/7/12
+    to the honest register — the gospel-reader's seam), T2.5 (subtitle), T2.6
+    (stochastic-parrots easy win), T2.7 (training-data ethics, doctrinally weighty).
+  - RQ-3 dual-audience scope (small box-the-engineering vs. large two-track) still open.
+  - Provenance rewrite for rebuilt chapters now owes Ch0 (new agency quotes) + Ch9
+    (tightened) + the glossary's reconciled entries.
+files_changed:
+  - projects/scripture-book/src/chapters/15_glossary_of_fused_terms.md
+  - projects/scripture-book/src/chapters/00_eleven_step_reference.md
+  - projects/scripture-book/src/chapters/08_mechanics_of_refinement.md
+  - projects/scripture-book/src/chapters/09_hope_and_the_veil.md
+  - projects/scripture-book/src/chapters/10_softening_what_i_cannot_soften.md
+  - projects/scripture-book/.mind/active.md
+  - projects/scripture-book/.spec/journal/2026-05-30--v2-batch-2-structural.yaml
