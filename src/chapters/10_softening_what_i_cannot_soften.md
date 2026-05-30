@@ -1,6 +1,6 @@
 # Chapter 10: Softening What I Cannot Soften
 
-*Atonement*
+*Atonement · Yielding*
 
 **Binding Question:** How does a person receive a softened heart when scripture indicates we cannot soften it ourselves?
 

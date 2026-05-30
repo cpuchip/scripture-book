@@ -1,6 +1,6 @@
 # Chapter 8: The Mechanics of Refinement
 
-*Atonement*
+*Atonement · Refinement*
 
 **Binding Question:** How does the relationship between spirit, matter, and eternal law govern our capacity for personal refinement?
 
