@@ -1,0 +1,50 @@
+date: 2026-05-30
+session: planning-council
+type: reflection
+workstream: WS7
+summary: |
+  The session where the book's revision stopped being editing and became a
+  council. Michael surfaced the doubt (too preachy, doesn't teach AI, aspirational),
+  we did NOT rush to fix it, and instead councilled our way — over several turns
+  and three AskUserQuestion ratification rounds — to a clear, recorded structure:
+  ONE book, two parts ("front porch"). A practice-forward Part 1 (8 scar-led,
+  workflow-first practices on eternal principles, Agans-format) opening into the
+  current chapters as Part 2 (Doctrine). Built the Part 1 skeleton
+  (`.spec/part1-skeleton.md`) — every practice paired to a real, dated battle scar
+  mined from this project's own git history + journals + the chat-log evidence.
+
+  Michael's words: "this council thing is what we should have done from the start!
+  ha. another battle scar."
+discoveries:
+  - THE META-INSIGHT (and it IS the book): the way we planned this revision —
+    council, ratify, plan before building — is exactly Part 1's practice P2
+    ("Council Before You Build"). We arrived at the book's structure by *practicing
+    the book*. The thing that fixed the book was the thing the book teaches. That
+    recursion isn't a cute coincidence; it's the strongest evidence the method works,
+    and it should be visible in Part 1 — the reader watches the practices produce the
+    artifact they're holding.
+  - "Another battle scar" — building this book doctrine-first for five months WITHOUT
+    councilling its identity was the scar; the council was the fix. That's P2's scar,
+    told recursively. Same shape as the Section VII founding scar that birthed the
+    covenant.
+  - Council-not-rush is the move. The agent's value here was NOT producing edits — it
+    was refusing to (the editing line stayed paused) and instead surfacing tensions,
+    mining real evidence, and holding the question open until the structure was true.
+    Ben-Test-honest counsel over fast output.
+  - Scars are best mined from real history (git log, journals), not memory — most of
+    Part 1's scars are this project's own, dated and verifiable, which is also the
+    deepest authenticity.
+carry_forward:
+  - Draft Part 1 prose from `.spec/part1-skeleton.md` — but pair it with Michael's
+    four-question margin notes from his read; the read decides which scars carry which
+    practices and reshuffles as needed. Start with P1 (Talk, Don't Command) or wherever
+    his read says the energy is.
+  - Verify each scar's details against source when it goes into prose (provenance
+    discipline applies to scars: dates, token counts, names).
+  - Decide Ch 8 engineering-parallel placement (P1 vs Part 2) with prose in front of us.
+  - Trim Part 2's engineering sections as Part 1 absorbs the how-to.
+files_changed:
+  - projects/scripture-book/.spec/part1-front-porch-plan.md (round-2 ratifications + locked format)
+  - projects/scripture-book/.spec/part1-skeleton.md (NEW — the bones)
+  - projects/scripture-book/.spec/journal/2026-05-30--planning-council.yaml
+  - projects/scripture-book/.mind/active.md

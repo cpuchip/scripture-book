@@ -65,7 +65,21 @@ Multi-model division of labor (Claude=fidelity/logic, Gemini=voice, cheap panel=
 - **Audience reframe:** ONE larger audience, two parts ("two doors, one house") — NOT two wary tribes. **Rework or drop the front-matter "note to the Saint wary of AI" / "note to the engineer wary of religion."** Replace with a single short orientation: two parts, start where you are, the parts cross-link.
 - **Biographical numbers (corrected):** 18 yrs software engineering; ~3.5 yrs using AI; ~5 months of the with-AI retro discipline in this workspace. (Earlier "14 years of retro" was an agent overstatement — corrected.)
 
-**Still open:** C (engineering parallels — full migrate vs. leave best 1–2 in Part 2 with a link) · E (front-matter adaptation, now incl. the audience-notes rework + does Part 1 get its own short door) · F (title/subtitle) · which 1–2 chapters are the retro thread's anchors.
+**RATIFIED (round 2 close):**
+- **Retro anchors:** TWO Part 1 chapters — **"The Retro"** (diagnose: ask what's working / what to build / what's in the way; the cadence) + **"Build It Together"** (fix: turn the retro's answers into workflows, skills, MCPs, your own harness). Diagnose→fix pair. Bleed into Part 2 **Atonement (Ch 8)** + **Sabbath (Ch 11)**; cross-links point there.
+- **Front-matter:** DROP the two wary-tribe notes; REPLACE with one short orientation — "two parts (practice / doctrine), start where you are, they cross-link. Two doors, one house."
+- **Engineering parallels (C):** drop most from Part 2, keep the best (Ch 8's "what's refined is the developer, not the model"), trim hard to kill duplication. **Placement deferred on purpose** — build Part 1 first, then decide empirically whether the kept parallels live in Part 1 or stay as doctrinal illumination in Part 2 (with a link).
+
+**LOCKED — Part 1 chapter format (Agans-informed; reviewed `books/debugging/9-indispensable-rules/08-keep-an-audit-trail.md`):**
+1. **Open with the scar** — the real failure that taught it, told vividly (Agans leads with the war story; the rule is named after you feel the pain). Candidate scars: runaway 230M-token agent → bounds; fabricated D&C 104 quote → provenance gates; 33% Ben-Test → the retro; glm-5 shell-grep misdiagnosis → verify-via-real-path.
+2. **The principle (eternal)** — named with a memorable slogan → cross-link "why this holds: Part 2, ch X."
+3. **How we do it today** — the dated 2026 implementation, openly stamped "this is how, for now."
+4. **(more scars as earned)** — Agans uses several per rule; do likewise where we have them. Consider a recurring connective analogy (Agans' food-allergy diary).
+5. **Try this** — one concrete reader-action for their next session (Part 1's outward analog of Part 2's inward "Becoming").
+6. **Remember** — a short recap box: the principle in a line + its scar (Agans' "Remember" box).
+Agans confirms the LENGTH call: his rule-chapters are 13–38 KB, dense with stories — "TL;DR" = practice-forward, not thin.
+
+**Still open:** E (does Part 1 get its own short intro/door; afterword/epilogue placement) · F (title/subtitle) · the empirical Ch-8-parallel placement (decide while building) · which scars pair to which of the 8 practices.
 
 ## Status
 Recording + honing. NO building yet. Source list: Michael's 16 pressing practices (this session) + `.draft/20260530-how-we-actually-work.md` (the mining). Continue the conversation.
