@@ -47,7 +47,7 @@ Finally, we need the "seventh-day review" in our workflows. It is easy to catch 
 
 This feedback loop works because of the distinction in agency. As [Doctrine and Covenants 93:30](../../gospel-library/eng/scriptures/dc-testament/dc/93.md) states, "All truth is independent in that sphere in which God has placed it, to act for itself." 
 
-AI has no agency; it acts by law and statistical pattern. Your agency—your light, your truth, your choice—is the irreplaceable element that evaluates correctness and directs the creation toward a good purpose.
+AI has no moral agency; it acts by law and statistical pattern. Your moral agency—your light, your truth, your choice—is the irreplaceable element that evaluates correctness and directs the creation toward a good purpose.
 
 ---
 

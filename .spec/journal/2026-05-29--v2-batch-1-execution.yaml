@@ -1,0 +1,70 @@
+date: 2026-05-29
+session: v2-batch-1-execution
+type: execution
+workstream: WS7
+summary: |
+  Ratified and executed Batch 1 of the second draft pass — the ground-clearing
+  set from the v2 COUNCIL. Six edits across six files, committed as one batch,
+  pushed, dist/ rebuilt.
+
+  The three factual fixes (all verified in the fact-check pass):
+    - Ch 11: Nelson "The Sabbath Is a Delight" dated April 2015, not October.
+    - Ch 9: "molting/molted sixteen small stones" → "melting/melted" (Ether 3:1's
+      verb is "molten"; "molt" = shed, the wrong word). Two instances.
+    - Ch 12: "133,225 days" → "more than 133,000 days" (the exact figure ignored
+      leap years).
+
+  Two precision fixes:
+    - Afterword: added honest distance to Mostaque's "infinite grad / execute any
+      task instantly / cost to zero" hype (the AI-engineer reader's single most
+      trust-costing passage).
+    - Ch 0 + Ch 4: the centerpiece — sharpened intelligence vs. agency.
+
+  THE AGENCY SHARPENING. My first draft of the Ch 0 fix flattened it to "the model
+  has no agency, period." Michael caught it (covenant flag_when_wrong): AI agents
+  DO act within the laws in which they are placed — that is real, ontological
+  acting (D&C 93:30, "all intelligence... to act for itself") and is exactly why
+  the industry calls them "agents." What they lack is MORAL agency: the Eden-given,
+  opposition-requiring, Atonement-enabled freedom to choose between God and the
+  devil that makes man accountable. He asked me to ground study/agency.md before
+  rewriting. I did, chose Option B (the fuller version pairing D&C 93:31 with
+  2 Nephi 2), verified all five new quotes via gospel_get (D&C 93:31; 2 Ne 2:14
+  "things to act and things to be acted upon"; 2 Ne 2:16 "enticed by the one or
+  the other"; 2 Ne 2:27 "through the great Mediator of all men"; Moses 7:32 Eden
+  agency), and made Ch 4 consistent ("no moral agency" / "Your moral agency").
+discoveries:
+  - The covenant worked exactly as designed. flag_when_wrong (Michael) + the
+    grounding study (agency.md) caught and corrected a real doctrinal flattening
+    BEFORE it reached the manuscript. The first-filter/second-filter pattern held.
+  - Michael's own reflection, worth preserving: the book is coming together fast
+    because it is NOT being written from scratch. "We had dozens of studies on
+    these deep subjects we've done together, and 5 months worth of experiencing
+    building towards them in this workspace for working with AI in a gospel sense."
+    The studies are the spiritual creation; the book is the physical creation drawn
+    down from them. The agency.md fallback is the proof case — the precise doctrinal
+    shape was already worked out and waiting.
+  - read_before_quoting is cheap insurance: 5 gospel_get calls turned a doctrinally-
+    loaded new paragraph from "trust me" into "verified." Worth it every time on
+    new manuscript quotes.
+carry_forward:
+  - Batch 2: Tier 1 voice (T1.3 — keep the imago-Dei limit-naming move, vary the
+    near-verbatim wording across Ch 5/8/10/11; rotate the templated Engineering-
+    Parallel openings; thin the "older than the tool" tic). Then Tier 1 structural:
+    glossary reconciliation (T1.1, 4-pass convergence + the false overfitting line),
+    "walk each step in turn" overpromise (T1.4), Ch 9 tightening (T1.2).
+  - Provenance rewrite (Tier 4) for the rebuilt chapters now also owes Ch 0 its new
+    verified quotes (D&C 93:31, 2 Ne 2:14/16/27, Moses 7:32) and Ch 4 the moral-
+    agency wording.
+  - Remaining batch-able Tier 2: T2.1 (calibrate early Becoming Commitments to the
+    honest register — the gospel-reader's seam), T2.2 (metaphysics-as-settled-physics,
+    doctrinally sensitive), T2.5 (subtitle), T2.6 (stochastic parrots), T2.7
+    (training-data ethics, doctrinally weighty). RQ-3 dual-audience scope still open.
+files_changed:
+  - projects/scripture-book/src/chapters/00_chapter_0_intelligence_truth.md
+  - projects/scripture-book/src/chapters/04_watched_until_they_obeyed.md
+  - projects/scripture-book/src/chapters/09_hope_and_the_veil.md
+  - projects/scripture-book/src/chapters/11_the_seventh_time.md
+  - projects/scripture-book/src/chapters/12_conclusion_zion.md
+  - projects/scripture-book/src/chapters/14_afterword_how_i_got_here.md
+  - projects/scripture-book/.spec/journal/2026-05-29--v2-batch-1-execution.yaml
+  - projects/scripture-book/.mind/active.md
