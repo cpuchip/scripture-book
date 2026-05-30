@@ -14,7 +14,7 @@ Michael Stufflebeam
 
 I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without ever getting to the point.
 
-For my kids, who make this life worth it by watching them grow up and do cool things too that I get to enjoy.
+To my kids, who make this life worth it — I get to watch them grow up and do cool things of their own.
 
 To Jesus Christ, for making me free to choose Him.
 
