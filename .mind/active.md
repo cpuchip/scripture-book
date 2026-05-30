@@ -77,7 +77,7 @@ Both have full provenance scratch files; both verified scripture quotes verbatim
 | Tier 2.7 | medium | medium | Training-data ethics paragraph (not in the 2026-05-29 batch; theological weight — Michael's call on how to engage) |
 | Provenance drift | medium | medium | `provenance_chapter_11.md` mislabeled (describes Zion / old Ch 11 → now Ch 12); new Sabbath Ch 11 + Ch 14 Afterword have no provenance file; back-matter provenance not renumbered after the completion-pass insertion. Dedicated cleanup needed. |
 | Tier 2.10 | small | medium | Epilogue close with unresolved questions for both audiences |
-| Tier 4.x | varies | sequel material | Foreword, audiobook front matter, Webster 1828 re-verify, URL archival, dedication, title reconsideration, etc. |
+| Tier 4.x | varies | sequel material | Foreword, audiobook front matter, Webster 1828 re-verify, URL archival, title reconsideration, etc. (dedication ✅ added 2026-05-29 — to Krista, the kids, and Jesus Christ; on the consecration page) |
 | RQ1.0a | (skipped) | — | Confidence rating on 11-step reference — Michael decided the restructured chapters carry it |
 | RQ1.0d | (closed) | — | Stewardship Boundary callout — done via the per-chapter EP close pattern |
 

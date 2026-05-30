@@ -10,7 +10,17 @@ What AI Engineering Reveals About Eternal Patterns
 Michael Stufflebeam
 </div>
 
-<div style="page-break-before: always; margin-top: 1in; font-size: 10pt; text-align: left; text-indent: 0;">
+<div style="page-break-before: always; margin-top: 1.5in; text-align: center; font-style: italic; text-indent: 0;">
+
+I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without ever getting to the point.
+
+For my kids, who make this life worth it by watching them grow up and do cool things too that I get to enjoy.
+
+To Jesus Christ, for making me free to choose Him.
+
+</div>
+
+<div style="margin-top: 1in; font-size: 10pt; text-align: left; text-indent: 0;">
 
 ## Consecration
 
