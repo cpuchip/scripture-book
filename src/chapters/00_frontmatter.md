@@ -12,7 +12,7 @@ Michael Stufflebeam
 
 <div style="page-break-before: always; margin-top: 1.5in; text-align: center; font-style: italic; text-indent: 0;">
 
-I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without me ever getting to the point.
+I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without me ever getting to the point — because for me, the journey there was always more fun than the point itself. Journey before destination. Thank you for walking it with me.
 
 To my kids, who make this life worth it — I get to watch them grow up and do cool things of their own.
 
