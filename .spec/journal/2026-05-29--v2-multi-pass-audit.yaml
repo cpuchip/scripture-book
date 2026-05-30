@@ -1,0 +1,84 @@
+date: 2026-05-29
+session: v2-multi-pass-audit
+type: plan
+workstream: WS7
+summary: |
+  Ran the v2 multi-pass audit on the rebuilt manuscript (the "second draft pass"
+  gather + council). Archived the v1 (2026-05-28) .draft files to
+  .draft/archive/2026-05-28/ via git mv; all v2 outputs carry the 20260529- date
+  prefix per Michael's instruction.
+
+  Six passes:
+    01 editor (in-house) — read all 16 chapters + front matter fresh.
+    03 gospel-reader — research-gospel subagent, uncolored (wary faithful Saint persona).
+    04 ai-reader — research subagent, uncolored (skeptical senior engineer persona).
+    05 editing-research — research subagent, FULL crossover-genre re-survey (Michael's call).
+    06 fact-check — every quote via gospel_get; 28+ verified.
+    07 multi-model brainstorm — 12 lenses, 8 distinct models incl. gemini-3.5-flash
+       on forced-analogy (Michael's request). Synthesis + 00-COUNCIL.md.
+
+  KEY decision from Michael before the run: do NOT brief the subagents on our
+  ratified decisions — fresh, uncolored eyes. The ratified-decisions filter lives
+  only in the COUNCIL's "Rejects" bucket. This proved its worth: the uncolored
+  passes converged hard without any coaching.
+
+  Convergence (the quality signal): T1.1 glossary-contradicts-chapters flagged by
+  4 passes (editor/gospel/ai/editing-research) — incl. a flatly FALSE technical
+  claim ("overfitting causes compilation errors"). T1+.B vulnerability-is-the-
+  credibility-engine flagged by 4 passes. T1.2 Ch9-too-long-and-EP-weakest by 3.
+  T1.3 "the analogy must break to be trusted / keep the limit-naming" by 4 — which
+  is the COUNTERWEIGHT to the editor's "vary the verbatim refrain": keep the move,
+  vary the wording.
+
+  Fact-check: ZERO quote drift across 28+ citations — the heavy rebuilds did not
+  corrupt a single verse. Both Webster 1828 quotes (spirit, intelligence) exact.
+  Three real errors: FC-1 Ch11 misdates Nelson "The Sabbath Is a Delight" as Oct
+  2015 (it's April 2015); FC-2 Ch9 "molting/molted" should be "molten" (Ether 3:1);
+  FC-3 Ch12 "133,225 days" ignores leap years.
+
+  Stopped at the ratification gate. No manuscript edits made — the "second draft
+  pass" execution is the next gate and needs Michael's calls (esp. T1+.A dual-
+  audience scope and the doctrinally-weighty T2.2/T2.7). 7-item ratification agenda
+  with recommendations is in the COUNCIL.
+discoveries:
+  - Convergence-as-signal held again. Four independent uncolored methods landing on
+    the same glossary contradiction and the same vulnerability-is-credibility theme
+    is far stronger evidence than any single reviewer.
+  - The uncolored-subagents call was right. The fresh personas caught the early-
+    chapter "I will" vs late-chapter "I aim" honesty seam (T2.1) that a briefed
+    reader would have rationalized as already-handled.
+  - SUBSTRATE QUIRK 1 — the MCP start_brainstorm `models` param has a broken JSON
+    schema (declares array-of-int, not object); passing the per-lens object fails
+    client-side validation. Workaround: call stewards.start_brainstorm() SQL
+    directly via psql (signature in extension/j9c-start-brainstorm-lenses.sql,
+    8 args, p_models jsonb + p_lenses text[]).
+  - SUBSTRATE QUIRK 2 — when dispatched via the SQL function directly (not the MCP
+    wrapper), the aggregate `destination` does NOT propagate to materialization;
+    the synthesis lands in work_items.stage_results->'aggregate'->>'output' but no
+    file is written. Recovered it from the DB by hand.
+  - MODEL NOTE — qwen3.7-max hard-failed at lens dispatch (empty stage_results);
+    glm-5 completed-but-empty on the disney pipeline. Both re-fired fine on
+    kimi-k2.5 / deepseek-v4-flash. The free models (deepseek-v4-flash, mimo-v2.5)
+    performed well across 4 lenses at $0 — good default for future fan-out.
+  - The disney lens (deepseek) produced the vivid exemplar of the structural dual-
+    audience idea: a Talmud-style margin/center layout where the page IS the fusion.
+carry_forward:
+  - RATIFY then EXECUTE the second draft pass. Agenda RQ-1..RQ-7 in
+    .draft/20260529-00-COUNCIL.md. Recommended exec order: Tier 3 + small Tier 2
+    first, then Tier 1 voice (T1.3), then Tier 1 structural (T1.1/T1.4/T1.2),
+    then T1+.A small.
+  - After edits, rewrite provenance for Ch 8/9/10/12 to match rebuilt text (this
+    session's fact-check gives the verified-text basis) and rebuild dist/.
+  - Log the two substrate quirks where the next audit-runner will see them
+    (multi-pass-audit.md workflow doc + maybe pg-ai-stewards open-items).
+files_changed:
+  - projects/scripture-book/.draft/archive/2026-05-28/ (8 v1 files, git mv)
+  - projects/scripture-book/.draft/20260529-00-COUNCIL.md
+  - projects/scripture-book/.draft/20260529-01-editor-pass.md
+  - projects/scripture-book/.draft/20260529-03-gospel-reader-pass.md
+  - projects/scripture-book/.draft/20260529-04-ai-reader-pass.md
+  - projects/scripture-book/.draft/20260529-05-editing-research.md
+  - projects/scripture-book/.draft/20260529-06-fact-check-results.md
+  - projects/scripture-book/.draft/20260529-07-multi-model-brainstorm.md
+  - projects/scripture-book/.spec/journal/2026-05-29--v2-multi-pass-audit.yaml
+  - projects/scripture-book/.mind/active.md

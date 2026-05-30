@@ -46,6 +46,12 @@ Fire 4+ brainstorm-lens pipelines in parallel via `mcp__pg-ai-stewards__spawn_su
 
 For v2 of this audit, consider firing all 12 lenses; the marginal cost is small (~$0.10-0.30 per lens at default models) and the additional perspectives are non-redundant by design (each lens prompt targets a different output shape, not just a different topic).
 
+**Gotchas learned on the 2026-05-29 v2 run (read before firing 12 lenses):**
+- **The MCP `start_brainstorm` `models` param has a broken JSON schema** — it declares an array-of-int, so passing the documented per-lens object fails client-side validation (`InputValidationError`). Workaround: call the SQL function directly via psql — `SELECT stewards.start_brainstorm(p_binding_question:=…, p_destination:=…, p_models:='{...}'::jsonb, p_lenses:=ARRAY[…]::text[], …)`. The 8-arg signature is in `pg-ai-stewards/extension/j9c-start-brainstorm-lenses.sql`. (On Windows, run the docker/psql command from the **PowerShell** tool, not Bash — MSYS mangles `/tmp/...` paths. Write the SQL to a temp file and `docker cp` + `psql -f`.)
+- **When dispatched via the SQL function directly, the aggregate `destination` does NOT propagate to file materialization.** The synthesis lands in `work_items.stage_results->'aggregate'->>'output'` for the `…-aggregator` work_item but no file is written. Recover it from the DB and write the `.draft` file by hand. (The MCP wrapper presumably handles this; the SQL path skips it.)
+- **Model dispatch is not 100% reliable per lens.** On the v2 run, `qwen3.7-max` hard-failed (empty `stage_results`) and `glm-5` completed-but-empty on the `disney` pipeline; both re-fired fine on `kimi-k2.5` / `deepseek-v4-flash`. Check each child's `status`/`maturity` after the run and re-fire empties on a proven model. The free models `deepseek-v4-flash` and `mimo-v2.5` performed reliably at $0 — a good default for fan-out.
+- **Diversify models across lenses** (Michael's v2 call): don't run all 12 on the two default models. Survey the catalog (`extension/j10-provider-models-pricing.sql`) and spread across gemini + the opencode_go set so each technique pairs with a different model.
+
 ## The synthesis document — `.draft/00-COUNCIL.md`
 
 The synthesizer reads all six pass outputs and assembles a ratifiable council document. Structure:
