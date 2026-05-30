@@ -402,7 +402,18 @@ def build():
                 lambda m: f'#v({m.group(1)})\n#align(center)[#text(size: 14pt)[Michael Stufflebeam]]\n',
                 md_content
             )
-            # Replace Consecration page and Colophon page blocks
+            # Replace Dedication block (centered italic; opens the consecration page)
+            md_content = re.sub(
+                r'<div style="page-break-before:\s*always;\s*margin-top:\s*1\.5in;\s*text-align:\s*center;\s*font-style:\s*italic;[^>]*?>\s*(.*?)\s*</div>',
+                r'#pagebreak()\n#v(1.5in)\n#align(center)[#text(style: "italic")[\n\1\n]]\n#v(0.4in)',
+                md_content, flags=re.DOTALL
+            )
+            # Replace Consecration block (no page break -- shares the dedication's page)
+            md_content = re.sub(
+                r'<div style="margin-top:\s*1in;\s*font-size:\s*10pt;[^>]*?>\s*(.*?)\s*</div>',
+                r'#set text(size: 10pt)\n\1', md_content, flags=re.DOTALL
+            )
+            # Replace Colophon page block (its own page)
             md_content = re.sub(r'<div style="page-break-before:\s*always;\s*margin-top:\s*1in;[^>]*?>\s*(.*?)\s*</div>',
                                 r'#pagebreak()\n#v(1in)\n#set text(size: 10pt)\n\1', md_content, flags=re.DOTALL)
             # Replace headings inside frontmatter so they aren't processed as plain paragraphs
