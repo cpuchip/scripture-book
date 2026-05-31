@@ -62,7 +62,7 @@ The current preface frames a single book, the "Becoming Commitment is aspiration
 ## What I execute the moment you ratify (the mechanical part — mine)
 
 1. Convert the 10 voiced drafts → clean `src/chapters/p1_*.md` (strip HTML comments; titles per D-decisions).
-2. Move all provenance + verify-flags → `.scratch/provenance_part1.md` (the gate), with a verification-log footer.
+2. ~~Move all provenance + verify-flags → `.scratch/provenance_part1.md`~~ **DONE 2026-05-31** — provenance consolidated + scripture gate CLOSED (all 7 quoted scriptures re-verified via `gospel_get`). At into-src: optionally split into per-chapter `provenance_p1_*.md`, and clear the remaining **lived-claim + consent flags** listed in that file (Ben/Leah naming, the 300+ / 3-week figures, the Agans attribution, the `.copilot-old` origin specifics).
 3. Add `#part-divider` to `template.typ` + the build branch in `build_typst.py` (per D3).
 4. Insert Part 1 + the two dividers into `book.yaml` (per D1/D4).
 5. Apply the D6 carve-out to `copilot-instructions.md` + `CLAUDE.md`.

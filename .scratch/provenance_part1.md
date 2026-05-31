@@ -2,7 +2,33 @@
 
 *Created 2026-05-30 by Claude Opus 4.8; framing updated same day (scar → story). Part 1 teaches each practice through **the story that taught it** — which can be a failure we learned from, a spectacular **success** where the principle paid off, or (best) a **scar→fix→payoff arc**. This file is the verification gate for those stories BEFORE they become prose. Part 2 provenance verifies **scripture**; Part 1 verifies **lived claims** — every date, token count, name, and quote is a factual/biographical claim under the cite-count rule (verify, don't recall). **Guardrail (Ben Test):** where a real failure exists, lead with it — vulnerability read as the book's #1 credibility signal in the audit; use success where there's no scar or where it teaches better; keep the failures in — don't curate down to a brag reel. (See the "scar vs. success per practice" addendum near the end for the lead recommendation on each.) Sources: this project's git history (commit hashes + dates below), `.spec/journal/` entries, `.mind/`/`MEMORY.md`, `.spec/covenant.yaml`, the `ben-test` skill, and `.draft/20260530-how-we-actually-work.md` (the chat-log mining). Bridge scriptures are Part 2 anchors already verified in their own `provenance_chapter_*` files (or this session); cited here, not re-verified, except Mosiah 4:27 (verified fresh).*
 
-*Consolidated while Part 1 is still a skeleton (`.spec/part1-skeleton.md`) and the practices may reshuffle per Michael's read. Split into per-chapter `provenance_*.md` files when each chapter is drafted.*
+*Status (updated 2026-05-31): all 10 Part 1 pieces are now **DRAFTED** — `.draft/20260530-p1-draft.md` + `.draft/20260531-{p2…p9,coda}-draft.md` (voiced + integrated). This file is now the **closed provenance gate** for those drafts: every **quoted** scripture was **re-verified character-for-character via `gospel_get` on 2026-05-31** (consolidated table immediately below) — re-run fresh by a post-compaction instance, **NOT** trusting the drafts' earlier inline "VERIFIED" labels (verify-via-the-real-path). What remains open is the set of **lived/biographical claims + consent** (dates, counts, names) — flagged per-practice and summarized just above the verification log; those gate the move from draft → `src/` manuscript. Split into per-chapter `provenance_*.md` files at `into-src` if desired.*
+
+---
+
+## Scripture — re-verified character-for-character 2026-05-31 (the gate, closed)
+
+Every scripture **quoted** (inside quotation marks) across the 10 drafts, re-verified this session via `gospel_get` against the canonical text. This was re-run fresh, not copied from the drafts' inline "VERIFIED" comments.
+
+**Quoted — verified exact:**
+
+| Practice | Reference | Quoted fragment (as drafted) | Canonical (gospel_get 2026-05-31) | Verdict |
+|---|---|---|---|---|
+| P1, P2 | Abraham 4:26 | "the Gods took counsel among themselves" | "And the Gods took counsel among themselves and said: Let us go down and form man in our image…" | ✅ exact |
+| P3 | D&C 104:11-13 | "organize yourselves and appoint every man his stewardship" · "that every man may give an account" · "make every man accountable, as a steward" | v11 "…ye shall organize yourselves and appoint every man his stewardship;" · v12 "That every man may give an account…" · v13 "…make every man accountable, as a steward…" | ✅ exact fragments |
+| P7 | D&C 104:11-12 | "a commandment I give unto you, that ye shall organize yourselves and appoint every man his stewardship; That every man may give an account" | v11 "…a commandment I give unto you, that ye shall organize yourselves and appoint every man his stewardship;" + v12 "That every man may give an account…" | ✅ exact (truncated mid-v12) |
+| P3 | Abraham 4:18 | "the Gods watched those things which they had ordered until they obeyed" | "And the Gods watched those things which they had ordered until they obeyed." | ✅ exact |
+| P4 | D&C 88:119 | "Organize yourselves; prepare every needful thing; and establish a house… a house of order" | "Organize yourselves; prepare every needful thing; and establish a house, even a house of prayer… a house of order, a house of God;" | ✅ exact (ellipsis elides the house-list, honestly) |
+| P8 | Moses 3:2 | "saw that they were good" | "…and I, God, saw that they were good;" | ✅ exact |
+| P9 | Moses 7:18 | "one heart and one mind" | "…because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them." | ✅ exact fragment |
+| Coda | Mosiah 4:27 | "see that all these things are done in wisdom and order; for it is not requisite that a man should run faster than he has strength. And again, it is expedient that he should be diligent, that thereby he might win the prize" | "And see that all these things are done in wisdom and order; for it is not requisite that a man should run faster than he has strength. And again, it is expedient that he should be diligent, that thereby he might win the prize; therefore, all things must be done in order." | ✅ exact (drops leading "And" + trailing clause) |
+
+**Paraphrased / referenced — not quoted (no verbatim check needed; noted for honesty):**
+- **Moses 3:5** (P1, P2) — "spiritual creation came before the physical." Part 2 Ch 3 anchor (verified there).
+- **Abraham 4:18** (P7) — "watched what they had ordered until it obeyed" is a *paraphrase* (wording differs from the exact P3 quote); P7 presents it unquoted with a citation link — correct.
+- **Exodus 18 / Matthew 10** (P6) — Jethro's counsel + Christ commissioning the Twelve, both paraphrased. If a verbatim quote is added at manuscript, `gospel_get` Ex 18:17-18 / Matt 10:1 first.
+- **"Line upon line"** (P4, P5) — referenced as the Part 2 step, not quoted.
+- **Non-scripture:** *"the shortest pencil is longer than the longest memory"* (P5) — attributed to David Agans, *Debugging*. ⚠️ Verify against `books/debugging/` before manuscript (quoted attribution, cite rule applies).
 
 ---
 
@@ -102,4 +128,21 @@ Swept every workspace repo (git genesis + arc dates verified below). Each practi
 
 ---
 
+## Still-open flags after drafting (these gate draft → `src/` manuscript)
+
+Scripture is closed (table at top). What remains is **lived/biographical claims + consent** — none are fabrications, but each is a factual claim under the cite rule and needs a real source or Michael's confirmation before manuscript:
+
+- **P1:** Michael's "we find it" idea is rendered as paraphrase, not a quote — fine as-is; if ever quoted, pull verbatim from the source session. The pg-ai-stewards "~3 weeks / running in ~3 days" figures — Michael to confirm.
+- **P1, P2, P4:** the Oct-2025 origin details + the unfinished YouTube-transcript tool — re-confirm against the raw `.copilot-old` log; **do NOT print the repo's real name** (Michael's instruction).
+- **P3:** exact bacteriopolis runaway date (MEMORY: 2026-05-15). "230 million" is already verified — do not drift.
+- **P4:** the **"300+"** interconnected work repos figure is Michael's claim — confirm. "four of the six" J.3 deaths is printed in the prose → confirm against the substrate journals.
+- **P6:** the 18-years / does-not-write-Rust / never-wrote-Dart biographical claims — Michael's to confirm; the "my kids played them" detail.
+- **P8:** **consent to name "Ben"** (or pseudonym) — the quote + March 19 2026 date are verbatim from the `ben-test` skill (firm).
+- **Coda + addendum:** **consent to name "Leah" (age 14)**; keep distinct from the storygames "nine-year-old" child (don't conflate).
+- **P5:** the Agans "shortest pencil" attribution (verify against `books/debugging/`).
+
+---
+
 **Verification log:** Compiled 2026-05-30 by Claude Opus 4.8 from git history (hashes/dates above, three repos), `.spec/journal/` entries, `.spec/covenant.yaml`, the `ben-test` skill, `MEMORY.md`, and the chat-log mining (`.draft/20260530-how-we-actually-work.md`). Mosiah 4:27 verified character-for-character via `gospel_get`. The "230 million tokens" claim is the already-verified book Ch 2 figure. Bridge scriptures are Part 2 anchors verified in their own provenance files. **Per-scar "to verify at draft" notes flag the few specifics to re-confirm against source when each chapter's prose is written — the provenance gate stays closed until then.**
+
+**Verification log — 2026-05-31 update (gate consolidation, post-compaction instance):** All 10 Part 1 drafts now exist (voiced + integrated). The 7 unique **quoted** scriptures — Abraham 4:26, Abraham 4:18, D&C 104:11-13, D&C 88:119, Moses 3:2, Moses 7:18, Mosiah 4:27 — were **re-verified character-for-character via `gospel_get` this session** (table at top), run fresh rather than carried over from the drafts' inline "VERIFIED" labels, per verify-via-the-real-path. **All passed exact.** Scripture gate: **CLOSED.** The drafts' inline `<!-- PROVENANCE -->` comments are now consolidated into this file. Remaining open items are the lived/biographical claims + consent flags listed in the section just above — those, not scripture, are what gate draft → `src/`. — Claude Opus 4.8 (Claude Code)

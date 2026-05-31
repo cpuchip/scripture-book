@@ -20,6 +20,9 @@ This maps straight into Part 2's heart: vision/intent = Step 1 Intent; convergin
 Each practice is introduced through a **real failure we hit** (vulnerability = credibility — the audit's #1 finding; and it dissolves the "aspirational" worry, because you teach what you learned the hard way, not what you mastered). Candidate scars: the runaway agent that burned 230M tokens (→ watchdogs/bounds); the fabricated D&C 104 quote (→ provenance gates); the 33% Ben-Test self-assessment (→ honest retros); the glm-5 shell-grep misdiagnosis (→ verify via the real path).
 
 ## Proposed Part 1 arc (groups Michael's 16 points + the mining into a throughline)
+
+> **SUPERSEDED 2026-05-30/31 by the ratified skeleton ([`.spec/part1-skeleton.md`](part1-skeleton.md)).** The 8-row table below is the original planning draft. The structure Michael approved at the bones stage and that got drafted is **9 practices + a coda** — the difference: the planned #4–#5 ("pack context" + "let it do the heavy lifting") split into **three** (P4 Pack the Context · P5 Make It Portable [memory/journaling pulled out as its own practice] · P6 Let It Carry What You Can't [delegation]), and Michael added the **coda "Go Touch Some Grass"** (rest/incubation, paired with Mosiah 4:27) as the hinge into Part 2. Mapping: planned 1→P1, 2→P2, 3→P3, 4+5→P4/P5/P6, 6→P7, 7→P8, 8→P9, +coda. All 10 are drafted/voiced/integrated in `.draft/`; provenance gate closed in `.scratch/provenance_part1.md`.
+
 Throughline: **vision → converge → bound → context → delegate → keep honest → reflect → build your own.** Punchy (each ~2–4 pages, action-oriented), not exhaustive.
 
 | Part 1 practice | Folds in (Michael's #) | Mining finding | → Part 2 doctrine |
@@ -82,4 +85,4 @@ Agans confirms the LENGTH call: his rule-chapters are 13–38 KB, dense with sto
 **Still open:** E (does Part 1 get its own short intro/door; afterword/epilogue placement) · F (title/subtitle) · the empirical Ch-8-parallel placement (decide while building) · which scars pair to which of the 8 practices.
 
 ## Status
-Recording + honing. NO building yet. Source list: Michael's 16 pressing practices (this session) + `.draft/20260530-how-we-actually-work.md` (the mining). Continue the conversation.
+**2026-05-31 — drafted through integration; at the `into-src` ratification gate.** All 9 practices + the coda are drafted, voiced (agy/Gemini), and integrated in `.draft/` (verify-gated; provenance closed in `.scratch/provenance_part1.md`). The next step — wiring them into the live manuscript + build — is held for Michael's ratification of the six structural decisions in [`.spec/part1-into-src-plan.md`](part1-into-src-plan.md). Still open from this plan: E (Part 1 intro/door + afterword/epilogue placement) · F (title/subtitle) · the empirical Ch-8-parallel placement · the ratified front-matter rework (drop the two wary-tribe notes → "two doors, one house"; queued as into-src D5). *Earlier status, now history: "Recording + honing. NO building yet" — superseded by Michael's draft go-ahead. Source list: Michael's 16 pressing practices + `.draft/20260530-how-we-actually-work.md` (the mining).*
