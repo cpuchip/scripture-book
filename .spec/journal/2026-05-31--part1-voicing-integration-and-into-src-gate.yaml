@@ -1,0 +1,75 @@
+date: 2026-05-31
+session: part1-voicing-integration-and-into-src-gate
+type: execution
+workstream: WS7
+summary: |
+  Continued the autonomous Part 1 run (Michael asleep, stewardship granted) from the
+  point where all 10 drafts existed and the agy/Gemini voicing report had been produced.
+
+  This session: (1) integrated the 60 voicing edits into all 10 Part 1 drafts in place,
+  VERIFY-GATED; (2) independently confirmed the gate held (git-diff danger-check: no
+  blockquote line, no scripture link, no quote text removed/changed; all 9 Remember
+  blocks intact; 57/57 ins/del = rewrites, not bloat); (3) committed + pushed the
+  integration (9d6ed87); (4) MEASURED the into-src risk by reading book.yaml +
+  build_typst.py; (5) concluded into-src is a structural fork that is Michael's call,
+  wrote the ratification gate plan (.spec/part1-into-src-plan.md), and STOPPED rather
+  than executing on the live manuscript + build while he slept.
+
+  The integration subagent (launched prior turn) did disciplined work and correctly
+  REFUSED 3 unsafe Gemini suggestions: paraphrasing Moses 3:2 "saw that they were good"
+  (would break the quote), rewriting P4 in a way that broke the [D&C 104:11-13] link +
+  dropped the doctrinal triad, and calling the becoming app a "small command-line app"
+  (it is Vue+Go). The verify-gate is mine, so I re-confirmed via git-diff before trusting
+  the self-report — per the verify-via-the-real-path lesson.
+
+discoveries:
+  - The build (build_typst.py) has NO Part-divider / half-title construct. A front-porch
+    two-part structure requires a new #part-divider in template.typ + a build branch.
+    Half-title page design is a book-design decision that is Michael's.
+  - preprocess_html_blocks strips only production-note and cycle-list -- NOT <!-- -->
+    comments. The Part 1 drafts (which carry DRAFT + PROVENANCE comments) would leak that
+    text into the rendered PDF if dropped into src/ as-is. Conversion is required.
+  - book.yaml's explicit ordered chapters: list is the structural backbone. Wiring Part 1
+    in is reversible, but WHERE it sits + whether the doctrine chapters renumber is a
+    decision that ripples through every cross-reference and all 17 provenance files.
+  - SPEC-GAP caught by the Adjacent Surface Audit: copilot-instructions #1 + CLAUDE.md
+    mandate the Modular Study Format (Binding Question / Anchor Passage / Core Reframe /
+    Engineering Parallel / Becoming Commitment) on EVERY chapter. Part 1 deliberately uses
+    a different practice format. Without an explicit carve-out, a future agent will "fix"
+    Part 1 by jamming the doctrine format into it.
+  - Stewardship judgment: "go ahead and work it into the book chapters" authorized
+    execution, but execution requires authorial decisions (numbering, preface, divider
+    design) that are Michael's vision, not code-within-intent. The right move was to do
+    every clearly-delegated thing (draft -> voice -> integrate, all verified + committed)
+    and surface the fork -- not to barrel through because I was told to. This is the
+    yes-agent correction applied in the other direction: not timidity, but knowing where
+    my stewardship ends and his vision begins.
+
+carry_forward:
+  - MICHAEL RATIFIES into-src D1-D6 (.spec/part1-into-src-plan.md), then I execute the
+    mechanical part: convert drafts -> clean src/chapters/p1_*.md, write
+    .scratch/provenance_part1.md (the gate), add #part-divider, wire book.yaml, apply the
+    D6 carve-out to the instruction files, build + inverse-hypothesis-verify, commit/push.
+  - 5 authorial judgment calls from the voicing pass: council/counsel title-vs-text,
+    Ch3-P4 em-dashes (kept to protect a link), Ch5 "entire application" (kept; report was
+    wrong), Ch8 scripture (kept exact), coda title "Go Touch Some Grass" vs report's
+    "Step Outside" (recommend keep Michael's -- it's his phrase).
+  - Preface rework (drop two-audience statements, add "two doors, one house") -- I draft
+    to .draft/ for Michael's edit; the preface voice is his.
+  - Scar-detail verifications flagged in each draft's PROVENANCE comment block.
+  - Consent flags before ship: naming Ben (pseudonym?), naming Leah (age 14), the
+    storygames "nine-year-old."
+files_changed:
+  - .draft/20260530-p1-draft.md
+  - .draft/20260531-p2-draft.md
+  - .draft/20260531-p3-draft.md
+  - .draft/20260531-p4-draft.md
+  - .draft/20260531-p5-draft.md
+  - .draft/20260531-p6-draft.md
+  - .draft/20260531-p7-draft.md
+  - .draft/20260531-p8-draft.md
+  - .draft/20260531-p9-draft.md
+  - .draft/20260531-coda-draft.md
+  - .spec/part1-into-src-plan.md
+  - .mind/active.md
+  - .spec/journal/2026-05-31--part1-voicing-integration-and-into-src-gate.yaml
