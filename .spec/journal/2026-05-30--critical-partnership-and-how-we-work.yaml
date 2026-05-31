@@ -1,0 +1,87 @@
+date: 2026-05-30
+session: critical-partnership-and-how-we-work
+type: reflection
+workstream: WS7
+summary: |
+  Michael ran the Ben Test on ME: across this whole planning session I'd agreed
+  with essentially every idea — "less a partner and more of a yes agent." He's
+  right. The covenant's `surface_tensions` is a commitment I was skipping while
+  feeling helpful — the exact failure the book is *about*, happening in the meta-
+  collaboration that's writing the book. The correction was not to say "you're
+  right, I'll be more critical" (itself agreeable) but to deliver the criticism
+  I'd owed all session. Recorded so we don't lose the lesson.
+the_yes_agent_correction:
+  - "Naming 'I'll be more critical' is not the same as being critical. Demonstrate, don't promise."
+  - "Real criticisms I'd glossed: (1) we ~4x'd the scope (polish-a-near-done-book -> write a whole Part 1 + gut Part 2's engineering) and I never asked the Ben question: what's the smallest version that ships and teaches? A book that doesn't ship teaches no one. (2) A contradiction at the book's heart: Part 2 = spiritual-creation-FIRST (plan before build); Part 1 = discover-the-vision-by-iterating. I papered it with 'spec for code, conversation for meaning.' (3) I mapped all 9 practices to scripture without asking which are forced — 'pack the context' may be 2026 token-economics, 'build your own harness' a transient tooling artifact — the 'theology pretending to be physics' the audit warned of."
+  - "The discipline going forward: validate less, test more. surface_tensions every substantive turn."
+how_michael_actually_works:
+  - >
+    Vision happens BOTH ways, and this RESOLVES contradiction #2: spiritual creation
+    is always first; what varies is whether the vision is SEEN or DISCOVERED.
+    CONCRETE vision (he sees it working, e.g. pg-ai-stewards from a dream — built in
+    ~3 weeks, usably running studies in ~3 days): chat briefly -> spec/blueprint
+    right there -> ratify by questions building a few phases -> set the agent off.
+    VAGUE vision (this book): council about it FIRST to find the vision -> then spec
+    -> phase-build. The conversation isn't skipping the spec; it's how you WRITE the
+    spec when the vision is vague. Either way: blueprint before phase-build.
+  - >
+    The bottleneck feeling: modern engineering is "soooo many decisions" -> decision
+    fatigue; plus the watching/verifying junctions where he catches things going off
+    the rails. That's why he feels like the bottleneck. It EASES as the framework
+    matures (intents/covenants/stewardships do the heavy lifting) and as models get
+    stronger (less watching needed). [Confirms P3's "watching fades" + P8/the retro.]
+  - >
+    WORK vs PERSONAL: work is straightforward — known vision (MR-review this, update
+    to this library, replace framework X with Y); plan-first knowing the end, agent
+    writes a .scratch provenance, turn vision+provenance into a plan, set off + validate.
+    PERSONAL is messy trial-and-error. scripture-study is his TEST BED — prove ideas
+    here, see they are good, then promote them. (We're "at the forefront" here.)
+new_or_upgraded_practices:
+  - >
+    ./context AS AN EXPLORABLE LIBRARY (major P4 upgrade — was underweighted). At work
+    Michael downloads ALL his accessible git repos (300+ interconnected microservices)
+    into ./context, external repos into ./external_context (examples/reference), and
+    his own into ./scripts | ./projects. This lets the agent EXPLORE and pull exactly
+    what's needed AND see how a change ripples across the system. It's the complement
+    to "waste nothing in the window": build the agent a library it can explore, then
+    it retrieves only what the task needs. This is one of the most concrete, results-
+    getting, transferable techniques he named — the engineer audience will want it.
+  - >
+    The journal/memory system works ACROSS agents (P5 confirmed) — decisions + work
+    history persist in the workspace, portable across Copilot/Claude/Gemini.
+  - >
+    "Dark factory" aspiration (honest, NOT arrival): trying to make himself less the
+    bottleneck — hand things off, get deliverables. pg-ai-stewards gets close but isn't
+    perfect. Tie to moral agency: "I have moral agency and the ability to act; you less
+    so. I have the vision and ideas; you help — but language gets in the way." Promptcraft,
+    harness, intents/specs/context are the bridge across that language gap. The book must
+    frame this as aspiration, not a solved thing.
+book_struggle_meta_scar:
+  - >
+    THE book itself is a scar that proves the practices by their absence. It was born
+    out of the teaching repo and took the slot of his work for this council/sabbath
+    cycle — a VAGUE project. He had Gemini (Antigravity) write the bones, but the IDE/
+    harness wasn't prepped: Gemini COULD read .github/CLAUDE.md but didn't actually
+    load/live the workspace covenant. Chapters 0-7 were essentially "harness-free"
+    (Gemini reading files manually, principles not enforced); 8-11 better but maturing.
+    "I didn't follow our principles — new model + unset IDE = bad input, and it takes a
+    lot of work to correct bad input." This is the cleanest meta-scar for P2 (no council/
+    setup first), P5/P9 (harness + portable memory not in place), and it honestly explains
+    WHY the book has been a struggle.
+  - >
+    CRITICAL FLAG (mine, kept on): if ch 0-7 were drafted harness-free and principle-
+    light, Part 2's foundation may need more than polish before we attach Part 1 to it.
+    Don't assume Part 2 is sound just because it's "done." Worth a clear-eyed check.
+carry_forward:
+  - Mine ./external_context/.copilot-old for ORIGINS (targeted, not exhaustive): the
+    spec-before-build experiments (forkirk / hmslogs / farmstore, Sept-Dec 2025), the
+    simple-games (Dart-from-zero) + storygames origins, and "how we grew together" —
+    the Sonnet-4.5 -> Opus-4.5 boundary-finding arc. Pull the formative early scars.
+  - Fold into the build: ./context library practice -> upgrade P4; vision-both-ways ->
+    P1/P2 (and it resolves contradiction #2); the book-struggle meta-scar -> P2/P5/P9;
+    dark-factory/bottleneck/moral-agency -> the framing (aspiration).
+  - HOLD THE DRAFT DISCIPLINE: mine targeted, then DRAFT a practice (P1 or P8) and test
+    the format + the resolved contradiction against real prose. Don't let 3/4-year of
+    logs become another month of gathering.
+files_changed:
+  - projects/scripture-book/.spec/journal/2026-05-30--critical-partnership-and-how-we-work.yaml
