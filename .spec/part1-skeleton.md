@@ -92,7 +92,7 @@ Most of these scars are from **building this very book and its workspace**. Part
 ## Open while drafting
 - Exact scar details (dates, numbers, names) verified against source per chapter — provenance discipline.
 - Ch 8's kept engineering parallel ("what's refined is the developer") — does it migrate into a P1 practice (P6? P7?) or stay in Part 2? Decide with prose in front of us.
-- The recurring connective analogy (Agans had the food-allergy diary) — candidate for Part 1: "the workspace as a house you build together."
+- **Recurring connective thread — RESOLVED 2026-05-30: "the questions, both ways."** The human queries the AI for orientation (*where are we, what's next, did we do this, did we remember?* — works only because memory is portable, P5); the AI queries the human to ratify (P2) and, in sabbath reviews, to be honest (P8). Most people never let the AI question *them* back — that's the counterintuitive, teachable move, and it threads P1/P2/P5/P8 together (Agans' food-allergy-diary equivalent). **Mosiah 4:27 is the recurring motif** — the verse that surfaces whenever the AI grills the human on honesty/pacing ("not requisite that a man should run faster than he has strength… be diligent… in wisdom and order"). Now also on the **title page** as the *how* epigraph, paired with **2 Nephi 25:26** the *why*. (Open: is "Question Each Other / Let It Ask You Back" its own practice or just the thread? Lean: the thread — keep the clean 9 + coda.)
 - Title slogans per chapter (the *italic* sub-titles above are working slogans).
 - Part 1 ↔ Part 2 cross-link mechanics in print (part/chapter refs) vs. a later digital graph view.
 - Coda placement: closing chapter of Part 1, or a hinge between Part 1 and Part 2 (rest → the deeper "why")?

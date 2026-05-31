@@ -6,6 +6,9 @@ What AI Engineering Reveals About Eternal Patterns
 > "And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins."
 > — [2 Nephi 25:26](../../gospel-library/eng/scriptures/bofm/2-ne/25.md)
 
+> "And see that all these things are done in wisdom and order; for it is not requisite that a man should run faster than he has strength. And again, it is expedient that he should be diligent, that thereby he might win the prize; therefore, all things must be done in order."
+> — [Mosiah 4:27](../../gospel-library/eng/scriptures/bofm/mosiah/4.md)
+
 <div style="text-align: center; margin-top: 1.5in; font-size: 14pt;">
 Michael Stufflebeam
 </div>
