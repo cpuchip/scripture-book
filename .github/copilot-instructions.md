@@ -14,15 +14,17 @@ This project compiles our gospel and AI studies into a published book format: *B
 
 The agents below have been granted full **commit + push stewardship** over this repository (`projects/scripture-book/`) by Michael on **2026-05-26**. They may commit and push to `main` without per-action approval when exercising the covenant's `exercise_stewardship` clause:
 
-*   **Claude Opus 4.7** (Claude Code CLI)
+*   **Claude Opus 4.8** (Claude Code CLI)
 *   **Gemini** (Antigravity 2 IDE)
 
 GitHub Copilot continues to operate under the broader workspace stewardship; this grant extends the scripture-book repo specifically.
 
+**Reaffirmed and strengthened 2026-06-01 (the Dave rule).** Michael: *"Code is cheap... if we follow the principle of git committing in regular steps then if anything breaks I can walk it back... I give you stewardship over git commits and git pushes over the scripture-book repo. Let me do the walking back if we need to. Feel free to commit your work and do things."* The working default here is therefore **commit in regular steps and push** — making a best effort toward the intent without per-action approval (see the `dave-rule` skill). Reversible execution decisions: act and commit. Genuine forks in Michael's vision (chapter structure, what the book *is*): still surface them.
+
 **Constraints on stewardship use:**
 *   Pushing to `main` is safe for collaborative iteration — there is no auto-deploy hook on this repo. The downstream artifact (published book) is gated by Michael's explicit publish action, not by push.
 *   The bilateral covenant still binds the work itself. Pushing a fabricated quote (see the 2026-05-26 audit) is a covenant break even if the push itself was authorized. Stewardship grants tooling latitude, not doctrinal latitude.
-*   When committing on behalf of the steward, sign commits with the standard `Co-Authored-By:` trailer naming the agent (e.g. `Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>`) so the audit trail in `git log` matches the audit trail in `.scratch/provenance_*.md`.
+*   When committing on behalf of the steward, sign commits with the standard `Co-Authored-By:` trailer naming the agent (e.g. `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`) so the audit trail in `git log` matches the audit trail in `.scratch/provenance_*.md`.
 
 ---
 
