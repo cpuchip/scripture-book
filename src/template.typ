@@ -3,6 +3,11 @@
 #let body-font = ("EB Garamond", "Garamond", "Georgia", "Libertinus Serif")
 #let heading-font = ("Georgia", "Libertinus Serif")
 
+// Per-chapter kicker shown above a chapter title (e.g. "PRACTICE 1" / "CODA").
+// Set just before a Part One heading and cleared after, so the chapter title
+// itself (the heading body) stays a clean single line for the running header.
+#let practice-kicker = state("practice-kicker", none)
+
 #let project(title: "", author: "", body) = {
   // Page Configuration (6x9 inch trade paperback)
   set page(
@@ -19,40 +24,24 @@
     // Alternating Headers
     header: context {
       let page-num = counter(page).get().first()
-      // Skip header on page 1 (front matter) or chapter start pages
-      // In Typst, we can query headings to see if a chapter starts on this page
-      let headings = query(selector(heading.where(level: 1)).after(here()))
-      let current-headings = query(selector(heading.where(level: 1)).before(here()))
-      let is-chapter-start = false
-      
-      if current-headings.len() > 0 {
-        let last-h1 = current-headings.last()
-        // If the heading is on the current page, it's a chapter start
-        if last-h1.location().page() == page-num {
-          is-chapter-start = true
-        }
-      }
-      
-      if page-num > 1 and not is-chapter-start {
+      // Suppress the running header on chapter-opening pages (any level-1 heading
+      // begins here) and on part-divider half-titles (marked with metadata) — as in
+      // standard trade typography. The previous query used .before(here()), which
+      // never saw the heading that opens the current page (it sits below the header),
+      // so chapter openers were wrongly getting a running head.
+      let h1-here = query(heading.where(level: 1)).filter(h => h.location().page() == page-num)
+      let div-here = query(metadata).filter(m => m.value == "part-divider" and m.location().page() == page-num)
+      let suppress = h1-here.len() > 0 or div-here.len() > 0
+
+      if page-num > 1 and not suppress {
         if calc.even(page-num) {
-          // Left page (Verso): Author Name or Book Title on outer edge
-          grid(
-            columns: (1fr),
-            align: left,
-            text(size: 8.5pt, font: heading-font, style: "italic", fill: rgb("#555555"), title)
-          )
+          // Verso: short book title on the outer (left) edge
+          align(left, text(size: 8.5pt, font: heading-font, style: "italic", fill: rgb("#555555"), title.split(":").at(0)))
         } else {
-          // Right page (Recto): Chapter Title on outer edge
-          // Query the active chapter name
-          let active-chapter = ""
-          if current-headings.len() > 0 {
-            active-chapter = current-headings.last().body
-          }
-          grid(
-            columns: (1fr),
-            align: right,
-            text(size: 8.5pt, font: heading-font, style: "italic", fill: rgb("#555555"), active-chapter)
-          )
+          // Recto: active chapter title (last heading at or before this page)
+          let prior = query(heading.where(level: 1)).filter(h => h.location().page() <= page-num)
+          let active-chapter = if prior.len() > 0 { prior.last().body } else { [] }
+          align(right, text(size: 8.5pt, font: heading-font, style: "italic", fill: rgb("#555555"), active-chapter))
         }
         v(-0.3em)
         line(length: 100%, stroke: 0.5pt + rgb("#dddddd"))
@@ -99,6 +88,14 @@
     pagebreak(weak: true)
     v(1.5in)
     align(center, block(width: 100%)[
+      #context {
+        let k = practice-kicker.at(it.location())
+        if k != none {
+          text(size: 13pt, weight: "regular", font: heading-font, tracking: 3pt, fill: rgb("#999999"))[#upper(k)]
+          linebreak()
+          v(0.18in, weak: true)
+        }
+      }
       #text(size: 22pt, weight: "regular", font: heading-font, it.body)
     ])
     v(1.5in)
@@ -214,6 +211,7 @@
 // so the two-part structure (the "two doors, one house") reads at a glance.
 #let part-divider(label, title, subtitle) = {
   pagebreak(weak: true)
+  metadata("part-divider")  // page marker so the running header is suppressed here
   v(2.4in)
   align(center)[
     #text(size: 12pt, font: heading-font, tracking: 4pt, fill: rgb("#999999"))[#upper(label)]
@@ -225,6 +223,29 @@
     #text(size: 13pt, style: "italic", fill: rgb("#555555"))[#subtitle]
   ]
   pagebreak(weak: true)
+}
+
+// Table-of-contents helpers (manual TOC — gives full control over the
+// Part One / Part Two grouping that the auto-outline can't express, since the
+// part dividers are not headings). Page numbers are resolved from labels placed
+// on each chapter heading via counter(page).at(<label>).
+#let toc-part(title) = {
+  v(1.4em)
+  text(size: 11pt, weight: "bold", font: heading-font, tracking: 2pt, fill: rgb("#333333"))[#upper(title)]
+  v(0.35em)
+}
+
+#let toc-line(body, target) = context {
+  let pg = counter(page).at(target).first()
+  pad(left: 0.3in, top: 0.3em, bottom: 0.3em,
+    grid(
+      columns: (auto, 1fr, auto),
+      align: (left + bottom, left + bottom, right + bottom),
+      box[#body],
+      box(width: 100%, inset: (x: 0.4em))[#text(fill: rgb("#cccccc"))[#repeat[.]]],
+      box[#text(size: 10pt)[#pg]],
+    )
+  )
 }
 
 // Eleven-step cycle list step item.

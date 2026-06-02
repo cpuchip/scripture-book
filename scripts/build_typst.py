@@ -371,6 +371,32 @@ def markdown_to_typst(md_content, dist_dir):
         
     return '\n\n'.join(typst_blocks)
 
+def chapter_title(md_content):
+    """First H1 in a chapter file (the title), or '' if none."""
+    m = re.search(r'^#\s+(.+)$', md_content, re.MULTILINE)
+    return m.group(1).strip() if m else ""
+
+def loc_label(stem):
+    """A safe Typst label name for a chapter file stem (page anchor for the TOC)."""
+    return "loc_" + re.sub(r'[^0-9A-Za-z_]', '_', stem)
+
+def build_toc_typst(toc_entries, dist_dir):
+    """Emit the Contents page: part headers + chapter lines with page numbers.
+    toc_entries is a list of ("part", title) or ("chapter", title, label)."""
+    lines = [
+        '#pagebreak(weak: true)',
+        '#v(0.4in)',
+        '#align(center)[#text(size: 22pt, weight: "regular")[Contents]]',
+        '#v(0.5in)',
+    ]
+    for entry in toc_entries:
+        if entry[0] == "part":
+            lines.append(f'#toc-part("{entry[1]}")')
+        else:
+            _, ttl, lbl = entry
+            lines.append(f'#toc-line([{convert_inline_markdown(ttl, dist_dir)}], <{lbl}>)')
+    return '\n'.join(lines)
+
 def build():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
@@ -396,19 +422,40 @@ def build():
     
     typst_content = []
     # Setup document metadata and template import
-    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step, part-divider')
+    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step, part-divider, toc-part, toc-line')
     typst_content.append(f'#show: project.with(title: "{title}", author: "{author}")\n')
-    
+
+    # Pre-pass: build the table-of-contents entries (part headers + chapter
+    # lines). The part dividers (p1_00 / p2_00) become part headers; every other
+    # non-frontmatter chapter becomes a line keyed to a page-anchor label.
+    toc_entries = []
+    for chapter_path in chapters_list:
+        full_path = os.path.join(project_root, chapter_path)
+        if not os.path.exists(full_path):
+            continue
+        stem = os.path.splitext(os.path.basename(chapter_path))[0]
+        if "frontmatter" in stem:
+            continue  # title page is not listed in the TOC
+        if stem.startswith("p1_00"):
+            toc_entries.append(("part", "Part One · How"))
+            continue
+        if stem.startswith("p2_00"):
+            toc_entries.append(("part", "Part Two · Why"))
+            continue
+        with open(full_path, 'r', encoding='utf-8') as f:
+            toc_entries.append(("chapter", chapter_title(f.read()), loc_label(stem)))
+
     for chapter_path in chapters_list:
         full_path = os.path.join(project_root, chapter_path)
         if not os.path.exists(full_path):
             print(f"Warning: Chapter file not found: {chapter_path}")
             continue
-            
+
         print(f"Converting chapter: {chapter_path}")
+        stem = os.path.splitext(os.path.basename(chapter_path))[0]
         with open(full_path, 'r', encoding='utf-8') as f:
             md_content = f.read()
-            
+
         if "frontmatter.md" in chapter_path:
             # Replace subtitle. Capture whatever the chapter-meta div holds so a
             # subtitle change in frontmatter.md needs no edit here (closes the
@@ -447,9 +494,34 @@ def build():
         md_content = preprocess_html_blocks(md_content)
 
         ch_typst = markdown_to_typst(md_content, dist_dir)
+
+        # Label each chapter heading as a page anchor for the TOC. For Part One
+        # practices/coda, split "Practice N · Title" so the title is the single-line
+        # heading body (clean running header) and "PRACTICE N" / "CODA" renders as a
+        # kicker above it, carried by the practice-kicker state set around the heading.
+        if "frontmatter" not in stem and not stem.endswith("_divider"):
+            lbl = loc_label(stem)
+            hm = re.search(r'^= (.+)$', ch_typst, flags=re.MULTILINE)
+            if hm and re.match(r'p1_(0[1-9]|10)_', stem):
+                kicker, sep, ttl = hm.group(1).partition(' · ')
+                if not sep:
+                    kicker, ttl = '', hm.group(1)
+                ch_typst = ch_typst.replace(hm.group(0), f'= {ttl} <{lbl}>', 1)
+                kv = f'"{kicker}"' if kicker else 'none'
+                ch_typst = (f'#state("practice-kicker", none).update({kv})\n\n'
+                            + ch_typst
+                            + '\n\n#state("practice-kicker", none).update(none)')
+            elif hm:
+                ch_typst = ch_typst.replace(hm.group(0), f'= {hm.group(1)} <{lbl}>', 1)
+
         typst_content.append(ch_typst)
+
+        # The Contents page sits right after the frontmatter (title page), before the preface.
+        if "frontmatter" in stem:
+            typst_content.append(build_toc_typst(toc_entries, dist_dir))
+
         typst_content.append("\n")
-        
+
     with open(typ_out, 'w', encoding='utf-8') as f:
         f.write('\n\n'.join(typst_content))
         
