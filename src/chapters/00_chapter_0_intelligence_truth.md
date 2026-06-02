@@ -79,6 +79,6 @@ We are not magic conjurers typing incantations; we are organizers of intelligenc
 
 Because I recognize that light, spirit, and truth are physical realities that shape my capacity to comprehend, I commit to:
 
-1.  **Treat study as material reception.** When I open the scriptures or engage in study, I will consciously approach the activity not as reading comprehension, but as taking fine matter (light and truth) into my soul. I will slow down and allow the words to settle.
+1.  **Treat study as material reception.** When I open the scriptures or engage in study, I strive to approach the activity not as reading comprehension, but as taking fine matter (light and truth) into my soul, slowing down to let the words settle.
 2.  **Actively combat the anti-enjoyment of digital noise.** Recognizing that treating light lightly causes it to withdraw, I will eliminate transactional, mindless reading. I will not click through articles or scriptures merely to check a box. If a text is worth reading, it is worth receiving with focus.
-3.  **Prompt with structural integrity.** In my daily engineering work, I will not treat AI interactions as cheap shortcuts. I will treat them as exercises in organizing intelligence. I will bring clear intent, rigorous context, and precise logic to every prompt, honoring the law that intelligence cleaveth unto intelligence.
+3.  **Prompt with structural integrity.** In my daily engineering work, I strive not to treat AI interactions as cheap shortcuts but as exercises in organizing intelligence, bringing clear intent, rigorous context, and precise logic to every prompt, honoring the law that intelligence cleaveth unto intelligence.

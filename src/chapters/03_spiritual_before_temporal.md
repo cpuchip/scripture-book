@@ -57,6 +57,6 @@ This pattern is not limited to software. In our deep scriptural studies—such a
 
 To honor the pattern of spiritual creation before physical execution, I commit to the following:
 
-1.  **Enforce the "no-code-without-spec" rule.** I will not begin writing code or building software components with AI until we have drafted and refined a complete planning specification. 
-2.  **Apply spiritual planning to personal study.** Before beginning any deep scripture study session, I will write a brief outline defining the binding question, target sources, and desired outcomes, establishing the spiritual framework before reading.
-3.  **Create blueprints for life goals.** I will not make vague resolutions. When seeking personal growth or undertaking new callings, I will draft a written "spiritual creation" document outlining the steps, commitments, and verification measures needed to achieve them.
+1.  **Enforce the "no-code-without-spec" rule.** I strive not to begin writing code or building software components with AI until we have drafted and refined a complete planning specification.
+2.  **Apply spiritual planning to personal study.** Before beginning any deep scripture study session, I strive to write a brief outline defining the binding question, target sources, and desired outcomes, establishing the spiritual framework before reading.
+3.  **Create blueprints for life goals.** I strive not to make vague resolutions. When seeking personal growth or undertaking new callings, I work to draft a written "spiritual creation" document outlining the steps, commitments, and verification measures needed to achieve them.

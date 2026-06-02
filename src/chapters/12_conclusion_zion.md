@@ -48,7 +48,7 @@ The engineering catches up to the pattern. It does not invent it.
 
 Because I recognize that Zion is the accumulation of daily individual refinement aligned to a collective covenant, I commit to:
 
-1.  **Kill the spirit of contention.** I will actively reject anger, debate, and passive-aggressive behavior in my home and online. When disagreements arise, I will prioritize relationship reconciliation over proving my point, refusing to harbor resentment.
+1.  **Kill the spirit of contention.** I strive to reject anger, debate, and passive-aggressive behavior in my home and online. When disagreements arise, I work to prioritize relationship reconciliation over proving my point, refusing to harbor resentment.
 2.  **Reject tribal labels.** I will not classify myself or others by political parties, economic classes, or social tags. I will view every person I interact with as a child of God, striving to eliminate the "-ites" from my vocabulary and my thoughts.
-3.  **Fast with purpose.** I will observe a regular weekly fast, dedicating my hunger to the Lord. I will calculate the cost of the meals bypassed and donate it as a generous fast offering, consciously reversing my consumption habits to care for the poor.
-4.  **Walk the daily cycle.** I will treat each day as one iteration of walking with God. Before retiring, I will review my stewardship, seeking reconciliation for any friction I caused and asking for the Spirit to guide my alignment tomorrow.
+3.  **Fast with purpose.** I will observe the monthly fast, dedicating my hunger to the Lord. I will calculate the cost of the meals bypassed and donate it as a generous fast offering, consciously reversing my consumption habits to care for the poor.
+4.  **Walk the daily cycle.** I strive to treat each day as one iteration of walking with God. Before retiring, I try to review my stewardship, seeking reconciliation for any friction I caused and asking the Spirit to guide my alignment tomorrow.

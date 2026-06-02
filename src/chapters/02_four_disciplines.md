@@ -61,6 +61,6 @@ A house of order requires more than structural blueprints; it requires a covenan
 
 To build a house of order in my work and life, I commit to the following:
 
-1.  **Formally document intent.** For every major study or software project, I will write an explicit `intent` document stating the core purpose, values, and decision boundaries, ensuring the system has a guide when instructions run out.
-2.  **Establish watching mechanisms.** I will build monitoring and early-termination boundaries into my autonomous workflows. I will not delegate an execution task without a corresponding "watching" protocol to observe its output.
-3.  **Recognize the unmapped verbs.** In my personal discipleship and daily habits, I will focus on the verbs of covenant, stewardship, and rest. I will treat the Sabbath not as a pause in execution, but as the essential ninth step of the creation cycle where we verify that the work is good.
+1.  **Formally document intent.** For every major study or software project, I strive to write an explicit `intent` document stating the core purpose, values, and decision boundaries, so the system has a guide when instructions run out.
+2.  **Establish watching mechanisms.** I strive to build monitoring and early-termination boundaries into my autonomous workflows, and not to delegate an execution task without a corresponding "watching" protocol to observe its output.
+3.  **Recognize the unmapped verbs.** In my personal discipleship and daily habits, I strive to focus on the verbs of covenant, stewardship, and rest, and to treat the Sabbath not as a pause in execution, but as the essential ninth step of the creation cycle where we verify that the work is good.

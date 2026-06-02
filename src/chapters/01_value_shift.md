@@ -57,5 +57,5 @@ The partnership with AI handles the speed of execution, but the human partner mu
 To adapt to this value shift, I commit to the following changes in my daily work and study:
 
 1.  **Stop measuring worth by execution speed.** I will no longer evaluate my productivity by lines of code written or speed of implementation. I will measure it by systems correctly designed, problems accurately framed, and output verified.
-2.  **Maintain the durable craft.** I will write code by hand regularly, not out of inefficiency, but to maintain the technical judgment and debugging skills that make my oversight valuable. Atrophy of discernment is a real risk.
+2.  **Maintain the durable craft.** I strive to write code by hand regularly, not out of inefficiency, but to keep the technical judgment and debugging skills that make my oversight valuable. Atrophy of discernment is a real risk.
 3.  **Teach correctness, not just prompting.** In my Sunday School presidency and professional mentoring, I will focus on helping others develop the critical thinking and scriptural verification skills needed to evaluate answers, rather than just teaching them how to ask questions.

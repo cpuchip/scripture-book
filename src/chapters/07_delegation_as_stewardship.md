@@ -79,6 +79,6 @@ By organizing our systems into defined stewardships, we prevent token bloat and 
 
 To practice the stewardship pattern in my daily creations and callings, I commit to:
 
-1.  **Stop running on one cylinder.** In my church callings and my professional projects, I will actively invite my counselors and collaborators to sit in council with me. I will present the problems, not just the solutions, and listen to their counsel.
-2.  **Appoint clear portions.** When I delegate tasks—whether to a human colleague or a subagent—I will define the scope, the tools, and the criteria for success clearly, rather than micro-managing the implementation.
+1.  **Stop running on one cylinder.** In my church callings and my professional projects, I strive to invite my counselors and collaborators to sit in council with me, to present the problems and not just the solutions, and to listen to their counsel.
+2.  **Appoint clear portions.** When I delegate tasks—whether to a human colleague or a subagent—I strive to define the scope, the tools, and the criteria for success clearly, rather than micro-managing the implementation.
 3.  **Require accountability without hovering.** Once a stewardship is assigned, I will leave the steward free to perform, establishing structured review sessions (our "watching" loops) to verify correctness at the proper intervals.
