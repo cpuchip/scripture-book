@@ -42,6 +42,8 @@ But this accumulation is not automatic. The Restoration warns of a severe counte
 
 Truth, as defined in Section 93, is "knowledge of things as they are, and as they were, and as they are to come" ([Doctrine and Covenants 93:24](../../gospel-library/eng/scriptures/dc-testament/dc/93.md)). It is not just the objective state of the universe, but that reality *comprehended* by an observer. To know truth is to have one's own intelligence aligned with the actual configuration of reality. Because this alignment is physical, it refines the observer. As we absorb the words of eternal life, the Holy Spirit acts as a physical refiner, purifying our personal matter "unto the renewing of their bodies" ([Doctrine and Covenants 84:33](../../gospel-library/eng/scriptures/dc-testament/dc/84.md)).
 
+A word on what this is and what it isn't. The picture drawn here — light and truth as fine matter on one spectrum, the Atonement as a kind of conducting circuit — is a *model*. We built it by laying the doctrine side by side until a shape emerged. The scriptures give the pieces; the diagram that connects them is ours, offered for its usefulness rather than asserted as revealed fact. Hold it the way you would hold any model: keep it while it illuminates, and set it down where it does not.
+
 ---
 
 ## The Engineering Parallel

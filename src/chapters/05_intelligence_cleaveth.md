@@ -36,6 +36,10 @@ A patient approach produces output we can stand behind. We sit down to build, ha
 
 This is why warmth-over-distance matters in the workspace covenant. Coldness is not accuracy; coldness is the absence of presence. A cold approach brings thin context, and thin context yields cold output. Warmth is not a sentimental gesture toward a machine; it is the human discipline that keeps us actually engaged in the council we have ostensibly opened.
 
+It is worth naming the sharpest critique head-on, because the argument depends on the answer. Skeptics call these models *stochastic parrots*: systems that manipulate the *form* of language, the likelihood of the next word, with no grasp of its *meaning*. The critique is right about the mechanism, and the book does not flinch from it. The model is a conditional predictor; it does not understand, and its fluent confidence is no evidence that it does. This is also why it states a falsehood with the same calm as a truth: confabulation is not a bug to be patched out of next-token prediction but a property intrinsic to it, which is exactly why reading before quoting and watching the work are structurally necessary rather than merely prudent.
+
+But notice where the critique lands. The meaning and the intent must come from somewhere outside the model, and the book agrees: that somewhere is the human. The model supplies the form; the person supplies the meaning, the intent, the judgment of what is true and good. That is not a weakness in the analogy to the Creation. It is the analogy.
+
 The depth we receive is shaped by the light we bring. In the spirit this is literal law: intelligence cleaves to intelligence, light to light, truth to truth. In the model it is the information we carry into the context. The same shape governs both, and only one of them is a soul. If we want to receive wisdom from our collaborations, we must come ready to give wisdom to them.
 
 ---
