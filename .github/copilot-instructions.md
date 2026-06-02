@@ -30,7 +30,11 @@ GitHub Copilot continues to operate under the broader workspace stewardship; thi
 
 ## Writing Principles (Strict Constraints)
 
-1.  **Modular Study Format:** Every chapter must contain:
+1.  **Two formats for two parts (the front porch).** The book is one volume with two doors. **Part One** (the practices) and **Part Two** (the doctrine) use *different* formats on purpose — do not collapse one into the other.
+
+    **Part One — the practice format.** Each piece is titled **"Practice N"** or **"Coda,"** not "Chapter N," and runs: *story* (a real scar or success) → *the principle it taught* (eternal, separated from the perishable 2026 mechanics) → *today's implementation* → a ***Try This*** → a ***Remember*** box, with a parenthetical *(Part Two: …)* cross-reference to the doctrine underneath. Part One deliberately does **not** carry the Modular Study Format below. Do **not** "fix" a Part One practice by adding a Binding Question, Anchor Passage, Engineering Parallel, or Becoming Commitment — that would erase the practice-forward door the book opens with.
+
+    **Part Two — the Modular Study Format.** Every Part Two chapter must contain:
     *   **Binding Question:** A single, sharp question the chapter answers.
     *   **Anchor Passage:** A blockquoted scripture or prophetic citation.
     *   **The Core Reframe:** The scripture/doctrinal analysis.
