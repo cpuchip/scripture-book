@@ -9,13 +9,13 @@ What AI Engineering Reveals About Eternal Patterns
 > "And see that all these things are done in wisdom and order; for it is not requisite that a man should run faster than he has strength. And again, it is expedient that he should be diligent, that thereby he might win the prize; therefore, all things must be done in order."
 > — [Mosiah 4:27](../../gospel-library/eng/scriptures/bofm/mosiah/4.md)
 
-<div style="text-align: center; margin-top: 1.5in; font-size: 14pt;">
+<div style="text-align: center; margin-top: 0.3in; font-size: 14pt;">
 Michael Stufflebeam
 </div>
 
 <div style="page-break-before: always; margin-top: 1.5in; text-align: center; font-style: italic; text-indent: 0;">
 
-I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without me ever getting to the point — because for me, the journey there was always more fun than the point itself. Journey before destination. Thank you for walking it with me.
+I dedicate this book to my wife, Krista, who spent countless hours listening to me drone on about how cool AI is without me ever getting to the point — because for me, the journey there was more fun than the point itself. Journey before destination. Thank you for walking it with me.
 
 To my kids, who make this life worth it — I get to watch them grow up and do cool things of their own.
 

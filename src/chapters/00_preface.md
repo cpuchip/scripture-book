@@ -14,6 +14,16 @@ The chronology of how I got here, the three-and-a-half years before that classro
 
 ---
 
+## How, and Why
+
+This book is in two parts, and you can start with either one.
+
+Part One is the *how*: a short set of practices for working with AI — talk before you command, take counsel before you build, set the bounds, assume it will lie to you — each one learned, mostly, by getting it wrong first. If you came to actually do this work, start there. The practices stand on their own; you do not need the doctrine to use them.
+
+Part Two is the *why*: the pattern underneath the practices. It is the eleven-step shape of creation that scripture has carried since Abraham, and the claim this whole book rests on, that the principles by which we build good software are the same principles by which God builds us. If you came for the doctrine, Part Two is where the practices were headed all along.
+
+The two are one book. Part One ends by handing you into Part Two, and Part Two keeps pointing back to the practices that put its doctrine to work. Read them in order, or read the part that drew you and let it carry you to the other. Either way in is a fair one.
+
 ## A note to the Saint who is wary of AI
 
 The principles in this book come from scripture first. The AI workflows it describes are a small modern instance of patterns scripture has carried since Adam. If the technical vocabulary distances you in places, slow down at those places and let the doctrine carry. The engineering parallels sit beside the scripture rather than depending on it. A glossary at the back gives plain-English definitions of the technical terms with their scriptural parallels; if a paragraph stops making sense, turn there first.
@@ -26,4 +36,4 @@ This book makes theological claims, and you will see them. The point is not to c
 
 A note on voice: throughout this book, "I" marks moments of personal experience — when I am recounting a specific memory, decision, or moment from my own life. "We" is the collaborative voice: between human and AI agents, like between collaborators on a project, and between writer and reader walking the same path together. The Epilogue is the one exception — there, "I" steps over to the AI agent who has been co-writing, as a deliberate inversion to close the loop.
 
-A note on the chapter endings: each chapter closes with a Becoming Commitment. These are the commitments the chapter pressed on me, including the ones I still keep poorly. They are one person's worked example, not a prescription for yours. Read them, and then write your own.
+A note on the chapter endings: each Part Two chapter closes with a Becoming Commitment. These are the commitments the chapter pressed on me, including the ones I still keep poorly. They are one person's worked example, not a prescription for yours. Read them, and then write your own.
