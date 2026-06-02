@@ -365,6 +365,9 @@ p { text-indent: 1.5em; margin: 0; }
 h1+p, h2+p, h3+p, blockquote+p { text-indent: 0; }
 blockquote { margin: 5% 10%; font-style: italic; }
 .binding-question { border-left: 3px solid #333; padding-left: 5%; margin-bottom: 5%; font-style: italic; }
+.part-label { page-break-before: always; text-align: center; margin-top: 30%; text-indent: 0; font-size: 1em; letter-spacing: 3px; text-transform: uppercase; color: #999; }
+.part-title { text-align: center; text-indent: 0; margin-top: 8%; font-size: 3em; }
+.part-subtitle { text-align: center; text-indent: 0; margin-top: 6%; font-style: italic; color: #555; }
 """
     with open(os.path.join(temp_dir, "OEBPS", "style.css"), 'w', encoding='utf-8') as f:
         f.write(epub_css)

@@ -208,6 +208,25 @@
   v(1em)
 }
 
+// Part-divider half-title page (opens "Part One" / "Part Two").
+// label = small kicker ("Part One"); title = the big word ("How"); subtitle = the gloss.
+// A half-title gets its own page, larger and quieter than a chapter opening,
+// so the two-part structure (the "two doors, one house") reads at a glance.
+#let part-divider(label, title, subtitle) = {
+  pagebreak(weak: true)
+  v(2.4in)
+  align(center)[
+    #text(size: 12pt, font: heading-font, tracking: 4pt, fill: rgb("#999999"))[#upper(label)]
+    #v(0.55in)
+    #text(size: 44pt, weight: "regular", font: heading-font, fill: rgb("#111111"))[#title]
+    #v(0.32in)
+    #line(length: 18%, stroke: 0.5pt + rgb("#cccccc"))
+    #v(0.32in)
+    #text(size: 13pt, style: "italic", fill: rgb("#555555"))[#subtitle]
+  ]
+  pagebreak(weak: true)
+}
+
 // Eleven-step cycle list step item.
 // kind = "eng" (slate-blue) or "scripture" (warm sage/amber).
 // eng = true adds an inline ENG tag.

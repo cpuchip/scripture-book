@@ -109,7 +109,7 @@ def convert_inline_markdown(text, dist_dir):
     # Escape any hash symbols in text so they don't break Typst syntax
     # (except when they represent headings or functions we emit)
     # We do a safe replacement of raw '#' that aren't heading indicators, code, or known Typst functions we emit
-    text = re.sub(r'#(?!(link|margin-qr|align|text|v|pagebreak|set|hr|blockquote|binding-question|anchor-passage|production-note|cycle-step|import|show|let)\b)', r'\#', text)
+    text = re.sub(r'#(?!(link|margin-qr|align|text|v|pagebreak|set|hr|blockquote|binding-question|anchor-passage|production-note|cycle-step|part-divider|import|show|let)\b)', r'\#', text)
     
     # Resolve and replace QR codes: [qr](url)
     def replace_qr(match):
@@ -173,6 +173,24 @@ def preprocess_html_blocks(md_content):
     md_content = re.sub(
         r'<div class="production-note">\s*\n(.*?)\n\s*</div>',
         replace_production_note,
+        md_content,
+        flags=re.DOTALL
+    )
+
+    # Part-divider half-title page (opens "Part One" / "Part Two"). The source is three
+    # FLAT (non-nested) divs — part-label / part-title / part-subtitle — so each non-greedy
+    # match closes on its own </div> with no nesting ambiguity. Map the trio to one
+    # #part-divider(label, title, subtitle) call (a single half-title page).
+    def replace_part_divider(match):
+        esc = lambda s: s.strip().replace('"', '\\"')
+        return (f'#part-divider("{esc(match.group(1))}", '
+                f'"{esc(match.group(2))}", "{esc(match.group(3))}")')
+
+    md_content = re.sub(
+        r'<div class="part-label">(.*?)</div>\s*'
+        r'<div class="part-title">(.*?)</div>\s*'
+        r'<div class="part-subtitle">(.*?)</div>',
+        replace_part_divider,
         md_content,
         flags=re.DOTALL
     )
@@ -378,7 +396,7 @@ def build():
     
     typst_content = []
     # Setup document metadata and template import
-    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step')
+    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step, part-divider')
     typst_content.append(f'#show: project.with(title: "{title}", author: "{author}")\n')
     
     for chapter_path in chapters_list:
