@@ -1,0 +1,88 @@
+date: 2026-06-01
+session: part1-into-src-execution
+type: execution
+workstream: WS7
+summary: |
+  Executed the into-src ratification gate. Michael: "take on the
+  part1-into-src-plan.md and work our new tl;dr parts into the book, so I can
+  see the book in its entirety and that'll enable me to better voice and edit
+  it." Carried it from the .draft/ stage all the way into the live manuscript
+  + build, verified end-to-end, committed in clean units, and pushed.
+
+  WHAT LANDED (3 commits, pushed 38083eb..b221a0a):
+    694f5b7 build machinery: a #part-divider(label, title, subtitle) half-title
+      function in template.typ + handling in BOTH build paths (build_typst.py
+      preprocess + import + hash-escape allowlist; build.py/style.css CSS for
+      HTML + EPUB). Source signature = three flat part-label/part-title/
+      part-subtitle divs (flat, not nested, so the Typst regex closes cleanly).
+    d1151cf the splice: 10 voiced Part 1 drafts + 2 dividers -> clean
+      src/chapters/p1_*.md + p2_00_part_two_divider.md, wired into book.yaml in
+      front-porch order (frontmatter -> preface -> PART ONE -> 10 practices ->
+      PART TWO -> eleven-step ref -> doctrine). D1/D2/D4 executed.
+    b221a0a D6 carve-out (copilot-instructions.md + CLAUDE.md restructured so
+      "two formats for two parts" is explicit and a future agent won't jam the
+      Modular Study Format into Part One) + D5 preface rework as a PROPOSAL
+      to .draft/20260601-preface-rework.md (live preface untouched; his voice).
+
+  CONVERSION METHOD (fidelity-first): wrote a one-off migration script
+  (run, verified, deleted) so prose moved byte-for-byte. It only (1) stripped
+  the leading DRAFT / trailing PROVENANCE comment blocks, (2) set the new H1
+  ("Practice N - Title" / "Coda - Title"), (3) resolved bracket placeholders:
+  bracketed scripture -> real gospel-library links (book inline convention),
+  "[Part 2: ...]" -> roman "(Part Two: ...)" cross-refs with embedded scripture
+  linked. No scripture text touched (the closed provenance gate held).
+
+  VERIFICATION (inverse-hypothesis on the leak risk): both builds run clean;
+  typst PDF compiles to 113 pages (was ~83); page-dump confirms the Part One
+  divider renders at p8 (PART ONE / How / The Practices) and Part Two at p35;
+  grep of book.typ + manuscript.html shows ZERO leaked <!-- --> comments and
+  ZERO residual [Part 2 / unconverted brackets; Part 1 scripture links resolve
+  to churchofjesuschrist.org.
+discoveries:
+  - The drafts carried bracket placeholders with no URL ([Abraham 4:26],
+    [Part 2: ...]) that the plan's "strip comments + convert" step under-named;
+    they would have rendered as literal broken brackets. Resolving them was the
+    real work, not the file-add.
+  - Neither build path stripped HTML comments, so the .draft comment blocks HAD
+    to be removed at conversion (confirmed the plan's measured-risk read).
+  - Part-divider half-title is best represented as three FLAT divs, not nested
+    ones - nested divs break build_typst.py's non-greedy </div> match; flat
+    divs let each build parse cleanly AND let HTML style each line.
+  - A deterministic migration script beats hand-retyping 10 long files for
+    quote fidelity (the verify-gate) - and is disposable.
+  - PyPDF2 text extraction garbles tracked/justified serif text (PART ONE ->
+    "P A R T  O N E"; "fourteen" -> "fourte en"), so a NOT-FOUND on a substring
+    search is not a rendering failure - dump the page to see the truth.
+carry_forward:
+  - D5: merge the reworked preface in Michael's voice (.draft/20260601-preface-rework.md);
+    decide How/Why part names + whether the two-doors passage absorbs the two-audience notes.
+  - D3 polish (his eye): the divider page + the page opening Practice 1 carry a
+    running header (template chapter-start suppression doesn't fire on the
+    non-heading divider). Cosmetic; fix is a template.typ header-context tweak
+    once Michael confirms the look.
+  - Confirm the lived/biographical figures now that they're readable in context:
+    pg-ai-stewards 3wk/3day (P1), 300+ microservices + "four of six" (P4),
+    Dart/Rust/18yr + "my kids played them" (P6). Not fabrications; his to confirm.
+  - Optional: split .scratch/provenance_part1.md into per-practice files.
+files_changed:
+  - src/template.typ
+  - scripts/build_typst.py
+  - scripts/build.py
+  - src/style.css
+  - book.yaml
+  - src/chapters/p1_00_part_one_divider.md
+  - src/chapters/p1_01_talk_dont_command.md
+  - src/chapters/p1_02_council_before_you_build.md
+  - src/chapters/p1_03_set_the_bounds.md
+  - src/chapters/p1_04_pack_the_context.md
+  - src/chapters/p1_05_make_it_portable.md
+  - src/chapters/p1_06_let_it_carry.md
+  - src/chapters/p1_07_assume_it_will_lie.md
+  - src/chapters/p1_08_ask_whats_in_the_way.md
+  - src/chapters/p1_09_build_the_door.md
+  - src/chapters/p1_10_coda_go_touch_grass.md
+  - src/chapters/p2_00_part_two_divider.md
+  - .github/copilot-instructions.md
+  - CLAUDE.md
+  - .draft/20260601-preface-rework.md
+  - .spec/part1-into-src-plan.md

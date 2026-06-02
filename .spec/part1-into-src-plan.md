@@ -1,6 +1,21 @@
 # Part 1 → `src/` Integration Plan (the `into-src` ratification gate)
 
-**Status:** AWAITING MICHAEL'S RATIFICATION. Drafts are done, voiced, verify-gated, and committed in `.draft/`. This is the structural step that wires them into the live manuscript + build — and it forks on decisions that are yours, not mine. I stopped here on purpose (Mosiah 4:27 — wisdom and order; and the yes-agent correction — surface the fork, don't guess it).
+**Status: EXECUTED 2026-06-01** (Michael: *"take on the part1-into-src-plan.md and work our new tl;dr parts into the book, so I can see the book in its entirety"*). Commits `694f5b7` (part-divider build support) → `d1151cf` (Part One spliced into the manuscript) → `b221a0a` (D6 carve-out + D5 preface proposal), pushed to `origin/main`. **D1, D2, D4, D6 executed** under the stewardship grant + Dave rule (reversible). **D3** (divider built; the *look* — and a header-suppression item on the divider page — left to Michael's eye). **D5** (preface) drafted to `.draft/20260601-preface-rework.md` as a proposal; live `src/chapters/00_preface.md` untouched — Michael owns the voice + the merge. Build verified end-to-end: typst PDF 113 pages, both dividers render, zero leaked draft comments / residual brackets. Carry-forward below in "What's left after execution."
+
+---
+
+## What's left after execution (2026-06-01)
+
+- **D5 preface:** merge the reworked preface in Michael's voice (proposal at `.draft/20260601-preface-rework.md`) — decide "How/Why" part names + whether the two-doors passage absorbs the two-audience notes.
+- **D3 divider polish (his eye):** the part-divider page currently carries a running header/footer, and the page that opens Practice 1 showed a stray "Preface" running header (the template's chapter-start header-suppression doesn't fire on the non-heading divider). Cosmetic; fix is a header-context tweak in `template.typ` once Michael confirms the desired look.
+- **Lived/biographical figures to confirm during the read** (none are fabrications — sourced to Michael's own account/memory; his to confirm now that he can read them in context): pg-ai-stewards "~3 weeks / running in 3 days" (Practice 1); "over three hundred interconnected microservices" + "four of the six" (Practice 4); the Dart/Rust/18-years claims + "my kids played them" (Practice 6). Scripture gate is closed; Ben naming is permitted; "my daughter"/"my kid" are generic in the prose (no name/age printed).
+- Optional: split `.scratch/provenance_part1.md` into per-practice `provenance_p1_*.md` files.
+
+---
+
+## Original gate (below) — kept for the record
+
+**Status (historical):** AWAITED MICHAEL'S RATIFICATION. Drafts done, voiced, verify-gated, committed in `.draft/`. This was the structural step that wired them into the live manuscript + build — forking on decisions that are his, not mine. I stopped on purpose (Mosiah 4:27 — wisdom and order; and the yes-agent correction — surface the fork, don't guess it).
 
 **Date:** 2026-05-31
 **Author:** Claude Opus 4.8 (Claude Code), under the scripture-book stewardship grant.
