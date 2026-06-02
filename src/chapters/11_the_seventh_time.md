@@ -38,7 +38,7 @@ The fullness-of-the-earth promise inverts the engineer's intuition. The intuitio
 
 For the fuller doctrinal treatment — the two reasons, the sign-language, the "rest that remains" that exceeds the weekly — see [The Seventh Time](https://cpuchip.net/studies/the-seventh-time).
 
-The shape rhymes. The substances do not. An engineer's weekly day off from the production register is not the soul's entry into the rest that remains. The end-of-cycle pause that gives the eye space is not the temple visit that anchors hope within the veil. But the structural pattern is the same: the cessation is what makes the work nameable, and what was named good can be received as finished. The same Author wrote both. Only one of them rehearses the rest that is the people of God's destination.
+The pattern rhymes here too, and parts where it matters most. An engineer's weekly day off from the production register is not the soul's entry into the rest that remains. The end-of-cycle pause that gives the eye space is not the temple visit that anchors hope within the veil. But the structural pattern is the same: the cessation is what makes the work nameable, and what was named good can be received as finished. The same hand set both rhythms. Only one of them rehearses the rest that is the people of God's destination.
 
 ---
 

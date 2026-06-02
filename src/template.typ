@@ -193,16 +193,22 @@
 // Production-note sidebar (used in Ch 6 honest footnote)
 #let production-note(body) = {
   set par(first-line-indent: 0pt, leading: 0.65em)
-  v(1em)
-  rect(
-    width: 100%,
-    stroke: (left: 3pt + rgb("#a89968"), rest: 0.5pt + rgb("#d4cfc0")),
-    inset: (x: 1.2em, y: 1em),
-    fill: rgb("#f8f6f0"),
-    radius: 2pt,
-    text(size: 10pt, body)
-  )
-  v(1em)
+  v(1.6em)
+  block(breakable: false, width: 100%)[
+    // Small tracked kicker so the note reads as a deliberate, set-apart callout
+    // (both early readers named the production note the book's most credible page).
+    #text(size: 8pt, weight: "bold", tracking: 2.5pt, fill: rgb("#a89968"))[FROM THE WORKSHOP]
+    #v(0.3em)
+    #rect(
+      width: 100%,
+      stroke: (left: 4pt + rgb("#a89968"), rest: 0.75pt + rgb("#cabf99")),
+      inset: (x: 1.4em, y: 1.2em),
+      fill: rgb("#f8f6f0"),
+      radius: 2pt,
+      text(size: 10pt, body)
+    )
+  ]
+  v(1.6em)
 }
 
 // Part-divider half-title page (opens "Part One" / "Part Two").

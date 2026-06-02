@@ -36,7 +36,7 @@ You cannot make the AI smarter. You can yield your own assumed-clarity. The engi
 
 This is the same shape as the heart's softening that the chapter has been describing. The soul cannot soften itself. But the soul can yield its hardness — the assumed self-sufficiency, the certainty it already knows, the closed posture toward correction. When the hardness yields, the Lord visits. The Lord sprinkles clean water; the Lord gives a new heart; the Lord takes away the stony heart. The Spirit's part is the gift. The soul's part is the room. Where the room is made, the gift arrives. Where the room is held closed, no gift can enter.
 
-The shape rhymes. The substances do not. A vague prompt revealing itself in a wrong output is a small instance of an older mechanism. The AI is not the Spirit. The engineer's yielding of "I already know what I want" is not the soul's yielding of hardness against the Lord. But the structural pattern is the same: release the closed posture, and what was waiting can arrive. The same Author wrote both.
+Again the rhyme holds and the substance parts. A vague prompt revealing itself in a wrong output is a small instance of an older mechanism. The AI is not the Spirit. The engineer's yielding of "I already know what I want" is not the soul's yielding of hardness against the Lord. But the structural pattern is the same: release the closed posture, and what was waiting can arrive. One Author drew both motions; only one of them softens a heart.
 
 ---
 
