@@ -1,6 +1,6 @@
 # Beyond the Prompt
 <div class="chapter-meta">
-What AI Engineering Reveals About Eternal Patterns
+How to Work with AI, and the Eternal Patterns Beneath It
 </div>
 
 > "And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins."

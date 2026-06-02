@@ -410,9 +410,14 @@ def build():
             md_content = f.read()
             
         if "frontmatter.md" in chapter_path:
-            # Replace subtitle
-            md_content = md_content.replace('<div class="chapter-meta">\nWhat AI Engineering Reveals About Eternal Patterns\n</div>',
-                                            '#align(center)[#text(size: 12pt, style: "italic")[What AI Engineering Reveals About Eternal Patterns]]\n')
+            # Replace subtitle. Capture whatever the chapter-meta div holds so a
+            # subtitle change in frontmatter.md needs no edit here (closes the
+            # decisions.md §6 hardcoded-signature brittleness for this block).
+            md_content = re.sub(
+                r'<div class="chapter-meta">\s*\n(.*?)\n\s*</div>',
+                lambda m: f'#align(center)[#text(size: 12pt, style: "italic")[{m.group(1).strip()}]]\n',
+                md_content, flags=re.DOTALL
+            )
             # Replace author. Margin-top is variable (3in originally; 1.5in once the
             # title-page epigraph was added). Use a regex with capture so both work.
             md_content = re.sub(
