@@ -1,0 +1,17 @@
+# Practice 5 · Make It Portable
+
+Every new session starts as a stranger. Open a fresh chat, or switch to a faster model, or move to a different tool, and the thing in front of you knows nothing about the months of work behind you. It doesn't know the decisions you made, the dead ends you already walked, or the reasons you do it this way. It will cheerfully re-derive all of it, often differently, sometimes contradicting what you'd already settled. An assistant that arrives as a stranger every time cannot be a partner. It can only be a tool you re-explain yourself to, forever.
+
+The fix is simple: **have the agent write its work down in your workspace, not the chat.** What was done, what was decided, what was learned. A short journal entry at the end of every session. A living file that holds the current state. The memory cannot live in the conversation because the conversation dies. It gets compacted, closed, or left behind when you change tools. It has to live somewhere the next session can read it: on disk, in the repository, beside the work.
+
+I trust this enough that I built an entire application around it: a system for capturing notes, decisions, and practices so they'd persist and resurface. But you don't need an app. You need a folder and the discipline to write to it. The proof is this book. It was drafted across three different AI tools over months: one assistant, then a second in a terminal, then a third in a different editor entirely. No single one of them held the thread. The *workspace* held it. Each new session, whatever was driving it, opened the same memory files first and walked in already knowing who we were and what we'd built. The memory was portable because it lived in the repository, not in any one tool's head.
+
+There's an old debugging proverb: *the shortest pencil is longer than the longest memory* (David Agans). It's true of your own memory, and it's twice as true of an AI's, which doesn't carry anything across the gap between sessions unless you give it a place to put it.
+
+This is a doctrine of record-keeping. Scripture is itself a record, kept and guarded across generations so a whole people would not arrive as strangers to their own covenant. The work persists because someone wrote it down and handed it forward. (Part Two: Line upon Line — understanding accrues over time; and Consecration — the record is kept and shared, not hoarded in a session that vanishes.)
+
+Today the memory is a handful of files: a current-state file, a folder of journal entries, and a top-level index the next session loads automatically. We have a standing rule that no session ends without updating them. The formats will change. Some future tool may carry memory natively and make my folders look quaint. The principle won't: write the work down, in the workspace, so it outlives the session that produced it and travels to whatever picks it up next.
+
+**Try this.** End your next working session by asking the AI to write a short journal entry of what was done, what was decided, and what's still open. Save it *in your project*, not the chat. Start the next session by having it read that entry first. Do it for a week and see how much faster you get moving.
+
+> **Remember:** Make it portable. The conversation dies; the workspace endures. Have the agent write down what it did, decided, and learned — into files beside the work, not into the chat that will vanish. Memory that lives in the repository survives compaction, new sessions, and even a change of tools. The shortest pencil is longer than the longest memory.

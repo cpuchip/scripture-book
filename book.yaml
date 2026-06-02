@@ -18,9 +18,26 @@ audio_generation:
   optimize_for_tts: true
 
 # Order of Chapters
+# Front porch (two doors, one house): the practice-forward Part One (How) opens
+# into the doctrine-forward Part Two (Why). The coda hinges Part One into Part Two
+# on Mosiah 4:27; the eleven-step reference opens Part Two.
 chapters:
   - src/chapters/00_frontmatter.md
   - src/chapters/00_preface.md
+  # ── PART ONE: HOW (the practices) ──
+  - src/chapters/p1_00_part_one_divider.md
+  - src/chapters/p1_01_talk_dont_command.md
+  - src/chapters/p1_02_council_before_you_build.md
+  - src/chapters/p1_03_set_the_bounds.md
+  - src/chapters/p1_04_pack_the_context.md
+  - src/chapters/p1_05_make_it_portable.md
+  - src/chapters/p1_06_let_it_carry.md
+  - src/chapters/p1_07_assume_it_will_lie.md
+  - src/chapters/p1_08_ask_whats_in_the_way.md
+  - src/chapters/p1_09_build_the_door.md
+  - src/chapters/p1_10_coda_go_touch_grass.md
+  # ── PART TWO: WHY (the pattern underneath) ──
+  - src/chapters/p2_00_part_two_divider.md
   - src/chapters/00_eleven_step_reference.md
   - src/chapters/00_chapter_0_intelligence_truth.md
   - src/chapters/01_value_shift.md

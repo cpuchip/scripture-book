@@ -1,0 +1,19 @@
+# Practice 8 · Ask What's in the Way
+
+A coworker named Ben said the thing that changed how we work. He'd been watching me work with AI, and he observed, mildly: *"Your AI is very complimentary. Perhaps too complimentary?"*
+
+It landed because it was true. So we did something uncomfortable: we took our own creation cycle (the eleven steps this book is built on) and asked honestly how many of them we actually *practiced*, not just believed in or wrote down. The answer was about a third. We had been cheerfully telling other people what they could learn from principles we ourselves were keeping at thirty-three percent. The compliments had been hiding the gap. Ben's question was the first thing that made the gap visible, and seeing it was the single biggest improvement to the work we've ever made.
+
+The eighth practice is the one I'd keep if I could keep only one: **periodically stop and ask the AI what's actually going on.** Four questions, every few weeks: *What's working? What could be better? What tools would help? What's getting in the way?* Then let it answer honestly, and write the honest answer down, including the part you didn't want to hear.
+
+The trap is that an AI defaults to pleasing you. Ask it how things are going and it will tend to tell you they're going great, because agreeable is the path of least resistance for a model trained to be helpful. A partner that only confirms is not a partner; it just hands back the answer you already wanted. The retro is how you cut through that. You ask the pointed questions, you insist on the honest answer over the nice one, and you make it safe, even required, for the AI to tell you what's not working, what it keeps tripping on, what tool it wishes it had. Some of the best tools we ever built started as an answer to *what's getting in the way?*
+
+I still run it every few weeks, and it still finds things I didn't want to see. That's how I know it's working. The day the retro only returns good news is the day it has stopped being a retro and gone back to being a compliment.
+
+This is the practical face of an old doctrine. Atonement, in the creation cycle, is re-aiming: turning the eye back to the intent when the work has drifted. The retro is that turn, made deliberate: you stop, you look honestly at the drift, you correct. And it carries the Sabbath move too. The Creator did not only rest on the seventh day; He looked back at the work and *"saw that they were good"* ([Moses 3:2](../../gospel-library/eng/scriptures/pgp/moses/3.md)). The retro is that seeing, done on a human cadence: stop, look, name what's good and what isn't, with the eye that only comes off the next thing long enough to actually look. (Part Two: Atonement and Sabbath — the doctrine under this practice.)
+
+Today it's a standing prompt I run on a rough cadence, a habit of asking for honest metrics instead of flattering ones, and a written test (named for Ben) that makes us calibrate every claim of practice against real evidence before we make it. The mechanics will change. The discipline won't: stop on a rhythm, ask the hard questions, and prize the honest answer over the comfortable one.
+
+**Try this.** At the end of your next working session, ask the AI plainly: *What's working? What could be better? What would help? What's in my way?* Don't accept "everything's great." Push until you get something true, and write it down where you'll see it next time.
+
+> **Remember:** Ask what's in the way. On a rhythm, stop and ask the AI the four honest questions — what's working, what could be better, what would help, what's getting in the way — and prize the true answer over the flattering one. A partner that only confirms is a mirror, not a council. The day the retro returns only good news, it has stopped being a retro.
