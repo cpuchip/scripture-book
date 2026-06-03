@@ -48,7 +48,7 @@
 
 ### 10. Lectures on Faith 7:16  *(rebuild addition)*
 *   *Quote:* "the great prototype of all saved beings"
-*   *Canonical (LoF Lecture Seventh, ¶16, verified against `books/lecture-on-faith/07_lecture_7.md` + Wikisource):* "...and he was like the Father, the great prototype of all saved beings:" — 🟢 exact. **Quote-drift caught + fixed 2026-06-02:** the chapter had omitted "great" ("the prototype of all saved beings"); restored. Link repointed from a broken local path to the Wikisource text of Lecture Seventh (LoF was removed from the D&C and is not on churchofjesuschrist.org).
+*   *Canonical (LoF Lecture Seventh, ¶16, verified against `books/lecture-on-faith/07_lecture_7.md` + Wikisource):* "...and he was like the Father, the great prototype of all saved beings:" — 🟢 exact. **Quote-drift caught + fixed 2026-06-02:** the chapter had omitted "great" ("the prototype of all saved beings"); restored. Link repointed from a broken local path to **`https://lecturesonfaith.com/7`** — the project's canonical LoF source (the URL `scripts/publish` maps `books/lecture-on-faith/07_lecture_7.md` to for published studies; LoF was removed from the D&C and is not on churchofjesuschrist.org).
 
 ### Referenced, not quoted
 *   **Moroni 7:48** — "Christ as He is, as He has promised to be when He appears" paraphrases the verse ("we shall be like him, for we shall see him as he is"); cited with a link, presented as paraphrase. No verbatim check required.
