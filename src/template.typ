@@ -254,6 +254,21 @@
   )
 }
 
+// Inline cross-reference page numbers — parity with the Contents page, so an
+// in-text "see Chapter 2" can carry the page where that chapter opens. target is
+// a chapter heading label (the same loc_<stem> anchors the TOC resolves). The
+// number is rendered small + grey and boxed so it never breaks across a line.
+//   xref-page      -> " (p. 47)"   (for a bare in-prose mention)
+//   xref-page-bare -> "p. 47"      (for use inside an existing parenthetical)
+#let xref-page(target) = context {
+  let pg = counter(page).at(target).first()
+  box(text(size: 9.5pt, fill: rgb("#555555"))[(p.~#pg)])
+}
+#let xref-page-bare(target) = context {
+  let pg = counter(page).at(target).first()
+  box(text(size: 9.5pt, fill: rgb("#555555"))[p.~#pg])
+}
+
 // Eleven-step cycle list step item.
 // kind = "eng" (slate-blue) or "scripture" (warm sage/amber).
 // eng = true adds an inline ENG tag.

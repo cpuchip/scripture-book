@@ -248,6 +248,15 @@ def preprocess_html_blocks(md_content):
         flags=re.DOTALL
     )
 
+    # Explicit page break: <div class="page-break"></div> -> #pagebreak(weak: true).
+    # A weak break keeps a block (e.g. the eleven-step cycle) from being split off
+    # its title without risking a stray blank page if we're already at the top.
+    md_content = re.sub(
+        r'<div class="page-break">\s*</div>',
+        '#pagebreak(weak: true)',
+        md_content
+    )
+
     return md_content
 
 
@@ -380,6 +389,32 @@ def loc_label(stem):
     """A safe Typst label name for a chapter file stem (page anchor for the TOC)."""
     return "loc_" + re.sub(r'[^0-9A-Za-z_]', '_', stem)
 
+def add_chapter_xrefs(ch_typst, label_by_num):
+    """Turn in-prose chapter cross-references into page-numbered ones, parity with
+    the Contents page. "Chapter 2" -> "Chapter 2 (p. 47)"; "(Chapter 2)" ->
+    "(Chapter 2, p. 47)" (so we don't nest parens for the common glossary form).
+    The page number is resolved by the xref-page helper from the chapter's anchor
+    label. Lines carrying the practice-kicker state are skipped so the kicker's own
+    "Chapter N" string is never rewritten (it sits in a Typst string literal)."""
+    pattern = re.compile(r'(\()?Chapter (\d+)(?(1)\)|\b)')
+
+    def repl(m):
+        num = m.group(2)
+        label = label_by_num.get(num)
+        if not label:
+            return m.group(0)
+        if m.group(1):  # "(Chapter N)" -> "(Chapter N, p. NN)"
+            return f'(Chapter {num}, #xref-page-bare(<{label}>))'
+        return f'Chapter {num} #xref-page(<{label}>)'
+
+    out_lines = []
+    for line in ch_typst.split('\n'):
+        if 'practice-kicker' in line:
+            out_lines.append(line)
+        else:
+            out_lines.append(pattern.sub(repl, line))
+    return '\n'.join(out_lines)
+
 def build_toc_typst(toc_entries, dist_dir):
     """Emit the Contents page: part headers + chapter lines with page numbers.
     toc_entries is a list of ("part", title) or ("chapter", title, label)."""
@@ -422,13 +457,14 @@ def build():
     
     typst_content = []
     # Setup document metadata and template import
-    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step, part-divider, toc-part, toc-line')
+    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step, part-divider, toc-part, toc-line, xref-page, xref-page-bare')
     typst_content.append(f'#show: project.with(title: "{title}", author: "{author}")\n')
 
     # Pre-pass: build the table-of-contents entries (part headers + chapter
     # lines). The part dividers (p1_00 / p2_00) become part headers; every other
     # non-frontmatter chapter becomes a line keyed to a page-anchor label.
     toc_entries = []
+    chapter_label_by_num = {}  # "2" -> "loc_02_four_disciplines" (for in-prose xrefs)
     for chapter_path in chapters_list:
         full_path = os.path.join(project_root, chapter_path)
         if not os.path.exists(full_path):
@@ -443,7 +479,11 @@ def build():
             toc_entries.append(("part", "Part Two · Why"))
             continue
         with open(full_path, 'r', encoding='utf-8') as f:
-            toc_entries.append(("chapter", chapter_title(f.read()), loc_label(stem)))
+            ttl = chapter_title(f.read())
+        toc_entries.append(("chapter", ttl, loc_label(stem)))
+        num_match = re.match(r'Chapter (\d+):', ttl)
+        if num_match:
+            chapter_label_by_num[num_match.group(1)] = loc_label(stem)
 
     for chapter_path in chapters_list:
         full_path = os.path.join(project_root, chapter_path)
@@ -495,24 +535,37 @@ def build():
 
         ch_typst = markdown_to_typst(md_content, dist_dir)
 
-        # Label each chapter heading as a page anchor for the TOC. For Part One
-        # practices/coda, split "Practice N · Title" so the title is the single-line
-        # heading body (clean running header) and "PRACTICE N" / "CODA" renders as a
-        # kicker above it, carried by the practice-kicker state set around the heading.
+        # Label each chapter heading as a page anchor for the TOC, and split it into a
+        # kicker + title so BOTH parts render the label on its own line above a clean
+        # single-line title (keeping the heading body title-only also keeps the running
+        # header clean). Part One: "Practice N · Title" / "Coda · Title". Part Two &
+        # matter: "Chapter N: Title", "Epilogue: …", "Afterword: …" — but Preface /
+        # Glossary / Recommended Study / Eleven-Step (no colon) stay single-line.
         if "frontmatter" not in stem and not stem.endswith("_divider"):
             lbl = loc_label(stem)
             hm = re.search(r'^= (.+)$', ch_typst, flags=re.MULTILINE)
-            if hm and re.match(r'p1_(0[1-9]|10)_', stem):
-                kicker, sep, ttl = hm.group(1).partition(' · ')
-                if not sep:
-                    kicker, ttl = '', hm.group(1)
+            if hm:
+                full = hm.group(1)
+                kicker, ttl = '', full
+                if re.match(r'p1_(0[1-9]|10)_', stem):
+                    k, sep, t = full.partition(' · ')
+                    if sep:
+                        kicker, ttl = k, t
+                else:
+                    k, sep, t = full.partition(': ')
+                    if sep and re.fullmatch(r'(Chapter \d+|Epilogue|Afterword)', k):
+                        kicker, ttl = k, t
                 ch_typst = ch_typst.replace(hm.group(0), f'= {ttl} <{lbl}>', 1)
-                kv = f'"{kicker}"' if kicker else 'none'
-                ch_typst = (f'#state("practice-kicker", none).update({kv})\n\n'
-                            + ch_typst
-                            + '\n\n#state("practice-kicker", none).update(none)')
-            elif hm:
-                ch_typst = ch_typst.replace(hm.group(0), f'= {hm.group(1)} <{lbl}>', 1)
+                if kicker:
+                    esc_kicker = kicker.replace('"', '\\"')
+                    ch_typst = (f'#state("practice-kicker", none).update("{esc_kicker}")\n\n'
+                                + ch_typst
+                                + '\n\n#state("practice-kicker", none).update(none)')
+
+        # In-prose chapter cross-references get page numbers (Contents-page parity).
+        # Applied after the heading split so the H1 line no longer carries "Chapter N",
+        # and the kicker state line (which does) is skipped inside the helper.
+        ch_typst = add_chapter_xrefs(ch_typst, chapter_label_by_num)
 
         typst_content.append(ch_typst)
 

@@ -2,6 +2,8 @@
 
 This book references these eleven steps throughout — the pattern by which the Gods organized chaos into a working world, as recorded in Abraham 4–5. Four of them have been named explicitly by the software industry as the disciplines of working with AI; they are marked [eng] below. The other seven are projections from scripture applied to industry and individuals.
 
+<div class="page-break"></div>
+
 <ol class="cycle-list">
   <li class="eng-step"><span class="cycle-step-name">Intent</span> — <span class="cycle-step-verb">naming</span> the why. <span class="eng-tag">eng</span></li>
   <li class="scripture-step"><span class="cycle-step-name">Covenant</span> — <span class="cycle-step-verb">binding</span>. A mutual agreement with commitments on both sides.</li>
