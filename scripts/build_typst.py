@@ -562,19 +562,22 @@ def build():
                     k, sep, t = full.partition(': ')
                     if sep and re.fullmatch(r'(Chapter \d+|Epilogue|Afterword)', k):
                         kicker, ttl = k, t
-                # Part Two chapters (the Modular Study openers + Epilogue/Afterword)
-                # put the title alone on its page so the Binding Question + Anchor
-                # Passage boxes always begin on the next page, never crowded under the
-                # title. Part One practices keep flowing straight into their story.
-                heading_repl = f'= {ttl} <{lbl}>'
-                if kicker and not is_part_one:
-                    heading_repl += '\n\n#pagebreak(weak: true)'
-                ch_typst = ch_typst.replace(hm.group(0), heading_repl, 1)
+                ch_typst = ch_typst.replace(hm.group(0), f'= {ttl} <{lbl}>', 1)
                 if kicker:
                     esc_kicker = kicker.replace('"', '\\"')
                     ch_typst = (f'#state("practice-kicker", none).update("{esc_kicker}")\n\n'
                                 + ch_typst
                                 + '\n\n#state("practice-kicker", none).update(none)')
+                # Part Two Modular chapters: keep the title + subtitle + Binding
+                # Question + Anchor Passage together on the opening page, and bump the
+                # prose (from the first section, The Core Reframe, on) to the next
+                # page so chapters open consistently and the opener isn't half-empty.
+                # The break replaces the divider that sat between the anchor passage
+                # and that first section, leaving the opener without a trailing rule.
+                if not is_part_one and '#binding-question[' in ch_typst:
+                    ch_typst = re.sub(r'(?:#hr\(\)\n\n)?(^== )',
+                                      r'#pagebreak(weak: true)\n\n\1',
+                                      ch_typst, count=1, flags=re.MULTILINE)
 
         # In-prose chapter cross-references get page numbers (Contents-page parity).
         # Applied after the heading split so the H1 line no longer carries "Chapter N",
