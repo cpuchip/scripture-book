@@ -569,15 +569,18 @@ def build():
                                 + ch_typst
                                 + '\n\n#state("practice-kicker", none).update(none)')
                 # Part Two Modular chapters: keep the title + subtitle + Binding
-                # Question + Anchor Passage together on the opening page, and bump the
-                # prose (from the first section, The Core Reframe, on) to the next
-                # page so chapters open consistently and the opener isn't half-empty.
-                # The break replaces the divider that sat between the anchor passage
-                # and that first section, leaving the opener without a trailing rule.
+                # Question + Anchor Passage together on the opening page, and bump
+                # everything after the anchor (any intro note + the first section, The
+                # Core Reframe, on) to the next page. Break at the FIRST divider — the
+                # one right after the anchor passage — so an intro block that sits
+                # between the anchor and the first section (e.g. Ch 2's "for the reader"
+                # note) flows into the body page instead of orphaning on its own page.
                 if not is_part_one and '#binding-question[' in ch_typst:
-                    ch_typst = re.sub(r'(?:#hr\(\)\n\n)?(^== )',
-                                      r'#pagebreak(weak: true)\n\n\1',
-                                      ch_typst, count=1, flags=re.MULTILINE)
+                    if '#hr()' in ch_typst:
+                        ch_typst = ch_typst.replace('#hr()', '#pagebreak(weak: true)', 1)
+                    else:
+                        ch_typst = re.sub(r'(^== )', r'#pagebreak(weak: true)\n\n\1',
+                                          ch_typst, count=1, flags=re.MULTILINE)
 
         # In-prose chapter cross-references get page numbers (Contents-page parity).
         # Applied after the heading split so the H1 line no longer carries "Chapter N",

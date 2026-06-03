@@ -6,7 +6,7 @@
 
 **Anchor Passage:**
 > "And the Gods watched those things which they had ordered, until they obeyed."
-> — [Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md) [qr](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18)
+> — [Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18) [qr](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18)
 
 ---
 
@@ -27,7 +27,7 @@ As we trace the narrative in [Abraham 4](../../gospel-library/eng/scriptures/pgp
 
 This trust gradient shows that confidence is earned through repeated observation and verification. The Gods did not micromanage the light on day six; they focused their watching where complexity was highest. 
 
-Furthermore, this feedback loop extends beyond individual creations. [Abraham 5:2](../../gospel-library/eng/scriptures/pgp/abr/5.md) [qr](../../gospel-library/eng/scriptures/pgp/abr/5.md) names the seventh time as the rest "from all our work which we have counseled"—the entire creative arc bracketed by counsel on the front and rest on the back. The Moses account makes the evaluation step explicit: on the seventh day God "saw that they were good" ([Moses 3:2](../../gospel-library/eng/scriptures/pgp/moses/3.md)). The Sabbath is not a pause from creation; it is the step where the whole system is evaluated as a unit and pronounced good.
+Furthermore, this feedback loop extends beyond individual creations. [Abraham 5:2](../../gospel-library/eng/scriptures/pgp/abr/5.md?verse=2) [qr](../../gospel-library/eng/scriptures/pgp/abr/5.md?verse=2) names the seventh time as the rest "from all our work which we have counseled"—the entire creative arc bracketed by counsel on the front and rest on the back. The Moses account makes the evaluation step explicit: on the seventh day God "saw that they were good" ([Moses 3:2](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=2)). The Sabbath is not a pause from creation; it is the step where the whole system is evaluated as a unit and pronounced good.
 
 ---
 
@@ -41,11 +41,11 @@ The industry has built instruments for exactly this watching. Test suites and ev
 
 We must balance when to steer and when to let the model run. We steer when the output violates our architectural specification, when it solves the wrong problem, or when it introduces latent security vulnerabilities. We let it run when the implementation is functionally correct, even if it uses a style slightly different from our own. Like the Gods, who commanded the waters to bring forth creatures "after their kind" rather than specifying every species of fish, we specify the organizing principles and verify the outcomes.
 
-We must also watch our instruments, not just the code. When conducting scriptural research, we might generate a list of verses. But if we fail to watch *how* we found them, we miss the depth. In one study session on the Godhead, the AI generated a clean document using keyword search. But when we verified the search method and directed it to use our semantic vector database, it instantly surfaced non-obvious, critical passages—like [2 Peter 1:4](../../gospel-library/eng/scriptures/nt/2-pet/1.md) [qr](../../gospel-library/eng/scriptures/nt/2-pet/1.md) ("partakers of the divine nature")—that keyword searches had missed entirely.
+We must also watch our instruments, not just the code. When conducting scriptural research, we might generate a list of verses. But if we fail to watch *how* we found them, we miss the depth. In one study session on the Godhead, the AI generated a clean document using keyword search. But when we verified the search method and directed it to use our semantic vector database, it instantly surfaced non-obvious, critical passages—like [2 Peter 1:4](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) [qr](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) ("partakers of the divine nature")—that keyword searches had missed entirely.
 
 Finally, we need the "seventh-day review" in our workflows. It is easy to catch syntax errors in a single session, but systemic degradation only appears over time. In our scripture project, a periodic review revealed that because search was so fast, we had started using search results as final answers. We were paraphrasing scriptures without reading the actual source chapters. By stepping back and reflecting, we caught this trend and established the "read-before-quoting" rule to protect the depth of our study.
 
-This feedback loop works because of the distinction in agency. As [Doctrine and Covenants 93:30](../../gospel-library/eng/scriptures/dc-testament/dc/93.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/93.md) states, "All truth is independent in that sphere in which God has placed it, to act for itself." 
+This feedback loop works because of the distinction in agency. As [Doctrine and Covenants 93:30](../../gospel-library/eng/scriptures/dc-testament/dc/93.md?verse=30) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/93.md?verse=30) states, "All truth is independent in that sphere in which God has placed it, to act for itself." 
 
 AI has no moral agency; it acts by law and statistical pattern. Your moral agency—your light, your truth, your choice—is the irreplaceable element that evaluates correctness and directs the creation toward a good purpose.
 

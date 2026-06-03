@@ -88,6 +88,7 @@
     pagebreak(weak: true)
     v(1.5in)
     align(center, block(width: 100%)[
+      #set par(justify: false)  // center every title line; don't stretch a wrapped first line
       #context {
         let k = practice-kicker.at(it.location())
         if k != none {
@@ -96,20 +97,20 @@
           v(0.18in, weak: true)
         }
       }
-      #text(size: 22pt, weight: "regular", font: heading-font, it.body)
+      #text(size: 22pt, weight: "regular", font: heading-font, hyphenate: false, it.body)
     ])
     v(1.5in)
   }
 
   show heading.where(level: 2): it => {
     v(1.5em)
-    text(size: 13pt, weight: "regular", font: heading-font, it.body)
+    text(size: 13pt, weight: "regular", font: heading-font, hyphenate: false, it.body)
     v(0.8em)
   }
 
   show heading.where(level: 3): it => {
     v(1.2em)
-    text(size: 11pt, weight: "bold", font: heading-font, it.body)
+    text(size: 11pt, weight: "bold", font: heading-font, hyphenate: false, it.body)
     v(0.6em)
   }
 

@@ -6,13 +6,13 @@
 
 **Anchor Passage:**
 > "For I, the Lord God, created all things, of which I have spoken, spiritually, before they were naturally upon the face of the earth. ... And I, the Lord God, had created all the children of men; and not yet a man to till the ground; for in heaven created I them; and there was not yet flesh upon the earth..."
-> — [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md) [qr](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5)
+> — [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5) [qr](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5)
 
 ---
 
 ## The Core Reframe
 
-Scripture outlines a sequence of creation that is absolute: "First spiritual, secondly temporal, which is the beginning of my work" ([Doctrine and Covenants 29:32](../../gospel-library/eng/scriptures/dc-testament/dc/29.md)). [qr](../../gospel-library/eng/scriptures/dc-testament/dc/29.md) 
+Scripture outlines a sequence of creation that is absolute: "First spiritual, secondly temporal, which is the beginning of my work" ([Doctrine and Covenants 29:32](../../gospel-library/eng/scriptures/dc-testament/dc/29.md?verse=32)). [qr](../../gospel-library/eng/scriptures/dc-testament/dc/29.md?verse=32) 
 
 Before the physical earth was formed, before flesh existed upon the ground, the creation existed as a complete, structured design. It was envisioned, counseled over, organized, and prepared. It was created spiritually.
 
@@ -45,7 +45,7 @@ We capture this in a collaborative planning document: a *specification*. This do
 
 When this specification is complete, physical creation becomes far more tractable. We hand the specification to the AI and say, "Build Phase 1." With the unified blueprint in context, the first pass is architecturally coherent — not perfect, but the foundation holds, and the bugs that remain are recoverable rather than structural. The principle is older than the tool: design before doing.
 
-A real example is the Becoming app at [ibeco.me](https://ibeco.me). [qr](https://ibeco.me) We tested the principle by drafting a 743-line planning specification before a single line of code was written — every database table, every API endpoint, every user interface flow. When we then handed the spec to the AI, the first pass produced over a thousand lines of code across thirteen files. There was still work to do afterward, as on any project — but the foundation was sound from the start, because the design was sound first. [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md) had the pattern long before we did. 
+A real example is the Becoming app at [ibeco.me](https://ibeco.me). [qr](https://ibeco.me) We tested the principle by drafting a 743-line planning specification before a single line of code was written — every database table, every API endpoint, every user interface flow. When we then handed the spec to the AI, the first pass produced over a thousand lines of code across thirteen files. There was still work to do afterward, as on any project — but the foundation was sound from the start, because the design was sound first. [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5) had the pattern long before we did. 
 
 Furthermore, this spiritual creation persists. When we run out of time mid-project, the specification acts as a temporal bookmark. The next chat session does not start from scratch; it reads the specification and the progress summary, picking up precisely where the last session ended. 
 

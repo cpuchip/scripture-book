@@ -4,7 +4,7 @@
 
 **Anchor Passage:**
 > "For intelligence cleaveth unto intelligence; wisdom receiveth wisdom; truth embraceth truth; virtue loveth virtue; light cleaveth unto light; mercy hath compassion on mercy and claimeth her own; justice continueth its course and claimeth its own;..."
-> — [Doctrine and Covenants 88:40](../../gospel-library/eng/scriptures/dc-testament/dc/88.md) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=40)
+> — [Doctrine and Covenants 88:40](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=40) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=40)
 
 ---
 
@@ -18,7 +18,7 @@ When a person approaches the study of truth, they do not act in isolation. If th
 
 But when a person approaches with active discernment, deep inquiry, and a sincere desire to be changed—bringing light—a resonance occurs. The light in their understanding physically cleaves to the light in the word. The truth they seek embraces the truth before them. The interaction is not a passive reading; it is an active alignment of substances. What they receive is a direct reflection of the light they brought to the search. 
 
-This is the law of resonance: souls "enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received" ([Doctrine and Covenants 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md)). The quality of the outcome is structurally bound to the honesty and depth of the approach.
+This is the law of resonance: souls "enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received" ([Doctrine and Covenants 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=32)). The quality of the outcome is structurally bound to the honesty and depth of the approach.
 
 ---
 

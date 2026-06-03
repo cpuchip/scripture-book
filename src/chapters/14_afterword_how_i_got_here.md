@@ -39,6 +39,6 @@ The software industry is rapidly catching on to these agentic workflows—planni
 We have a responsibility to make these patterns known. In the Doctrine and Covenants, we find a description of a world seeking light but drowned in noise, which applies directly to the software industry today:
 
 > "For there are many yet on the earth among all sects, parties, and denominations, who are blinded by the subtle craftiness of men, whereby they lie in wait to deceive, and who are only kept from the truth because they know not where to find it—"
-> — [Doctrine and Covenants 123:12](../../gospel-library/eng/scriptures/dc-testament/dc/123.md)
+> — [Doctrine and Covenants 123:12](../../gospel-library/eng/scriptures/dc-testament/dc/123.md?verse=12)
 
 In the rush of marketing hype, technical jargon, and shifting tools, developers are looking for a stable foundation. They are seeking how to build things that are correct and good, but they are often blinded by the surrounding noise. Once we see these eternal creation patterns—once we understand that software engineering is a training ground for organizing intelligence under law—we have a responsibility to share it. This book is our attempt to write down those laws.
