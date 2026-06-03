@@ -119,10 +119,12 @@ are noted in the Eng. Parallel column and resolved when we reach the owner.)
 | Coda · Go Touch Some Grass | refrain ×5 (rest → idea finds you) | — | KEEP as-is (Michael) — coda refrain is intentional | — |
 | **— PART ONE COMPLETE —** | 2 edits (P1, P4); 9 clean | — | committed `5681718` | — |
 | Eleven-step reference | none (cycle list + framing) | n/a (no EP) | Clean — no change | — |
-| Ch 0 · Substance of Reality | minimal (¶72/¶74 resonance echo, 2×, left) | longest EP; previews Ch 4 (agency ¶61–63) + Ch 5 (resonance ¶65–74) | KEEP whole; **FLAG: cross-check at Ch 4 + Ch 5** | — |
-| Ch 1 · The Value Shift | clean (single-thesis, threaded with additions) | keeps industry voices (Trejo/Milan) + 10%-specifics; **FLAG: Abraham 4:18 watching ¶41–47 → Ch 4** | Clean; EP flagged for Ch 4 | — |
+| Ch 0 · Substance of Reality | minimal echo (left) | agency ¶61–63 ✓kept (Ch 0 owns it; Ch 4 applies briefly); **resonance ¶65–74 TRIMMED at Ch 5: 5¶+blockquote → 2¶** (brief D&C 88:40 pointer + 'organizers under law' closer; Ch 5 owns prompt-quality). Reviewed post-trim: premise-on-reality holds. | EDITED | uncommitted |
+| Ch 1 · The Value Shift | clean (single-thesis, threaded) | **EP trimmed at Ch 4:** Abraham 4:18 watching ¶41–47 (4¶ + blockquote) → 1¶ brief ref + Ch 4 pointer (Ch 4 owns watching) | EDITED | uncommitted |
 | Ch 2 · The Four Disciplines | clean (runaway callback ¶42/¶54 brief; ¶52/¶56 softened by eng. glosses) | essential — the 4-of-11 analytical payload; no trim | Clean — no change | — |
-| Ch 3 · Spiritual Before Temporal | ¶17/¶21 "complete blueprint" 2× → **compressed ¶21** | **EP re-taught Part One (P1/P2 spec-before-building; P5 spec-persists) → TRIMMED ~10¶ → 3¶** (kept Becoming-app proof + studies; cut vibe-coding/take-counsel/Build-Phase-1/spec-persists) | EDITED | uncommitted |
+| Ch 3 · Spiritual Before Temporal | ¶17/¶21 "complete blueprint" 2× → **compressed ¶21** | **EP re-taught Part One (P1/P2 spec-before-building; P5 spec-persists) → TRIMMED ~10¶ → 3¶** (kept Becoming-app proof + studies; cut vibe-coding/take-counsel/Build-Phase-1/spec-persists) | EDITED | `03bb5bd` |
+| Ch 4 · Watched Until They Obey | clean (thesis threaded; trust gradient + agency each add) | KEEP — watching hub (gradient / instruments / steer-vs-run distinct); reused P6/P7 examples kept (reframed); **FLAG: Sabbath/seventh-day ¶30,¶46 → Ch 11** | Clean — no change | — |
+| Ch 5 · Intelligence Cleaveth | borderline (single-thesis; posture-circling ¶29–37, each a distinct facet — kept) | KEEP — resonance owner (mechanism / stochastic-parrots objection+rebuttal / warmth all distinct); owns Ch 0's trimmed material | Clean — no change | — |
 
 ---
 
