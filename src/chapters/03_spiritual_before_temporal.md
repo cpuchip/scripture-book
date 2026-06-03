@@ -18,7 +18,7 @@ Before the physical earth was formed, before flesh existed upon the ground, the 
 
 We have three distinct scriptural accounts of the Creation: Genesis, Moses, and Abraham. Each serves a different purpose. Genesis gives us the narrative of *what* was created. Moses reveals that *there was a spiritual creation first*. Abraham shows us the *how*—the collaborative council of the Gods organizing existing materials.
 
-When we study the Moses account, we learn that the spiritual creation is not a vague outline; it is a complete, structured blueprint. The Gods did not "vibe create" the earth. They did not shape the dry land and then wonder what to put on it. They organized the design first.
+When we study the Moses account, we see that the Gods did not "vibe create" the earth. They did not shape the dry land and then wonder what to put on it. They organized the design first.
 
 This spiritual creation is the anchor of order. Without it, the physical elements remain chaotic. The spiritual creation establishes the laws, the boundaries, and the purpose that the physical creation must obey. 
 
@@ -30,26 +30,11 @@ The divine pattern demands that the blueprint precede the building.
 
 ## The Engineering Parallel
 
-In software development, particularly when working with AI, we see the absolute truth of this sequence. 
+Part One walked this as a practice — *Talk, Don't Command* and *Council Before You Build*, where the plan reached in counsel *is* the spiritual creation, made before a line of code is written. Here is the same pattern from the doctrine's side, and what building the blueprint first actually buys.
 
-When we attempt "vibe coding"—writing code by typing direct instructions into an AI chat window without a plan—it works for simple tasks. But as soon as we try to build something complex, the system falls apart. The AI is forced to guess. It makes minor architectural assumptions that compound into structural bugs. It is like attempting physical creation without a spiritual blueprint.
+We tested it on the Becoming app at [ibeco.me](https://ibeco.me). [qr](https://ibeco.me) Before a single line of code, we drafted a 743-line planning specification — every database table, every API endpoint, every user interface flow. That document was the spiritual creation of the software: it existed in full before any of it existed in fact. When we handed it to the AI, the first pass produced over a thousand lines of code across thirteen files. There was still work to do afterward, as on any project — but the foundation was sound from the start, because the design was sound first. [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5) had the pattern long before we did.
 
-The solution is to build the spiritual creation first. Before writing a single line of code, we sit down with the AI and *take counsel*. We define the architecture:
-- What problem are we solving?
-- What are the components and how do they connect?
-- What is the data model?
-- What are the phases of development?
-- What are the specific constraints?
-
-We capture this in a collaborative planning document: a *specification*. This document is the spiritual creation of the software. It exists before any code is generated. 
-
-When this specification is complete, physical creation becomes far more tractable. We hand the specification to the AI and say, "Build Phase 1." With the unified blueprint in context, the first pass is architecturally coherent — not perfect, but the foundation holds, and the bugs that remain are recoverable rather than structural. The principle is older than the tool: design before doing.
-
-A real example is the Becoming app at [ibeco.me](https://ibeco.me). [qr](https://ibeco.me) We tested the principle by drafting a 743-line planning specification before a single line of code was written — every database table, every API endpoint, every user interface flow. When we then handed the spec to the AI, the first pass produced over a thousand lines of code across thirteen files. There was still work to do afterward, as on any project — but the foundation was sound from the start, because the design was sound first. [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5) had the pattern long before we did. 
-
-Furthermore, this spiritual creation persists. When we run out of time mid-project, the specification acts as a temporal bookmark. The next chat session does not start from scratch; it reads the specification and the progress summary, picking up precisely where the last session ended. 
-
-This pattern is not limited to software. In our deep scriptural studies—such as our research into the nature of the Godhead—we write a study outline first. We define the binding question, identify the scriptural sources, and outline the target document. That outline is the spiritual creation. It guides the collaborative study, preventing us from drifting into shallow, disjointed compilation.
+The pattern is not limited to software. In our deep scriptural studies — our research into the nature of the Godhead, for instance — we write a study outline first: the binding question, the sources, the shape of the target document. That outline is the spiritual creation of the study; it keeps the work from drifting into shallow, disjointed compilation. Spec before code, outline before study, blueprint before building — the sequence holds wherever creation happens.
 
 ---
 

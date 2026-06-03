@@ -99,6 +99,11 @@ The diagnostic is ~80% of the value; the heavy tools are for the contested 20%. 
 Walk started 2026-06-03 (preface → forward). Source edits accumulate on disk;
 committed in batches (hashes filled in when a batch lands).
 
+**Walk rule (ratified 2026-06-03):** when a chapter's Engineering Parallel previews
+material another chapter owns, flag it and decide the trim *at the owning chapter* —
+never cut a preview before comparing it to the full treatment. (Cross-check flags
+are noted in the Eng. Parallel column and resolved when we reach the owner.)
+
 | Chapter | Repetition found | Eng. Parallel (Pt 2) | Decision | Applied |
 |---------|------------------|----------------------|----------|---------|
 | Preface | none | — | Clean — no change | — |
@@ -112,7 +117,12 @@ committed in batches (hashes filled in when a batch lands).
 | P8 · Ask What's in the Way | none (Ben → trap → testimony → doctrine) | — | Clean — no change | — |
 | P9 · Build the Door | none (scale + humility + consecration) | — | Clean — no change | — |
 | Coda · Go Touch Some Grass | refrain ×5 (rest → idea finds you) | — | KEEP as-is (Michael) — coda refrain is intentional | — |
-| **— PART ONE COMPLETE —** | 2 edits (P1, P4); 9 clean | — | next: Part Two (eleven-step ref → Ch 0 …) | — |
+| **— PART ONE COMPLETE —** | 2 edits (P1, P4); 9 clean | — | committed `5681718` | — |
+| Eleven-step reference | none (cycle list + framing) | n/a (no EP) | Clean — no change | — |
+| Ch 0 · Substance of Reality | minimal (¶72/¶74 resonance echo, 2×, left) | longest EP; previews Ch 4 (agency ¶61–63) + Ch 5 (resonance ¶65–74) | KEEP whole; **FLAG: cross-check at Ch 4 + Ch 5** | — |
+| Ch 1 · The Value Shift | clean (single-thesis, threaded with additions) | keeps industry voices (Trejo/Milan) + 10%-specifics; **FLAG: Abraham 4:18 watching ¶41–47 → Ch 4** | Clean; EP flagged for Ch 4 | — |
+| Ch 2 · The Four Disciplines | clean (runaway callback ¶42/¶54 brief; ¶52/¶56 softened by eng. glosses) | essential — the 4-of-11 analytical payload; no trim | Clean — no change | — |
+| Ch 3 · Spiritual Before Temporal | ¶17/¶21 "complete blueprint" 2× → **compressed ¶21** | **EP re-taught Part One (P1/P2 spec-before-building; P5 spec-persists) → TRIMMED ~10¶ → 3¶** (kept Becoming-app proof + studies; cut vibe-coding/take-counsel/Build-Phase-1/spec-persists) | EDITED | uncommitted |
 
 ---
 
