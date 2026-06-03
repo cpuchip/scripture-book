@@ -12,7 +12,7 @@ Sometimes the vision is concrete. A year later I woke up from a dream with a who
 
 But more often the vision is vague. I have a direction and a feeling, not a picture — the game with my kid, or the book you are holding. Then the conversation is longer, and its entire job is to *sharpen*: to turn the feeling into something with edges. Questions do the sharpening. Sometimes I ask them. More often, when I cannot see the shape myself, I ask the model to ask *me*.
 
-In both cases, the conversation is not the absence of a plan. It is how the plan gets made. Whether I saw the vision whole or talked my way into seeing it, the talking comes first. The plan is born in the conversation, not skipped by it.
+The plan is born in the conversation, not skipped by it.
 
 The opposite of talking is commanding. Commanding is dropping a half-formed order into the box, *build me a dashboard, write the tests,* and accepting the first plausible thing that comes back. It feels faster. It isn't. A command from a fuzzy vision earns you a confident answer to a question you never finished asking, and you spend the next hour finding out you didn't mean any of it. What you bring is what you get back: bring fog, and the model hands you a confident, polished version of your own confusion.
 

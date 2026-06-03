@@ -2,9 +2,7 @@
 
 The first instinct, when you want a good answer, is to give the model everything. The whole codebase. All the docs. The entire history. It feels generous, and it is exactly wrong. I learned this when I fanned a job out to six agents at once and packed each one's window full of context I thought might be useful. Four of the six died on the spot, hitting the token limit before they could do any work. I'd confused *having* the information with *using* it, and I'd drowned the very agents I was trying to equip. We ended up building a whole compaction layer just to dig back out.
 
-So the fourth practice has two motions, and the trick is never to confuse them. **Build the agent a library it can explore. Then pull only what the task needs into view.**
-
-The library is vast and lives on disk. The window is small and must be curated. Those are different jobs.
+So the fourth practice has two motions, and the trick is never to confuse them. **Build the agent a library it can explore. Then tell it to pull only what the task needs into view.**
 
 Here's the library half, and it's the single most useful thing I do at work. I download *all* of it into one folder the agent can read: every git repository I have access to, and at work that is over three hundred interconnected microservices. Not into the prompt. Into a place it can *explore*. When I need to change something, I don't paste in what I think is relevant; I point the agent at the folder and let it go find the truth: which services call this one, what breaks if I change this contract, where the pattern I need already exists. A second folder holds external repositories we don't own but want to learn from. The agent pulls from these the way you pull a book off a shelf: the shelf holds thousands; you open one.
 

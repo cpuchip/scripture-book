@@ -96,11 +96,23 @@ The diagnostic is ~80% of the value; the heavy tools are for the contested 20%. 
 
 ## Decisions log (append as we walk)
 
-*(none yet — the walk begins next session at the preface, then Practice 1.)*
+Walk started 2026-06-03 (preface → forward). Source edits accumulate on disk;
+committed in batches (hashes filled in when a batch lands).
 
-| Chapter | Repetition found | Engineering Parallel (Part 2) | Decision | Applied (commit) |
-|---------|------------------|-------------------------------|----------|------------------|
-| — | — | — | — | — |
+| Chapter | Repetition found | Eng. Parallel (Pt 2) | Decision | Applied |
+|---------|------------------|----------------------|----------|---------|
+| Preface | none | — | Clean — no change | — |
+| P1 · Talk, Don't Command | core claim 3× in body (¶4/¶7/¶10) | — | Compressed ¶7 → "The plan is born in the conversation, not skipped by it." | edited (uncommitted) |
+| P2 · Council Before You Build | none (two-sided; each touch adds) | — | Clean — no change | — |
+| P3 · Set the Bounds | "parts of a bound" in 3 registers (practical/scriptural/eternal) | — | Clean — layering not fatigue; left | — |
+| P4 · Pack the Context | two-motions previewed in ¶3 after ¶2 | — | Cut ¶3; reworded ¶2 close to "…tell it to pull only what the task needs into view." | edited (uncommitted) |
+| P5 · Make It Portable | none (proof/proverb/doctrine each add) | — | Clean — no change | — |
+| P6 · Let It Carry What You Can't | none (two stories + aphorism + tools + doctrine) | — | Clean — no change | — |
+| P7 · Assume It Will Lie | "same hand" echo ¶2/¶3 (2×, under bar) | — | Clean — left; verify-source is the spine | — |
+| P8 · Ask What's in the Way | none (Ben → trap → testimony → doctrine) | — | Clean — no change | — |
+| P9 · Build the Door | none (scale + humility + consecration) | — | Clean — no change | — |
+| Coda · Go Touch Some Grass | refrain ×5 (rest → idea finds you) | — | KEEP as-is (Michael) — coda refrain is intentional | — |
+| **— PART ONE COMPLETE —** | 2 edits (P1, P4); 9 clean | — | next: Part Two (eleven-step ref → Ch 0 …) | — |
 
 ---
 
