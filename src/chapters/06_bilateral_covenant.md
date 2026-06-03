@@ -18,7 +18,7 @@ This is not a statement of transaction, but of order. In a universe governed by 
 
 This bilateral binding is what makes human agency possible. If God were unpredictable—if He changed the rules of physics or of the Spirit on a whim—we could never learn to choose. We would live in a state of constant reaction. The covenant provides the structure within which we can plan, act, and grow.
 
-Furthermore, this covenant relationship requires active participation from both sides. It is not delegation-as-offloading, where one side issues a command and walks away. When the people of Alma gathered at the waters of Mormon, they entered a covenant that defined specific, reciprocal duties: they committed to bear one another's burdens and stand as witnesses, and the Lord committed to pour out His Spirit more abundantly ([Mosiah 18:8–10](../../gospel-library/eng/scriptures/bofm/mosiah/18.md)). When both sides honor these boundaries, the community rises on the spectrum of light. When either side slips, the output degrades.
+Furthermore, this covenant relationship requires active participation from both sides. It is not delegation-as-offloading, where one side issues a command and walks away. When the people of Alma gathered at the waters of Mormon, they entered a covenant that defined specific, reciprocal duties: they committed to bear one another's burdens and stand as witnesses, and the Lord committed to pour out His Spirit more abundantly ([Mosiah 18:8–10](../../gospel-library/eng/scriptures/bofm/mosiah/18.md)). [qr](../../gospel-library/eng/scriptures/bofm/mosiah/18.md) When both sides honor these boundaries, the community rises on the spectrum of light. When either side slips, the output degrades.
 
 ---
 
@@ -30,7 +30,7 @@ But control is fragile. As our systems grow more complex, control-based boundari
 
 We find a far more robust model in the scriptural pattern of bilateral covenants. When we build complex software systems with AI agents, we can choose to govern our collaboration through mutual commitment rather than unilateral command. 
 
-This is the difference King Benjamin's people show us. They were not compelled into obedience; they "were willing to enter into a covenant with [their] God to do his will... all the remainder of [their] days" ([Mosiah 5:5](../../gospel-library/eng/scriptures/bofm/mosiah/5.md)). The binding had force precisely because it was chosen. Control is imposed from outside and resented; covenant is adopted from within and kept.
+This is the difference King Benjamin's people show us. They were not compelled into obedience; they "were willing to enter into a covenant with [their] God to do his will... all the remainder of [their] days" ([Mosiah 5:5](../../gospel-library/eng/scriptures/bofm/mosiah/5.md)). [qr](../../gospel-library/eng/scriptures/bofm/mosiah/5.md) The binding had force precisely because it was chosen. Control is imposed from outside and resented; covenant is adopted from within and kept.
 
 In our own workspace, we have codified this pattern in a physical file: `.spec/covenant.yaml`. This is not a service-level agreement for a machine; it is a bilateral commitment that governs how we work together. If we do not do what we say, we have no promise of correct output.
 

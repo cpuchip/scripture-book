@@ -26,7 +26,7 @@ Intelligence is *discernment*. It is the capacity to see things as they really a
 
 When the bottleneck of execution collapses, the value shifts entirely to this durable layer of intelligence. We are no longer valued for how fast we can type, but for our capacity to judge whether what has been typed is true. 
 
-This is the principle behind the Parable of the Talents in [Matthew 25:14–30](../../gospel-library/eng/scriptures/nt/matt/25.md). The master did not demand that every servant produce the same volume; he distributed talents according to their individual capacity and judged them by how they used what they had been given. 
+This is the principle behind the Parable of the Talents in [Matthew 25:14–30](../../gospel-library/eng/scriptures/nt/matt/25.md). [qr](../../gospel-library/eng/scriptures/nt/matt/25.md) The master did not demand that every servant produce the same volume; he distributed talents according to their individual capacity and judged them by how they used what they had been given. 
 
 Eighteen years of experience is a talent. Our scars from production failures, our design instincts, and our capacity to care whether a system actually serves people are talents. They cannot be automated. They are the principles of intelligence that rise with us.
 
