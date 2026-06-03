@@ -1,0 +1,111 @@
+date: 2026-06-03
+session: typography-print-passes
+type: execution
+workstream: WS7
+summary: |
+  Two print-typography passes on the compiled book, driven by Michael reading
+  through the spliced manuscript ("they flow, feel like we solved real problems").
+  All changes are in the Typst/PDF path (src/template.typ + scripts/build_typst.py
+  + a few chapter markers); HTML/EPUB are unaffected. Every feature was verified by
+  rendering the actual compiled pages with PyMuPDF and looking at them — not by
+  "the build passed."
+
+  PASS 2 (4 requests) — pushed 22200eb..8171d60:
+    37d93ee: (1) Two-line chapter titles — generalized the Part One
+      practice-kicker split to Part Two so "Chapter N: Title" / "Epilogue:" /
+      "Afterword:" render the label as a tracked kicker over a clean single-line
+      title; Preface / Glossary / Recommended Study / Eleven-Step (no colon) stay
+      single-line. (2) Eleven-step cycle no longer split off its title — a reusable
+      <div class="page-break"></div> marker (-> #pagebreak(weak: true)) between the
+      reference intro and the cycle list. (3) In-text "Chapter N" cross-references
+      carry page numbers (Contents-page parity): new xref-page / xref-page-bare
+      template helpers resolve counter(page).at(<chapter-label>); a build pre-pass
+      maps chapter-number -> anchor label; kicker-state lines are skipped so their
+      literal "Chapter N" string is never rewritten.
+    8171d60: (4) QR codes for external citations in Part One — Michael's call was
+      one per external citation, within reason; where two collide in one paragraph,
+      pick the best. 8 QRs: p1_01/02 (Abr 4:26, picking the counsel verse over the
+      same-paragraph Moses 3:5), p1_03 (2 — D&C 104:11-13 + Abr 4:18, separate
+      paragraphs), p1_04 (D&C 88:119), p1_07 (Abr 4:18), p1_08 (Moses 3:2), p1_10
+      (Mosiah 4:27). p1_05/06/09 quote nothing external -> none.
+
+  PASS 3 (3 requests) — pushed 8171d60..1b73c25:
+    701e511: (1) Part Two chapters open on their own page [FIRST CUT — title alone,
+      superseded same session, see below]. (2) QR centering across the WHOLE book —
+      split margin-qr into margin-qr-center (blockquote QRs center vertically on the
+      box via Typst `horizon`) and margin-qr (in-prose citation QRs center on their
+      line, dy -0.32in, was a fixed -10pt that hung the card below the line). The
+      anchor/blockquote build-handlers now emit the centered variant. Book-wide this
+      routed ~20 blockquote QRs to centered and ~20 inline QRs to line-aligned.
+      (3) Clickable internal links — Contents lines + every in-text "Chapter N" xref
+      wrapped in link(<chapter-label>); they become PDF named destinations
+      (jump-to-chapter), invisible in print so the published page is unchanged.
+    1015775: REVISION of Pass-3 #1. Michael corrected the opener: "I wanted the
+      title, the name and the two block quotes to be on the one page, and bump the
+      actual content to the new page. that might help the page count back." Moved
+      the page break from right-after-the-heading to right-before the first section
+      (== The Core Reframe), gated on the chapter having a Binding Question, and made
+      it CONSUME the #hr() that sat between the anchor passage and that first section
+      (so the opener has no dangling rule). Now the opener holds kicker + title +
+      subtitle + Binding Question + Anchor Passage; only the prose bumps. Scope is
+      exactly the box chapters: Ch 0-12 + Epilogue; Afterword (no BQ) flows under its
+      title; Glossary / Recommended Study / Eleven-Step / Part One untouched.
+    1b73c25: corrected a placeholder commit hash in active.md.
+
+  PAGE COUNT across the session: 114 (start) -> 125 (title-alone first cut)
+  -> 118 (boxes-on-opener revision). The revision recovered 7 of the 11 pages the
+  title-alone version had added, exactly as Michael predicted.
+discoveries:
+  - PyMuPDF (fitz) renders PDF pages to PNG with no external binary, where this
+    box's pdftoppm is unavailable. This unlocked REAL visual verification of print
+    layout (render page -> view the image), including QR alignment and page breaks —
+    the inverse-hypothesis discipline applied to typography. Margin-strip crops at
+    high zoom (clip rect + Matrix(4-5x)) make QR placement and collision unambiguous.
+  - Typst place(left/right + horizon) INSIDE a rect centers the placed item on that
+    block's vertical midpoint — the clean way to center a margin QR on a multi-line
+    blockquote regardless of where in the quote text the call sits (placement is out
+    of flow). The inline (non-blockquote) case needs a fixed dy instead (~-0.32in to
+    center a 0.85in card on its line); one function can't serve both, hence the split.
+  - Typst internal links (link(<label>)) emit as PDF NAMED destinations, reported by
+    fitz as kind 4 (not LINK_GOTO=1); PDF viewers treat them as clickable jumps. The
+    displayed "(p. NN)" and the link target can't disagree — both resolve the SAME
+    label. fitz get_links() 'page' is 0-indexed (target index 38 = printed page 39).
+  - A clean Typst compile is itself meaningful verification for the cross-refs: Typst
+    ERRORS on an unresolved or duplicate label inside counter(page).at(<label>), so a
+    successful build proves every chapter anchor resolves to exactly one location.
+  - LESSON on listening: "page break so the content is on the next page" is ambiguous
+    when a chapter opens with boxes. The first cut read "content" as everything-after-
+    the-title (title alone); Michael meant the PROSE — boxes belong with the title.
+    Should have asked which unit, or shown the cheaper interpretation first. He caught
+    it kindly and the fix was small, but naming the unit up front would have saved a
+    build. (Consistent with feedback_michael_voice_kindness.)
+  - EB Garamond letter-tracking still garbles PyPDF2/fitz text extraction (phrases
+    split mid-word), so space-stripped substring search gives false hits across the
+    whole doc (e.g. "watched those things" from Abr 4:18 matches every chapter that
+    quotes it). Locate pages by a DISTINCTIVE phrase, then render to confirm.
+carry_forward:
+  - Part One voice/edit pass — Michael's own, the reason the parts were spliced in.
+  - Pre-publish / KDP prep: title lock, cover, trim/bleed/spine, ISBN, audiobook
+    front matter.
+  - Part One "(Part Two: <step name>)" cross-references point by STEP NAME, not
+    chapter number, so they are not linked or page-numbered. Wiring them would need a
+    step-name -> chapter map (e.g. Intent/Council/Spiritual Creation -> Ch 6/3...).
+    Surfaced to Michael; not done.
+  - Opener scope to confirm with Michael: Afterword (no Binding Question) now flows
+    under its title rather than getting a title page; fine for back-matter but his
+    call if he wants it to open fresh like the numbered chapters.
+  - Confirm the lived/biographical figures while reading in context (carried from the
+    into-src session): pg-ai-stewards 3wk/3day, 300+ microservices + "four of six",
+    Dart/Rust/18yr.
+files_changed:
+  - src/template.typ
+  - scripts/build_typst.py
+  - src/chapters/00_eleven_step_reference.md
+  - src/chapters/p1_01_talk_dont_command.md
+  - src/chapters/p1_02_council_before_you_build.md
+  - src/chapters/p1_03_set_the_bounds.md
+  - src/chapters/p1_04_pack_the_context.md
+  - src/chapters/p1_07_assume_it_will_lie.md
+  - src/chapters/p1_08_ask_whats_in_the_way.md
+  - src/chapters/p1_10_coda_go_touch_grass.md
+  - .mind/active.md
