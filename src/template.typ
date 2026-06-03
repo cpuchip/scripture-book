@@ -124,31 +124,46 @@
   body
 }
 
-// Custom margin note function to place QR codes in the outside margins dynamically
-#let margin-qr(svg-path) = context {
-  let page-num = counter(page).get().first()
-  let is-even = calc.even(page-num)
-  
-  // Left page (even) -> outside is left margin (negative dx offset)
-  // Right page (odd) -> outside is right margin (positive dx offset)
-  let dx-val = if is-even { -1.05in } else { 1.05in }
-  let side = if is-even { left } else { right }
-  
-  place(
-    side,
-    dx: dx-val,
-    dy: -10pt, // subtle vertical align adjustment
-    block(
-      width: 0.85in,
-      align(center)[
-        #rect(
-          stroke: 0.5pt + rgb("#eeeeee"),
-          inset: 2pt,
-          fill: white,
-          image(svg-path, width: 0.75in)
-        )
-      ]
+// The QR card itself (bordered, white, fixed size) — shared by both placements.
+#let _qr-box(svg-path) = block(
+  width: 0.85in,
+  align(center)[
+    #rect(
+      stroke: 0.5pt + rgb("#eeeeee"),
+      inset: 2pt,
+      fill: white,
+      image(svg-path, width: 0.75in)
     )
+  ]
+)
+
+// Outside margin: even (verso) -> left, odd (recto) -> right. dx pushes the card
+// off the text block into that margin.
+#let _qr-dx = (-1.05in, 1.05in)
+
+// Inline margin QR — anchored beside the line where it is called (the in-prose
+// scripture citations in Part One). dy lifts the card so it centers vertically on
+// that line rather than hanging below it.
+#let margin-qr(svg-path) = context {
+  let is-even = calc.even(counter(page).get().first())
+  place(
+    if is-even { left } else { right },
+    dx: if is-even { _qr-dx.at(0) } else { _qr-dx.at(1) },
+    dy: -0.32in,
+    _qr-box(svg-path),
+  )
+}
+
+// Blockquote-centered margin QR — vertically centers on the enclosing blockquote
+// box (Part Two anchor passages, whose quotes run several lines). `horizon` puts
+// the card at the block's vertical midpoint regardless of where in the quote text
+// it is emitted, since placement is out of flow.
+#let margin-qr-center(svg-path) = context {
+  let is-even = calc.even(counter(page).get().first())
+  place(
+    (if is-even { left } else { right }) + horizon,
+    dx: if is-even { _qr-dx.at(0) } else { _qr-dx.at(1) },
+    _qr-box(svg-path),
   )
 }
 
@@ -243,7 +258,9 @@
 
 #let toc-line(body, target) = context {
   let pg = counter(page).at(target).first()
-  pad(left: 0.3in, top: 0.3em, bottom: 0.3em,
+  // The whole line is an internal link to the chapter (clickable PDF navigation;
+  // invisible in print — no color/underline, so the page is unchanged on paper).
+  link(target, pad(left: 0.3in, top: 0.3em, bottom: 0.3em,
     grid(
       columns: (auto, 1fr, auto),
       align: (left + bottom, left + bottom, right + bottom),
@@ -251,7 +268,7 @@
       box(width: 100%, inset: (x: 0.4em))[#text(fill: rgb("#cccccc"))[#repeat[.]]],
       box[#text(size: 10pt)[#pg]],
     )
-  )
+  ))
 }
 
 // Inline cross-reference page numbers — parity with the Contents page, so an

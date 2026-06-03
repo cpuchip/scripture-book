@@ -317,13 +317,16 @@ def markdown_to_typst(md_content, dist_dir):
                         lines.append(line)
                 quote_content = '\n'.join(lines)
                 conv_quote = convert_inline_markdown(quote_content, dist_dir)
-                # Move margin-qr to the beginning of the blockquote to align with the first line
+                # Center the QR on the blockquote: emit it as margin-qr-center and
+                # park it at the start of the quote (placement is out of flow, so the
+                # card vertically centers on the box regardless of position in text).
                 qr_match = re.search(r'#margin-qr\("[^"]+"\)', conv_quote)
                 if qr_match:
                     qr_str = qr_match.group(0)
+                    qr_center = qr_str.replace('#margin-qr(', '#margin-qr-center(')
                     conv_quote = conv_quote.replace(qr_str, '').strip()
                     conv_quote = re.sub(r'\s{2,}', ' ', conv_quote)
-                    conv_quote = f'{qr_str} {conv_quote}'
+                    conv_quote = f'{qr_center} {conv_quote}'
                 typst_blocks.append(f'  #blockquote[\n    {conv_quote}\n  ]\n]')
                 in_anchor = False # closed anchor passage block
             continue
@@ -339,14 +342,15 @@ def markdown_to_typst(md_content, dist_dir):
                     lines.append(line)
             quote_content = '\n'.join(lines)
             conv_quote = convert_inline_markdown(quote_content, dist_dir)
-            # Move margin-qr to the beginning of the blockquote to align with the first line
+            # Center the QR on the blockquote (see the anchor-passage handler above).
             qr_match = re.search(r'#margin-qr\("[^"]+"\)', conv_quote)
             if qr_match:
                 qr_str = qr_match.group(0)
+                qr_center = qr_str.replace('#margin-qr(', '#margin-qr-center(')
                 conv_quote = conv_quote.replace(qr_str, '').strip()
                 conv_quote = re.sub(r'\s{2,}', ' ', conv_quote)
-                conv_quote = f'{qr_str} {conv_quote}'
-            
+                conv_quote = f'{qr_center} {conv_quote}'
+
             if in_anchor:
                 typst_blocks.append(f'  #blockquote[\n    {conv_quote}\n  ]\n]')
                 in_anchor = False # closed anchor passage block
@@ -403,9 +407,11 @@ def add_chapter_xrefs(ch_typst, label_by_num):
         label = label_by_num.get(num)
         if not label:
             return m.group(0)
+        # "Chapter N" is wrapped in an internal link to the chapter (clickable PDF
+        # navigation, invisible in print). The page number rides alongside.
         if m.group(1):  # "(Chapter N)" -> "(Chapter N, p. NN)"
-            return f'(Chapter {num}, #xref-page-bare(<{label}>))'
-        return f'Chapter {num} #xref-page(<{label}>)'
+            return f'(#link(<{label}>)[Chapter {num}], #xref-page-bare(<{label}>))'
+        return f'#link(<{label}>)[Chapter {num}] #xref-page(<{label}>)'
 
     out_lines = []
     for line in ch_typst.split('\n'):
@@ -457,7 +463,7 @@ def build():
     
     typst_content = []
     # Setup document metadata and template import
-    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, production-note, cycle-step, part-divider, toc-part, toc-line, xref-page, xref-page-bare')
+    typst_content.append(f'#import "template.typ": project, binding-question, anchor-passage, blockquote, hr, margin-qr, margin-qr-center, production-note, cycle-step, part-divider, toc-part, toc-line, xref-page, xref-page-bare')
     typst_content.append(f'#show: project.with(title: "{title}", author: "{author}")\n')
 
     # Pre-pass: build the table-of-contents entries (part headers + chapter
@@ -547,7 +553,8 @@ def build():
             if hm:
                 full = hm.group(1)
                 kicker, ttl = '', full
-                if re.match(r'p1_(0[1-9]|10)_', stem):
+                is_part_one = bool(re.match(r'p1_(0[1-9]|10)_', stem))
+                if is_part_one:
                     k, sep, t = full.partition(' · ')
                     if sep:
                         kicker, ttl = k, t
@@ -555,7 +562,14 @@ def build():
                     k, sep, t = full.partition(': ')
                     if sep and re.fullmatch(r'(Chapter \d+|Epilogue|Afterword)', k):
                         kicker, ttl = k, t
-                ch_typst = ch_typst.replace(hm.group(0), f'= {ttl} <{lbl}>', 1)
+                # Part Two chapters (the Modular Study openers + Epilogue/Afterword)
+                # put the title alone on its page so the Binding Question + Anchor
+                # Passage boxes always begin on the next page, never crowded under the
+                # title. Part One practices keep flowing straight into their story.
+                heading_repl = f'= {ttl} <{lbl}>'
+                if kicker and not is_part_one:
+                    heading_repl += '\n\n#pagebreak(weak: true)'
+                ch_typst = ch_typst.replace(hm.group(0), heading_repl, 1)
                 if kicker:
                     esc_kicker = kicker.replace('"', '\\"')
                     ch_typst = (f'#state("practice-kicker", none).update("{esc_kicker}")\n\n'
