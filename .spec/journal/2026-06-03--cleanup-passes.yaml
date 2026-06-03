@@ -1,0 +1,101 @@
+date: 2026-06-03
+session: cleanup-passes
+type: execution
+workstream: WS7
+summary: |
+  Two rounds of "more cleanup" off Michael's read-through, after the day's three
+  typography passes (see 2026-06-03--typography-print-passes.yaml). All Typst-print-
+  path; every change verified by rendering compiled pages with PyMuPDF and, for the
+  QR work, a programmatic collision detector. Two disposable scripts did the bulk
+  edits (kept in gitignored dist/: qr_pass.py, verse_links.py) — run, diff-review,
+  build, render, commit.
+
+  ROUND 1 (5 items) — pushed 5b27009..3e2823c (commits 5e54187, 3e2823c):
+    1+2. Glossary sorted alphabetically within each group (Fused Terms; Plain-English
+       Technical Terms) — reorder only, text unchanged.
+    3. QR codes throughout the WHOLE book (Michael: "whole book not just chapters
+       0-12"). qr_pass.py added 41 QRs across the doctrine chapters + epilogue: per
+       chapter, one QR for the first not-yet-QR'd distinct external source in each
+       PROSE paragraph (dedup by normalized URL; skips headings/blockquotes/lists/
+       already-QR'd paragraphs; places after terminal punctuation). Glossary entries
+       QR'd too (both groups) with list spacing. ONLY existing hyperlinks were QR'd
+       -> no broken-link risk. Book 40 -> ~107 QRs.
+    4. Recommended Study fully QR-coded — all 6 Scriptural Anchors, all 6 Prophetic
+       Messages (talks newly linked to churchofjesuschrist.org via local
+       gospel-library paths, incl. 2024 Bednar = 2024/10/35bednar.md), 7 Deep-Dive
+       already had QRs; #set list(spacing: 4.5em) so the stacked margin cards clear.
+    5. Subtitle -> "Discovering the Laws of Organized Intelligence" (Michael's pick,
+       pulling the afterword's own verb: "they are discovering the laws of organized
+       intelligence... this book is our attempt to write down those laws"). Title in
+       book.yaml + frontmatter.
+    Collision sweep caught 2 (a script QR landing beside an existing blockquote QR
+    in Ch0 and Ch1); dropped those 2 redundant markers -> 0 overlaps / 62 QR pages.
+
+  ROUND 2 (4 items) — pushed 3e2823c..ee6b73d (commit ee6b73d):
+    1. Headings no longer hyphenate (hyphenate: false on all levels) — fixed
+       "Pack the Context, Waste Noth-/ing"; also #set par(justify: false) on the
+       level-1 title block so a wrapped title centers both lines instead of
+       stretching the first.
+    2. Verse-anchored links AND QRs — verse_links.py parses the verse from each
+       scripture link's TEXT ("D&C 93:36" -> 36; "Alma 7:11-12" -> 11-12), appends
+       ?verse= to the URL, and syncs the paired [qr] URL. Whole-chapter/section refs
+       without a colon ("D&C 104", "3 Ne 11-28", "Ether 2-3") left as chapter links;
+       non-scripture links (Webster/Medium/LinkedIn/cpuchip.net) untouched. 181 URLs
+       versed -> 129 verse-highlight URLs (?lang=eng&id=pN#pN, which the church site
+       auto-highlights). QRs regenerated to the versed targets.
+    3. Ch 2 "for the reader" block no longer orphans on its own page. Moved the
+       opener page-break from "before the first section" to "the first #hr() (right
+       after the anchor passage)", so an intro block sitting between the anchor and
+       Core Reframe flows into the body page. Other chapters unchanged (their first
+       hr already precedes Core Reframe). Ch2 5 -> 4 pp.
+    4. Chapter cross-ref links already deep-link to the page in the PDF — verified
+       the named destination resolves to the chapter's opening page (Ch2 link -> p49
+       = the displayed "(p. NN)"). No change. HTML caveat logged (below).
+
+  Book 118 -> 123 (Round 1 glossary spacing) -> 122 (Round 2 Ch2 recovery).
+discoveries:
+  - A programmatic QR-collision detector (PyMuPDF get_drawings -> rects ~55-66pt
+    square = the 0.85in QR card border -> flag vertical overlaps per page) sweeps the
+    WHOLE book for overlapping margin QRs in one pass — far better than eyeballing 60+
+    pages. Reusable for any future QR work. Caught 2 real collisions this session.
+  - Verse anchors come free from the link TEXT: scripture refs are written "Book C:V"
+    so the verse is already on the page; a script can lift it into ?verse= and the
+    paired [qr] inherits it (qr text is just "qr", so sync to the preceding scripture
+    link). resolve_gospel_path already turned ?verse=N into the church's
+    ?lang=eng&id=pN#pN highlight URL — the markdown just never carried the verse.
+  - The opener page-break belongs at the FIRST divider (right after the anchor), not
+    before the first section: that keeps any intro block (Ch2's "for the reader"
+    note) with the body instead of stranding it. The earlier "before first ==" rule
+    silently orphaned content that lives between the anchor and the first heading.
+  - Heading titles must set hyphenate:false AND justify:false: hyphenate off stops
+    "Noth-/ing"; justify off stops a wrapped first line from stretching while the
+    last line centers (the inconsistent look 2-line titles otherwise get).
+  - The new subtitle was already written in the book — the afterword's climactic
+    sentence names it. The strongest titles are often a phrase the manuscript already
+    earned, not a fresh coinage.
+  - Disposable scripts in gitignored dist/ (qr_pass.py, verse_links.py) are the right
+    tool for book-wide mechanical edits: deterministic, diff-reviewable, never
+    committed. Same pattern as the into-src migration script.
+carry_forward:
+  - HTML deep-linking: the xref page-number/link machinery is Typst/PDF-only. The
+    build.py HTML path renders "Chapter N" as plain text (reflowable, no pages). If
+    Michael wants HTML cross-refs clickable, add heading anchors + anchor links in
+    build.py — offered, not done.
+  - Glossary group 2 (Plain-English Technical Terms) scriptures are incidental echoes
+    ("like is drawn to like (D&C 88:40)"); QR'd for "whole book" consistency but easy
+    to thin if they feel heavy in a section meant for quick reading.
+  - Future content should carry verse anchors in the source from the start (write
+    ".../93.md?verse=36" not ".../93.md") so a re-run of verse_links.py is unneeded.
+  - Still all Michael's: the Part One voice/edit pass; pre-publish/KDP (title now
+    locked as "Beyond the Prompt: Discovering the Laws of Organized Intelligence").
+files_changed:
+  - src/template.typ
+  - scripts/build_typst.py
+  - book.yaml
+  - src/chapters/00_frontmatter.md
+  - src/chapters/00_chapter_0_intelligence_truth.md
+  - src/chapters/01_value_shift.md through 14_afterword_how_i_got_here.md (verse links + QRs)
+  - src/chapters/15_glossary_of_fused_terms.md (sort + QRs + spacing)
+  - src/chapters/16_further_reading.md (QRs + spacing + talk links)
+  - src/chapters/p1_01..p1_10 (verse links on the Part One citations)
+  - .mind/active.md
