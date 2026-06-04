@@ -46,21 +46,43 @@ engineering mirror of "spirit is matter." The resonance tail was trimmed this se
   (Mar 2026) + the context-engineering discourse all independently affirm
   execution-is-cheap → value-moved-to-judgment. The EP is well-grounded.
 
-### Ch 2 · The Four Disciplines — ✅ mostly SOLID; 🟡 two terms
+### Ch 2 · The Four Disciplines — ✅ SOLID (re-verified 2026-06-04; earlier hedge withdrawn)
 - **Context engineering** — ✅ [WEB] VERIFIED. Anthropic's own engineering blog
   ("Effective context engineering for AI agents," Sep 2025): *"a new term has come to
   prominence: context engineering… the natural progression of prompt engineering."*
   Also Elastic, Atlan, Unite.AI. The book's framing (curate the smallest high-signal
   set against a finite attention budget) matches the literature precisely.
 - **Prompt craft** = prompt engineering — ✅ established.
-- **Intent engineering / Specification engineering** — 🟡 NOTE: far less standard as
-  named industry disciplines. "Intent engineering" and "spec engineering" appear to be
-  the book's own framing (or nascent terms), not recognized alongside prompt/context
-  engineering. The chapter presents all four as equally industry-named; consider a
-  light hedge (e.g., "two the industry has named, two it is feeling toward").
-- **"99.98%" of the context window** — 🟡 NOTE: illustrative, not a measured stat;
-  fine as rhetoric, but it reads as precise. Directionally true (the user prompt is a
-  small fraction of a large context window).
+- **Intent engineering** — ✅ [WEB] VERIFIED 2026-06-04. A named discipline, not the
+  book's coinage. Conny Lazo, "Intent Engineering: The Missing Discipline in AI Agent
+  Development" (Feb 2026); squer.io's "Intent Engineer" role; pathmode.io glossary;
+  "Software Engineering 3.0: The Age of the Intent-Driven Developer" (Level Up Coding,
+  Apr 2026). Definition matches the book's ("encode purpose/values; what the model
+  should *want* when instructions run out").
+- **Specification engineering / spec-driven development** — ✅ [WEB] VERIFIED 2026-06-04.
+  Fully mainstream in 2026 under the alias **spec-driven development (SDD)**, which is
+  where the volume of entries lives (Michael was right). GitHub Spec Kit, AWS Kiro,
+  Claude Code, Cursor, OpenSpec, BMAD, Tessl, Google Antigravity all ship SDD flavors;
+  DeepLearning.AI runs a "Spec-Driven Development with Coding Agents" course; arXiv
+  2602.00180 "Spec-Driven Development: From Code to Contract in the Age of AI Coding
+  Assistants."
+- **THE FOUR-DISCIPLINE STRUCTURE ITSELF** — ✅ [WEB] independently corroborated, and
+  this is the strong find. Vera V. Vishnyakova, *Context Engineering: From Prompts to
+  Corporate Multi-Agent Architecture* (arXiv 2603.09619, Mar 2026) proposes the **exact
+  same four disciplines in the exact same order** — Prompt → Context → Intent →
+  Specification Engineering — as a *"cumulative pyramid maturity model of agent
+  engineering, in which each level subsumes the previous one as a necessary foundation."*
+  The book did not borrow this; it converged with the field. Ch 2 is on firmer ground
+  than the chapter even claims for itself.
+- **Adjacent term the book does NOT yet name: harness engineering** — the 2026 "new
+  hotness" (Mitchell Hashimoto, ~Feb 2026; Martin Fowler write-up; *Agent = Model +
+  Harness*). NOT a fifth altitude of "organize" — it is the *wrapper* (tools,
+  guardrails, feedback loops, observability) around the model. That maps directly onto
+  the SEVEN steps Ch 2 says the four disciplines leave untouched (esp. Watching,
+  Stewardship, Covenant). Potential strengthening, not a correction — surfaced to
+  Michael as an option (see FLAGS #6).
+- **"99.98%" of the context window** — 🟡 NOTE (unchanged): illustrative, not a measured
+  stat; fine as rhetoric, but reads as precise. Directionally true.
 
 ### Ch 3 · Spiritual Before Temporal — ✅ SOLID (post-trim)
 Now just the Becoming-app 743-line-spec proof + the studies extension. "Spec/design
@@ -163,9 +185,17 @@ the conductor-orchestra centralization critique is fair. BUT:
 4. ✅ DONE — **Ch 9**: Prescription regrounded — "the senior engineer still writes the
    spec on the project where they could skip it" (self-imposed discipline, not infra
    rate limits).
-5. 🟡 STILL OPEN — **Ch 2**: light hedge that "intent engineering / spec engineering"
-   are less industry-standard than prompt/context engineering; "99.98%" is
-   illustrative. (Left for Michael — minor.)
+5. ✅ WITHDRAWN — **Ch 2 terms**: my earlier "intent/spec engineering are the book's own
+   coinage" note was WRONG (Michael flagged it; re-search 2026-06-04 confirmed). All
+   four disciplines are industry-named (spec engineering = spec-driven development = the
+   high-volume alias), and the exact four-in-order structure is corroborated by an arXiv
+   maturity-model paper. No hedge needed — the chapter is accurate as written. Only the
+   "99.98%" remains a minor illustrative figure (left as-is).
+6. 🟢 OPTION (Michael's call) — **Harness engineering** ("the new hotness," 2026): weave
+   it into Ch 2 (or Ch 4/7) as the industry term for the *wrapper* around the model? It
+   would strengthen the chapter's spine — the field has now named a discipline that
+   reaches for exactly the seven steps the four altitudes leave uncovered (Watching,
+   Stewardship, Covenant). Addition, not fix. Awaiting Michael.
 
 ## What held up (the reassuring half)
 Ch 0, 3, 4, 5, 6, 7, 8, 11 are accurate and apt. Of the "8–12 seem stretched" set, **8
@@ -181,4 +211,8 @@ by Anthropic, Mozilla.ai, and the context-engineering literature.
 - Milan Jovanović, LinkedIn "AI won't replace you in 2026…" (Jan 2026, activity-7419357471263252480) — "owning correctness" quote VERIFIED.
 - Tony Trejo, "Value-Based Thinking for Software Engineers in the AI Era" series (Medium/CodeX/CodeToDeploy, Feb–Mar 2026) — real author + thesis; exact Ch 1 quote NOT located.
 - Mozilla.ai, "Owning Code in the Age of AI" (Mar 2026) — independent corroboration of the value-shift → stewardship → observability spine.
+- **Vera V. Vishnyakova, "Context Engineering: From Prompts to Corporate Multi-Agent Architecture" (arXiv 2603.09619, Mar 2026)** — names the four-discipline cumulative pyramid (Prompt → Context → Intent → Specification Engineering); near-identical to Ch 2.
+- **Conny Lazo, "Intent Engineering: The Missing Discipline in AI Agent Development" (connylazo.com, Feb 2026)** + squer.io "Why We Created the Intent Engineer" + pathmode.io "Intent Engineering" glossary + Level Up Coding "Software Engineering 3.0: The Age of the Intent-Driven Developer" (Apr 2026) — intent engineering is a named discipline.
+- **Spec-driven development (SDD):** arXiv 2602.00180 "Spec-Driven Development: From Code to Contract…"; Thoughtworks, Augment Code, Built In, Towards Data Science guides; DeepLearning.AI "Spec-Driven Development with Coding Agents" course; tooling = GitHub Spec Kit / AWS Kiro / Claude Code / Cursor / OpenSpec / Tessl / Google Antigravity.
+- **Harness engineering:** Mitchell Hashimoto (coinage, ~Feb 2026); Martin Fowler "Harness engineering for coding agent users"; Augment Code / Faros.ai / Atlan guides; ai-boost/awesome-harness-engineering. (*Agent = Model + Harness*; LangChain moved 30th→5th on Terminal Bench 2.0 by optimizing the harness alone.) — NOT yet in the book; candidate addition.
 - (Knowledge-based, not re-verified this pass: stochastic parrots = Bender et al. 2021; next-token prediction; floating-gate/magnetic-domain storage; CAP/partition tolerance; RLHF.)
