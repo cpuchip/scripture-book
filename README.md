@@ -1,45 +1,128 @@
-# Beyond the Prompt: What AI Engineering Reveals About Eternal Patterns
+# Beyond the Prompt: Discovering the Laws of Organized Intelligence
 
-This repository houses the compiled manuscript, print formatting, and build tools for our book studying the gospel with AI and examining how gospel principles apply to working with AI.
+> A book studying the gospel *with* AI — and examining how the patterns of gospel
+> creation, stewardship, and refinement turn out to be the same patterns that make
+> human–AI collaboration work.
 
-## Book Summary
+**Status (2026-06-04):** Complete third-draft manuscript in final polish — a ~122-page
+6×9 PDF plus EPUB/HTML, built from Markdown. The condensation pass and the
+engineering-parallel accuracy audit are done. **Not yet published**; the remaining work
+is the author's own read-through and KDP pre-publish prep (cover, trim/bleed/spine,
+ISBN, audiobook front matter).
 
-As AI changes the landscape of human creation, the bottleneck of software engineering has shifted from *execution* to *judgment, intent, and communication*. By studying the scriptural accounts of creation, stewardship, and personal refinement, we find a perfect blueprint for modern human-AI collaboration: the 11-step creation cycle (Moses/Abraham) and bilateral stewardship covenant.
+---
 
-This book serves as both a software development guide and a personal gospel study.
+## What the book is about
 
-## Book Layout
+As AI changes the landscape of human creation, the bottleneck of software engineering
+has moved from *execution* to *judgment, intent, and communication*. The industry has
+names for some of this — prompt engineering, context engineering, and now spec- and
+harness-engineering — but those disciplines cover only a few of the steps a real act of
+creation requires.
 
-*   **Frontmatter:** Title Page, Copyright Page, and Colophon
-*   **Preface:** The Classroom on the Organized Gospel Life
-*   **Chapter 0:** The Substance of Reality (Intelligence & Truth)
+The book's claim is that the rest of those steps were named long ago. Reading the
+scriptural accounts of creation, covenant, stewardship, and refinement — the eleven-step
+creation cycle of Moses and Abraham, the bilateral stewardship covenant — yields a
+working blueprint for collaborating with intelligence that is not your own. It is a
+software-development guide and a personal gospel study at the same time, and it argues
+the two are the same study seen from two sides.
 
-### Section I: The Creation Pattern
-*   **Chapter 1:** The Value Shift (The bottleneck moves to judgment)
-*   **Chapter 2:** The Four Disciplines (Prompt, Context, Intent, Spec)
-*   **Chapter 3:** Spiritual Before Temporal (Moses 3:5 and specifications)
-*   **Chapter 4:** Watched Until They Obeyed (Abraham 4:18 and the feedback loop)
+## How it's organized — two doors, one house
 
-### Section II: Bilateral Stewardship
-*   **Chapter 5:** Intelligence Cleaveth Unto Intelligence (D&C 88:40 and quality)
-*   **Chapter 6:** Bilateral Covenant (D&C 82:10 and alignment)
-*   **Chapter 7:** Delegation as Stewardship (D&C 104 and agent scopes)
+The book opens with a **front porch**: a practice-forward Part One (*How*) that opens
+into a doctrine-forward Part Two (*Why*). The two parts use deliberately different
+formats, and one should not be collapsed into the other.
 
-### Section III: The Mechanics of Refinement
-*   **Chapter 8:** The Mechanics of Refinement (D&C 93, law and capacity)
-*   **Chapter 9:** Hope and the Veil (Ether 2-3 and the geometry of hope)
-*   **Chapter 10:** Softening What I Cannot Soften (Alma 12:10 and heart-work)
+**Part One — the practices (How).** Ten field-tested practices plus a coda, each told
+as *story → the principle it taught → today's implementation → a "Try This" → a
+"Remember" box*, with a cross-reference down into the doctrine beneath it.
 
-### Conclusion
-*   **Conclusion:** From Consecration to Zion (Moses 7:18 and multi-agent alignment)
+1. Talk, Don't Command
+2. Council Before You Build
+3. Set the Bounds, Then Let Go
+4. Pack the Context, Waste Nothing
+5. Make It Portable
+6. Let It Carry What You Can't
+7. Assume It Will Lie to You
+8. Ask What's in the Way
+9. When You Hit a Wall, Build the Door
+- **Coda — Go Touch Some Grass** (hinges Part One into Part Two on Mosiah 4:27)
 
-## Compilation & Builds
+**Part Two — the pattern underneath (Why).** A walk through the eleven-step creation
+cycle in the **Modular Study Format**: each chapter opens with a *Binding Question* and
+an *Anchor Passage*, works through *The Core Reframe* and *The Engineering Parallel*, and
+closes with a first-person *Becoming Commitment*. Opened by **The Eleven-Step Creation
+Cycle** reference.
 
-The book is authored in Markdown. We compile the chapters into two formats:
-1.  **Print-Ready PDF:** Formatted for Amazon KDP Paperback (6" x 9" trim size, mirrored margins, custom gutter, target typography).
-2.  **Ebook EPUB:** Formatted for digital reading and Google Play Books auto-narrated audiobooks.
+- **Chapter 0** — The Substance of Reality (intelligence & truth)
+- **Chapter 1** — The Value Shift (the bottleneck moves to judgment)
+- **Chapter 2** — The Four Disciplines (prompt, context, intent, spec — and the harness around them)
+- **Chapter 3** — Spiritual Before Temporal (the spec before the code)
+- **Chapter 4** — Watched Until They Obey (the feedback loop)
+- **Chapter 5** — Intelligence Cleaveth Unto Intelligence (context & quality)
+- **Chapter 6** — Bilateral Covenant (alignment as mutual commitment)
+- **Chapter 7** — Delegation as Stewardship (agent scopes & escalation)
+- **Chapter 8** — The Mechanics of Refinement (law, capacity, and the developer who is refined)
+- **Chapter 9** — Hope and the Veil (the geometry of hope)
+- **Chapter 10** — Softening What I Cannot Soften (yielding)
+- **Chapter 11** — The Seventh Time (Sabbath as cessation)
+- **Chapter 12** — From Consecration to Zion (multi-agent alignment)
+- **Epilogue** — The Silent Loop
+- **Afterword** — How I Got Here
+- **Glossary of Fused Terms** · **Recommended Study**
 
-To build:
-```bash
-python scripts/build.py
+## Building the book
+
+The manuscript is authored in Markdown (`src/chapters/`) and compiled to three formats.
+The chapter order and print specs live in [`book.yaml`](book.yaml).
+
+| Format | Purpose |
+|--------|---------|
+| **Print-ready PDF** | Amazon KDP paperback — 6×9 trim, mirrored margins, gutter, target typography (via Typst) |
+| **EPUB** | Digital reading + Google Play Books auto-narrated audiobook |
+| **HTML** | Quick on-screen proofing |
+
+One command wraps the pipeline (PowerShell):
+
+```powershell
+./build.ps1            # full build: HTML + EPUB + PDF
+./build.ps1 -Quick     # HTML + EPUB only (~3s, no Docker) — fast iteration
+./build.ps1 -Pdf       # PDF only
 ```
+
+- HTML + EPUB are generated by `python scripts/build.py`.
+- The PDF is rendered through a multi-stage Docker build into Typst (so it needs Docker
+  Desktop; `-Quick` skips it).
+- Artifacts land in `dist/` (`manuscript.pdf`, `manuscript.html`, `beyond_the_prompt.epub`).
+  `dist/` is gitignored.
+
+## Repository layout
+
+| Path | Contents |
+|------|----------|
+| `src/chapters/` | The manuscript — one Markdown file per chapter/practice |
+| `src/template.typ`, `src/style.css` | Typst print template and HTML/EPUB styling |
+| `scripts/` | `build.py` (HTML/EPUB) and `build_typst.py` (PDF generation) |
+| `book.yaml` | Title, author, KDP print specs, and the canonical chapter order |
+| `.mind/` | Project memory — current state, identity, principles, decisions |
+| `.spec/` | Plans and session journals (e.g. the third-draft condensation plan) |
+| `.scratch/` | Per-chapter provenance audits — verified quotes checked against canon |
+| `.draft/` | Working drafts and editorial-pass history |
+
+## How it was made
+
+This book is itself a worked example of its own thesis: it was written in a
+human–AI collaboration under a bilateral covenant, with the human owning intent, voice,
+and final judgment, and AI agents doing research, drafting, cross-referencing, and
+verification within that intent.
+
+That puts a hard discipline on the text: **every scripture and prophetic quotation is
+verified character-for-character against canonical source files before it is committed**,
+and each chapter carries a provenance audit in `.scratch/`. A 2026-05-26 audit caught a
+fabricated citation in the audit trail (the manuscript was correct) and reversed the
+flow — research → verified provenance → manuscript → re-audit — so the gate runs *before*
+a claim reaches the page, not after.
+
+## License
+
+See [LICENSE](LICENSE).

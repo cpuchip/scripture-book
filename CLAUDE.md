@@ -14,10 +14,14 @@ The canonical project instructions are documented in:
 
 ## Build Commands
 
-Compile book artifacts:
-```bash
-python scripts/build.py
+Build PDF + HTML + EPUB (PowerShell wrapper; chapter order + print specs in `book.yaml`):
+```powershell
+./build.ps1            # full build: HTML + EPUB + PDF (PDF via Docker → Typst)
+./build.ps1 -Quick     # HTML + EPUB only (~3s, no Docker) — fast iteration
+./build.ps1 -Pdf       # PDF only
 ```
+`python scripts/build.py` runs just the HTML + EPUB step. Artifacts land in `dist/`
+(`manuscript.pdf`, `manuscript.html`, `beyond_the_prompt.epub`).
 
 ## Writing Principles
 1.  **Two formats for two parts (the front porch).** The book is one volume with two doors — keep their formats distinct.
