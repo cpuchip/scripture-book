@@ -199,6 +199,13 @@ the conductor-orchestra centralization critique is fair. BUT:
    consecration as first-class state = the seven unmapped steps. Reviewed the substrate's
    README + docs/architecture.md before writing; all claims checked. Verified 122pp,
    renders p52, 0 collisions. Commit 34cda7b.
+   **REVISED 2026-06-04 (commit 12c16af)** — Michael's correction that the 230M runaway
+   ran INSIDE the harness we're building (WIP, embodying the 11-cycle, learning by it),
+   cross-checked vs the other session's honest blueprint audit. Beat is now honest:
+   "I have been building one, and it is not finished"; runaway "ran inside it"; mapping
+   "seen in hindsight, not from a checklist"; and **"six of the seven" — Sabbath named
+   as the rung NOT yet made structural** (the book's Ch 11 thesis confirmed by his own
+   system). The honest WIP version is stronger than the victory-lap one. Beat now pp52-53.
 
 ## What held up (the reassuring half)
 Ch 0, 3, 4, 5, 6, 7, 8, 11 are accurate and apt. Of the "8–12 seem stretched" set, **8
