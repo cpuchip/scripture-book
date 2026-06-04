@@ -1,0 +1,91 @@
+date: 2026-06-03
+session: 3rd-draft-condensation-walk
+type: execution
+workstream: WS7
+summary: |
+  The full 3rd-draft condensation walk, per the ratified plan
+  (.spec/3rd-draft-condensation-plan.md). Walked the whole book in reading order —
+  preface → Part One (P1-10 + coda) → eleven-step reference → Ch 0-12 → Epilogue →
+  Afterword (glossary + Recommended Study skipped as reference lists) — hunting two
+  things: intra-chapter repetition (the same CLAIM asserted 3+ times in one chapter,
+  non-recap) and the Part Two Engineering-Parallel re-eval (do they still earn their
+  place now that Part One carries the how-to). Collaborative throughout: agent did
+  the heavy lifting (cold read → claim map → flag repeats → eval the EP) and
+  presented concrete options + notes + a recommendation via AskUserQuestion; Michael
+  gated every cut. Each edit verify-gated (diff-confirmed no scripture/quote/doctrine
+  removed — only redundant prose compressed).
+
+  11 CHAPTERS EDITED (rest clean). Commits: 5681718 (P1, P4) · 03bb5bd (Ch3) ·
+  8198400 (Ch0, Ch1) · fa5ad71 (Ch6, Ch7) · 1ce4fca (Ch9) · 9d86591 (Ch4, Ch10, Ch12).
+    - P1: core claim stated 3× (¶4/¶7/¶10) -> compressed ¶7 (Michael's one-liner).
+    - P4: ¶3 previewed the two motions ¶2 named -> cut ¶3; reworded ¶2 ("tell it to pull").
+    - Ch3: EP re-taught Part One (spec-before-building/take-counsel/spec-persists) ->
+      trimmed ~10¶ -> 3¶ (kept the Becoming-app 743-line proof + studies extension);
+      compressed ¶21's "complete blueprint" restatement.
+    - Ch0: resonance section (¶65-74, 5¶+blockquote) -> 2¶ (Ch 5 owns resonance);
+      reviewed the whole chapter after (Michael's ask) — the premise-on-reality holds.
+    - Ch1: Abraham 4:18 watching chunk (¶41-47) -> 1¶ pointer (Ch 4 owns watching).
+    - Ch4: ¶30 Sabbath preview (Abr 5:2 + Moses 3:2) -> brief pointer (Ch 11 owns it).
+    - Ch6: cut ¶49's abstract "degradation = not punishment" (the production note ¶69
+      owns it concretely; the sacred note untouched).
+    - Ch7: "delegate -> leave free -> require accountability" 3× (¶40/¶42/Hinckley) ->
+      compressed ¶42 to a Hinckley lead-in.
+    - Ch9 (longest): EP re-walked the full Core Reframe -> compressed the 3-postures
+      re-walk (¶53-57, 3¶->1¶); kept the Group 2 engineering warning (the payload).
+    - Ch10: ¶37 re-listed Ezekiel's verbs (¶19 has the quote) -> trimmed the re-list.
+    - Ch12: ¶41's Jethro four-tier re-list (Ch 7 lists them ×2) -> brief ref + Ch 7 pointer.
+
+  CLEAN/KEPT: preface, P2/3/5/6/7/8/9/coda, eleven-step, Ch 2/5/8/11, Epilogue,
+  Afterword. Final rebuild verified: 121 pages, 0 QR collisions, all trims render.
+discoveries:
+  - The CLAIM MAP (one line per paragraph = its core assertion) is the fatigue
+    detector. Near-duplicate claim lines are the repetition, made visible — and it
+    distinguishes the legitimate scar->principle->implementation spiral (each touch
+    ADDS) from a pure restatement that adds nothing (P1's ¶7, P4's ¶3). The
+    calibration that held all walk: hunt restatements-that-add-nothing, not the
+    natural build of a single-thesis chapter.
+  - THE WALK RULE (emerged at Ch 0, ratified): when a chapter's EP previews material
+    another chapter OWNS, flag it and decide the trim AT the owning chapter — never
+    cut a preview before comparing it to the full treatment. This drove the biggest
+    wins: the cross-chapter EP de-duplication (Ch3->Part One; Ch0->Ch5; Ch1->Ch4;
+    Ch4->Ch11; Ch12->Ch7), each resolved when the walk reached the owner.
+  - The Engineering-Parallel re-eval (Michael's added scope, from the never-executed
+    front-porch trim) paid off exactly where predicted: the EPs that re-taught Part
+    One (Ch3) or re-walked their own Core Reframe (Ch9) were the real bloat. The EPs
+    that were DELIBERATE rebuilds (Ch8 developer-loop, Ch10 gardening/mirror, Ch12
+    ward-council) earned their place untouched.
+  - Meditative closes get a pass on the 3× rule: the coda and the Epilogue both circle
+    one image, but each paragraph ADVANCES the subject (a build, not a restatement).
+    Michael kept the coda; the Epilogue held by the same precedent.
+  - Condensation reduces FATIGUE more than PAGES: 122->121 pages, because prose cuts
+    reflow within pages rather than dropping whole pages. The win is the reading
+    experience (no more "you said this already"), which the page count understates.
+  - PyMuPDF false-negatives have two causes worth remembering: add_chapter_xrefs
+    inserts "(p. NN)" mid-phrase (breaks a space-stripped search across "Chapter N"),
+    and EB Garamond hyphenates words across lines. Always confirm a NOT-FOUND against
+    raw page text before believing a render broke.
+carry_forward:
+  - Michael's own voice/edit read of the CONDENSED book — the whole reason the walk
+    cleared the redundancy. That's his, next.
+  - Pre-publish / KDP prep (title locked: "Beyond the Prompt: Discovering the Laws of
+    Organized Intelligence"; cover, trim/bleed/spine, ISBN, audiobook front matter).
+  - Judgment notes left in the Decisions Log for his eye: Ch 4 ¶46's "seventh-day
+    review" kept (a watching application, though it borrows Sabbath language); the
+    glossary group-2 QRs (from the earlier pass) still thin-able; Part One same-¶
+    citation pairs (Moses 3:5 in p1_01/02) still un-QR'd by design.
+  - A fuller render-review of the condensed chapters in the PDF (only spot-checked
+    this session) — worth a pass when Michael reads it.
+files_changed:
+  - src/chapters/p1_01_talk_dont_command.md
+  - src/chapters/p1_04_pack_the_context.md
+  - src/chapters/00_chapter_0_intelligence_truth.md
+  - src/chapters/01_value_shift.md
+  - src/chapters/03_spiritual_before_temporal.md
+  - src/chapters/04_watched_until_they_obeyed.md
+  - src/chapters/06_bilateral_covenant.md
+  - src/chapters/07_delegation_as_stewardship.md
+  - src/chapters/09_hope_and_the_veil.md
+  - src/chapters/10_softening_what_i_cannot_soften.md
+  - src/chapters/12_conclusion_zion.md
+  - .spec/3rd-draft-condensation-plan.md
+  - .mind/active.md
