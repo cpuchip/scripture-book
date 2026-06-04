@@ -21,7 +21,7 @@ Organization is not merely putting things in folders; it is the deliberate appli
 When we look at the modern landscape of working with AI, we see that the single act of "prompting" has split into four distinct altitudes of organization:
 
 1.  **Prompt Craft (Street Level):** The immediate, session-based request. It organizes the immediate interaction. You describe the task, the formats, and the direct constraints. This is table stakes—the professional equivalent of knowing how to type.
-2.  **Context Engineering (Aerial Level):** Curation of the information environment. Since a prompt is only a tiny fraction of a model's context window, context engineering organizes the other 99.98%: the retrieved documents, the system files, the tool schemas, and the active session state. 
+2.  **Context Engineering (Aerial Level):** Curation of the information environment. Since a prompt is only a tiny fraction of a model's context window, context engineering organizes the other 99%: the retrieved documents, the system files, the tool schemas, and the active session state. 
 3.  **Intent Engineering (Orbital Level):** Encoding the purpose and values of the system. While context tells the model what to *know*, intent tells the model what to *want*. It establishes the decision boundaries and trade-offs the agent uses when instructions run out.
 4.  **Specification Engineering (Architectural Level):** Designing a blueprint complete enough that an autonomous agent can build from it for hours without checking in. It requires completeness of thinking, anticipation of edge cases, and decomposing complex goals into executable components.
 
