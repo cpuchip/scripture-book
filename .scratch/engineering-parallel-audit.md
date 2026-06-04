@@ -191,11 +191,14 @@ the conductor-orchestra centralization critique is fair. BUT:
    high-volume alias), and the exact four-in-order structure is corroborated by an arXiv
    maturity-model paper. No hedge needed — the chapter is accurate as written. Only the
    "99.98%" remains a minor illustrative figure (left as-is).
-6. 🟢 OPTION (Michael's call) — **Harness engineering** ("the new hotness," 2026): weave
-   it into Ch 2 (or Ch 4/7) as the industry term for the *wrapper* around the model? It
-   would strengthen the chapter's spine — the field has now named a discipline that
-   reaches for exactly the seven steps the four altitudes leave uncovered (Watching,
-   Stewardship, Covenant). Addition, not fix. Awaiting Michael.
+6. ✅ DONE — **Harness engineering** woven into Ch 2 as "its own beat" (Michael's call).
+   Two paragraphs replacing the abstract ¶56: names the term (Agent = Model + Harness),
+   establishes a harness is the *wrapper* not a fifth altitude, then grounds it
+   first-person in pg-ai-stewards (the substrate Michael is building) — covenant /
+   scoped tool perms / refuse-before-spend caps / watchman / council / atonement-sabbath-
+   consecration as first-class state = the seven unmapped steps. Reviewed the substrate's
+   README + docs/architecture.md before writing; all claims checked. Verified 122pp,
+   renders p52, 0 collisions. Commit 34cda7b.
 
 ## What held up (the reassuring half)
 Ch 0, 3, 4, 5, 6, 7, 8, 11 are accurate and apt. Of the "8–12 seem stretched" set, **8
