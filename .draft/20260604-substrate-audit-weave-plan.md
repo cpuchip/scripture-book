@@ -93,6 +93,12 @@ agency). Ch 4 already references the Ch 2 runaway, so this keeps Ch 2 ↔ Ch 4 l
 credible idea in the audit, it has a vivid lived example, and it threads *into* the
 chapter's existing climax. The one I'd most want in the book.
 
+**✅ RATIFIED + APPLIED to the manuscript 2026-06-04 (commit `1712548`).** The two
+paragraphs are in Ch 4 before ¶48; ¶46's "Finally" was de-finalized to "We also need"
+since the seventh-day review is no longer the last beat before the agency turn. Verified
+renders p61, scriptures intact, 123pp (+1), 0 collisions. (The other four lessons below
+remain in the plan for the gated walk.)
+
 ---
 
 ## Lesson 2 — Acceptance criteria, not just a binding question → Chapter 3 (*Spiritual Before Temporal*)
@@ -243,7 +249,7 @@ the ward-council argument and a strong Step-3-meets-Step-11 bridge.
 - Anything that re-opens the condensation decisions.
 
 ## Proposed walk order (when you're ready)
-1. **Ch 4** — floor/ceiling (the strongest; full).
+1. **Ch 4** — floor/ceiling (the strongest; full). ✅ **DONE / ratified 2026-06-04 (`1712548`).**
 2. **p1_04** — granted context (completes the practice; full).
 3. **Ch 12** — measured-gift council (full; verify D&C 46 first).
 4. **Ch 3** — acceptance criteria (light, Option A).
