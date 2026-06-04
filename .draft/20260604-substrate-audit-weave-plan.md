@@ -57,20 +57,33 @@ close instead of competing with it.
 > "This feedback loop works because of the distinction in agency. As Doctrine and
 > Covenants 93:30 states, 'All truth is independent in that sphere…'"
 
-**Proposed edit (DRAFT) — insert before ¶48:**
-> Even so, every one of these instruments is a gate, and a gate sees only its slice —
-> the tests see the paths they exercise, the budget sees tokens, even a second model
-> reviewing a change sees only the change. None holds the whole. In one comparison of
-> four models on a single task, a model's code cleared the compiler, the linter, the
-> race detector, and a separate reviewing model — every automated gate — and still hid a
-> latent data race, because no test exercised the path that exposed it. What caught it
-> was the one vantage with the entire build in view. The narrow gates raise the floor;
-> full-context vigilance holds the ceiling — and the axis is not human-versus-machine,
-> because here a machine held the whole and did the catching. Above even that vantage
-> sits the thing no instrument supplies at all.
+**Proposed edit (DRAFT) — insert before ¶48 — TWO paragraphs. Strengthened 2026-06-04
+by Michael's "the ceiling moves" insight: the original draft only had one direction (the
+AI caught what the human missed). We have now lived BOTH directions — so the lesson can
+show the watching passing back and forth, which is what proves it isn't human-vs-AI:**
+> Even so, every one of these instruments is a gate, and a gate sees only its slice: the
+> tests see the paths they exercise, the budget sees tokens, even a second model reviewing
+> a change sees only the change. None holds the whole. In one comparison of four models on
+> a single task, a model's code cleared the compiler, the linter, the race detector, and a
+> separate reviewing model — every automated gate — and still hid a subtle flaw none of
+> them was positioned to catch, because no test exercised the path that exposed it. What
+> caught it was the one vantage with the entire build in view. The narrow gates raise the
+> floor; the watcher who holds the whole picture is the ceiling.
+>
+> And that vantage is not fixed to one side. It moves. The agent orchestrating a build
+> once caught a flaw I had read past — it held the whole arc while I was looking at the
+> parts. And the reverse happens just as often: a model hands me an answer that is fluent,
+> confident, and wrong, and I catch it in a breath, because I am holding a piece of ground
+> truth it never had. The ceiling is not the human and it is not the machine. It is
+> whoever, in that moment, holds the whole, and the watching passes back and forth between
+> us. The loop needs both, and neither can be retired from it. Above even that shared
+> vantage sits the thing no instrument and no orchestrator supplies at all.
 
-…which then flows straight into the existing ¶48 ("…the distinction in agency"). "The
-thing no instrument supplies" = moral agency = the human's.
+…which flows straight into the existing ¶48 ("…the distinction in agency"). "The thing no
+instrument… supplies" = moral agency = the human's. The two lived cases — the orchestrating
+agent catching glm's race (AI held the whole), and Michael catching the model's
+confident-wrong tool name (human held the ground truth) — are the two directions of one
+principle, which is exactly why this framing can't collapse into human-vs-AI.
 
 **Notes / caveats:** carries the n=1 caveat inline ("four models on a single task").
 Harmonizes with ¶50 rather than contradicting it (gate < full-context watcher < moral
