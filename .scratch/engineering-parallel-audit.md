@@ -30,8 +30,10 @@ engineering mirror of "spirit is matter." The resonance tail was trimmed this se
   post (linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-…-7419357471263252480-tzCf,
   Jan 2026) reads: *"If you're trying to 'stay relevant' in the AI era, the skill
   isn't prompting. It's owning correctness."* Matches the book.
-- **Tony Trejo "Value Shift Framework" quote** — 🔴 VERIFY. Trejo is a real author
-  writing this exact thesis (his *Value-Based Thinking for Software Engineers in the
+- **Tony Trejo "Value Shift Framework" quote** — ✅ VERIFIED 2026-06-04 (WebFetch of
+  the cited URL confirmed the real article *The Value Shift Framework for Software
+  Engineers (2026 Edition)* by Tony Trejo, and the sentence verbatim). Trejo is a real
+  author writing this exact thesis (his *Value-Based Thinking for Software Engineers in the
   AI Era* series on Medium/CodeX/CodeToDeploy, Feb–Mar 2026: "execution became cheap,"
   "the cost of wrong direction rises," judgment/framing as the differentiator). But I
   could NOT surface the exact quoted line — "AI didn't replace engineers. It replaced
@@ -151,18 +153,19 @@ the conductor-orchestra centralization critique is fair. BUT:
 ---
 
 ## Priority FLAGS (action items)
-1. 🔴 **Verify the Tony Trejo quote** (Ch 1) against the cited URL, or re-attribute to
-   his *Value-Based Thinking* series. Highest priority — it's a verbatim external quote
-   in the reader's hands. Milan's is verified; Trejo's is not.
-2. 🟠 **Ch 12** — soften "the industry is reaching toward [the ward council]" to a
-   "points toward / would solve" framing; mark "token consecration" as the author's
-   design, not an established pattern. (Michael's strongest "stretched" instinct lands here.)
-3. 🟠 **Ch 10** — soften the "you cannot make the AI smarter" binary; the underlying
-   point survives.
-4. 🟠 **Ch 9** — reground "Prescription = rate limits and contracts of the soul" in a
-   self-imposed discipline rather than externally-imposed infra limits.
-5. 🟡 **Ch 2** — light hedge that "intent engineering / spec engineering" are less
-   industry-standard than prompt/context engineering; note "99.98%" is illustrative.
+1. ✅ RESOLVED — **Trejo quote verified** (WebFetch of the cited URL; verbatim).
+2. ✅ DONE — **Ch 12** softened: "the architecture I keep building toward in my own
+   multi-agent work… the shape the problem itself points to, even where the industry
+   has not yet named it" (Michael's aspiration/design, his call); "token consecration"
+   marked "a design I am building toward, not yet a named pattern in the field."
+3. ✅ DONE — **Ch 10**: "A smarter model rarely closes the gap. What you can yield is
+   your own assumed-clarity." (drops the false absolute, keeps the doctrinal mirror).
+4. ✅ DONE — **Ch 9**: Prescription regrounded — "the senior engineer still writes the
+   spec on the project where they could skip it" (self-imposed discipline, not infra
+   rate limits).
+5. 🟡 STILL OPEN — **Ch 2**: light hedge that "intent engineering / spec engineering"
+   are less industry-standard than prompt/context engineering; "99.98%" is
+   illustrative. (Left for Michael — minor.)
 
 ## What held up (the reassuring half)
 Ch 0, 3, 4, 5, 6, 7, 8, 11 are accurate and apt. Of the "8–12 seem stretched" set, **8
