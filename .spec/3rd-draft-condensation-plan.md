@@ -125,6 +125,9 @@ are noted in the Eng. Parallel column and resolved when we reach the owner.)
 | Ch 3 · Spiritual Before Temporal | ¶17/¶21 "complete blueprint" 2× → **compressed ¶21** | **EP re-taught Part One (P1/P2 spec-before-building; P5 spec-persists) → TRIMMED ~10¶ → 3¶** (kept Becoming-app proof + studies; cut vibe-coding/take-counsel/Build-Phase-1/spec-persists) | EDITED | `03bb5bd` |
 | Ch 4 · Watched Until They Obey | clean (thesis threaded; trust gradient + agency each add) | KEEP — watching hub (gradient / instruments / steer-vs-run distinct); reused P6/P7 examples kept (reframed); **FLAG: Sabbath/seventh-day ¶30,¶46 → Ch 11** | Clean — no change | — |
 | Ch 5 · Intelligence Cleaveth | borderline (single-thesis; posture-circling ¶29–37, each a distinct facet — kept) | KEEP — resonance owner (mechanism / stochastic-parrots objection+rebuttal / warmth all distinct); owns Ch 0's trimmed material | Clean — no change | — |
+| Ch 6 · Bilateral Covenant | thesis threaded (¶21/35/49/69); ¶49 "not punishment" echoed the production note → **trimmed ¶49's sentence** (note owns it concretely; note untouched) | EP = covenant home (no trim); fabrication + failures-as-types recur in P7 (cross-chapter, kept) | EDITED | uncommitted |
+| Ch 7 · Delegation as Stewardship | "delegate+leave-free+accountability" 3× (¶40/¶42/Hinckley) → **compressed ¶42** to a brief Hinckley lead-in | EP distinct (multi-agent hierarchy + escalation); 5 witnesses each a facet (kept) | EDITED | uncommitted |
+| Ch 8 · Mechanics of Refinement | clean (EP a careful build; "loop+correction+standard" ¶35/37/39 develops; ¶39 = scripture bridge) | KEEP — front-porch "keeper"; developer-refined-by-loop is distinct | Clean — no change | — |
 
 ---
 

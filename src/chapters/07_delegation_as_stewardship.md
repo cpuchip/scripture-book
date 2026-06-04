@@ -39,7 +39,7 @@ God's pattern of delegation, as Christ models it when He sends the Twelve, follo
 
 He then leaves them free to execute, requiring them to report back. 
 
-True delegation is not task-offloading; it is the empowerment of a steward over a defined portion, accompanied by a requirement of accountability. As President Gordon B. Hinckley taught:
+This is delegation as empowerment, not offloading. As President Gordon B. Hinckley taught:
 
 > "The president, if he is wise, will assign to these chosen assistants particular duties and then leave them free to perform, requiring from them accountability for what happens."
 > — [President Gordon B. Hinckley, "In … Counsellors There Is Safety"](../../gospel-library/eng/general-conference/1990/10/in-counsellors-there-is-safety.md) [qr](../../gospel-library/eng/general-conference/1990/10/in-counsellors-there-is-safety.md)
