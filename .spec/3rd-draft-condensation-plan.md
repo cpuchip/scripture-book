@@ -128,6 +128,7 @@ are noted in the Eng. Parallel column and resolved when we reach the owner.)
 | Ch 6 · Bilateral Covenant | thesis threaded (¶21/35/49/69); ¶49 "not punishment" echoed the production note → **trimmed ¶49's sentence** (note owns it concretely; note untouched) | EP = covenant home (no trim); fabrication + failures-as-types recur in P7 (cross-chapter, kept) | EDITED | uncommitted |
 | Ch 7 · Delegation as Stewardship | "delegate+leave-free+accountability" 3× (¶40/¶42/Hinckley) → **compressed ¶42** to a brief Hinckley lead-in | EP distinct (multi-agent hierarchy + escalation); 5 witnesses each a facet (kept) | EDITED | uncommitted |
 | Ch 8 · Mechanics of Refinement | clean (EP a careful build; "loop+correction+standard" ¶35/37/39 develops; ¶39 = scripture bridge) | KEEP — front-porch "keeper"; developer-refined-by-loop is distinct | Clean — no change | — |
+| Ch 9 · Hope and the Veil | longest chapter; EP re-walked the full Core Reframe (3 postures + 4 groups) | **compressed the 3-postures re-walk ¶53–57 (3¶ → 1¶)**; kept four-groups + the Group 2 engineering warning (¶61, the distinct payload) + Ch 10 bridge | EDITED | uncommitted |
 
 ---
 
