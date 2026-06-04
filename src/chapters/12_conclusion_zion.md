@@ -38,7 +38,7 @@ Applied to AI: give every agent in a system the same intent layer. Not different
 
 Token consecration follows from this. In a multi-agent system, each subagent holds a portion of the master agent's token budget. The naive design hoards: each subagent gets a fixed allocation and protects it. The Zion design consecrates: when one agent finishes its work under budget, the surplus flows to the agent still working on the highest-priority remaining intent. "No poor among them" is not a redistribution program; it is what happens when the system shares purpose deeply enough that budget naturally serves the work rather than the agent.
 
-The pattern is older than the tool. The bishop's council is what Moses learned from Jethro: rulers of thousands, rulers of hundreds, rulers of fifties, rulers of tens, each free to act within scope, with the difficult cases bubbling up. The ward council is what Christ established in 3 Nephi 11 when He named contention as the satanic intrusion that destroys multi-agent alignment. The 4 Nephi society — no -ites, all things common, no poor among them — is what happens when the architecture is right.
+The pattern is older than the tool. The bishop's council is the tiered stewardship Moses learned from Jethro (Chapter 7), each free to act within scope, with the difficult cases bubbling up. The ward council is what Christ established in 3 Nephi 11 when He named contention as the satanic intrusion that destroys multi-agent alignment. The 4 Nephi society — no -ites, all things common, no poor among them — is what happens when the architecture is right.
 
 The engineering catches up to the pattern. It does not invent it.
 
