@@ -17,6 +17,11 @@
 .PARAMETER Pdf
     Build PDF only (skip HTML + EPUB).
 
+.PARAMETER Cover
+    Render the full-wrap paperback cover only (src/cover.typ -> dist/cover.pdf +
+    dist/cover_preview.png). Open cover_preview.png to view it. Update the `pages`
+    value in src/cover.typ after the interior page count is final.
+
 .EXAMPLE
     .\build.ps1
     Full build: HTML + EPUB + PDF.
@@ -29,6 +34,10 @@
     .\build.ps1 -Pdf
     PDF only (skips HTML + EPUB regeneration).
 
+.EXAMPLE
+    .\build.ps1 -Cover
+    Render the cover wrap + a preview PNG into dist/.
+
 .NOTES
     Requires:
         python3                 always
@@ -38,7 +47,8 @@
 [CmdletBinding()]
 param(
     [switch]$Quick,
-    [switch]$Pdf
+    [switch]$Pdf,
+    [switch]$Cover
 )
 
 # Note: not using `$ErrorActionPreference = 'Stop'` because native commands
@@ -47,6 +57,24 @@ param(
 # checks instead.
 
 Set-Location $PSScriptRoot
+
+# Cover-only: render the full-wrap paperback cover via Typst (Docker), plus a preview PNG.
+if ($Cover) {
+    if (-not (Get-Command docker -ErrorAction SilentlyContinue)) {
+        Write-Error "Docker not found. Install Docker Desktop to render the cover."
+        exit 1
+    }
+    New-Item -ItemType Directory -Force (Join-Path $PSScriptRoot "dist") | Out-Null
+    Write-Host "==> Rendering cover (Docker -> Typst)..." -ForegroundColor Cyan
+    docker run --rm -v "${PSScriptRoot}:/work" ghcr.io/typst/typst:latest compile /work/src/cover.typ /work/dist/cover.pdf
+    if ($LASTEXITCODE -ne 0) { Write-Error "Cover PDF render failed with exit code $LASTEXITCODE."; exit $LASTEXITCODE }
+    docker run --rm -v "${PSScriptRoot}:/work" ghcr.io/typst/typst:latest compile --ppi 150 /work/src/cover.typ /work/dist/cover_preview.png
+    Write-Host ""
+    Write-Host "==> Cover rendered into dist/:" -ForegroundColor Green
+    Write-Host "    cover.pdf            (print-ready full wrap, 12.527 x 9.25 in @ 123 pp)"
+    Write-Host "    cover_preview.png    (open this to view)"
+    exit 0
+}
 
 # HTML + EPUB via Python
 if (-not $Pdf) {
