@@ -261,8 +261,13 @@ and the D&C 46 quote are NOT going in the book.
 1. **Ch 4** — floor/ceiling (the strongest; full). ✅ **DONE / ratified 2026-06-04 (`1712548`).**
 2. **p1_04** — granted context (completes the practice; full). ✅ **DONE / ratified 2026-06-04 (`31c3696`).**
 3. **Ch 12** — measured-gift council. ⛔ **DEFERRED 2026-06-04** (data contradicts gift-matching; council-review/D&C 88:122 is the real finding but needs more data — see Lesson 5 + memory).
-4. **Ch 3** — acceptance criteria (light, Option A).
-5. **Ch 8** — forward-recovery (light or skip — judge in place).
+4. **Ch 3** — acceptance criteria + ambiguity (Michael deepened it). ✅ **DONE / ratified 2026-06-04 (`d11c513`).**
+5. **Ch 8** — forward-recovery. ⏭️ **SKIPPED 2026-06-04** — Ch 8 already says it (¶43 repentance = re-aiming; ¶45 rhyme/substance); adding it would re-introduce redundancy.
+
+---
+
+## ✅ WEAVE COMPLETE (2026-06-04)
+Outcome: **3 landed** (Ch 4 floor/ceiling `1712548`, `p1_04` granted-context `31c3696`, Ch 3 checkability+ambiguity `d11c513`), **1 deferred** (Ch 12 — data contradicts gift-matching; council-review/D&C 88:122 finding needs more data, recorded in memory `project-council-review-beats-gift-matching`), **1 skipped** (Ch 8 — already covered). No edit forced to hit a number. Book at 123pp, 0 QR collisions throughout.
 
 Verify-gated as before: diff-confirm no scripture/quote/doctrine lost; any new scripture
 read from canon and quoted character-for-character before commit; rebuild + render-check;
