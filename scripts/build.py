@@ -12,6 +12,27 @@ import zipfile
 import hashlib
 import sys
 import shutil
+import subprocess
+
+
+def get_build_version():
+    """Build stamp for the frontmatter Edition line: short git hash (+ -dirty) and the
+    HEAD commit date. Prefers the BUILD_VERSION env var (set by build.ps1); falls back to
+    running git locally; else a generic label."""
+    v = os.environ.get('BUILD_VERSION')
+    if v:
+        return v
+    try:
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        h = subprocess.check_output(['git', '-C', root, 'rev-parse', '--short', 'HEAD'],
+                                    stderr=subprocess.DEVNULL).decode().strip()
+        dirty = subprocess.check_output(['git', '-C', root, 'status', '--porcelain'],
+                                        stderr=subprocess.DEVNULL).decode().strip()
+        date = subprocess.check_output(['git', '-C', root, 'show', '-s', '--format=%cs', 'HEAD'],
+                                       stderr=subprocess.DEVNULL).decode().strip()
+        return f"{h}{'-dirty' if dirty else ''} ({date})"
+    except Exception:
+        return "uncommitted build"
 
 # Helper to parse YAML-like book.yaml config
 def parse_yaml(path):
@@ -285,15 +306,17 @@ def build():
     chapters_list = config.get("chapters", [])
     
     # Process Chapters
+    build_version = get_build_version()
     parsed_chapters = []
     for chapter_path in chapters_list:
         full_path = os.path.join(project_root, chapter_path)
         if not os.path.exists(full_path):
             print(f"Warning: Chapter file not found: {chapter_path}")
             continue
-            
+
         with open(full_path, 'r', encoding='utf-8') as f:
             md_content = f.read()
+        md_content = md_content.replace('{{BUILD_VERSION}}', build_version)
             
         # Parse chapter Title from first H1
         title_match = re.search(r'^# (.*?)$', md_content, re.MULTILINE)

@@ -32,7 +32,7 @@ The principles and laws described in this book belong to God; they have merely b
 For inquiries, feedback, or correspondence, contact:
 [stuffleberryco@gmail.com](mailto:stuffleberryco@gmail.com)
 
-First Edition: May 2026
+First Edition: May 2026 · Build {{BUILD_VERSION}}
 
 </div>
 

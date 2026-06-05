@@ -11,6 +11,11 @@ RUN pip install --no-cache-dir qrcode
 # Copy scripture book repository contents
 COPY . .
 
+# Build version stamp for the frontmatter (passed from build.ps1 via --build-arg,
+# since git is not available inside this image).
+ARG BUILD_VERSION="uncommitted build"
+ENV BUILD_VERSION=$BUILD_VERSION
+
 # Compile markdown chapters to Typst source code
 RUN python scripts/build_typst.py
 

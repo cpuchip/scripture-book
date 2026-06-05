@@ -76,6 +76,20 @@ if ($Cover) {
     exit 0
 }
 
+# Build version stamp (short git hash + -dirty + commit date) for the frontmatter
+# Edition line. Passed to the host Python build via $env:BUILD_VERSION and to the Docker
+# PDF build via --build-arg (git is not available inside the Typst image).
+$gitHash = (git -C $PSScriptRoot rev-parse --short HEAD 2>$null)
+if ($gitHash) {
+    $gitDirty = (git -C $PSScriptRoot status --porcelain 2>$null)
+    $gitDate  = (git -C $PSScriptRoot show -s --format=%cs HEAD 2>$null)
+    $buildVer = "$gitHash$(if ($gitDirty) { '-dirty' } else { '' }) ($gitDate)"
+} else {
+    $buildVer = "uncommitted build"
+}
+$env:BUILD_VERSION = $buildVer
+Write-Host "==> Build version: $buildVer" -ForegroundColor DarkGray
+
 # HTML + EPUB via Python
 if (-not $Pdf) {
     Write-Host "==> Building HTML and EPUB..." -ForegroundColor Cyan
@@ -98,7 +112,7 @@ if (-not $Quick) {
     $dockerLog = Join-Path $env:TEMP "scripture-book-docker.log"
     # 2>&1 merges stderr into stdout before redirection so PowerShell
     # doesn't surface progress messages as errors.
-    docker build -t scripture-book-builder . 2>&1 | Out-File -FilePath $dockerLog
+    docker build --build-arg "BUILD_VERSION=$buildVer" -t scripture-book-builder . 2>&1 | Out-File -FilePath $dockerLog
     if ($LASTEXITCODE -ne 0) {
         Write-Host "Docker build failed. Last 20 lines of ${dockerLog} :" -ForegroundColor Red
         Get-Content $dockerLog -Tail 20
