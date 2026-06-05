@@ -237,8 +237,17 @@ this session; I've paraphrased and flagged it. We verify and quote it during the
 *method* (measure, don't assume), not the result. (3) First-person, consistent with the
 softened Ch 12.
 
-**Recommendation: ADD (full), pending the D&C 46 verification.** It's a real extension of
-the ward-council argument and a strong Step-3-meets-Step-11 bridge.
+**⛔ DEFERRED 2026-06-04 (council moment).** The draft above asserts the OPPOSITE of what
+the data found. Michael's `code-pr` bake-offs showed per-stage gift-matching (m3 plan /
+kimi build / qwen review) was *worse* than one strong doer (kimi plan+build) with a critic
+(qwen) reviewing at **each stage** — the counciling is the lever, not the gift-matching. So
+the right anchor is **D&C 88:122** ("appoint… a teacher… that all may be edified of all"),
+not D&C 46. But the finding is n=1 and has an interpretation gap ("gift-matching is worse"
+vs. "m3 was just weak at planning that run"), so it needs more data before it's firm enough
+to assert. **Decision: leave Ch 12 as-is** (¶37 already carries the council-review spirit:
+"the review agent… checks alignment"); record the finding for when the data firms. Full
+note in memory `project-council-review-beats-gift-matching`. The measured-gift paragraph
+and the D&C 46 quote are NOT going in the book.
 
 ---
 
@@ -250,8 +259,8 @@ the ward-council argument and a strong Step-3-meets-Step-11 bridge.
 
 ## Proposed walk order (when you're ready)
 1. **Ch 4** — floor/ceiling (the strongest; full). ✅ **DONE / ratified 2026-06-04 (`1712548`).**
-2. **p1_04** — granted context (completes the practice; full).
-3. **Ch 12** — measured-gift council (full; verify D&C 46 first).
+2. **p1_04** — granted context (completes the practice; full). ✅ **DONE / ratified 2026-06-04 (`31c3696`).**
+3. **Ch 12** — measured-gift council. ⛔ **DEFERRED 2026-06-04** (data contradicts gift-matching; council-review/D&C 88:122 is the real finding but needs more data — see Lesson 5 + memory).
 4. **Ch 3** — acceptance criteria (light, Option A).
 5. **Ch 8** — forward-recovery (light or skip — judge in place).
 
