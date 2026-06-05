@@ -34,6 +34,10 @@ Part One walked this as a practice — *Talk, Don't Command* and *Council Before
 
 We tested it on the Becoming app at [ibeco.me](https://ibeco.me). [qr](https://ibeco.me) Before a single line of code, we drafted a 743-line planning specification — every database table, every API endpoint, every user interface flow. That document was the spiritual creation of the software: it existed in full before any of it existed in fact. When we handed it to the AI, the first pass produced over a thousand lines of code across thirteen files. There was still work to do afterward, as on any project — but the foundation was sound from the start, because the design was sound first. [Moses 3:5](../../gospel-library/eng/scriptures/pgp/moses/3.md?verse=5) had the pattern long before we did.
 
+But length was not what made it work; checkability was, and so was the absence of ambiguity. Where a plan leaves two valid options open, the model has to pick one, and with nothing to lean on it picks almost at random: correct, but not what was wanted. A clear statement of intent helps it lean toward the option that serves the purpose — but intent is the safety net, not the fix. The fix is to sharpen the plan until the ambiguity is gone, and then to ratify it.
+
+A vague plan fails in one of two ways: the model guesses, or it stops and surfaces back to you at every fork it cannot resolve. A whole, unambiguous plan does neither. It lets the AI march to the end, and it gives the critical verifier a solid standard to hold the finished work against, item by item.
+
 The pattern is not limited to software. In our deep scriptural studies — our research into the nature of the Godhead, for instance — we write a study outline first: the binding question, the sources, the shape of the target document. That outline is the spiritual creation of the study; it keeps the work from drifting into shallow, disjointed compilation. Spec before code, outline before study, blueprint before building — the sequence holds wherever creation happens.
 
 ---
