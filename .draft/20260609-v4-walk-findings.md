@@ -295,6 +295,108 @@ stands; re-check the Afterword for names when the walk arrives there. Mosiah 4:2
 is clean against the frontmatter's full version. The circling close was Michael's kept
 call — not flagged.)*
 
+### Part Two divider (`p2_00`) — clean
+
+### The Eleven-Step Creation Cycle (`00_eleven_step_reference.md`)
+
+#### F-18 · closing line · cat 5 · ○
+**Text:** "…a reference framework to help understand gospel centered AI collaboration."
+**Problem:** "gospel centered" needs the compound-modifier hyphen: "gospel-centered."
+("to help understand" is also slightly clipped — optional smoothing.)
+**Proposal:** "…a reference framework for understanding gospel-centered AI collaboration."
+**Disposition:** open
+
+*(Check-3 follow-up RESOLVED: the [eng] marks here are Intent / Specification / Line upon
+Line ("context") / Physical Creation — so Ch 2's tag line `Creation · Context · Intent ·
+Specification` is the four disciplines named by their cycle-step homes. Deliberate,
+consistent. Will confirm Ch 2's text makes the prompt→Physical-Creation mapping explicit.
+The page's honesty framing is good: "projections from scripture," "I am still practicing
+them in my own work.")*
+
+### Ch 0 — The Substance of Reality (`00_chapter_0_intelligence_truth.md`)
+
+#### F-19 · Ch 0 ¶1 (Core Reframe opening) · cat 1+7 · ●
+**Text:** "In 1828, Noah Webster published his landmark American Dictionary. Under the
+entry for *spirit* … he captured the consensus…: spirit is 'an intelligence conceived of
+apart from any physical organization or embodiment,' a 'vital essence, force, or energy,
+as distinct from matter,' and 'the intelligent, immaterial and immortal part of man.'"
+**Problem:** **Two of the three quoted phrases are not in Webster 1828 — they are Webster
+1913 (Revised Unabridged).** Verified against webstersdictionary1828.com this session:
+the 1828 *spirit* entry contains neither "an intelligence conceived of apart from any
+physical organization or embodiment" nor "vital essence, force, or energy, as distinct
+from matter"; its soul-definition reads "the intelligent, immaterial and immortal part of
+**human beings**" (not "of man" — the "of man" wording is 1913's). Root cause is SQ-1
+below: our webster tool serves 1913 text under the 1828 label, and the 2026-05-29
+fact-check verified the quotes against the mislabeled tool (verified-via-the-wrong-path).
+**The argument survives on authentic text** — real 1828 defs: 5. "The soul of man; the
+intelligent, immaterial and immortal part of human beings." 6. "An immaterial intelligent
+substance." Both carry the immaterial-dualism point exactly.
+**Proposal:** requote ¶1 from the genuine 1828 entry (defs 5–6), e.g.: spirit is "an
+immaterial intelligent substance," "the intelligent, immaterial and immortal part of
+human beings." Same thesis, authentic source.
+**Disposition:** open
+
+#### F-22 · Ch 0 EP ¶51 · cat 6 · ○
+**Text:** "Information is physical."
+**Problem:** This is Rolf Landauer's famous dictum, unattributed. Fine as a common
+slogan; naming Landauer would be more precise and would please the physicist author.
+**Proposal:** optional: "Information, as physicist Rolf Landauer insisted, is physical."
+**Disposition:** open
+
+#### F-23 · Ch 0 Becoming #2 · cat 4 · ○
+**Text:** "Actively combat the anti-enjoyment of digital noise."
+**Problem:** "anti-enjoyment" is an opaque coinage — readers will stumble on what it
+names (the joyless compulsive consumption?).
+**Proposal:** plainer: "combat the joyless churn of digital noise" or similar.
+**Disposition:** open
+
+*(Ch 0 otherwise: D&C 131:7-8 / 84:45 / 88:66 / 93:24,28-30 quotes match canon (prior
+verification + this read concur); the "what this is and isn't" model-humility paragraph
+is present and good; the moral-agency block is well-built. Voicing tally: 3
+negation-contrasts — the "not a poetic metaphor; ontological description" pivot earns
+its shape; "A bit is not an abstract concept; it is…" is a recast candidate.)*
+
+### Ch 1 — Webster portion (full chapter read continues next)
+
+#### F-20 · Ch 1 line 23 · cat 1+7 · ●
+**Text:** "[*Webster's 1828 dictionary*](https://1828.ibeco.me/word/intelligence) defines
+it as 'the exercise of the understanding' and 'the capacity to know or understand.'"
+**Problem:** Same as F-19 — **neither phrase is in the 1828 entry** (they're 1913).
+Verified: real 1828 *intelligence* = "1. Understanding; skill. 2. Notice; information
+communicated… 3. Commerce of acquaintance… 4. **A spiritual being; as a created
+intelligence.**"
+**The real 1828 entry is BETTER for the argument:** def 4 is literally the Restoration-era
+"intelligence = a spiritual being" usage this chapter (and D&C 93) trades on.
+**Proposal:** requote from genuine 1828: "Understanding; skill" and — the gift — "a
+spiritual being; as a created intelligence." Also: the 1828.ibeco.me links here and in
+Ch 0 point at our own mirror, which currently serves the mislabeled data (SQ-1).
+**Disposition:** open
+
+#### F-21 · Ch 9 line 41 · cat 7 · ○
+**Text:** "to 'walk circumspectly' before God (Helaman 15:5) — Webster's 1828 sense of
+*cautiously, warily*."
+**Problem:** 1828 CIRCUMSPECTLY = "Cautiously; with watchfulness every way; with
+attention to guard against surprise or danger." "Cautiously" ✓; "warily" is not Webster's
+word (italic gloss, not quote marks — so it's a near-miss paraphrase, not fabrication).
+**Proposal:** use Webster's actual words: "*cautiously; with watchfulness every way*" —
+which is also more vivid.
+**Disposition:** open
+
+### ⚠ SQ-1 — SIDE QUEST (workspace-level, beyond the book): webster-mcp serves 1913 as 1828
+The workspace `webster_define` tool (and presumably **1828.ibeco.me**, which the book
+links and which **1828-illuminated** is built on) returns **Webster 1913 Revised
+Unabridged** text under the 1828 label. Evidence: its *spirit* entry cites **U.S.
+Dispensatory (first published 1833)**, **N. P. Willis (1830s)**, Keble, and "stannic
+chloride" — impossible in an 1828 text — and its def 3 is verbatim Webster-1913; the
+authoritative 1828 source lacks the phrases. **Ripples:** the morm-8 three-glories study
+(published on cpuchip.net) leaned on "Webster 1828" entries; the 1828-illuminated 853-word
+tier list; the webster-analysis skill; any past study quoting webster_define as 1828; the
+2026-05-29 book fact-check's "Webster spirit/intelligence exact" verdict (it checked
+against the tool, i.e. the wrong path — the `feedback_verify_via_real_path` lesson again).
+**Action:** log in workspace `docs/06_tool-use-observance.md` + memory; audit
+webster-mcp's data source; until fixed, verify any "1828" claim against
+webstersdictionary1828.com. NOT a book edit — but the book findings F-19/20/21 come from it.
+
 ## For Michael's ground truth (lived figures — only he can confirm)
 
 | # | Unit | Claim as printed | Question |
