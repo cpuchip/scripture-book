@@ -1,0 +1,49 @@
+date: 2026-06-08
+session: reorient-and-v4-audit-scaffold
+type: plan
+workstream: WS7
+summary: |
+  Short orientation session. Michael returned to the book after the job-search side
+  quest (now firewalled to the standalone `private-study` repo — explicitly NOT carried
+  into the gospel/book workspace). Read the book's state in full: the manuscript is
+  feature-complete and condensed (3rd-draft condensation walk COMPLETE 2026-06-03; the
+  pg-ai-stewards audit weave COMPLETE 2026-06-04 — 3 landed / 1 deferred / 1 skipped;
+  typography/QR/print passes done; cover baseline + KDP runbook staged). Repo clean, all
+  pushed. The remaining sequence Michael set: (1) his own manual voice read, (2) draft v4
+  full-book honesty audit, (3) voicing/consistency pass, then KDP.
+
+  Asked which thread to pull. Michael chose **option 1 — the v4 honesty audit** — but is
+  restarting the session for a Claude update first. So the right move before restart was
+  to externalize the audit scaffold so the cold session loses nothing.
+
+  WROTE: `.spec/v4-honesty-audit-plan.md` — the standard in Michael's words ("write this
+  book as we know it, not project what we don't know as fact"), the seven audit categories
+  (asserted-as-fact / contradiction-against-how-we-work / internal-contradiction /
+  ambiguity / plainer / engineering-overclaim / quote-accuracy), the already-settled
+  don't-re-flag list, the lived-figure list only Michael can confirm, the resumable walk
+  method + findings-log table, and three concrete first checks. Added an `active.md`
+  banner pointing to it.
+discoveries:
+  - The honest framing the audit must hold: the REAL method is vision-discovery-through-
+    iteration; spec-first is real mostly for CODE and where the tooling enforces it,
+    largely absent for PROSE (per `.draft/20260530-how-we-actually-work.md`). The
+    front-porch restructure + Ben-Test calibration were the response; the v4 audit must
+    verify that landed and nothing residual still overclaims spec-first as universal. This
+    is category 2's biggest known candidate.
+  - Possible stale residue: an older EP-audit note says "only 99.98% remains untouched,"
+    but commit `1badd85` changed Ch 2 to "99%". Queued as the first concrete check (grep
+    `src/` for `99.98`).
+  - v4 is an HONESTY pass, not a voice pass — keeping the lenses separate (voice = pass 3)
+    prevents re-opening prose decisions under the banner of accuracy.
+carry_forward:
+  - START the v4 audit: open `.spec/v4-honesty-audit-plan.md`, run the three first checks
+    (stray 99.98%; spec-first-vs-iterate vs the how-we-actually-work doc; tag/triptych
+    consistency), then walk in reading order, flagging + gating per unit, logging findings.
+  - Michael's manual voice read is still his (he sequenced it before v4, but v4's lens is
+    factual not voice, so it can run independently / surface issues for his read too).
+  - After v4: voicing/consistency pass, then KDP (cover baseline + runbook staged; [YOU]
+    decisions = ISBN, prices; AI-disclosure already decided = disclose Text as AI-generated).
+files_changed:
+  - .spec/v4-honesty-audit-plan.md
+  - .mind/active.md
+  - .spec/journal/2026-06-08--reorient-and-v4-audit-scaffold.yaml
