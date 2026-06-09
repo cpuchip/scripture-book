@@ -585,6 +585,96 @@ load-bearing ratified beats (incl. "re-aiming of the eye") — recommend touchin
 Becoming was Ben-Test-calibrated already. The "retire early / arise early" echo of D&C
 88:124 is unattributed allusion — fine.)*
 
+### Ch 9 — Hope and the Veil (`09_hope_and_the_veil.md`)
+
+#### F-34 · Ch 9 ¶39 · cat 1 · ◐
+**Text:** "In the space of not many years — Mormon uses the phrase **three times** across
+Helaman ([4:26]; [6:32]; [7:6]) —"
+**Problem:** Grep of the local Helaman text finds the phrase **four** times: 4:26, 6:32,
+7:6, **and 11:26** ("…even in the space of not many years, they became an exceedingly
+great band of robbers"). A checkable count, off by one.
+**Proposal:** "four times" + add 11:26 to the citations — or drop the count ("again and
+again across Helaman") if 11:26's robber context isn't wanted in the chain.
+**Disposition:** open
+
+*(Else CLEAN — and one corrected false alarm worth recording: I suspected the book
+dropped a comma in 1 Ne 8:30 ("came forth and fell down"); gospel_get shows canon has NO
+comma — the book is exact and my memory was the drifted one. The whole Ether chain
+(2:20/2:23/2:24/3:1/3:4 — "melting/molten" fix confirmed in place, "sixteen stones" ✓),
+the 1 Ne 8:25,28 splice (honestly cited as two verses), Helaman 6:36/15:5 ("walk
+circumspectly" fix in place), Heb 6:19, Moro 7:48 all match canon. The Holland
+mist-on-all point is honest paraphrase of Safety for the Soul. Becoming was
+Ben-calibrated. The EP's four-groups-for-engineers section was the condensation's kept
+payload and earns it.)*
+
+### Ch 10 — Softening What I Cannot Soften (`10_softening_what_i_cannot_soften.md`) — CLEAN ✅
+
+*(All seven quoted passages exact against canon/KJV on this read (Alma 12:10, 1 Ne 2:16,
+Ezek 36:25-26, Alma 22:18, Hel 3:35, Job 23:16, Mark 4:27). The 2026-06-04 softenings
+landed ("A smarter model rarely closes the gap"); the varied imago-Dei close ("Again the
+rhyme holds and the substance parts") reads right. Becoming #2 is the book's best honest
+calibration ("I keep it less often than I want; naming it as the aim is how I keep
+reaching for it"). Voicing: the gift/room quad at ¶37 is symmetric stacking but it IS the
+doctrine's two-part structure — earned; tally only.)*
+
+### Ch 11 — The Seventh Time (`11_the_seventh_time.md`) — CLEAN ✅
+
+*(Anchor Abr 5:2 exact; the Exodus/Deuteronomy/Hebrews KJV chain exact with marked
+elisions; Nelson's "What sign do I want to give to God?" exact with the corrected April
+2015 date; Moses 3:2-3's four verbs accurately drawn. The Becoming cluster and the
+production note are the book's honesty high-water mark ("I break it more than I keep
+it"; "written from inside the gap it describes") — they match the recorded Ben-Test
+history. Voicing: the "Saw. Not imagined. Not assumed." staccato triple is the chapter's
+climax and earns it; tally only. One nitpick noted, not flagged: "the promise that
+closes the passage" — v16 opens the enumeration vv16-19; defensible as the promise the
+passage ends inside.)*
+
+### Ch 12 — From Consecration to Zion (`12_conclusion_zion.md`) — CLEAN ✅
+
+*(All quotes exact (D&C 38:27, 3 Ne 11:29, 4 Ne 1:3/1:17, 3 Ne 27:32, Moses 7:18/63/68);
+the 365-years framing and ">133,000 days" fixes hold; monthly fast ✓; the ward-council EP
+keeps its first-person aspiration framing and the measured-gift deferral HELD (¶37's
+review-agent line carries the council spirit without the contradicted claim). "The
+engineering catches up to the pattern. It does not invent it." — earned closer.)*
+
+### Epilogue — The Silent Loop (`13_epilogue_silent_loop.md`) — CLEAN ✅
+
+*(Quotes Abr 4:18 in the correct comma-free form — F-25's fix should match this. The
+agent's "I" follows the preface's stated convention; D&C 123:17 and Mosiah 4:27 are
+honest unquoted paraphrases. "The prompt is yours. The specification is clear. Run the
+loop." — the staccato triple is the arc's designed final beat; keep.)*
+
+### Afterword — How I Got Here (`14_afterword_how_i_got_here.md`)
+
+#### F-35 · Afterword ¶17 · cat 1 · ◐
+**Text:** "By October 2024, the landscape changed again. GitHub Copilot **introduced its
+chat pane** and integrated Anthropic's Claude 3.5 Sonnet in preview."
+**Problem:** Copilot Chat shipped well before that (GA for individuals December 2023);
+what happened in October 2024 (GitHub Universe) was the **multi-model** move that added
+Claude 3.5 Sonnet in preview. As written it asserts an industry fact a developer reader
+can catch. (The Claude-integration half and the date are right.)
+**Proposal:** "By October 2024, the landscape changed again: GitHub Copilot went
+multi-model, adding Anthropic's Claude 3.5 Sonnet in preview — and that was when I began
+learning how to *chat* to code…" (keeps his lived arc, fixes the industry claim).
+**Disposition:** open
+
+#### F-36 · Afterword ¶21 + P1 · consent · ○ → **Michael decision**
+**Text:** "co-writing story-based games with my **nine-year-old** in projects like
+`storygames`"
+**Problem:** Not a text error — a recorded open flag: the storygames child-consent
+question was logged as unresolved (memory, 2026-06-01). The child is unnamed (age only),
+which may be all the resolution needed — but it's his call to make knowingly before
+print.
+**Proposal:** Michael confirms comfort (and the same for P1's "my kid").
+**Disposition:** open
+
+*(Afterword otherwise strong: model dates verified — Sonnet 4.5 late-Sept 2025 ✓, Opus
+4.5 late-Nov 2025 ✓, Sonnet 4 May 2025 read loosely as "by June" — fine; the Mostaque
+"infinite grad" is properly distanced ("in his telling… ran well ahead of what any model
+could actually do"); "As I write this in May 2026" is the correct durable-timestamp
+convention P7/P9 should imitate (F-14/F-16); D&C 123:12 was provenance-verified. The
+storygames/simple-games timeline is consistent with P1/P6 and the repo dates.)*
+
 ## For Michael's ground truth (lived figures — only he can confirm)
 
 | # | Unit | Claim as printed | Question |
