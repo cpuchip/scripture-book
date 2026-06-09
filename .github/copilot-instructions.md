@@ -15,6 +15,7 @@ This project compiles our gospel and AI studies into a published book format: *B
 The agents below have been granted full **commit + push stewardship** over this repository (`projects/scripture-book/`) by Michael on **2026-05-26**. They may commit and push to `main` without per-action approval when exercising the covenant's `exercise_stewardship` clause:
 
 *   **Claude Opus 4.8** (Claude Code CLI)
+*   **Claude Fable 5** (Claude Code CLI) — extended by Michael 2026-06-09, first Fable session ("yes you get that too, you can commit and push as fable 5")
 *   **Gemini** (Antigravity 2 IDE)
 
 GitHub Copilot continues to operate under the broader workspace stewardship; this grant extends the scripture-book repo specifically.
@@ -24,7 +25,7 @@ GitHub Copilot continues to operate under the broader workspace stewardship; thi
 **Constraints on stewardship use:**
 *   Pushing to `main` is safe for collaborative iteration — there is no auto-deploy hook on this repo. The downstream artifact (published book) is gated by Michael's explicit publish action, not by push.
 *   The bilateral covenant still binds the work itself. Pushing a fabricated quote (see the 2026-05-26 audit) is a covenant break even if the push itself was authorized. Stewardship grants tooling latitude, not doctrinal latitude.
-*   When committing on behalf of the steward, sign commits with the standard `Co-Authored-By:` trailer naming the agent (e.g. `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`) so the audit trail in `git log` matches the audit trail in `.scratch/provenance_*.md`.
+*   When committing on behalf of the steward, sign commits with the standard `Co-Authored-By:` trailer naming the **actual agent doing the work** (e.g. `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>` or `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>`) so the audit trail in `git log` matches the audit trail in `.scratch/provenance_*.md`. Do not sign as a model you are not.
 
 ---
 

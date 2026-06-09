@@ -1,7 +1,30 @@
 # Draft v4 — Full-Book Honesty Audit (plan + findings log)
 
-**Status:** scaffold written 2026-06-08; **walk not yet started.** Michael chose this
-(option 1) as the next book work. Pick up here.
+**Status:** WALK IN PROGRESS (started 2026-06-09 by Claude Fable 5). Findings accumulate
+in [`.draft/20260609-v4-walk-findings.md`](../.draft/20260609-v4-walk-findings.md) — that
+file is the live state; this file is the plan.
+
+**Council updates ratified 2026-06-09 (Michael, first Fable 5 session):**
+1. **Stewardship grant extends to Claude Fable 5** — commit + push as Fable 5; trailer
+   `Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>` so the audit trail names the
+   actual agent.
+2. **Cadence changed from the condensation-walk pattern:** the agent walks the WHOLE book
+   solo first, logging findings to the scratch file — then Michael and the agent walk the
+   findings together **in chat** (not AskUserQuestion), so he can pause, think, and ask
+   for more detail. Michael still gates every edit; nothing is applied during the solo walk.
+3. **VOICING JOINS THE WALK (category 8 below).** Michael: he reads Opus's prose and
+   doesn't catch the tics himself ("it's not x it's y" etc.); Gemini's voicing read as
+   more natural. He wants the book to "sound and flow natural, if not poetic." Fable, as
+   a different model, can see Opus's fingerprint from outside — so the walk carries a
+   voicing lens alongside the honesty lenses. Rephrase-proposals keep meaning exactly;
+   doctrine and quoted text untouched. (The dedicated pass-3 voicing/consistency pass
+   still follows; this lens just means we only walk the book once per pass.)
+4. **v5 QUEUED (do NOT start):** a conversational-voice pass learned from Michael's real
+   podcast with his siblings — transcripts at workspace `books/creators-playbook/`
+   (speaker attribution is suspect; Michael hasn't cleaned it yet). Learn his real
+   conversational pacing from it and pull that into the book. After v4.
+5. Michael's own manual read continues in parallel (he's ~4 days into a deliberate rest
+   break from it). The two reads stay independent on purpose.
 
 ## The standard (Michael's words)
 
@@ -53,6 +76,23 @@ Michael gates every edit.** No content change without his ratification.
    line, re-verify it via `gospel_get` against canon before editing. Watch the known drift
    pattern (LoF "great prototype", Ether "melting" not "molting", Helaman "walk
    circumspectly").
+8. **Voicing — the Opus fingerprint (added 2026-06-09, Michael's ask).** Flag where
+   AI-generated cadence clusters, and propose rephrasings that keep the meaning exactly.
+   The tic list to hunt:
+   - **Negation-contrast:** "it's not X — it's Y" / "not X but Y" / "This isn't X. It's Y."
+     (the big one; fine once, a fingerprint at density)
+   - **Staccato aphorism:** the dramatic one-line paragraph or sentence-fragment landing
+   - **Symmetric pairs & triads:** "the A and the B", "A, B, and C" flourishes where one
+     word would do
+   - **Anaphora chains:** consecutive sentences/paragraphs opening with the same phrase
+   - **Self-restating closers:** a paragraph that ends by saying its own point again,
+     one notch more poetic
+   - **Em-dash density** beyond the one-per-paragraph budget
+   - **Abstract-noun stacking:** "the discipline of the practice of the principle"
+   Rules: flag CLUSTERS (a tic twice on one page), not every instance; propose the natural
+   alternative inline in the finding; never alter quoted scripture/talk text or doctrinal
+   content; where the tic IS the right rhetoric (a deliberate antithesis the meaning needs),
+   say so and leave it. Goal per Michael: "sound and flow natural, if not poetic."
 
 ## Already settled — do NOT re-flag (or you'll re-open closed councils)
 
@@ -80,18 +120,22 @@ can confirm. Collect them as the walk hits each, present together:
   fabricated-D&C-104 scar, Ben Test, glm-5 misdiagnosis) — confirm each scar is told as it
   happened, not sharpened past the truth.
 
-## The walk method (resumable)
+## The walk method (resumable — UPDATED 2026-06-09 per Michael)
 
 1. Walk in reading order: frontmatter → preface → How-and-Why → eleven-step ref → **Part One**
    (P1–P10 + coda) → **Part Two** (Ch 0–12) → Epilogue → Afterword → Glossary → Further Reading.
-2. Per unit: cold read against the seven categories; build a short findings list (claim →
-   problem → category → proposed fix or question). For "how we work" contradictions, cite the
+2. Per unit: cold read against all eight categories; log findings (claim → problem →
+   category → proposed fix or question) to
+   [`.draft/20260609-v4-walk-findings.md`](../.draft/20260609-v4-walk-findings.md) as the
+   walk goes — files are durable, context is not. For "how we work" contradictions, cite the
    ground-truth doc.
-3. Present findings per unit (or per small batch) via AskUserQuestion; **Michael gates.**
+3. **No edits during the solo walk.** When the walk completes (or at a natural checkpoint),
+   Michael and the agent walk the findings together **in chat** — conversational, pausable,
+   with the agent able to expand any finding on request. **Michael gates every edit.**
 4. Apply ratified edits verify-gated: diff-confirm no scripture/quote/doctrine lost; re-verify
    any touched quote against canon; rebuild + render-check + 0-collision check periodically.
-5. Log every finding + its disposition in the table below so a fresh session resumes mid-walk
-   without re-reading settled units. (Same discipline that let the condensation walk resume.)
+5. Each finding carries a disposition column (open / ratified / rejected / deferred) so a
+   fresh session resumes mid-walk without re-deciding settled items.
 
 ## First concrete checks queued (start here)
 
