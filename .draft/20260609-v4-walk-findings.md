@@ -397,6 +397,60 @@ against the tool, i.e. the wrong path — the `feedback_verify_via_real_path` le
 webster-mcp's data source; until fixed, verify any "1828" claim against
 webstersdictionary1828.com. NOT a book edit — but the book findings F-19/20/21 come from it.
 
+### Ch 1 — The Value Shift (`01_value_shift.md`) — full read
+
+#### F-24 · Ch 1 EP ¶39 + ¶43 · cat 1 · ◐
+**Text:** "Before AI, we spent **eighty percent** of our energy on implementation
+mechanics and **twenty percent** on design. Now, the ratio has inverted." … then ¶43:
+"We catch the **ten percent** where bugs hide and security vulnerabilities live."
+**Problem:** Two unsourced numbers presented as fact. The 80/20 is a folk ratio stated as
+"we spent"; and "the ten percent" doesn't even follow from the just-inverted 80/20 (the
+remainder would be twenty). If these paraphrase Trejo's framework, attribute them; if
+they're lived estimate, mark them as estimate ("In my own work the split felt like…").
+This is exactly the v4 standard's target class: a number that reads as measured but
+wasn't.
+**Proposal:** either source to Trejo, or first-person-estimate framing, and reconcile
+ten-vs-twenty.
+**Disposition:** open
+
+#### F-25 · Ch 1 EP ¶41 · cat 7 · ○
+**Text:** "they 'watched those things which they had ordered**,** until they obeyed'"
+**Problem:** Canon (gospel_get, this session): "…watched those things which they had
+ordered until they obeyed." — **no comma**. Drift inside quotation marks. (P3 quotes it
+correctly without the comma.)
+**Proposal:** delete the comma.
+**Disposition:** open
+
+*(Ch 1 notes: anchor D&C 130:18-19 and D&C 93:36 exact ✓; Trejo + Jovanović quotes were
+web-verified verbatim 2026-06-04 ✓. "They cannot be automated" (¶31, of scars/instincts/
+caring) is a flat absolute the Ch 4 floor/ceiling treatment is more careful than —
+tolerable as rhetoric, named here for Michael's eye. "Eighteen years" ×2 → ground truth:
+18 or 19 by publication? F-20's requote keeps ¶25's "Intelligence is discernment" bridge
+intact — "Understanding; skill" still carries it. Voicing: clean; one earned
+negation-contrast.)*
+
+### Ch 2 — The Four Disciplines (`02_four_disciplines.md`)
+
+#### F-26 · Ch 2 EP ¶56 · cat 6 · ◐
+**Text:** "**Teams** found they could lift an agent from the **bottom** of a benchmark to
+the **top** without touching the model at all, purely by building it a better harness."
+**Problem:** The sourced case (in `.scratch/engineering-parallel-audit.md`) is LangChain
+moving **30th→5th on Terminal Bench 2.0** by harness work alone. "Bottom to the top" and
+plural "teams" round a real, dramatic case up past its evidence — the v4 target class
+(true story, inflated rounding).
+**Proposal:** "Teams found they could lift an agent dozens of places up a benchmark
+without touching the model at all" — or anchor the real case: "one team lifted its agent
+from 30th to 5th on a coding benchmark purely by rebuilding the harness."
+**Disposition:** open
+
+*(Ch 2 notes: tag-line mystery RESOLVED — `Creation · Context · Intent · Specification`
+= the four disciplines named by their cycle-step homes, in binding-question order,
+confirmed by the EP's explicit step mapping; deliberate. The 230M retelling is consistent
+with P3's. The harness/"six of the seven" paragraphs are settled councils and hold up —
+the strongest honesty writing in the book. Becoming commitments all "strive" ✓
+calibrated. Voicing: the fails-when anaphora (¶38-44) is structural rhetoric that works;
+no flags.)*
+
 ## For Michael's ground truth (lived figures — only he can confirm)
 
 | # | Unit | Claim as printed | Question |
