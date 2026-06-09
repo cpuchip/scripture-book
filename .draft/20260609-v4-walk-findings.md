@@ -534,6 +534,57 @@ telestial context is generalized in standard homiletic fashion — noted, not fl
 technically apt; the stochastic-parrots + confabulation passage is among the most honest
 AI writing in the book.)*
 
+### Ch 6 — Bilateral Covenant (`06_bilateral_covenant.md`)
+
+#### F-32 · Ch 6 EP ¶33 · cat 7 · ◐
+**Text:** they "**were** willing to enter into a covenant with [their] God to do his
+will... all the remainder of [their] days"
+**Problem:** Canon (Mosiah 5:5): "And we **are** willing to enter into a covenant with
+our God…" The [their] substitutions are properly bracketed, but "were" silently replaces
+canon's "are" *inside* the quotation marks — a tense change without brackets.
+**Proposal:** move the verb outside the quote: they were "willing to enter into a
+covenant with [their] God to do his will… all the remainder of [their] days."
+**Disposition:** open
+
+#### F-33 · P7 ¶13 → Ch 6 ¶51 · cat 3 · ○
+**Text:** P7's cross-ref: "(Part Two: Watching, and the failures-as-types passage —
+illustration, never identity.)"
+**Problem:** The failures-as-types passage lives at the END of Ch 6 (Covenant), not in
+the Watching chapter — a reader following P7's pointer to Ch 4 won't find it.
+**Proposal:** "(Part Two: Watching — Chapter 4; the failures-as-types passage closes
+Chapter 6.)" or similar.
+**Disposition:** open
+
+*(Notes: D&C 82:10 anchor exact; covenant duties match covenant.yaml faithfully —
+including the field-to-weeds stewardship echo; the warmth paragraph matches the logged
+session-history audit; the production note's error counts match the 2026-05-26 record.
+"We spend billions on AI alignment" — almost certainly true industry-wide but unsourced;
+○ mention only. Voicing tally: ×4 negation-contrasts, but most are deliberate
+covenant-document intertexts (e.g. "not a service-level agreement") — softer call than
+Ch 5; candidate to vary: ¶47's "not done out of a sentimental illusion.")*
+
+### Ch 7 — Delegation as Stewardship (`07_delegation_as_stewardship.md`) — CLEAN ✅
+
+*(Fully verified this session: anchor D&C 104:11-12 exact (gospel_get); Ballard 1994
+"one-cylinder ward" and Hinckley 1990 "leave them free to perform, requiring from them
+accountability" both character-perfect against the local talk files; the Exodus 18 /
+Mosiah 18:18 / Matthew 10 chain is KJV-exact with properly marked elisions. The Matthew
+10 "each step in turn" sequence framing holds within vv1-16 (the v19-20 supplementation
+is cited as beyond the commissioning — defensible). EP matches real multi-agent practice.
+Becoming calibrated. Voicing: one earned antithesis ("empowerment, not offloading"). The
+book's cleanest chapter so far.)*
+
+### Ch 8 — The Mechanics of Refinement (`08_mechanics_of_refinement.md`) — CLEAN ✅
+
+*(All quote fragments match canon on this read (88:22/34/35/6, Alma 7:11-12, 3 Ne 24:3,
+Matt 6:22, 88:67) — the Tier-4 provenance rewrite holds; LoF "**great** prototype" fix in
+place; Oaks/Bednar were Tier-4-verified. The developer-loop EP is honest ("Claude is
+Claude" is a deliberate, charming perishable). The "shape rhymes / substances do not"
+imago-Dei close is the designed signature instance. Voicing: ×4 antithesis but ALL
+load-bearing ratified beats (incl. "re-aiming of the eye") — recommend touching nothing.
+Becoming was Ben-Test-calibrated already. The "retire early / arise early" echo of D&C
+88:124 is unattributed allusion — fine.)*
+
 ## For Michael's ground truth (lived figures — only he can confirm)
 
 | # | Unit | Claim as printed | Question |
