@@ -675,6 +675,72 @@ could actually do"); "As I write this in May 2026" is the correct durable-timest
 convention P7/P9 should imitate (F-14/F-16); D&C 123:12 was provenance-verified. The
 storygames/simple-games timeline is consistent with P1/P6 and the repo dates.)*
 
+### Glossary (`15_glossary_of_fused_terms.md`) + Recommended Study (`16_further_reading.md`)
+
+#### F-37 · EPUB/HTML build path · cat — (build defect, not prose) · ● for the ebook
+**Evidence (from `dist/beyond_the_prompt.epub` + `manuscript.html`, this session):**
+1. The raw Typst directive `#set list(spacing: 4.5em)` (line 5 of both files) renders as
+   **visible paragraph text** in the EPUB and HTML versions of the Glossary and
+   Recommended Study. (The Typst/PDF path interprets it as code — print is fine.)
+2. Worse: several `*`-bullet lists fail to parse in the EPUB/HTML — the **frontmatter
+   colophon, the whole Glossary, and Recommended Study** render with literal `*  `
+   asterisks as paragraphs, while Ch 2/Ch 4's lists parse into real `<ul>`. Selective
+   breakage, cause undiagnosed (likely build.py's list handling around interleaved
+   non-list lines).
+**Why it matters:** the EPUB is the KDP **ebook product**. Print PDF unaffected.
+**Proposal:** post-walk build fix (mine to do once we close the walk): move the spacing
+directive into the Typst template/preprocessor instead of the .md source, and fix/diagnose
+build.py's `*`-list parsing; re-verify EPUB.
+**Disposition:** open
+
+#### F-38 · Glossary "Neural network" entry · cat 4 · ◐
+**Text:** "**Neural network** — the organized result of **that training**: billions of
+numbers…"
+**Problem:** "That training" has no antecedent — the alphabetical re-sort moved "Training
+data" four entries *after* it; the anaphor points backward at nothing.
+**Proposal:** make it self-contained: "the organized result of training: billions of
+numbers that, working together, predict what should come next."
+**Disposition:** open
+
+*(Else clean: both glossary groups correctly alphabetized; Crush→Hermes fix in place;
+Zion entry consistent with Ch 12's ward-council reconciliation; Dross's overfitting
+sentence is now accurate. All six Prophetic Messages' local files verified to exist
+(incl. Pearce April 1997 + Bednar `35bednar.md`); "Elder (now President) Nelson"
+convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
+
+---
+
+## ✅ WALK COMPLETE — 2026-06-09 (Claude Fable 5)
+
+All 33 units read under all 8 lenses. **38 findings + 1 workspace side-quest.** No edits
+applied (per the ratified cadence) — everything below awaits the chat walk with Michael.
+
+**Headlines for the chat walk, in the order I'd present them:**
+1. **SQ-1 / F-19 / F-20 — the Webster 1913-as-1828 misattribution** (ripples beyond the
+   book: webster-mcp, 1828.ibeco.me, 1828-illuminated, the three-glories study). Book fix
+   is easy and *improves* both passages.
+2. **F-07 — P1's impossible timeline** ("a year later" = Oct 2026, in the future).
+3. **F-37 — the EPUB renders broken lists + a leaked Typst directive** (ebook product).
+4. **F-25 — the book's central verse quoted two ways** (Abr 4:18 comma ×3).
+5. **F-24 / F-26 / F-34 — the numbers class** (80/20+"ten percent" unsourced;
+   benchmark "bottom to top" rounds past its source; Helaman count is 4 not 3).
+6. **F-14 / F-16 — chat-relative time in print** ("just days ago," "this week"); the
+   afterword's "As I write this in May 2026" is the model to imitate.
+7. **The voicing verdict:** far better than feared. Part One + most chapters carry
+   negation-contrast at ~1/chapter, usually thesis-bearing and earned. **Ch 5 is the one
+   true cluster (F-31)**; Ch 6 is borderline-but-intertextual; everything else I
+   recommend leaving. The tics Michael named are real but the prior passes sanded most
+   of them; what remains is mostly rhetoric the meaning wants.
+8. **The honesty verdict (the audit's core question):** the book passes its own standard
+   remarkably well. Check-2 (spec-first vs iterate) is RESOLVED in the text; the Ch 12
+   deferral held; Ch 10/11's calibrated commitments and production notes are the
+   high-water mark. The failures found are mostly *small checkable facts*, not
+   structural overclaims.
+
+**Counts:** ● high: 4 (F-07, F-15→resolved-to-question, F-19, F-20, F-37) · ◐ medium: 11
+· ○ light: rest. CLEAN units: P5, P8, p1/p2 dividers, Ch 7, Ch 8, Ch 10, Ch 11, Ch 12,
+Epilogue.
+
 ## For Michael's ground truth (lived figures — only he can confirm)
 
 | # | Unit | Claim as printed | Question |
@@ -686,6 +752,9 @@ storygames/simple-games timeline is consistent with P1/P6 and the repo dates.)*
 | G-5 | P6 | "seven networked multiplayer games… single app… late 2025… Dart… two operating systems… my kids played them" | All as lived? |
 | G-6 | P8 | "I still run it every few weeks" (the retro cadence) | Ben Test the cadence — is "every few weeks" the honest rate? |
 | G-7 | Colophon | "Gemini … drafted the first pass of chapters 0 through 12" | Accurate chapter span? (F-03) |
+| G-8 | Ch 3 | "first pass produced over a thousand lines of code across thirteen files" | As measured? |
+| G-9 | Ch 1 | "I have been a software engineer for **eighteen years**" (×2) | 18 or 19 by publication? (private docs say 19) |
+| G-10 | Afterword/P1 | "my nine-year-old" / "my kid" (storygames) | Consent confirm — the recorded flag is still open (F-36) |
 
 ## Voicing tic tally (running)
 
@@ -712,22 +781,22 @@ storygames/simple-games timeline is consistent with P1/P6 and the repo dates.)*
 | P8 ask-whats-in-the-way | ✅ | clean |
 | P9 build-the-door | ✅ | F-16 |
 | P10 coda go-touch-grass | ✅ | F-17 |
-| p2_00 divider | ⬜ | |
-| eleven-step ref | ⬜ | |
-| Ch 0 intelligence/truth | ⬜ | |
-| Ch 1 value shift | ⬜ | |
-| Ch 2 four disciplines | ⬜ | |
-| Ch 3 spiritual before temporal | ⬜ | |
-| Ch 4 watched until they obeyed | ⬜ | |
-| Ch 5 intelligence cleaveth | ⬜ | |
-| Ch 6 bilateral covenant | ⬜ | |
-| Ch 7 delegation as stewardship | ⬜ | |
-| Ch 8 mechanics of refinement | ⬜ | |
-| Ch 9 hope and the veil | ⬜ | |
-| Ch 10 softening | ⬜ | |
-| Ch 11 the seventh time | ⬜ | |
-| Ch 12 conclusion zion | ⬜ | |
-| Epilogue silent loop | ⬜ | |
-| Afterword how I got here | ⬜ | |
-| Glossary | ⬜ | |
-| Further reading | ⬜ | |
+| p2_00 divider | ✅ | clean |
+| eleven-step ref | ✅ | F-18 |
+| Ch 0 intelligence/truth | ✅ | F-19 ● Webster, F-22, F-23 |
+| Ch 1 value shift | ✅ | F-20 ● Webster, F-24, F-25 |
+| Ch 2 four disciplines | ✅ | F-26; tag mystery resolved |
+| Ch 3 spiritual before temporal | ✅ | F-27, F-28, F-29; check-2 RESOLVED |
+| Ch 4 watched until they obeyed | ✅ | F-25 upgraded (anchor comma); title-tense Q |
+| Ch 5 intelligence cleaveth | ✅ | F-31 voicing cluster |
+| Ch 6 bilateral covenant | ✅ | F-32, F-33 |
+| Ch 7 delegation as stewardship | ✅ | CLEAN (talks verified) |
+| Ch 8 mechanics of refinement | ✅ | CLEAN |
+| Ch 9 hope and the veil | ✅ | F-34 (count 4 not 3); F-21 "warily" |
+| Ch 10 softening | ✅ | CLEAN |
+| Ch 11 the seventh time | ✅ | CLEAN |
+| Ch 12 conclusion zion | ✅ | CLEAN; deferral held |
+| Epilogue silent loop | ✅ | CLEAN |
+| Afterword how I got here | ✅ | F-35, F-36 |
+| Glossary | ✅ | F-37 ● build, F-38 |
+| Further reading | ✅ | F-37 (shared); talk files verified |

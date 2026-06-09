@@ -1,0 +1,72 @@
+date: 2026-06-09
+session: v4-walk-fable-first-session
+type: execution
+workstream: WS7
+summary: |
+  First Claude Fable 5 session on the book. Council with Michael ratified three things:
+  (1) the scripture-book commit+push stewardship grant EXTENDS to Fable 5 (grant text +
+  trailer rule updated — sign as the actual agent, "do not sign as a model you are not");
+  (2) the v4 cadence changed to: agent walks the WHOLE book solo, logging findings to
+  .draft/20260609-v4-walk-findings.md, then Michael + agent walk the findings together in
+  CHAT (not AskUserQuestion) so he can pause and think — he gates every edit, nothing
+  applied during the walk; (3) VOICING joined the walk as category 8 — Michael named the
+  Opus tics ("it's not x it's y") he can't see himself and asked for rephrase proposals
+  that keep meaning exactly. v5 QUEUED, not started: learn his conversational voice from
+  the creators-playbook podcast transcripts (speaker attribution needs his pass first).
+
+  THE WALK RAN TO COMPLETION in this one session: all 33 units (frontmatter → preface →
+  Part One P1-coda → eleven-step → Ch 0-12 → Epilogue → Afterword → Glossary →
+  Recommended Study), 38 findings, zero edits applied. Committed in checkpoints
+  (ea88802..final) so compaction could never lose the walk.
+
+  BIGGEST FINDING (beyond the book): the workspace webster-mcp serves WEBSTER 1913 text
+  under the 1828 label — caught because Ch 0's "1828" spirit quotes cited U.S.
+  Dispensatory (1833), N.P. Willis (1830s), stannic chloride. Verified against
+  webstersdictionary1828.com: Ch 0 + Ch 1's quoted phrases are 1913, not 1828. Logged in
+  workspace docs/06_tool-use-observance.md (root committed, NOT pushed per Michael's
+  rule). The 2026-05-29 fact-check had "verified" these quotes against the mislabeled
+  tool — wrong-path verification, the glm-streaming lesson recurring. The genuine 1828
+  entries IMPROVE both passages (1828 "intelligence" def 4: "A spiritual being; as a
+  created intelligence").
+discoveries:
+  - The book passes its own honesty standard remarkably well. The dreaded check-2
+    (spec-first vs how-we-actually-work) is RESOLVED in the text itself — P1 teaches
+    vision-discovery-through-conversation, Ch 3 folds counsel into the spiritual
+    creation, commitments are code-scoped. What the walk found instead: SMALL CHECKABLE
+    FACTS (an impossible "a year later"; a Helaman count of 3 that greps to 4; unsourced
+    80/20+"ten percent"; "bottom to top" rounding 30th→5th; Abr 4:18 with a comma canon
+    lacks, 3x, including the Watching chapter's own anchor).
+  - Voicing verdict: better than feared. The negation-contrast fingerprint runs ~1 per
+    chapter and is usually thesis-bearing (earned). Ch 5 is the ONE true cluster (4+ in
+    one chapter; rephrases drafted holding meaning). Recommend leaving Ch 8's — all
+    load-bearing ratified beats.
+  - Verification discipline cut both ways: gospel_get CLEARED a false alarm (1 Ne 8:30 —
+    canon agreed with the book against my memory). Distrust your own diagnosis too —
+    the inverse-hypothesis lesson held.
+  - The EPUB (the KDP ebook product!) has a real build defect: the `#set list` Typst
+    directive renders as visible text, and several `*`-bullet lists (frontmatter
+    colophon, Glossary, Recommended Study) render as literal asterisks, while Ch 2/4's
+    parse fine. Print PDF unaffected. Post-walk build fix queued (F-37).
+  - P5 (Make It Portable) was verified BY USE: a brand-new model walked into the project
+    mid-task on memory files alone and finished the whole walk. The model swap is the
+    book's own thesis, lived.
+carry_forward:
+  - "THE CHAT WALK: open .draft/20260609-v4-walk-findings.md, present the 8 headlines in
+    order, Michael gates each finding, apply ratified edits verify-gated (diff-confirm,
+    re-verify touched quotes, rebuild + 0-collision check)."
+  - "F-37 build fix after ratification: move the list-spacing directive out of the .md
+    into the Typst path; diagnose build.py's selective *-list parsing; re-verify EPUB."
+  - "SQ-1 workspace side quest (separate from the book): audit webster-mcp's data
+    source; re-audit the three-glories study + 1828-illuminated; the genuine-1828
+    dataset question."
+  - "Ground-truth table G-1..G-10 for Michael (lived figures: fourteen questions,
+    eight milestones, 300+ microservices, seven games, 18-vs-19 years, Gemini's drafted
+    span, retro cadence, 1000-lines/13-files, storygames consent)."
+  - "v5 (queued): podcast conversational-voice pass from books/creators-playbook."
+files_changed:
+  - .draft/20260609-v4-walk-findings.md
+  - .spec/v4-honesty-audit-plan.md
+  - .github/copilot-instructions.md
+  - .mind/active.md
+  - .spec/journal/2026-06-09--v4-walk-fable-first-session.yaml
+  - ../../docs/06_tool-use-observance.md (workspace root — committed, not pushed)
