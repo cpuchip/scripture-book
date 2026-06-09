@@ -413,12 +413,14 @@ wasn't.
 ten-vs-twenty.
 **Disposition:** open
 
-#### F-25 · Ch 1 EP ¶41 · cat 7 · ○
-**Text:** "they 'watched those things which they had ordered**,** until they obeyed'"
-**Problem:** Canon (gospel_get, this session): "…watched those things which they had
-ordered until they obeyed." — **no comma**. Drift inside quotation marks. (P3 quotes it
-correctly without the comma.)
-**Proposal:** delete the comma.
+#### F-25 · Abraham 4:18 comma — 3 instances · cat 7+3 · ◐ (upgraded from ○ at Ch 4)
+**Text:** "watched those things which they had ordered**,** until they obeyed"
+**Problem:** Canon (gospel_get, this session) has **no comma**. The drift appears in
+**Ch 1 ¶41, Ch 4's anchor passage (line 8), and Ch 4 ¶15** — while the **Epilogue's
+anchor**, P3, and P7 quote the same verse correctly without it. The book's central verse
+(the Watching chapter's own anchor!) appears in two different forms — a canon-accuracy
+slip and an internal inconsistency at once.
+**Proposal:** delete the comma in the three drifted instances.
 **Disposition:** open
 
 *(Ch 1 notes: anchor D&C 130:18-19 and D&C 93:36 exact ✓; Trejo + Jovanović quotes were
@@ -450,6 +452,87 @@ with P3's. The harness/"six of the seven" paragraphs are settled councils and ho
 the strongest honesty writing in the book. Becoming commitments all "strive" ✓
 calibrated. Voicing: the fails-when anaphora (¶38-44) is structural rhetoric that works;
 no flags.)*
+
+### Ch 3 — Spiritual Before Temporal (`03_spiritual_before_temporal.md`)
+
+**✅ CHECK 2 RESOLVED (the audit's biggest standing question): the spec-first-vs-iterate
+contradiction is already healed in the text.** Ch 3's EP opens by folding P1/P2 into the
+doctrine ("the plan reached in counsel *is* the spiritual creation"), P1 teaches
+vision-discovery-through-conversation explicitly, and the Becoming commitment scopes
+"no-code-without-spec" to *code* — which matches the logged real practice (spec-first for
+code; conversational discovery for meaning, which the book frames as happening *inside*
+the spiritual creation). No structural overclaim remains. Three local flags:
+
+#### F-27 · Ch 3 ¶25 · cat 1+2 · ◐
+**Text:** "When we skip the spiritual creation… The output is **always** fragile,
+disjointed, and prone to collapse under its own complexity."
+**Problem:** "Always" is an absolute the book's own history complicates (this book's
+identity pivot and front-porch restructure were mid-flight re-creations, and the result
+isn't fragile). The claim is right as a tendency, overclaimed as a law.
+**Proposal:** "The output is fragile…" (drop "always") or "tends to be fragile."
+**Disposition:** open
+
+#### F-28 · Ch 3 ¶15 · cat 4 · ○
+**Text:** "a sequence of creation that is **absolute**: 'First spiritual, secondly
+temporal, which is the beginning of my work'"
+**Problem:** D&C 29:32 *continues*: "and again, first temporal, and secondly spiritual,
+which is the last of my work." Calling the sequence "absolute" while quoting half of a
+verse that immediately inverts it will snag the careful gospel reader.
+**Proposal:** drop "absolute" ("outlines the sequence of creation plainly") — the
+argument doesn't need it.
+**Disposition:** open
+
+#### F-29 · Ch 3 ¶21 · cat 8 · ○
+**Text:** "the Gods did not 'vibe create' the earth."
+**Problem:** 2025-vintage slang ("vibe coding") in a book that elsewhere works hard at
+timelessness ("the word *prompt* may not survive the decade"). It will date faster than
+anything else in the chapter.
+**Proposal:** Michael's call — it's funny today; "did not improvise the earth" is the
+durable version.
+**Disposition:** open
+
+*(Ground truth add: "first pass produced over a thousand lines of code across thirteen
+files" (G-8). Moses 3:5 anchor + D&C 29:32 fragments verified-exact with properly marked
+elisions.)*
+
+### Ch 4 — Watched Until They Obey (`04_watched_until_they_obeyed.md`)
+
+*(Findings: the Abr 4:18 comma — see upgraded F-25. One question, not a finding: the H1
+is "Watched Until They **Obey**" (present) while the anchor/filename say "obeyed" — if
+deliberate (the ongoing principle), fine; confirming it's a choice. Otherwise CLEAN: the
+trust-gradient verse fragments (vv10/18/21/31) match canon; the ratified floor/ceiling
+beat carries its n=1 caveat inline as designed and reads as the book's best new material;
+the 2 Pet 1:4 semantic-search story matches project history; Becoming commitments are
+honestly calibrated ("I aim to… When I keep the rhythm" is exactly right). Voicing: one
+earned negation-contrast; no clusters.)*
+
+### Ch 5 — Intelligence Cleaveth (`05_intelligence_cleaveth.md`)
+
+#### F-31 · Ch 5 EP · cat 8 · ◐ — first true voicing CLUSTER
+**Text:** Four-plus negation-contrasts in one chapter: ¶31 "is not, finally, a discipline
+of technique. It is a discipline of approach." · ¶37 "Coldness is not accuracy; coldness
+is the absence of presence." AND "Warmth is not a sentimental gesture toward a machine;
+it is the human discipline…" · ¶39 "confabulation is not a bug to be patched out… but a
+property intrinsic to it" · (¶41's "That is not a weakness… It is the analogy." is the
+ratified T2.6 line — leave it; it owns the shape here.)
+**Problem:** Each is fine alone; stacked in one chapter they're the Opus fingerprint
+Michael named. The chapter's *meaning* doesn't need all of them shaped identically.
+**Proposal (meaning held exactly):** vary two of the four —
+- ¶31: "So the practical discipline of working with AI is, finally, a discipline of
+  approach more than technique."
+- ¶37 (second): "Warmth is the human discipline that keeps us actually engaged in the
+  council we have ostensibly opened — not a sentimental gesture toward a machine." (flip
+  the order so the paragraph doesn't open on the same not-X hinge as its previous
+  sentence; or simply drop the not-half)
+Keep ¶37's first ("Coldness is not accuracy…") — it deliberately echoes the covenant's
+own line, an intertext worth preserving — and keep ¶39 and ¶41.
+**Disposition:** open
+
+*(Else clean: D&C 88:40 anchor exact with marked ellipsis; 88:32 fragment exact (its
+telestial context is generalized in standard homiletic fashion — noted, not flagged);
+"winter of 1832" correct for Section 88; the flat/sharp-distribution mechanics are
+technically apt; the stochastic-parrots + confabulation passage is among the most honest
+AI writing in the book.)*
 
 ## For Michael's ground truth (lived figures — only he can confirm)
 
