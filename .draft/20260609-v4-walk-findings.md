@@ -710,6 +710,33 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
 
 ---
 
+## CHAT WALK — dispositions (running, started 2026-06-10)
+
+- **F-15 ✅ RATIFIED + APPLIED** — "give an account **unto me**." (canon-verified via
+  gospel_get; Michael: "the extension makes it better").
+- **F-19 ✅ VERIFIED + APPLIED** — re-verified through the REBUILT webster-mcp (genuine
+  1828, post-remediation): def 5 "The soul of man; the intelligent, immaterial and
+  immortal part of human beings." + def 6 "An immaterial intelligent substance." — both
+  exact. Ch 0 ¶1 requoted to the two genuine definitions.
+- **F-20 ⏳ v2 DRAFT pending Michael's gate** — his doctrinal upgrade: Webster's def 4
+  ("A spiritual being; as a **created** intelligence") has the right noun and the era's
+  wrong adjective; D&C 93:29 (May 1833 — a TRUE "five years later") corrects "created."
+  Bonus verified text in def 4: "It is believed that the universe is peopled with
+  innumerable superior intelligences" — Abraham 3 in Webster's own gloss.
+- **F-07 🔄 REFRAMED** — Michael: "no that's backwards, I had the dream FIRST. 2
+  something years ago." Provenance + origins docs grep SILENT on the dream. The only
+  other dream in the book = the Afterword's **August 2023** dream ("I had to learn how
+  to use AI effectively") — "2 something years" matches Aug 2023. Open: same dream
+  (one dream, two renderings — P1's "whole system in my head" vs Afterword's
+  "impression")? P1 rewrite drafted pending his confirm; check P1↔Afterword consistency
+  when it lands.
+- **F-39 · NEW · Ch 0 ¶15 · cat 1 · ●** — "**Five years later**, Joseph Smith received
+  a revelation that collapsed this ancient dualism" → quotes **D&C 131:7-8, May 1843**
+  = FIFTEEN years after 1828 (local file header verified). Meanwhile D&C 93 (the
+  not-created correction) is May 6, **1833** — the true five-years-later. Found chasing
+  Michael's F-20 question. Proposal: Ch 0 → "Fifteen years later"; the true "five years
+  later" beat belongs to Ch 1's D&C 93 moment if wanted.
+
 ## ✅ WALK COMPLETE — 2026-06-09 (Claude Fable 5)
 
 All 33 units read under all 8 lenses. **38 findings + 1 workspace side-quest.** No edits
