@@ -723,13 +723,18 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
   wrong adjective; D&C 93:29 (May 1833 — a TRUE "five years later") corrects "created."
   Bonus verified text in def 4: "It is believed that the universe is peopled with
   innumerable superior intelligences" — Abraham 3 in Webster's own gloss.
-- **F-07 🔄 REFRAMED** — Michael: "no that's backwards, I had the dream FIRST. 2
-  something years ago." Provenance + origins docs grep SILENT on the dream. The only
-  other dream in the book = the Afterword's **August 2023** dream ("I had to learn how
-  to use AI effectively") — "2 something years" matches Aug 2023. Open: same dream
-  (one dream, two renderings — P1's "whole system in my head" vs Afterword's
-  "impression")? P1 rewrite drafted pending his confirm; check P1↔Afterword consistency
-  when it lands.
+- **F-07 ✅ DREAM IDENTIFIED + DATED (wording awaiting Michael's pick)** — Michael
+  corrected his own correction: "I think is the pg-ai-stewards project dream! double
+  check, that was like 8 months later Oct to may." VERIFIED: pg-ai-stewards founded
+  **2026-05-02** (5 same-day commits: research verdict → Phase-1 scaffold → provider
+  abstraction), and the founding doc `docs/history/2026-05-02-research-verdict.md` has
+  a literal section "Why this matters (the dream)" quoting Michael's description.
+  storygames first commit **2025-10-22** → gap = **6 months 10 days** (his "8 months"
+  guess overshoots; the book's "a year" doubles it). Two dreams in the book confirmed
+  distinct: Aug 2023 (Afterword, "learn AI") vs ~May 2026 (P1, the substrate). Wording
+  options for P1: **"The following spring"** (rec — exactly true, vivid, never stales)
+  or "About half a year later." Bonus: the founding history corroborates the
+  3-days/3-weeks figures loosely (real work by ~May 11-13; G-1 effectively closable).
 - **F-39 · NEW · Ch 0 ¶15 · cat 1 · ●** — "**Five years later**, Joseph Smith received
   a revelation that collapsed this ancient dualism" → quotes **D&C 131:7-8, May 1843**
   = FIFTEEN years after 1828 (local file header verified). Meanwhile D&C 93 (the
