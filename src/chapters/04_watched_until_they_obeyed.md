@@ -5,14 +5,14 @@
 **Binding Question:** How does the feedback loop of reviewing, steering, and verifying AI output mirror the divine pattern of Creation?
 
 **Anchor Passage:**
-> "And the Gods watched those things which they had ordered, until they obeyed."
+> "And the Gods watched those things which they had ordered until they obeyed."
 > — [Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18) [qr](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18)
 
 ---
 
 ## The Core Reframe
 
-In the scriptural account of the Creation recorded in the book of Abraham, a striking phrase appears repeatedly. Unlike the Genesis account, where creation is narrated as an instantaneous, effortless result of a spoken word ("God said... and it was so"), Abraham describes a process that requires time, active monitoring, and patient observation: "the Gods watched those things which they had ordered, until they obeyed."
+In the scriptural account of the Creation recorded in the book of Abraham, a striking phrase appears repeatedly. Unlike the Genesis account, where creation is narrated as an instantaneous, effortless result of a spoken word ("God said... and it was so"), Abraham describes a process that requires time, active monitoring, and patient observation: "the Gods watched those things which they had ordered until they obeyed."
 
 The watching is not a passive footnote; it is a vital phase of the creative act. The word *until* signifies that obedience was not instantaneous. It tells us that:
 - There was a temporal gap between the order and the result.

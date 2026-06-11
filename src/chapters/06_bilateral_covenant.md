@@ -30,7 +30,7 @@ But control is fragile. As our systems grow more complex, control-based boundari
 
 We find a far more robust model in the scriptural pattern of bilateral covenants. When we build complex software systems with AI agents, we can choose to govern our collaboration through mutual commitment rather than unilateral command. 
 
-This is the difference King Benjamin's people show us. They were not compelled into obedience; they "were willing to enter into a covenant with [their] God to do his will... all the remainder of [their] days" ([Mosiah 5:5](../../gospel-library/eng/scriptures/bofm/mosiah/5.md?verse=5)). [qr](../../gospel-library/eng/scriptures/bofm/mosiah/5.md?verse=5) The binding had force precisely because it was chosen. Control is imposed from outside and resented; covenant is adopted from within and kept.
+This is the difference King Benjamin's people show us. They were not compelled into obedience; they were "willing to enter into a covenant with [their] God to do his will... all the remainder of [their] days" ([Mosiah 5:5](../../gospel-library/eng/scriptures/bofm/mosiah/5.md?verse=5)). [qr](../../gospel-library/eng/scriptures/bofm/mosiah/5.md?verse=5) The binding had force precisely because it was chosen. Control is imposed from outside and resented; covenant is adopted from within and kept.
 
 In our own workspace, we have codified this pattern in a physical file: `.spec/covenant.yaml`. This is not a service-level agreement for a machine; it is a bilateral commitment that governs how we work together. If we do not do what we say, we have no promise of correct output.
 

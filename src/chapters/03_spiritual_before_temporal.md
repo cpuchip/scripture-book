@@ -12,7 +12,7 @@
 
 ## The Core Reframe
 
-Scripture outlines a sequence of creation that is absolute: "First spiritual, secondly temporal, which is the beginning of my work" ([Doctrine and Covenants 29:32](../../gospel-library/eng/scriptures/dc-testament/dc/29.md?verse=32)). [qr](../../gospel-library/eng/scriptures/dc-testament/dc/29.md?verse=32) 
+Scripture outlines the sequence of creation plainly: "First spiritual, secondly temporal, which is the beginning of my work" ([Doctrine and Covenants 29:32](../../gospel-library/eng/scriptures/dc-testament/dc/29.md?verse=32)). [qr](../../gospel-library/eng/scriptures/dc-testament/dc/29.md?verse=32) 
 
 Before the physical earth was formed, before flesh existed upon the ground, the creation existed as a complete, structured design. It was envisioned, counseled over, organized, and prepared. It was created spiritually.
 

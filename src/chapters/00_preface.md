@@ -4,11 +4,11 @@ The inspiration for this project began in an unexpected place: sitting in a clas
 
 The teacher was discussing the mechanics of daily planning. They pointed to the scriptural accounts of the Creation in Moses and Abraham, explaining that the Lord did not simply react to the chaos of each day. Instead, He spiritually created all things before they naturally existed upon the earth. The teacher proposed a simple, structured practice: we must spiritually prepare our day through prayer, reflection, and planning before we begin the physical creation of executing that day.
 
-As I listened, I jotted down a note, "Creator prep morning pre-mortal then do." Then a flash of recognition hit me. I leaned down again and wrote two letters in the margin of that note: **AI**. - I also wrote down a talk, "Pray Always." By Elder Bednar Oct 2008, I should go back and study that.
+As I listened, I jotted down a note: *Creator prep morning pre-mortal then do*. Then a flash of recognition hit me. I leaned down again and wrote two letters in the margin of that note: **AI**. (I also wrote down a talk to go back and study — Elder Bednar's *Pray Always*, from October 2008.)
 
 I realized in that moment that this scriptural process was the exact blueprint I had been using to collaborate effectively with artificial intelligence. When I worked with AI by taking counsel, building a detailed specification (the spiritual creation) before writing code, and executing in structured phases, the results were good, shockingly good.
 
-I resolved then to study the gospel *with* AI. I wanted to learn how to use these new tools better, but more importantly, I wanted to use their capabilities to help me dig deeper into the scriptures. What emerged over months of studies was more than just scriptures and engineering notes, the realization that the principles that govern how we build good software are the very same principles that govern how God builds us and the universe.
+I resolved then to study the gospel *with* AI. I wanted to learn how to use these new tools better, but more importantly, I wanted to use their capabilities to help me dig deeper into the scriptures. What emerged over months of studies was more than just scriptures and engineering notes: the realization that the principles that govern how we build good software are the very same principles that govern how God builds us and the universe.
 
 The chronology of how I got here, the three-and-a-half years before that classroom moment, is in the Afterword at the back of the book, for the readers who want it. The rest of this book is what came out of that recognition.
 

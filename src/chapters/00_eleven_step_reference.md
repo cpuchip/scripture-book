@@ -18,4 +18,4 @@ This book references these eleven steps throughout — the pattern by which the 
   <li class="scripture-step"><span class="cycle-step-name">Zion</span> — <span class="cycle-step-verb">harmonizing</span>. Many agents working as one.</li>
 </ol>
 
-I do not approach these steps as a rigid sequence. Rather, they are a reference framework to help understand gospel centered AI collaboration. I am still practicing them in my own work.
+I do not approach these steps as a rigid sequence. Rather, they are a reference framework for understanding gospel-centered AI collaboration. I am still practicing them in my own work.

@@ -734,6 +734,23 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
   silently edited.
 - **F-27 ✅ APPLIED (batch 2)** — Ch 3 "always" dropped ("I usually dont like
   superlatives").
+- **BATCH 3 ✅ ALL 12 APPLIED (Michael: "fix all 12, those are really good changes")** —
+  F-25 (Abr 4:18 comma ×3 — Ch 1, Ch 4 anchor, Ch 4 ¶15), F-32 (Mosiah 5:5 "were" moved
+  outside the quote), F-17 (coda → Part One/Part Two), F-18 (gospel-centered hyphen +
+  "for understanding"), F-38 (glossary antecedent), F-06 (preface colon), F-12 (P4
+  de-Yoda'd — Michael: "that inverse wording is Yoda like"), F-21 (Ch 9 → Webster's
+  actual words "cautiously; with watchfulness every way"), F-28 (Ch 3 "absolute"
+  dropped), F-14 (P7 → "while finishing this book"), F-16 (P9 → "One week…" + the
+  exposed second instance "That week neither did"), F-33 (P7 crossref now points
+  failures-as-types at Ch 6).
+- **F-11 ✅ APPLIED** — Michael: the YouTube transcript tool is "one of the first
+  projects but not THE first" → P4 softened to "one of my first real projects" (P2 was
+  already correct).
+- **F-05 ✅ APPLIED (Michael's own design)** — the jotting italicized (*Creator prep
+  morning pre-mortal then do*), the side-note in parentheses per his note-taking habit:
+  "(I also wrote down a talk to go back and study — Elder Bednar's *Pray Always*, from
+  October 2008.)"
+- Quick build verified green after batch 3 (HTML/EPUB; new LangChain QR generated).
 
 - **F-15 ✅ RATIFIED + APPLIED** — "give an account **unto me**." (canon-verified via
   gospel_get; Michael: "the extension makes it better").
