@@ -18,7 +18,7 @@ By October 2024, the landscape changed again. GitHub Copilot introduced its chat
 
 By June 2025, with the release of Sonnet 4, I began to hit the limits of simple chatting. I realized that if we wanted to change multi-repository APIs or fix sweeping breaking changes without generating endless bugs, we needed a dedicated planning phase. I began developing a custom "planning mode" within my agent loops.
 
-The real breakthrough came in late September 2025 with the release of Sonnet 4.5. I began writing detailed planning files in Markdown before generating any code, then executing those plans in structured, sequential phases. The results were staggering: I could build entire projects and websites in a matter of days. I pushed the creative boundaries of the tool, co-writing story-based games with my nine-year-old in projects like `storygames`.
+The real breakthrough came in late September 2025 with the release of Sonnet 4.5. I began writing detailed planning files in Markdown before generating any code, then executing those plans in structured, sequential phases. The results were staggering: I could build entire projects and websites in a matter of days. I pushed the creative boundaries of the tool, co-writing story-based games with my daughter in projects like `storygames`.
 
 In October 2025, I tackled a repository of simple games (`simple-games`). I managed to code and test seven local networked multiplayer games in a single app, writing the code in Dart (a language in which I had zero experience) and utilizing WebSockets to get the game instances to talk to each other (something I had never done before), working across both Windows and Android.
 

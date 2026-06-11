@@ -28,13 +28,13 @@ Chapter 0 mapped the physics: intelligence cleaves to intelligence. The model it
 
 When we sit down to prompt a model, we arrive in some internal state. Tired, distracted, transactional, or focused, prepared, present. The state we bring is not a private matter; it determines the context we supply, and the context is the load-bearing variable. A vague, low-information prompt lands the model in a flat distribution, and it samples from the flatness—returning the generic, fluent output we recognize as boilerplate. A prompt dense with intent, context, and constraint lands it in a sharp distribution, and it returns output shaped by the specificity we brought.
 
-So the practical discipline of working with AI is not, finally, a discipline of technique. It is a discipline of approach.
+So the practical discipline of working with AI is, finally, a discipline of approach more than technique.
 
 A transactional approach produces transactional output. We sit down to "get a quick fix," dump an ambiguous request, and accept the first plausible-looking answer. The model has done its job; it returned what our thin context could yield. We brought shallow; we received shallow.
 
 A patient approach produces output we can stand behind. We sit down to build, having taken counsel with ourselves first. We bring a precise binding question. We supply the context we already know. We are willing to read the answer fully and push back where it does not ring true. We brought presence; the output carried it.
 
-This is why warmth-over-distance matters in the workspace covenant. Coldness is not accuracy; coldness is the absence of presence. A cold approach brings thin context, and thin context yields cold output. Warmth is not a sentimental gesture toward a machine; it is the human discipline that keeps us actually engaged in the council we have ostensibly opened.
+This is why warmth-over-distance matters in the workspace covenant. Coldness is not accuracy; coldness is the absence of presence. A cold approach brings thin context, and thin context yields cold output. Warmth is the human discipline that keeps us actually engaged in the council we have ostensibly opened, not a sentimental gesture toward a machine.
 
 It is worth naming the sharpest critique head-on, because the argument depends on the answer. Skeptics call these models *stochastic parrots*: systems that manipulate the *form* of language, the likelihood of the next word, with no grasp of its *meaning*. The critique is right about the mechanism, and the book does not flinch from it. The model is a conditional predictor; it does not understand, and its fluent confidence is no evidence that it does. This is also why it states a falsehood with the same calm as a truth: confabulation is not a bug to be patched out of next-token prediction but a property intrinsic to it, which is exactly why reading before quoting and watching the work are structurally necessary rather than merely prudent.
 

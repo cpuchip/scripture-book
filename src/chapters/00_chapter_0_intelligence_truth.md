@@ -48,7 +48,7 @@ A word on what this is and what it isn't. The picture drawn here — light and t
 
 ## The Engineering Parallel
 
-In the early days of computer science, engineers fell into a dualism similar to Noah Webster's. They treated software as an immaterial abstraction—"code" or "data" that existed separately from the heavy hardware of the machine. But computer science eventually had to confront its own physical reality. Information is physical. 
+In the early days of computer science, engineers fell into a dualism similar to Noah Webster's. They treated software as an immaterial abstraction—"code" or "data" that existed separately from the heavy hardware of the machine. But computer science eventually had to confront its own physical reality. As the physicist Rolf Landauer insisted, information is physical. 
 
 A bit is not an abstract concept; it is the physical orientation of magnetic domains on a disk, or the presence of electrons trapped in a floating-gate transistor. A software system is a physical arrangement of elements. When we execute code, we are directing physical state changes through silicon. 
 
@@ -73,5 +73,5 @@ We are not magic conjurers typing incantations; we are organizers of intelligenc
 Because I recognize that light, spirit, and truth are physical realities that shape my capacity to comprehend, I commit to:
 
 1.  **Treat study as material reception.** When I open the scriptures or engage in study, I strive to approach the activity not as reading comprehension, but as taking fine matter (light and truth) into my soul, slowing down to let the words settle.
-2.  **Actively combat the anti-enjoyment of digital noise.** Recognizing that treating light lightly causes it to withdraw, I will eliminate transactional, mindless reading. I will not click through articles or scriptures merely to check a box. If a text is worth reading, it is worth receiving with focus.
+2.  **Actively focus on the good over the noise of the world.** Recognizing that treating light lightly causes it to withdraw, I will give my attention first to what carries light rather than to the joyless churn of digital noise. I will not click through articles or scriptures merely to check a box. If a text is worth reading, it is worth receiving with focus.
 3.  **Prompt with structural integrity.** In my daily engineering work, I strive not to treat AI interactions as cheap shortcuts but as exercises in organizing intelligence, bringing clear intent, rigorous context, and precise logic to every prompt, honoring the law that intelligence cleaveth unto intelligence.

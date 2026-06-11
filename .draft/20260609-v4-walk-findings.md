@@ -751,6 +751,25 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
   "(I also wrote down a talk to go back and study — Elder Bednar's *Pray Always*, from
   October 2008.)"
 - Quick build verified green after batch 3 (HTML/EPUB; new LangChain QR generated).
+- **BATCH 4 (voicing) ✅ APPLIED** — F-31 (Ch 5 ¶31 + ¶37 rephrased per the drafts;
+  the covenant-intertext and T2.6 signature instances deliberately kept), F-13 (P6 owns
+  delegation/abdication; P3 → "handing the work over and walking away from it"),
+  F-23 (Michael's INVERSION: positive lead "Actively focus on the good over the noise
+  of the world" + "joyless churn" kept + treating-light-lightly warning untouched),
+  F-22 (Landauer credited WITHOUT breaking the dictum: "As the physicist Rolf Landauer
+  insisted, information is physical.").
+- **F-29 ⏸ KEPT DELIBERATELY** — "vibe create" stays (Michael LOL'ed; wants the light
+  heart; "vibe" judged durable enough). **Noted for future editions:** if the slang
+  dates, the ratified replacement is "The Gods did not improvise the earth."
+- **IDENTITY ITEMS ✅ APPLIED** — F-01 (Edition → June 2026), F-02 (colophon: "Claude
+  Opus, and later Claude Fable, in a terminal… Opus carried the source-verification
+  pass and the print-ready preparation; Fable walked the final honesty and voicing
+  audit — true stewards of the work"), F-36/G-10 (afterword "my nine-year-old" → "my
+  daughter"; the only age reference in the book — consent resolved by genericizing),
+  G-4 (microservices "over three hundred" → "**over two hundred**"; Michael: ~270 k8s
+  deployments; afterword's "hundreds" still true), G-9 CLOSED (18 years confirmed — Ch 1
+  already says eighteen, no edit), G-7 CLOSED (Gemini drafted 0–12 in two batches, 0–7
+  then 8–12 — colophon's "chapters 0 through 12" confirmed accurate, no edit).
 
 - **F-15 ✅ RATIFIED + APPLIED** — "give an account **unto me**." (canon-verified via
   gospel_get; Michael: "the extension makes it better").
