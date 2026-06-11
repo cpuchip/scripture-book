@@ -22,7 +22,7 @@ When we study the Moses account, we see that the Gods did not "vibe create" the 
 
 This spiritual creation is the anchor of order. Without it, the physical elements remain chaotic. The spiritual creation establishes the laws, the boundaries, and the purpose that the physical creation must obey. 
 
-When we skip the spiritual creation in our lives—when we react instead of planning, or when we attempt to build without understanding the purpose—we are trying to force physical creation out of chaos. The output is always fragile, disjointed, and prone to collapse under its own complexity. 
+When we skip the spiritual creation in our lives—when we react instead of planning, or when we attempt to build without understanding the purpose—we are trying to force physical creation out of chaos. The output is fragile, disjointed, and prone to collapse under its own complexity. 
 
 The divine pattern demands that the blueprint precede the building.
 

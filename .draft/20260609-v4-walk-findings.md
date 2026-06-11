@@ -716,6 +716,24 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
   exactly true — pg-ai-stewards founded 2026-05-02). G-1 closed by the same dig.
 - **F-39 ✅ APPLIED** — Ch 0: "Five years later" → **"Fifteen years later"** (D&C 131 =
   May 1843; Michael: "yes 15 chang is good").
+- **F-24 ✅ APPLIED (batch 2)** — Michael: don't invent numbers (suspects the 80/20 was
+  a Gemini-draft artifact). Now: "most of my energy went to implementation mechanics and
+  much less to design. Now that balance has inverted." + "the narrow seams where bugs
+  hide" (ten-percent de-numbered). First-person per his phrasing.
+- **F-26 ✅ APPLIED (batch 2, option a + citation)** — source verified live:
+  LangChain, "Improving Deep Agents with harness engineering" (2026-02-17,
+  langchain.com/blog/improving-deep-agents-with-harness-engineering): Top 30 → Top 5 on
+  Terminal-Bench 2.0, 52.8%→66.5%, model fixed (gpt-5.2-codex). Ch 2 now names
+  LangChain with link + [qr]. NOTE: new QR in ¶56's margin — run the 0-collision check
+  at next rebuild.
+- **F-34 ✅ APPLIED (batch 2, option a)** — "four times" + Hel 11:26 added to the
+  citation chain. ADJACENT SURFACE: the published study four-groups-and-the-engineer
+  line 77 already says FOUR (correct — Michael fixed it there); but its line 203 says
+  "the Helaman text confirms it three times" — ambiguous referent, possibly the stale
+  count he remembers losing track of. Flagged for the published-works audit, not
+  silently edited.
+- **F-27 ✅ APPLIED (batch 2)** — Ch 3 "always" dropped ("I usually dont like
+  superlatives").
 
 - **F-15 ✅ RATIFIED + APPLIED** — "give an account **unto me**." (canon-verified via
   gospel_get; Michael: "the extension makes it better").
