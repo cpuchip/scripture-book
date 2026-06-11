@@ -8,7 +8,7 @@ The model came back with fourteen questions. What kind of game? How many players
 
 It took me years to notice: **you do not start with the answer. You start with a vision, and the conversation is how you find it.**
 
-Sometimes the vision is concrete. A year later I woke up from a dream with a whole system in my head: a way to hand work to AI agents under rules and watch them run. I could see it working before it existed. When the vision is that clear, the conversation is short: I describe what I see, we blueprint it, I press on the blueprint with questions until it holds, and we build. That system was running real work in three days and stood up in about three weeks.
+Sometimes the vision is concrete. The following spring I woke up from a dream with a whole system in my head: a way to hand work to AI agents under rules and watch them run. I could see it working before it existed. When the vision is that clear, the conversation is short: I describe what I see, we blueprint it, I press on the blueprint with questions until it holds, and we build. That system was running real work in three days and stood up in about three weeks.
 
 But more often the vision is vague. I have a direction and a feeling, not a picture — the game with my kid, or the book you are holding. Then the conversation is longer, and its entire job is to *sharpen*: to turn the feeling into something with edges. Questions do the sharpening. Sometimes I ask them. More often, when I cannot see the shape myself, I ask the model to ask *me*.
 

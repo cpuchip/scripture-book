@@ -712,6 +712,11 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
 
 ## CHAT WALK — dispositions (running, started 2026-06-10)
 
+- **F-07 ✅ APPLIED** — P1: "A year later" → **"The following spring"** (Michael's pick;
+  exactly true — pg-ai-stewards founded 2026-05-02). G-1 closed by the same dig.
+- **F-39 ✅ APPLIED** — Ch 0: "Five years later" → **"Fifteen years later"** (D&C 131 =
+  May 1843; Michael: "yes 15 chang is good").
+
 - **F-15 ✅ RATIFIED + APPLIED** — "give an account **unto me**." (canon-verified via
   gospel_get; Michael: "the extension makes it better").
 - **F-19 ✅ VERIFIED + APPLIED** — re-verified through the REBUILT webster-mcp (genuine

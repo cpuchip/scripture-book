@@ -12,7 +12,7 @@
 
 In 1828, Noah Webster published his landmark American Dictionary. Under the entry for [*spirit*](https://1828.ibeco.me/word/spirit), [qr](https://1828.ibeco.me/word/spirit) he captured the consensus of post-Enlightenment philosophy and traditional Christian theology: spirit is "an immaterial intelligent substance" — "the intelligent, immaterial and immortal part of human beings." To the nineteenth-century mind, the division was absolute: the physical world was material, but the spiritual world was immaterial.
 
-Five years later, Joseph Smith received a revelation that collapsed this ancient dualism:
+Fifteen years later, Joseph Smith received a revelation that collapsed this ancient dualism:
 
 > "There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; We cannot see it; but when our bodies are purified we shall see that it is all matter."
 > — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md?verse=7-8) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/131.md?verse=7-8)
