@@ -66,7 +66,7 @@ Hope keeps the eye on the Prototype through all of it. But the seeing, like the 
 
 Because I recognize that my agency must operate across prescription, rest, and proposal to align my substance with eternal light, and that the eye must stay on the Prototype through prosperity and mist alike, I commit to:
 
-1.  **Honor the prescriptions of safety.** I will respect the basic commandments and spiritual habits—daily scripture study, prayer, and repentance—that serve as the ventilation system of my soul, keeping the water of the world out and letting the Spirit in.
+1.  **Honor the prescriptions of safety.** I will respect the basic commandments and spiritual habits — daily scripture study, prayer, and repentance — that serve as the ventilation system of my soul, keeping the water of the world out and letting the Spirit in.
 2.  **Rest in the winds of grace.** I will set down the anxiety of steering my own salvation. I will trust that the wind of Christ's Atonement has already gone forth and will carry my vessel through the deep. I will praise Him in the midst of the mountain waves.
 3.  **Bring molten stones to the mount.** I will not ask the Lord to illuminate my path without bringing my own prepared substance. I will labor to refine my character, making my intentions transparent, and present my specific proposals to Him for His quickening touch.
 4.  **Fix my gaze within the veil.** I will keep my eye single to the Prototype, anchoring my hope in the reality of Jesus Christ. I will look past the chaotic elements of the seashore and focus on the face that awaits me at the end of the voyage.

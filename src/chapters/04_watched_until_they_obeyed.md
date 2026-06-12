@@ -33,15 +33,15 @@ Furthermore, the watching extends beyond individual creations to the whole arc: 
 
 ## The Engineering Parallel
 
-In working with AI, we live inside this feedback loop daily. Many people approach AI as a vending machine—type a prompt, get code, copy and paste it, and walk away. But any senior developer who has integrated AI tools knows that the real engineering happens in the review. We must watch the output until it obeys our design constraints.
+In working with AI, we live inside this feedback loop daily. Many people approach AI as a vending machine — type a prompt, get code, copy and paste it, and walk away. But any senior developer who has integrated AI tools knows that the real engineering happens in the review. We must watch the output until it obeys our design constraints.
 
 This is the trust gradient in action. When we begin a new project or work with a new model, we must watch every line. We review the syntax, verify the database queries, and run the tests. As the model proves reliable within a specific domain, we transition from "watching until" to a calibrated trust where we focus our attention on new, complex logic.
 
-The industry has built instruments for exactly this watching. Test suites and evals gate output before it ships. Observability traces let us inspect each step an agent takes. Watchdogs and budgets cap an agent's time, tokens, or iterations before it can run away—the runaway in Chapter 2 happened because no such watchdog was set. These are the modern instruments of "watching until they obey."
+The industry has built instruments for exactly this watching. Test suites and evals gate output before it ships. Observability traces let us inspect each step an agent takes. Watchdogs and budgets cap an agent's time, tokens, or iterations before it can run away — the runaway in Chapter 2 happened because no such watchdog was set. These are the modern instruments of "watching until they obey."
 
 We must balance when to steer and when to let the model run. We steer when the output violates our architectural specification, when it solves the wrong problem, or when it introduces latent security vulnerabilities. We let it run when the implementation is functionally correct, even if it uses a style slightly different from our own. Like the Gods, who commanded the waters to bring forth creatures "after their kind" rather than specifying every species of fish, we specify the organizing principles and verify the outcomes.
 
-We must also watch our instruments, not just the code. When conducting scriptural research, we might generate a list of verses. But if we fail to watch *how* we found them, we miss the depth. In one study session on the Godhead, the AI generated a clean document using keyword search. But when we verified the search method and directed it to use our semantic vector database, it instantly surfaced non-obvious, critical passages—like [2 Peter 1:4](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) [qr](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) ("partakers of the divine nature")—that keyword searches had missed entirely.
+We must also watch our instruments, not just the code. When conducting scriptural research, we might generate a list of verses. But if we fail to watch *how* we found them, we miss the depth. In one study session on the Godhead, the AI generated a clean document using keyword search. But when we verified the search method and directed it to use our semantic vector database, it instantly surfaced non-obvious, critical passages — like [2 Peter 1:4](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) [qr](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) ("partakers of the divine nature")—that keyword searches had missed entirely.
 
 We also need the "seventh-day review" in our workflows. It is easy to catch syntax errors in a single session, but systemic degradation only appears over time. In our scripture project, a periodic review revealed that because search was so fast, we had started using search results as final answers. We were paraphrasing scriptures without reading the actual source chapters. By stepping back and reflecting, we caught this trend and established the "read-before-quoting" rule to protect the depth of our study.
 
@@ -51,7 +51,7 @@ And that vantage is not fixed to one side. It moves. The agent orchestrating a b
 
 This feedback loop works because of the distinction in agency. As [Doctrine and Covenants 93:30](../../gospel-library/eng/scriptures/dc-testament/dc/93.md?verse=30) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/93.md?verse=30) states, "All truth is independent in that sphere in which God has placed it, to act for itself." 
 
-AI has no moral agency; it acts by law and statistical pattern. Your moral agency—your light, your truth, your choice—is the irreplaceable element that evaluates correctness and directs the creation toward a good purpose.
+AI has no moral agency; it acts by law and statistical pattern. Your moral agency — your light, your truth, your choice — is the irreplaceable element that evaluates correctness and directs the creation toward a good purpose.
 
 ---
 

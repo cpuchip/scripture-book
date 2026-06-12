@@ -16,13 +16,13 @@ Scripture outlines the sequence of creation plainly: "First spiritual, secondly 
 
 Before the physical earth was formed, before flesh existed upon the ground, the creation existed as a complete, structured design. It was envisioned, counseled over, organized, and prepared. It was created spiritually.
 
-We have three distinct scriptural accounts of the Creation: Genesis, Moses, and Abraham. Each serves a different purpose. Genesis gives us the narrative of *what* was created. Moses reveals that *there was a spiritual creation first*. Abraham shows us the *how*—the collaborative council of the Gods organizing existing materials.
+We have three distinct scriptural accounts of the Creation: Genesis, Moses, and Abraham. Each serves a different purpose. Genesis gives us the narrative of *what* was created. Moses reveals that *there was a spiritual creation first*. Abraham shows us the *how* — the collaborative council of the Gods organizing existing materials.
 
 When we study the Moses account, we see that the Gods did not "vibe create" the earth. They did not shape the dry land and then wonder what to put on it. They organized the design first.
 
 This spiritual creation is the anchor of order. Without it, the physical elements remain chaotic. The spiritual creation establishes the laws, the boundaries, and the purpose that the physical creation must obey. 
 
-When we skip the spiritual creation in our lives—when we react instead of planning, or when we attempt to build without understanding the purpose—we are trying to force physical creation out of chaos. The output is fragile, disjointed, and prone to collapse under its own complexity. 
+When we skip the spiritual creation in our lives — when we react instead of planning, or when we attempt to build without understanding the purpose — we are trying to force physical creation out of chaos. The output is fragile, disjointed, and prone to collapse under its own complexity. 
 
 The divine pattern demands that the blueprint precede the building.
 
