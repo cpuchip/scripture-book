@@ -801,6 +801,21 @@ antithesis set, the covenant intertexts.
   Open detail for Michael: the kid isn't visible in the chat — confirm the with-my-kid
   framing belongs to this session (storygames, the other kid-project, started 3 days
   earlier, 10-22).
+  **✅ APPLIED 2026-06-11 (Michael: "we can be specific" + "yes use the exact quote… I
+  love that I have the history here to make the book a personal history"):** P1 now
+  quotes his real prompt verbatim (orthography lightly cleaned: lets→let's) and gives
+  the real count (ten) with four REAL example questions (Q1 players, Q3 win/loss, Q6
+  host-viewscreen/consoles, Q10 art style — paraphrased, no quote marks). The with-my-kid
+  framing stands as his testimony of the season ("made me shift focus to something more
+  neutral like games and play with my kids… It was a good shift and I felt that").
+  **Timeline as recovered:** forkirk (Sept 18–Oct 2, abandoned amid the season + a
+  co-worker's reaction to the Kirk name — recorded HERE, deliberately NOT in the book,
+  per the standing no-repo-name rule) → astrotreks (Oct 7–10, the BIGGER bridge-sim —
+  Helm throttle/heading UI; NOT Shields Down) → storygames with the kid (Oct 22; alive
+  again today with his 9yo) → mobile-games/Shields Down (Oct 25, the byte-sized retry)
+  → simple-games. ⏳ STILL PARKED: the forkirk "wrote in the log… overwhelmed" line —
+  Michael is copying the forkirk repo core (no assets); verify the log when it lands,
+  else soften to memory. Also queued: ~18GB of old repos incoming — help him sort.
 - **G-3 ✅ SUBSTANTIALLY VERIFIED** — the transcript tool is **forkirk** ("for Kirk" —
   a Charlie Kirk video quoter: transcript search, embedded player, quotes with
   timestamp links; sessions 2025-09-18 → 10-02 in `edb1be41…`, then it stops —

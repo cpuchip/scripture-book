@@ -2,9 +2,9 @@
 
 In October 2025 I sat down to build a video game with my kid. I had no design. I didn't even have a clear question. What I had was a direction, *something the two of us could make together,* and an empty folder.
 
-So I didn't write a specification, and I didn't hand down an order. I typed something close to this: *let's set up a notes folder and a plan; ask me some questions to get one game put together to start with.*
+So I didn't write a specification, and I didn't hand down an order. I typed: *Ask me a few clarifying questions and let's get some documentation down and a plan together before we start coding.*
 
-The model came back with fourteen questions. What kind of game? How many players? On what device? What does winning look like? I answered them one at a time, and somewhere in the answering, the vague *something* grew edges. It became a thing we could actually build. The conversation hadn't decorated a plan I already had. The conversation was how the plan got written.
+The model came back with ten questions. How many players, at minimum and at most? Is it game over when the hull reaches zero, or is winning surviving ten waves? Does the host's phone become the viewscreen while each player sees only their own console? What should the art style be? I answered them one at a time, and somewhere in the answering, the vague *something* grew edges. It became a thing we could actually build. The conversation hadn't decorated a plan I already had. The conversation was how the plan got written.
 
 It took me years to notice: **you do not start with the answer. You start with a vision, and the conversation is how you find it.**
 
