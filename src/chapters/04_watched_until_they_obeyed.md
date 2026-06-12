@@ -1,4 +1,4 @@
-# Chapter 4: Watched Until They Obey
+# Chapter 4: Watched Until They Obeyed
 
 *Watching*
 

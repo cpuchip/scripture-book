@@ -8,7 +8,7 @@ The second practice is: **council before you build.** Before the work starts, ta
 
 But a plan has a shadow, and I learned it the hard way too. One of the first real projects I tried to build with AI was a small tool to search video transcripts and link back to the source. I sat down and produced a beautiful eight-milestone roadmap, then stared at it, buried. I wrote in the log that I felt overwhelmed by how much work was left. The plan was thorough enough to become a wall.
 
-Both failures are the same lesson seen from two sides. Skip the council and you build on contradictions. Worship the plan and you never build at all. **A plan is a map, not a debt.** Council until you can see the way; then let the map serve the walking. You are allowed to revise it the moment the ground disagrees.
+Both failures are the same lesson seen from two sides. Skip the council and you build on contradictions. Worship the plan and you never build at all. **A plan is a map, not a debt.** Counsel together until you can see the way; then let the map serve the walking. You are allowed to revise it the moment the ground disagrees.
 
 Today the practice runs like this, and the mechanics will age. An idea arrives, we talk it into options, the model checks the existing work and the open questions, and we ratify a short sequence of phases as questions: *do this first, then this, does that handle the edge case?* Then I set it loose. The questions run both ways. I ask the model what already exists; the model asks me to choose between the options it surfaced. The agreement we reach is the plan.
 
