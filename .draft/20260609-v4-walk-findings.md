@@ -761,6 +761,25 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
 - **F-29 ⏸ KEPT DELIBERATELY** — "vibe create" stays (Michael LOL'ed; wants the light
   heart; "vibe" judged durable enough). **Noted for future editions:** if the slang
   dates, the ratified replacement is "The Gods did not improvise the earth."
+- **G-8 ✅ VERIFIED + Ch 3 REWRITTEN (Michael's wording)** — git archaeology: spec was
+  497→558 lines pre-build (752 today — "743" was a later snapshot of the living doc);
+  first commit `fe1a0c7d` = 30 files / 4,041 insertions. Ch 3 now: "a planning
+  specification document over five hundred lines long… the first day's build landed
+  about four thousand lines of code across thirty files." (The truth was 4× stronger
+  than the claim.)
+- **G-2 + G-3 ⏸ PARKED, option (a)** — "fourteen questions" (P1) and "eight-milestone
+  roadmap" (P2) KEPT pending the VS Code chat archive Michael is copying (~10GB,
+  sqlite). Target when it lands: workspaceStorage for
+  `OneDrive\Documents\code\Stuffleberry\simple-games` (G-2) + the transcript-tool
+  workspace (G-3). ⚠ MUST verify-or-hedge before publish — do not let these ship
+  unchecked.
+- **G-6 ✅ APPLIED (P8, Michael's verdict + addition)** — "I still run it every few
+  weeks, whenever it pops into my head — usually after the work has settled into a
+  routine. It still finds things I didn't want to see, and things we can easily
+  improve." (The routine-settling trigger is the honest cadence; no schedule claimed.)
+- **F-10 ✅ APPLIED** — council=meeting (noun, title keeps it), counsel=the verb: P2 ¶11
+  → "Counsel together until you can see the way."
+- **Ch 4 title ✅ APPLIED** — harmonized to scripture: "Watched Until They Obeyed."
 - **IDENTITY ITEMS ✅ APPLIED** — F-01 (Edition → June 2026), F-02 (colophon: "Claude
   Opus, and later Claude Fable, in a terminal… Opus carried the source-verification
   pass and the print-ready preparation; Fable walked the final honesty and voicing
