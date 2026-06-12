@@ -281,6 +281,16 @@ def preprocess_html_blocks(md_content):
         md_content
     )
 
+    # List spacing for QR-dense reference pages: <div class="list-spacing"></div>
+    # -> #set list(spacing: 4.5em) so stacked margin QRs don't overlap. Lives as a
+    # div marker so the HTML/EPUB path (build.py) renders nothing instead of leaking
+    # raw Typst into the ebook.
+    md_content = re.sub(
+        r'<div class="list-spacing">\s*</div>',
+        '#set list(spacing: 4.5em)',
+        md_content
+    )
+
     return md_content
 
 

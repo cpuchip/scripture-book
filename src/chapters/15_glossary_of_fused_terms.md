@@ -2,7 +2,7 @@
 
 This glossary provides a cross-disciplinary dictionary, mapping the scriptural concepts explored in this book directly to their software engineering and artificial intelligence equivalents.
 
-#set list(spacing: 4.5em)
+<div class="list-spacing"></div>
 
 ---
 

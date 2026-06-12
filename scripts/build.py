@@ -215,8 +215,9 @@ def markdown_to_html(md_text, is_epub=False, dist_dir=None):
     md_text = re.sub(r'^---$', r'<hr />', md_text, flags=re.MULTILINE)
 
     # Lists
-    # Unordered Lists
-    md_text = re.sub(r'^\- (.*?)$', r'<li>\1</li>', md_text, flags=re.MULTILINE)
+    # Unordered Lists — both '- ' and '*  ' bullets (the asterisk form needs
+    # trailing whitespace so '*italic...' and '**bold...' line-starts stay prose)
+    md_text = re.sub(r'^[\-\*]\s+(.*?)$', r'<li>\1</li>', md_text, flags=re.MULTILINE)
     def wrap_ul(match):
         return '<ul>\n' + match.group(0) + '\n</ul>'
     md_text = re.sub(r'(?:<li>.*?</li>\n?)+', wrap_ul, md_text)

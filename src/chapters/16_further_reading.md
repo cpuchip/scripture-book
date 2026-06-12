@@ -2,7 +2,7 @@
 
 For readers who desire to deepen their study of these patterns, the following curated scriptures, prophetic messages, and study notes provide the primary theological and practical foundations for the principles in this book. Every entry is QR-coded so a reader of the printed book can scan straight through to the source.
 
-#set list(spacing: 4.5em)
+<div class="list-spacing"></div>
 
 ---
 

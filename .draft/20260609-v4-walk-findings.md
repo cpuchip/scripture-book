@@ -710,6 +710,27 @@ convention correct; "happiest society" is a fair 4 Ne 1:16 gloss.)*
 
 ---
 
+## ✅ CHAT WALK COMPLETE — 2026-06-11
+
+Every finding dispositioned. Applied across 9 push batches (`b6552e3..`): batches 1–4 +
+identity + figures + title/counsel + Ch 3/P8 + F-37. **Open remainder: G-2/G-3 only**
+(fourteen-questions + eight-milestones, parked option (a) awaiting Michael's VS Code chat
+archive — ⚠ verify-or-hedge BEFORE publish; target = workspaceStorage for the
+`OneDrive\…\Stuffleberry\simple-games` workspace + the transcript-tool workspace).
+Deliberately-kept items: "vibe create" (future-edition note), Ch 8's load-bearing
+antithesis set, the covenant intertexts.
+
+- **F-37 ✅ FIXED + VERIFIED (2026-06-11)** — root cause: build.py only converted `- `
+  bullets (line 219); every `*` list fell through to the bold/italic pass as literal
+  asterisks. Fix: `^[\-\*]\s+` bullet support in build.py + the `#set list` Typst
+  directive moved out of the two .md sources into a `<div class="list-spacing"></div>`
+  marker mapped by build_typst.py (page-break-div precedent). VERIFIED: EPUB re-census
+  CLEAN (glossary 21 li, further-reading 19 li, colophon 3 li, Ch 4/Ch 6 lists now real;
+  0 leaks, 0 literal-asterisk paras) · PDF 123pp, **104 QRs, 0 collisions** (detector
+  REWRITTEN AS A COMMITTED TOOL: `scripts/check_qr_collisions.py`) · all 13 landmark
+  edits found in the rendered PDF (5 initial misses were the known PyMuPDF
+  line-wrap/hyphenation false-negative).
+
 ## CHAT WALK — dispositions (running, started 2026-06-10)
 
 - **F-07 ✅ APPLIED** — P1: "A year later" → **"The following spring"** (Michael's pick;

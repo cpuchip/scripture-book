@@ -1,0 +1,68 @@
+date: 2026-06-11
+session: v4-chat-walk-complete
+type: execution
+workstream: WS7
+summary: |
+  THE v4 CHAT WALK COMPLETED — the second half of the v4 honesty+voicing audit, walked
+  with Michael in conversation over three days (2026-06-09 solo walk → 06-10/11 chat
+  walk), exactly per the cadence he ratified: I presented findings in batches, he gated
+  each in chat (pausing, pushing back, improving), I applied verify-gated and pushed per
+  batch. ~35 manuscript edits across 9 push batches.
+
+  HOW THE GATING IMPROVED THE FIXES (the council working as designed):
+  - His F-20 question ("Joseph Smith said intelligence isn't created") turned my simple
+    requote into the chapter's best new beat (Webster's right noun / wrong adjective,
+    corrected by D&C 93:29 — a TRUE "five years later") AND exposed F-39 (Ch 0's "Five
+    years later" before D&C 131/1843 — fifteen).
+  - His dream memory correction (twice revised) landed on the verified truth: the P1
+    dream = pg-ai-stewards, founded 2026-05-02 (the founding doc literally has "Why this
+    matters (the dream)"); "The following spring" was his pick — exactly true, never
+    stales.
+  - His "don't invent numbers" verdict (F-24) + "cite the source" (F-26 → LangChain's
+    harness post, live-verified) + git archaeology (G-8: spec 558 pre-build not 743;
+    first commit 30 files/4,041 lines — reality 4× the book's claim) made the numbers
+    class HONEST AND STRONGER.
+  - Voicing: Ch 5's two tic instances rephrased; "vibe create" deliberately KEPT for
+    lightheartedness (future-edition note filed); Ch 0's Becoming #2 INVERTED to a
+    positive lead at his direction.
+  - Identity: colophon now names Fable alongside Opus ("true stewards of the work");
+    Edition → June 2026; "my daughter" genericized (consent resolved); microservices →
+    "over two hundred" (~270 actual); council/counsel rule settled (noun=meeting,
+    verb=counsel together); Ch 4 title harmonized to "Obeyed".
+
+  F-37 BUILD FIX (my closing homework): build.py never supported `*` bullets — the
+  colophon, Glossary, Recommended Study, Ch 4 + Ch 6 lists all rendered as literal
+  asterisks in the EPUB (the KDP ebook product!), plus the raw `#set list` Typst
+  directive leaked as visible text. Fixed: `^[\-\*]\s+` bullets + a list-spacing div
+  marker mapped in build_typst.py. EPUB re-census CLEAN; PDF 123pp / 104 QRs / 0
+  collisions; all 13 landmark edits verified in the render. The collision detector is
+  now a COMMITTED tool (scripts/check_qr_collisions.py) — the 06-03 original died with
+  its gitignored scratch.
+discoveries:
+  - Gated-in-chat beats gated-by-form: Michael's pushback on findings repeatedly
+    produced better fixes than my drafts (F-20's doctrine beat, F-05's parenthetical
+    side-note convention, F-23's inversion, "The following spring"). The chat walk was
+    the council the AskUserQuestion cadence approximated.
+  - Numbers measured at the wrong moment are a distinct failure class: "743 lines" was
+    the spec's LATER size (752 today; 558 pre-build); "thirteen files" undersold the
+    30-file/4k-line first commit. The published study had the Helaman count RIGHT
+    (four) — the book failed to inherit the fix.
+  - The known PyMuPDF false-negative (line-wrap/hyphenation) struck again during
+    landmark verification — normalize whitespace before declaring a render miss.
+carry_forward:
+  - "G-2 + G-3 (ONLY open walk items): verify 'fourteen questions' (P1) + 'eight-
+    milestone roadmap' (P2) against Michael's VS Code chat archive when the ~10GB copy
+    lands (target: workspaceStorage for OneDrive\\…\\Stuffleberry\\simple-games + the
+    transcript-tool workspace). MUST verify-or-hedge before publish."
+  - "Michael's own manual voice read continues (his gate before pass 3)."
+  - "Pass 3 (voicing/consistency) + KDP remain per the standing sequence; v5
+    (podcast conversational-voice from books/creators-playbook) queued behind it."
+  - "Study-side residue for the published-works audit: four-groups study line 203
+    'confirms it three times' (ambiguous referent vs line 77's correct 'four')."
+files_changed:
+  - src/chapters/ (16 files across the chat walk)
+  - scripts/build.py
+  - scripts/build_typst.py
+  - scripts/check_qr_collisions.py (new tool)
+  - .draft/20260609-v4-walk-findings.md
+  - .mind/active.md
