@@ -808,14 +808,23 @@ antithesis set, the covenant intertexts.
   host-viewscreen/consoles, Q10 art style — paraphrased, no quote marks). The with-my-kid
   framing stands as his testimony of the season ("made me shift focus to something more
   neutral like games and play with my kids… It was a good shift and I felt that").
-  **Timeline as recovered:** forkirk (Sept 18–Oct 2, abandoned amid the season + a
-  co-worker's reaction to the Kirk name — recorded HERE, deliberately NOT in the book,
-  per the standing no-repo-name rule) → astrotreks (Oct 7–10, the BIGGER bridge-sim —
-  Helm throttle/heading UI; NOT Shields Down) → storygames with the kid (Oct 22; alive
-  again today with his 9yo) → mobile-games/Shields Down (Oct 25, the byte-sized retry)
-  → simple-games. ⏳ STILL PARKED: the forkirk "wrote in the log… overwhelmed" line —
-  Michael is copying the forkirk repo core (no assets); verify the log when it lands,
-  else soften to memory. Also queued: ~18GB of old repos incoming — help him sort.
+  **Timeline as recovered:** forkirk (Sept 18–Oct 2, set down unfinished; the fuller
+  personal context stays in conversation, not in any repo) → astrotreks (Oct 7–10, the
+  BIGGER bridge-sim — Helm throttle/heading UI; NOT Shields Down) → storygames with the
+  kid (Oct 22; alive again today) → mobile-games/Shields Down (Oct 25, the byte-sized
+  retry) → simple-games.
+- **G-3 ✅✅ FULLY CLOSED (2026-06-12, overnight — the repo + old session archives
+  landed):** the "log" line is VERIFIED VERBATIM. Copilot session of **2025-10-05**
+  (`.copilot-old/history-session-state/session_aa43e58e…`), Michael's opening message:
+  "What do you think of this roadmap? **I'm feeling a bit overwhelmed by the amount of
+  work left to do** to have a functioning product." The AI's same-day reply references
+  Milestones 7 and 8 — the roadmap was EXACTLY EIGHT milestones at the staring-at-it
+  moment (it later grew to ten, `notes/quote-groups-roadmap.md` in the recovered repo).
+  P2's every claim now stands verified. Bonus for Michael's morning (optional P2
+  enrichment, his call): the AI's reply that day — "treating it as a checklist for
+  launch will overwhelm you… treat it as your long-term vision" — IS the chapter's
+  lesson, received eight months before he wrote it. **With this, every factual claim in
+  the book is verified or deliberately his.**
 - **G-3 ✅ SUBSTANTIALLY VERIFIED** — the transcript tool is **forkirk** ("for Kirk" —
   a Charlie Kirk video quoter: transcript search, embedded player, quotes with
   timestamp links; sessions 2025-09-18 → 10-02 in `edb1be41…`, then it stops —
