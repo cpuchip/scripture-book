@@ -22,5 +22,12 @@
 *   *Verification:* Verified character-for-character in [Mosiah 4:27](../../gospel-library/eng/scriptures/bofm/mosiah/4.md) (line 61).
 *   *Status:* 🟢 Verified Clean
 
+### 4. "endure to the end" (closing allusion, added 2026-06-12)
+*   **Manuscript wording (unquoted allusion):** *"Run the loop — endure to the end."* (final line; Michael's direct addition).
+*   **Verified canonical anchor (2 Nephi 31:20):** "Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life."
+*   *Verification:* phrase verified in [2 Nephi 31:20](../../gospel-library/eng/scriptures/bofm/2-ne/31.md) (also vv. 15–16: "He that endureth to the end, the same shall be saved").
+*   *Status:* 🟢 Allusion honest — four-word scriptural phrase as benediction, no quotation marks, no citation bolted onto the book's last line by design.
+
 ---
 Verified by Gemini (Antigravity IDE 2.0) on 2026-05-27.
+Entry 4 added and verified by Claude Fable 5 (Claude Code) on 2026-06-12.
