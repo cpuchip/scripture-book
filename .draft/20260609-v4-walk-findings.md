@@ -788,12 +788,29 @@ antithesis set, the covenant intertexts.
   specification document over five hundred lines long… the first day's build landed
   about four thousand lines of code across thirty files." (The truth was 4× stronger
   than the claim.)
-- **G-2 + G-3 ⏸ PARKED, option (a)** — "fourteen questions" (P1) and "eight-milestone
-  roadmap" (P2) KEPT pending the VS Code chat archive Michael is copying (~10GB,
-  sqlite). Target when it lands: workspaceStorage for
-  `OneDrive\Documents\code\Stuffleberry\simple-games` (G-2) + the transcript-tool
-  workspace (G-3). ⚠ MUST verify-or-hedge before publish — do not let these ship
-  unchecked.
+- **G-2 ✅ FOUND + VERIFIED (2026-06-11, the archive landed: `external_context/
+  Code-old-session`)** — the founding session is in the **mobile-games** workspace
+  (`a4288b…/chatSessions/be90ec81…`, **2025-10-25**, 268 requests; the project later
+  became simple-games). Michael's REAL prompt (req[1]): "Ask me a few clarifying
+  questions and lets get some documentation down and a plan together before we start
+  coding." — the book's hedged paraphrase was faithful. The model returned **TEN
+  numbered questions** (23 question marks with sub-questions; req[2] is Michael
+  answering them one by one, exactly as P1 tells it). The game: **Shields Down!** — his
+  "byte sized" bridge simulator. **Count correction needed: fourteen → ten** (wording =
+  Michael's pick; option to quote the real prompt verbatim now that we have it).
+  Open detail for Michael: the kid isn't visible in the chat — confirm the with-my-kid
+  framing belongs to this session (storygames, the other kid-project, started 3 days
+  earlier, 10-22).
+- **G-3 ✅ SUBSTANTIALLY VERIFIED** — the transcript tool is **forkirk** ("for Kirk" —
+  a Charlie Kirk video quoter: transcript search, embedded player, quotes with
+  timestamp links; sessions 2025-09-18 → 10-02 in `edb1be41…`, then it stops —
+  "I never finished it" ✓). The roadmap existed and was milestone-structured: at the
+  10-02 reorganization the responses reference Milestones 1/2/3/7/8 (= **an
+  eight-milestone roadmap** ✓ his count was right); a later renumbering grew it to 9+.
+  STILL UNVERIFIED: "I wrote in the log that I felt overwhelmed" — the log file lives
+  in the forkirk REPO (not in workspaceStorage); the overwhelm line appears nowhere in
+  chat. Ask Michael where the forkirk repo lives (old machine / GitHub) or soften the
+  log line.
 - **G-6 ✅ APPLIED (P8, Michael's verdict + addition)** — "I still run it every few
   weeks, whenever it pops into my head — usually after the work has settled into a
   routine. It still finds things I didn't want to see, and things we can easily
