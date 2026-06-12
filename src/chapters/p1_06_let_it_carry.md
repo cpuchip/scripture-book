@@ -1,6 +1,6 @@
 # Practice 6 · Let It Carry What You Can't
 
-In late 2025 I built seven networked multiplayer games into a single app, in a programming language I have never written a line of. The language was Dart. I'd never used it. I'd also never wired up the kind of real-time networking the games needed. I had a vision of what the games should do and a plan to get there. I directed the work file by file, but I never touched the Dart code or the networking plumbing. The AI carried what I couldn't. The games ran, on two operating systems, and my kids played them.
+In late 2025 I built eight networked multiplayer games into a single app, in a programming language I have never written a line of. The language was Dart. I'd never used it. I'd also never wired up the kind of real-time networking the games needed. I had a vision of what the games should do and a plan to get there. I directed the work file by file, but I never touched the Dart code or the networking plumbing. The AI carried what I couldn't. The games ran, on two operating systems, and my kids played them.
 
 Later I did it again at a different scale. The system that runs much of our automated study work is built in Rust and SQL, which are also foreign to me. I had the vision; I set the bounds; I verified the results. The thing got built in languages that are, to me, effectively foreign.
 
