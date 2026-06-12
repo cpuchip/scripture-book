@@ -1,0 +1,35 @@
+date: 2026-06-12
+session: epilogue-endure-publish
+type: execution
+workstream: WS7
+summary: |
+  Michael's reading of the epilogue: an "Escher moment" — the reader looks into
+  the AI's box while the AI points the reader out of their own box toward God;
+  a chiasmus for the whole book. His one addition: "endure to the end" at the
+  end. Applied: the final line now reads "The prompt is yours. The
+  specification is clear. Run the loop — endure to the end." Provenance entry 4
+  added to .scratch/provenance_epilogue.md with the verified 2 Nephi 31:20
+  anchor (read from gospel-library, not memory); the phrase is an unquoted
+  benediction by design — no citation bolted onto the book's last line.
+
+  Built at a7ee924: 124 pages, new line verified on p109 of the actual PDF,
+  0 QR collisions (105 boxes, 62 pages). Published to cpuchip.net as
+  beyond-the-prompt_a7ee924.pdf via scripts/publish-book-to-cpuchip.mjs;
+  Dokploy deploy verified live (application/pdf, byte-size match 1,816,512).
+discoveries:
+  - The first post-push probe returned 200 immediately — the SPA fallback
+    answering with text/html, not the PDF. Content-type + content-length are
+    the real check, not the status code (same lesson as the Dokploy
+    stale-build memory, new disguise).
+  - The version-hashed PDF filename doubles as a deploy build-marker: the file
+    only exists in the new build, so serving it proves the rebuild.
+carry_forward:
+  - "Voice pass (pass 3) is NEXT: walk the manuscript against
+    docs/voice-profile-michael.md (8 Michael-markers / 8 AI-tells), same
+    solo-walk -> chat-walk cadence as v4. Michael confirmed this is the round."
+  - Michael's own manual voice read, then KDP (cover baseline + runbook staged).
+  - ai-jumpstart model experiments CLOSED at five passing models; kimi/qwen
+    rounds hand off to the pg-ai-stewards session (coder-pr machinery).
+files_changed:
+  - src/chapters/13_epilogue_silent_loop.md
+  - .scratch/provenance_epilogue.md
