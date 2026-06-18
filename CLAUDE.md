@@ -23,6 +23,21 @@ Build PDF + HTML + EPUB (PowerShell wrapper; chapter order + print specs in `boo
 `python scripts/build.py` runs just the HTML + EPUB step. Artifacts land in `dist/`
 (`manuscript.pdf`, `manuscript.html`, `beyond_the_prompt.epub`).
 
+Narrate the book into an audiobook (mp3 / m4a with chapter markers / mp4) via a local
+[Voicebox](https://github.com/jamiepine/voicebox) TTS server:
+```powershell
+./narrate.ps1 -DryRun                # clean every chapter to dist/audiobook/text/ (no Voicebox)
+./narrate.ps1 -Probe                 # list voices Voicebox currently has
+./narrate.ps1 -Voice "Michael"       # narrate the whole book in that voice
+./narrate.ps1 -Voice "Michael" -Chapter 3 -Instruct "read slowly, warm"  # one-chapter sample
+./narrate.ps1 -CombineOnly           # rebuild combined outputs from dist/audiobook/wav/
+```
+`scripts/narrate.py` is the engine (stdlib only; calls Voicebox `/generate` → polls →
+fetches audio → ffmpeg-combines with chapter markers). Per-chapter mp3s land in
+`dist/audiobook/chapters/`; the combined audiobook at `dist/audiobook/*.mp3|.m4a|.mp4`.
+`-DryRun` and `-CombineOnly` need no Voicebox; generation needs it running (`http://127.0.0.1:17493`).
+Requires `ffmpeg` on PATH.
+
 ## Writing Principles
 1.  **Two formats for two parts (the front porch).** The book is one volume with two doors — keep their formats distinct.
     *   **Part One (the practices)** — titled *"Practice N"* / *"Coda,"* not chapters — uses the **practice format**: story (real scar or success) → the eternal principle (separated from the perishable 2026 mechanics) → today's implementation → a *Try This* → a *Remember* box, with a parenthetical *(Part Two: …)* cross-reference. It deliberately does **not** use the Modular Study Format; do not add Binding Question / Anchor Passage / Engineering Parallel / Becoming to a Part One piece.

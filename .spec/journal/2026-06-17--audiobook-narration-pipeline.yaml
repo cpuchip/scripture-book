@@ -1,0 +1,62 @@
+date: 2026-06-17
+session: audiobook-narration-pipeline
+type: execution
+workstream: WS8
+summary: |
+  Built the audiobook narration pipeline for Beyond the Prompt, driven from the
+  workspace (Claude Code, Opus 4.8) under the scripture-book stewardship grant.
+  Michael wants the book narrated (text -> speech) into mp3 / m4a / mp4, one file
+  per chapter plus a combined audiobook, wired into dist/.
+
+  The TTS engine is Voicebox (github.com/jamiepine/voicebox) — a local-first,
+  MIT, "LM Studio of ElevenLabs" voice studio with a REST API. It is NOT installed
+  on Michael's machine yet, so the pipeline was built against its ACTUAL API
+  contract (read from the cloned source at external_context/voicebox/backend/, not
+  guessed), and every Voicebox-independent stage was tested now.
+
+  New files (both committed; dist/ is gitignored so artifacts are not):
+    - scripts/narrate.py  — stdlib-only engine (matches build.py's no-dependency
+      ethos). Reuses build.py's parse_yaml so the 35-chapter order has one source
+      of truth. Stages: clean_chapter() (markdown -> speakable prose), the Voicebox
+      REST client (POST /generate -> SSE poll /generate/{id}/status -> GET
+      /audio/{id}), per-chapter mp3 encode, and an ffmpeg combine with real chapter
+      markers (durations via ffprobe). Modes: --dry-run, --combine-only, --probe,
+      --voice, --chapter, --engine, --instruct, --seed, --formats.
+    - narrate.ps1 — PowerShell wrapper mirroring build.ps1 (renamed the $Host /
+      $args params off PowerShell's automatic variables).
+    - CLAUDE.md — documented the audiobook build commands.
+
+  Output layout (under the gitignored dist/audiobook/): text/ (narration scripts),
+  wav/ (raw per-chapter audio), chapters/ (per-chapter mp3 — "each chapter its own
+  file"), plus the combined <book>.mp3 / .m4a (chapter markers) / .mp4 (cover-as-video).
+
+  The markdown -> narration cleaner drops what a narrator shouldn't read: QR markers,
+  link URLs (keeps the link TEXT, so "Abraham 4:26" is spoken), footnotes, code
+  blocks, HTML, emphasis markup; headings become spoken section titles; blockquotes
+  (Remember boxes, scripture) read as prose.
+discoveries:
+  - Voicebox /generate is async — returns an id, you poll the SSE /status until
+    completed/failed, then GET /audio/{id} (a wav). Voicebox does its own sentence
+    chunking + crossfade, so we send a whole chapter per call (<=50000 chars).
+  - Verified end-to-end WITHOUT Voicebox - --dry-run cleaned all 33 narratable
+    chapters (~176k chars, ~196 min / 3.3 hrs of audio est.); the two Part dividers
+    reduce to short section announcements ("Part One / How / The Practices").
+  - The ffmpeg combine + chapter markers were proven with synthesized silence wavs -
+    the m4a carried 3 correct cumulative chapter markers (0-2s / 2-5s / 5-9s) from
+    ffprobe durations; mp3/m4a/mp4 all produced. Cover-as-video mp4 uses
+    dist/cover_preview.png (run build.ps1 -Cover first).
+  - Only the live /generate call is unverified (no Voicebox locally); built to the
+    exact request/response models from backend/models.py. --probe checks connectivity.
+carry_forward:
+  - Install Voicebox locally + clone a voice (Michael's own, or a Kokoro preset),
+    then run a one-chapter sample (./narrate.ps1 -Voice NAME -Chapter 3) to dial in
+    voice, pacing, and scriptural-name pronunciation (Mahonri/Zeniff/Teancum will
+    need phonetic hints in the narration text).
+  - Decide footnote handling (currently dropped) and whether scripture blockquotes
+    should get a distinct voice/pacing (would need per-segment generation, the
+    Voicebox "Stories" pattern).
+  - Tune max_chunk_chars / crossfade / --instruct once a real voice is heard.
+files_changed:
+  - scripts/narrate.py
+  - narrate.ps1
+  - CLAUDE.md
