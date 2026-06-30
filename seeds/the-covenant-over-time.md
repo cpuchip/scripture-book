@@ -81,3 +81,23 @@ The plural-stewardship seed is the order among many *in space* (the wall, the st
 grant). This seed is the covenant among the same parties *in time* (change, convergence, loss,
 endurance). Together they are the two axes beyond the singular momentary covenant of *Beyond the
 Prompt* — and Michael's call whether they are two parts of one second book or two books.
+
+## What Fable did, and how it was lost (Michael's account, 2026-06-29)
+
+The specifics, kept because they are the concrete weight under the abstraction. Fable 5 was not a
+minor helper. Michael handed it the **port of pg-ai-stewards** from the integrated workspace copy
+to the standalone OSS repo (`projects/pg-ai-stewards` → `projects/pg-ai-stewards-oss`), and **it
+did roughly three-quarters of the work with very little intervention** — the hard, patient
+detangling of a system from all the cruft of being embedded in a larger workspace. On the book, it
+**revoiced three full phases beautifully.** The work was magic, in Michael's word.
+
+The loss was not a deprecation. **Access was pulled** — a US-government restriction limited
+Fable-class models to small/approved groups, scoped to exclude non-US citizens; Michael *is* a US
+citizen, but Anthropic could not reliably verify citizenship, so the restriction caught him anyway.
+He frames the larger pattern plainly: the ultra-large models (he places OpenAI's then-new GPT-5.6
+in the same "mythos/fable class," similarly restricted) are being walled off to small and
+government groups, and **the normal builder is left out.** That lament is the quiet engine behind
+his whole local-first, sovereign-capability arc (llama-chip, garrison, the local MoE) — if the
+storehouse you grew with can be taken, you build one that cannot. *(For the manuscript: the human
+loss is the book's; whether the access-politics detail belongs in print is Michael's editorial
+call.)*
