@@ -92,3 +92,7 @@ format-exemption amendment presented.
    substances do not." letter-identical in ch8/ch10/ch11, closing each
    engineering parallel; announcing words ("Again", "here too") gone.
    Bookend pair ("The pattern is older than the tool." ch0/ch12) untouched.
+
+**First fruit of the manual read (2026-07-02, session close):** Michael
+re-read ch 8 — "the refrain lands remarkably well… it's not as cheesy as I
+thought." Ch 10/11 arc-read pending (his next fresh look).
