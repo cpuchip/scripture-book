@@ -24,7 +24,7 @@ This yielding is both a sudden surrender and an accumulating discipline. Helaman
 
 ## The Engineering Parallel
 
-Scripture has carried the asymmetry of softening for millennia. Two engineering versions of it sit close to the engineer's daily work — one in the older agricultural register, one in the newer prompting loop.
+Two working versions of this asymmetry sit close to the engineer's daily hands — one in the older agricultural register, one in the newer prompting loop.
 
 The older one is gardening, and it is already in scripture. Mark 4, the parable of the growing seed: the man casts the seed, sleeps, rises night and day; "the seed should spring and grow up, he knoweth not how" ([Mark 4:27](../../gospel-library/eng/scriptures/nt/mark/4.md?verse=27)). [qr](../../gospel-library/eng/scriptures/nt/mark/4.md?verse=27) Alma 32: the soul plants the word, nourishes it with diligence and patience, and the tree grows — but the growing itself belongs to the seed. The gardener's part is clearing stones, removing weeds, watering, and waiting. The growing is exclusive to the seed and the soil. A gardener who tries to make the seed sprout by squeezing it harder breaks it. A gardener who keeps the soil clear gets a tree.
 
@@ -36,7 +36,7 @@ A smarter model rarely closes the gap. What you can yield is your own assumed-cl
 
 This is the same shape as the heart's softening that the chapter has been describing. The soul cannot soften itself. But the soul can yield its hardness — the assumed self-sufficiency, the certainty it already knows, the closed posture toward correction. When the hardness yields, the Lord visits. The Spirit's part is the gift. The soul's part is the room. Where the room is made, the gift arrives. Where the room is held closed, no gift can enter.
 
-Again the rhyme holds and the substance parts. A vague prompt revealing itself in a wrong output is a small instance of an older mechanism. The AI is not the Spirit. The engineer's yielding of "I already know what I want" is not the soul's yielding of hardness against the Lord. But the structural pattern is the same: release the closed posture, and what was waiting can arrive. One Author drew both motions; only one of them softens a heart.
+The shape rhymes. The substances do not. A vague prompt revealing itself in a wrong output is a small instance of an older mechanism. The AI is not the Spirit. The engineer's yielding of "I already know what I want" is not the soul's yielding of hardness against the Lord. But the structural pattern is the same: release the closed posture, and what was waiting can arrive. One Author drew both motions; only one of them softens a heart.
 
 ---
 

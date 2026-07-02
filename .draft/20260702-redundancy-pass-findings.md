@@ -72,3 +72,23 @@ Tune, not remove — but the marginalia way: the refrain lives at the CLOSE
 **Round 1 (2026-07-02):** rubric ratified · refrain direction ratified
 (closer-refrain, quiet) · S5+S7 applied act-and-report · S1/S2/S8 + the
 format-exemption amendment presented.
+
+**Round 2 (2026-07-02): all seven ruled — PASS 4 COMPLETE.**
+1. Format exemption: Michael asked "should we open that exemption?" — agent
+   recommended YES (narrow: anchors/epigraphs/Remember/glossary only; body
+   quotes still count; watch for format-creep into body prose). Adopted as
+   recommended pending any later objection; changes no text.
+2-4. S1 applied: P1 coda now owns Moses 3:5 (vision) + hands counsel to P2
+   ("Where the seeing happened, in counsel, is the next practice."); P2 coda
+   owns Abraham 4:26 alone; P1's "ratify by walking phases as questions"
+   trimmed (P2 owns the how).
+5. S2 applied: P4 references P2's transcript tool ("(the one whose roadmap
+   buried me)"); Michael: "I didnt realize that was what I was doing. I can
+   see it now as context management." — the edit taught the author.
+6. S8 openers applied (ch10 "daily hands" entrance; ch11 "Engineering already
+   reaches toward the cessation…"); Michael: "the old phrasing was clunky and
+   I didnt know how to make it better."
+7. S8 closers applied — THE REFRAIN IS LIVE: "The shape rhymes. The
+   substances do not." letter-identical in ch8/ch10/ch11, closing each
+   engineering parallel; announcing words ("Again", "here too") gone.
+   Bookend pair ("The pattern is older than the tool." ch0/ch12) untouched.

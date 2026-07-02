@@ -28,7 +28,7 @@ The modern Sabbath revelation in [D&C 59:9-19](../../gospel-library/eng/scriptur
 
 ## The Engineering Parallel
 
-Scripture has carried the structural cessation for millennia. Engineering is reaching toward part of it now in the practice of retrospectives, post-mortems, and sprint reviews. The form exists. But the form almost always happens *during* the next sprint, not as cessation. The retrospective is held while the work continues. The post-mortem is written while the incident's successor is already being deployed. Engineers do not naturally Sabbath.
+Engineering already reaches toward the cessation in its retrospectives, post-mortems, and sprint reviews. The form exists. But the form almost always happens *during* the next sprint, not as cessation. The retrospective is held while the work continues. The post-mortem is written while the incident's successor is already being deployed. Engineers do not naturally Sabbath.
 
 The Sabbath in engineering form is the discipline of stopping entirely. Not stopping coding by writing prose. Not stopping coding by reviewing other code. Stopping. Two cadences hold the practice. The first is the weekly Sabbath — a literal day off the production register, repeated every week, not displaced by deadlines. The second is the end-of-cycle Sabbath — when a project ships or a phase closes, a longer cessation that gives the eye space to see the cycle as a whole before the next one begins.
 
@@ -38,7 +38,7 @@ The fullness-of-the-earth promise inverts the engineer's intuition. The intuitio
 
 For the fuller doctrinal treatment — the two reasons, the sign-language, the "rest that remains" that exceeds the weekly — see [The Seventh Time](https://cpuchip.net/studies/the-seventh-time). [qr](https://cpuchip.net/studies/the-seventh-time)
 
-The pattern rhymes here too, and parts where it matters most. An engineer's weekly day off from the production register is not the soul's entry into the rest that remains. The end-of-cycle pause that gives the eye space is not the temple visit that anchors hope within the veil. But the structural pattern is the same: the cessation is what makes the work nameable, and what was named good can be received as finished. The same hand set both rhythms. Only one of them rehearses the rest that is the people of God's destination.
+The shape rhymes. The substances do not. Here they part where it matters most: an engineer's weekly day off from the production register is not the soul's entry into the rest that remains. The end-of-cycle pause that gives the eye space is not the temple visit that anchors hope within the veil. But the structural pattern is the same: the cessation is what makes the work nameable, and what was named good can be received as finished. The same hand set both rhythms. Only one of them rehearses the rest that is the people of God's destination.
 
 ---
 
