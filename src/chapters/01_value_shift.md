@@ -38,7 +38,7 @@ In the tech industry, we see this value shift play out in real time. As author T
 
 Before AI, most of my energy went to implementation mechanics and much less to design. Now that balance has inverted. The skill is no longer prompting; as engineer [Milan Jovanović](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) [qr](https://www.linkedin.com/posts/milan-jovanovic_ai-wont-replace-you-in-2026-but-a-developer-activity-7419357471263252480-tzCf) writes, "It's owning correctness."
 
-Scripture names the same shift. In the Creation account, the Gods did not simply issue a command and walk away; they "watched those things which they had ordered until they obeyed" ([Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18)). Our work has moved the same way — from typist to architect and overseer, watching the output until it obeys the design. (Chapter 4 develops this watching in full.)
+Scripture names the same shift. In the Creation account, the Gods did not simply issue a command and walk away; they watched what they had ordered "until they obeyed" ([Abraham 4:18](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=18)). Our work has moved the same way — from typist to architect and overseer, watching the output until it obeys the design. (Chapter 4 develops this watching in full.)
 
 We catch the narrow seams where bugs hide and security vulnerabilities live. We bring the production scars that know why a database migration that looks clean on paper will detonate at three o'clock on a Saturday morning. 
 
