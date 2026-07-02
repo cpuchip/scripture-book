@@ -1,0 +1,44 @@
+date: 2026-07-01
+session: voice-pass-complete
+type: execution
+workstream: WS7
+summary: |
+  Pass 3 (the voice pass) COMPLETE. Walked all 33 chapter files against
+  docs/voice-profile-michael.md (Book Gauge + workspace voice rules); 24
+  findings (V-01..V-24) in .draft/20260612-voice-pass-findings.md; chat-walked
+  in three rounds with Michael's verdicts on every item.
+
+  Verdict that held up: every first-person passage PASSES the gauge (afterword
+  and P3 strongest); the book's one systemic voice issue was the "not X; it is
+  Y" inversion spine repeated in narration. Discipline applied: each chapter
+  keeps its coined inversion; incidental ones converted to affirmative or
+  colon shapes (~20 sites). Epilogue's inversion flavor KEPT by Michael's
+  choice: "its opus in opus' voice I like it."
+
+  Also landed this arc: veil glossary entry rewritten (his flag — "APIs are
+  true... but thin and not majestic") to the designed-forgetting + Ether 3
+  yields-to-prepared-stones frame; P8 retro rate corpus-verified (3 retro-asks
+  in the VS Code era, all after a tool settled — line 15 aligned to the honest
+  no-cadence wording); 76 closed-up em-dashes normalized to spaced (Oaks quote
+  interior kept closed-up to match source); colophon now "This book is a
+  testament of... a harmonious covenant" (epilogue keeps "physical witness").
+  Commits: 3778efc (verdicts+batch A), 516644b (B-1), f2ac149 (B-2).
+discoveries:
+  - The inversion tic is layerable — each practice legitimately coins ONE
+    "not X, Y" as its principle; drift is when incidental sentences copy the
+    shape. Thinning incidentals while keeping coins preserved every punch.
+  - Michael consistently chose the barer affirmation ("more powerful without
+    the not") — his colon/carve-out shapes over negation-contrast.
+  - Direct-quote interiors keep their SOURCE typography in a normalization
+    sweep (Oaks em-dash) — provenance beats house style inside quotes.
+  - perl -i needs -Mutf8 for literal em-dashes in the pattern (raw bytes never
+    match the decoded stream; first sweep was a silent no-op).
+carry_forward:
+  - Rebuild PDF + republish to cpuchip.net on Michael's word (published
+    a7ee924 is now 3 commits behind on voice edits).
+  - Michael's manual read is the remaining gate before KDP.
+  - Part Three seeds (c5a088f, 358f9d3, 9984348) await their own arc.
+  - Voice-corpora commit decision + optional P2 Oct-5 enrichment still open.
+files_changed:
+  - src/chapters/ (20 files across three rounds)
+  - .draft/20260612-voice-pass-findings.md
