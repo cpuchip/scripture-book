@@ -4,15 +4,13 @@ In October 2025 I sat down to build a video game with my kid. I had no design. I
 
 So I didn't write a specification, and I didn't hand down an order. I typed: *Ask me a few clarifying questions and let's get some documentation down and a plan together before we start coding.*
 
-The model came back with ten questions. How many players, at minimum and at most? Is it game over when the hull reaches zero, or is winning surviving ten waves? Does the host's phone become the viewscreen while each player sees only their own console? What should the art style be? I answered them one at a time, and somewhere in the answering, the vague *something* grew edges. It became a thing we could actually build. The conversation hadn't decorated a plan I already had. The conversation was how the plan got written.
+The model came back with ten questions. How many players, at minimum and at most? Is it game over when the hull reaches zero, or is winning surviving ten waves? Does the host's phone become the viewscreen while each player sees only their own console? What should the art style be? I answered them one at a time, and somewhere in the answering, the vague *something* grew edges. It became a thing we could actually build. The conversation was how the plan got written — there was no plan before it.
 
 It took me years to notice: **you do not start with the answer. You start with a vision, and the conversation is how you find it.**
 
 Sometimes the vision is concrete. The following spring I woke up from a dream with a whole system in my head: a way to hand work to AI agents under rules and watch them run. I could see it working before it existed. When the vision is that clear, the conversation is short: I describe what I see, we blueprint it, I press on the blueprint with questions until it holds, and we build. That system was running real work in three days and stood up in about three weeks.
 
 But more often the vision is vague. I have a direction and a feeling, not a picture — the game with my kid, or the book you are holding. Then the conversation is longer, and its entire job is to *sharpen*: to turn the feeling into something with edges. Questions do the sharpening. Sometimes I ask them. More often, when I cannot see the shape myself, I ask the model to ask *me*.
-
-The plan is born in the conversation, not skipped by it.
 
 The opposite of talking is commanding. Commanding is dropping a half-formed order into the box, *build me a dashboard, write the tests,* and accepting the first plausible thing that comes back. It feels faster. It isn't. A command from a fuzzy vision earns you a confident answer to a question you never finished asking, and you spend the next hour finding out you didn't mean any of it. What you bring is what you get back: bring fog, and the model hands you a confident, polished version of your own confusion.
 
