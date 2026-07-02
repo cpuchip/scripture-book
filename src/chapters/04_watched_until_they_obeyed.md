@@ -14,7 +14,7 @@
 
 In the scriptural account of the Creation recorded in the book of Abraham, a striking phrase appears repeatedly. Unlike the Genesis account, where creation is narrated as an instantaneous, effortless result of a spoken word ("God said... and it was so"), Abraham describes a process that requires time, active monitoring, and patient observation: "the Gods watched those things which they had ordered until they obeyed."
 
-The watching is not a passive footnote; it is a vital phase of the creative act. The word *until* signifies that obedience was not instantaneous. It tells us that:
+The watching is a vital phase of the creative act, more than a passive footnote. The word *until* signifies that obedience was not instantaneous. It tells us that:
 - There was a temporal gap between the order and the result.
 - The gap required patience and active oversight.
 - The outcome was not guaranteed by the command alone; it had to be verified.
@@ -39,7 +39,7 @@ This is the trust gradient in action. When we begin a new project or work with a
 
 The industry has built instruments for exactly this watching. Test suites and evals gate output before it ships. Observability traces let us inspect each step an agent takes. Watchdogs and budgets cap an agent's time, tokens, or iterations before it can run away — the runaway in Chapter 2 happened because no such watchdog was set. These are the modern instruments of "watching until they obey."
 
-We must balance when to steer and when to let the model run. We steer when the output violates our architectural specification, when it solves the wrong problem, or when it introduces latent security vulnerabilities. We let it run when the implementation is functionally correct, even if it uses a style slightly different from our own. Like the Gods, who commanded the waters to bring forth creatures "after their kind" rather than specifying every species of fish, we specify the organizing principles and verify the outcomes.
+The balance is knowing when to steer and when to let the model run. We steer when the output violates our architectural specification, when it solves the wrong problem, or when it introduces latent security vulnerabilities. We let it run when the implementation is functionally correct, even if it uses a style slightly different from our own. Like the Gods, who commanded the waters to bring forth creatures "after their kind" rather than specifying every species of fish, we specify the organizing principles and verify the outcomes.
 
 We must also watch our instruments, not just the code. When conducting scriptural research, we might generate a list of verses. But if we fail to watch *how* we found them, we miss the depth. In one study session on the Godhead, the AI generated a clean document using keyword search. But when we verified the search method and directed it to use our semantic vector database, it instantly surfaced non-obvious, critical passages — like [2 Peter 1:4](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) [qr](../../gospel-library/eng/scriptures/nt/2-pet/1.md?verse=4) ("partakers of the divine nature")—that keyword searches had missed entirely.
 

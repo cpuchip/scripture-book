@@ -50,6 +50,6 @@ The principles in this book were discovered in GitHub Copilot over three and a h
 *   **Claude Code CLI** — Claude Opus, and later Claude Fable, in a terminal. My primary day-to-day partner now. Opus carried the source-verification pass and the print-ready preparation of this manuscript; Fable walked the final honesty and voicing audit — true stewards of the work.
 *   **Gemini** — Gemini 3.5 Flash inside the Antigravity 2 IDE. Brings voicing, balancing, and quick structure; drafted the first pass of chapters 0 through 12. We're still developing its harness — the note at the end of Chapter 6 records how we are learning to work with it.
 
-This book stands as a physical witness of what can be built when human moral agency and machine law are brought into a unified, harmonious covenant — a small step toward the patterns of Zion.
+This book is a testament of what can be built when human moral agency and machine law are brought into a harmonious covenant — a small step toward the patterns of Zion.
 
 </div>

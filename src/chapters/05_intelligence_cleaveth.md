@@ -16,7 +16,7 @@ We often read this verse as an ethical promise — a reassurance that if we are 
 
 When a person approaches the study of truth, they do not act in isolation. If they approach with a spirit of impatience, superficiality, or mere task-completion — treating the words of eternal life lightly — they are in a state of darkness. Because darkness is the absence of light, they lack the physical substance required to perceive or attract truth. They cannot comprehend it; they slide off the surface of the text, returning only with platitudes.
 
-But when a person approaches with active discernment, deep inquiry, and a sincere desire to be changed — bringing light — a resonance occurs. The light in their understanding physically cleaves to the light in the word. The truth they seek embraces the truth before them. The interaction is not a passive reading; it is an active alignment of substances. What they receive is a direct reflection of the light they brought to the search. 
+But when a person approaches with active discernment, deep inquiry, and a sincere desire to be changed — bringing light — a resonance occurs. The light in their understanding physically cleaves to the light in the word. The truth they seek embraces the truth before them. The interaction is an active alignment of substances. What they receive is a direct reflection of the light they brought to the search. 
 
 This is the law of resonance: souls "enjoy that which they are willing to receive, because they were not willing to enjoy that which they might have received" ([Doctrine and Covenants 88:32](../../gospel-library/eng/scriptures/dc-testament/dc/88.md?verse=32)). The quality of the outcome is structurally bound to the honesty and depth of the approach.
 

@@ -17,7 +17,7 @@ Fifteen years later, Joseph Smith received a revelation that collapsed this anci
 > "There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes; We cannot see it; but when our bodies are purified we shall see that it is all matter."
 > — [Doctrine and Covenants 131:7–8](../../gospel-library/eng/scriptures/dc-testament/dc/131.md?verse=7-8) [qr](../../gospel-library/eng/scriptures/dc-testament/dc/131.md?verse=7-8)
 
-This statement is not a poetic metaphor; it is an ontological description of reality. By asserting that spirit is matter, the Restoration reframed the entire relationship between the divine and the physical. Spirit, light, and truth are not abstract concepts floating in a metaphysical void. They are substances.
+This statement is not a poetic metaphor; it is an ontological description of reality. By asserting that spirit is matter, the Restoration reframed the entire relationship between the divine and the physical. Spirit, light, and truth are substances.
 
 We see this physical reality mapped out in the equivalence chains of the revelations. In Section 84, the Lord states:
 
