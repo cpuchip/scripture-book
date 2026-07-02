@@ -1,0 +1,50 @@
+date: 2026-07-02
+session: redundancy-pass-complete
+type: execution
+workstream: WS7
+summary: |
+  Pass 4 (redundancy) planned, ratified, and COMPLETED in one sitting.
+  Michael's instinct ("p1 and p2 might be redundant in parts") measured true
+  in both readings via an 8-word-shingle overlap detector (oracle-first):
+  Practice 1<->2 shared a near-verbatim Abraham 4:26 coda (18 shingles); the
+  transcript tool opened two practices as two different scars; full scripture
+  quotes duplicated across parts.
+
+  Rubric ratified: two-altitudes-one-derivation / full-quote-once-per-part /
+  one-owner-per-story / refrains-chosen-or-removed + format exemption
+  (anchors, epigraphs, Remember boxes, glossary are ritual, not repetition).
+
+  THE REFRAIN: Michael wanted the "Scripture has carried X for millennia"
+  template tuned into a refrain "but not a broken record" — his insight: the
+  marginalia closer works because you don't see it coming. So the openers
+  were varied and the closers converged letter-identical: "The shape rhymes.
+  The substances do not." now closes the engineering parallels of chapters
+  8, 10, and 11 (announcing words "Again"/"here too" deleted). The bookend
+  pair "The pattern is older than the tool." (ch0/ch12) kept as-is.
+
+  Verse ownership split: P1 owns Moses 3:5 (vision) and hands counsel to P2
+  ("Where the seeing happened, in counsel, is the next practice."); P2 owns
+  Abraham 4:26 alone. P4 credits P2's transcript tool — Michael: "I didnt
+  realize that was what I was doing. I can see it now as context management."
+
+  Published: 2a497c3 live on cpuchip.net (123pp, 0 QR collisions, refrain
+  count verified = 3 in the shipped PDF). Commits 91d5ded + 2a497c3.
+discoveries:
+  - A refrain and a redundancy differ by one property — whether it was
+    chosen. And position matters: closers land as recognition, openers
+    announce as formula ("you see it as you walk into it" — Michael).
+  - The shingle detector (20 lines) turned a vague redundancy feeling into
+    a ranked 10-site inventory in seconds; most top counts resolved as
+    designed format once the anchor exemption was named.
+  - The two-door design (either part first) is why some duplication is
+    load-bearing; pointers ("Practice 3 opens with that story") preserve
+    both doors at zero redundancy cost.
+carry_forward:
+  - Michael's manual read is now the remaining gate before KDP.
+  - Part Three seeds (The Plural Stewardship, The Covenant Over Time) await
+    their arc.
+  - v5 podcast-voice pass (books/creators-playbook) still queued.
+  - Voice-corpora commit call + optional P2 Oct-5 enrichment still open.
+files_changed:
+  - src/chapters/ (8 files across two rounds)
+  - .draft/20260702-redundancy-pass-findings.md
