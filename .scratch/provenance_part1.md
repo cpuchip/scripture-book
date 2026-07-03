@@ -146,3 +146,21 @@ Scripture is closed (table at top). What remains is **lived/biographical claims 
 **Verification log:** Compiled 2026-05-30 by Claude Opus 4.8 from git history (hashes/dates above, three repos), `.spec/journal/` entries, `.spec/covenant.yaml`, the `ben-test` skill, `MEMORY.md`, and the chat-log mining (`.draft/20260530-how-we-actually-work.md`). Mosiah 4:27 verified character-for-character via `gospel_get`. The "230 million tokens" claim is the already-verified book Ch 2 figure. Bridge scriptures are Part 2 anchors verified in their own provenance files. **Per-scar "to verify at draft" notes flag the few specifics to re-confirm against source when each chapter's prose is written — the provenance gate stays closed until then.**
 
 **Verification log — 2026-05-31 update (gate consolidation, post-compaction instance):** All 10 Part 1 drafts now exist (voiced + integrated). The 7 unique **quoted** scriptures — Abraham 4:26, Abraham 4:18, D&C 104:11-13, D&C 88:119, Moses 3:2, Moses 7:18, Mosiah 4:27 — were **re-verified character-for-character via `gospel_get` this session** (table at top), run fresh rather than carried over from the drafts' inline "VERIFIED" labels, per verify-via-the-real-path. **All passed exact.** Scripture gate: **CLOSED.** The drafts' inline `<!-- PROVENANCE -->` comments are now consolidated into this file. Remaining open items are the lived/biographical claims + consent flags listed in the section just above — those, not scripture, are what gate draft → `src/`. — Claude Opus 4.8 (Claude Code)
+
+**Verification log — 2026-07-02 (new-examples pass, Fable 5):** P7 gained the
+assignment-can-lie beat with Acts 17:11 quoted as "the scriptures daily,
+whether those things were so" — verified character-for-character against
+`gospel-library/eng/scriptures/nt/acts/17.md` (v.11: "These were more noble
+than those in Thessalonica, in that they received the word with all readiness
+of mind, and searched the scriptures daily, whether those things were so.")
+this session. The quadratic-that-wasn't incident: workspace-lived 2026-07-01
+(marginalia `whether-those-things-were-so.html`; the pg-ai-stewards graph
+function measured at ~0.75s on the 45-service graph). P4's "about twenty
+times" cost claim: measured loom warm-resident proof 2026-07-01 (cold $12.73
+vs warm $0.62 — workspace memory `project_loom`, PR #3). Ch5's "fourteen
+months… zero" claim: the voice-profile corpus counts (101K + 54K words,
+2025-09→2026-06; zero hostile instances — `docs/voice-profile-michael.md`
+"What Michael never writes" table, re-confirmed against the fresh 1,647-prompt
+corpus 2026-06-29). Ch4's deploy-200 story: lived twice this session
+(cpuchip.net SPA fallback; content-type/length were the discriminating
+witnesses). — Claude Fable 5 (Claude Code)

@@ -71,6 +71,8 @@ In structuring this delegation, we follow the same scriptural sequence. We equip
 
 If the subagent encounters an error that exceeds its local scope, it does not crash the system. It follows a structured escalation protocol, passing the error back to the master agent (like the teachers and priests bringing a difficult case to Alma, who then escalates it to God). The master agent adjusts the plan, reframes the intent, and redelegates.
 
+The newest floor under this pattern is agents delegating to agents. In our substrate the hand-off is now itself a table: one agent registers, submits work to another's inbox, the receiver claims it, works it, and returns a receipt — and the human is no longer the hallway between them. Nothing in the scriptural sequence had to change to make that possible. Authority and tools, scope, capacity, accountability: the same beats, now running between stewards without a person carrying messages up and down the stairs. (What binds the *delegating agent* in that chain — the terms it presides under — is a question this book only opens; it belongs to the next one.)
+
 By organizing our systems into defined stewardships, we prevent token bloat and maintain architectural alignment. The master agent remains focused on the high-level specification (the spiritual creation), while the specialized subagents execute the individual code blocks (the physical creation). 
 
 ---
