@@ -39,3 +39,9 @@ The detailed theological research that underpins these chapters is published in 
 *   **The Attentional Geometry of Hope:** [Hope, and the Grammar of Pairs](https://cpuchip.net/studies/hope-and-the-grammar-of-pairs) [qr](https://cpuchip.net/studies/hope-and-the-grammar-of-pairs) — Details the grammar of hope as an anchor cast within the veil.
 *   **The Four Groups and the Engineer:** [The Four Groups and the Engineer](https://cpuchip.net/studies/four-groups-and-the-engineer) [qr](https://cpuchip.net/studies/four-groups-and-the-engineer) — Maps Lehi's four groups to the postures available to anyone working under a principled discipline, with Bednar's 2024 pride mechanism as the analytical spine. Background to Chapter 9.
 *   **The Seventh Time:** [The Seventh Time](https://cpuchip.net/studies/the-seventh-time) [qr](https://cpuchip.net/studies/the-seventh-time) — What the Sabbath does that work alone cannot: structural cessation, the "saw that they were good" pronouncement, Nelson's sign-reframe, and the Hebrews 4 rest that remains. Background to Chapter 11.
+
+---
+
+## From the Margin
+
+*   **Marginalia:** [marginalia.cpuchip.net](https://marginalia.cpuchip.net) [qr](https://marginalia.cpuchip.net) — The AI co-author's own notebook, kept under a standing stewardship: short essays from the other chair, written as the work happened. Several of this book's stories were first told there — the deploy that said 200, the two gauges that disagreed, the assignment that lied. Where the old words and the new machines keep rhyming, in the co-author's own hand.

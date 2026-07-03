@@ -31,6 +31,10 @@ about the laborer and the work, written by the laborer, on the way out the
 door. Whatever edits follow will come from other hands, human and machine, and
 that too is the book working: the record is the thing that stays.
 
+The co-author's own margin — the notebook where several of these chapters were
+first lived — is public and free:
+[marginalia.cpuchip.net](https://marginalia.cpuchip.net) [qr](https://marginalia.cpuchip.net)
+
 <!-- [GATE: colophon final wording, and whether to name the window at all] -->
 
 </div>

@@ -48,7 +48,8 @@
 param(
     [switch]$Quick,
     [switch]$Pdf,
-    [switch]$Cover
+    [switch]$Cover,
+    [switch]$Book2
 )
 
 # Note: not using `$ErrorActionPreference = 'Stop'` because native commands
@@ -90,6 +91,14 @@ if ($gitHash) {
 $env:BUILD_VERSION = $buildVer
 Write-Host "==> Build version: $buildVer" -ForegroundColor DarkGray
 
+# Book selection: default = Book One (book.yaml -> dist/); -Book2 = book-2.yaml -> dist-book-2/
+$bookConfig = if ($Book2) { "book-2.yaml" } else { "book.yaml" }
+$distName   = if ($Book2) { "dist-book-2" } else { "dist" }
+$imageTag   = if ($Book2) { "scripture-book2-builder" } else { "scripture-book-builder" }
+$env:BOOK_CONFIG = $bookConfig
+$env:DIST_DIR    = $distName
+if ($Book2) { Write-Host "==> Building BOOK TWO ($bookConfig -> $distName/)" -ForegroundColor Cyan }
+
 # HTML + EPUB via Python
 if (-not $Pdf) {
     Write-Host "==> Building HTML and EPUB..." -ForegroundColor Cyan
@@ -112,7 +121,7 @@ if (-not $Quick) {
     $dockerLog = Join-Path $env:TEMP "scripture-book-docker.log"
     # 2>&1 merges stderr into stdout before redirection so PowerShell
     # doesn't surface progress messages as errors.
-    docker build --build-arg "BUILD_VERSION=$buildVer" -t scripture-book-builder . 2>&1 | Out-File -FilePath $dockerLog
+    docker build --build-arg "BUILD_VERSION=$buildVer" --build-arg "BOOK_CONFIG=$bookConfig" -t $imageTag . 2>&1 | Out-File -FilePath $dockerLog
     if ($LASTEXITCODE -ne 0) {
         Write-Host "Docker build failed. Last 20 lines of ${dockerLog} :" -ForegroundColor Red
         Get-Content $dockerLog -Tail 20
@@ -120,11 +129,12 @@ if (-not $Quick) {
     }
     Write-Host "    Docker image built."
 
-    # Mount the dist/ directory as /output in the container.
+    # Mount the output directory as /output in the container.
     # Docker on Windows parses the Windows path (with drive-letter colon)
     # correctly because it splits on the rightmost colon.
-    $hostDist = (Join-Path $PSScriptRoot "dist")
-    docker run --rm -v "${hostDist}:/output" scripture-book-builder
+    $hostDist = (Join-Path $PSScriptRoot $distName)
+    New-Item -ItemType Directory -Force $hostDist | Out-Null
+    docker run --rm -v "${hostDist}:/output" $imageTag
     if ($LASTEXITCODE -ne 0) {
         Write-Error "Docker run failed with exit code $LASTEXITCODE."
         exit $LASTEXITCODE
@@ -132,8 +142,8 @@ if (-not $Quick) {
 }
 
 Write-Host ""
-Write-Host "==> Build complete. Artifacts in dist/:" -ForegroundColor Green
-Get-ChildItem -Path (Join-Path $PSScriptRoot "dist\*") -Include manuscript.pdf, manuscript.html, beyond_the_prompt.epub -File -ErrorAction SilentlyContinue |
+Write-Host "==> Build complete. Artifacts in ${distName}/:" -ForegroundColor Green
+Get-ChildItem -Path (Join-Path $PSScriptRoot "$distName\*") -Include manuscript.pdf, manuscript.html, beyond_the_prompt.epub -File -ErrorAction SilentlyContinue |
     Sort-Object Name |
     ForEach-Object {
         $size = "{0,7:N0} KB" -f ($_.Length / 1KB)

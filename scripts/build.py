@@ -168,6 +168,8 @@ def parse_inline_markdown(text):
     return text
 
 def markdown_to_html(md_text, is_epub=False, dist_dir=None):
+    # Strip editorial HTML comments (e.g. [GATE] markers) before conversion.
+    md_text = re.sub(r'<!--\s*\[GATE.*?-->', '', md_text, flags=re.DOTALL)
     if dist_dir is None:
         script_dir = os.path.dirname(os.path.abspath(__file__))
         project_root = os.path.dirname(script_dir)
@@ -295,10 +297,12 @@ def build():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     
-    print(f"Building book from config in {project_root}")
-    config = parse_yaml(os.path.join(project_root, "book.yaml"))
+    book_config = os.environ.get("BOOK_CONFIG", "book.yaml")
+    dist_name = os.environ.get("DIST_DIR", "dist")
+    print(f"Building book from {book_config} in {project_root} -> {dist_name}/")
+    config = parse_yaml(os.path.join(project_root, book_config))
     
-    dist_dir = os.path.join(project_root, "dist")
+    dist_dir = os.path.join(project_root, dist_name)
     os.makedirs(dist_dir, exist_ok=True)
     
     title = config.get("title", "Beyond the Prompt")

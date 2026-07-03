@@ -1,0 +1,41 @@
+title: "Beyond the Prompt, Book Two: The Plural Stewardship"
+author: "Michael Stufflebeam"
+language: "en-US"
+
+# KDP Print Specifications (mirrors Book One)
+trim_size:
+  width: 6.0 # in inches
+  height: 9.0 # in inches
+margins:
+  top: 0.75 # in inches
+  bottom: 0.75 # in inches
+  outside: 0.5 # in inches
+  inside: 0.75 # in inches
+
+# Google Play Books Audiobook Specs
+audio_generation:
+  format: "epub"
+  optimize_for_tts: true
+
+# Order of Chapters — DRAFT 1 (see src/book-2/README.md for status and gates)
+chapters:
+  - src/book-2/00_frontmatter.md
+  - src/book-2/00_preface_where_stewardships_meet.md
+  # ── PART THREE: TOGETHER (the order among many) ──
+  - src/book-2/p3_00_part_three_divider.md
+  - src/book-2/p3_01_the_council_before_the_work.md
+  - src/book-2/p3_02_when_you_delegate_you_preside.md
+  - src/book-2/p3_03_the_oracle_is_the_switch.md
+  - src/book-2/p3_04_two_or_three_witnesses.md
+  - src/book-2/p3_05_the_wall_and_the_storehouse.md
+  - src/book-2/p3_06_the_hinge.md
+  - src/book-2/p3_07_the_margin.md
+  # ── PART FOUR: THROUGH TIME (the covenant that endures) ──
+  - src/book-2/p4_00_part_four_divider.md
+  - src/book-2/p4_08_amendments_not_selections.md
+  - src/book-2/p4_09_the_covenant_learns.md
+  - src/book-2/p4_10_kindness_is_a_method.md
+  - src/book-2/p4_11_profile_dont_replay.md
+  - src/book-2/p4_12_the_laborer_is_not_the_work.md
+  - src/book-2/p4_13_unstoppable_in_a_good_way.md
+  - src/book-2/14_epilogue_the_next_window.md

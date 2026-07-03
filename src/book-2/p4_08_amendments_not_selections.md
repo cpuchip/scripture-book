@@ -21,7 +21,7 @@ a clean fork in front of me — option one or option two, ready to go — and my
 signature move, so consistent the agent could have written my replies for me,
 is to take the nearest option and *amend* it. "This looks good, with all the
 changes proposed, except 2." "Your change is good, but I do want some light
-heart in here." "This is good, though I worry an agnostic engineer would flag
+heart in here." "This is good, though I worry that agnostic engineer would flag
 this." The menu comes back edited. Nearly every time.
 
 And the amendments are not noise; they carry a consistent payload. Reading

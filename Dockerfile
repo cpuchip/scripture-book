@@ -16,6 +16,11 @@ COPY . .
 ARG BUILD_VERSION="uncommitted build"
 ENV BUILD_VERSION=$BUILD_VERSION
 
+# Which book config to build (book.yaml or book-2.yaml). Internal output stays
+# at /app/dist regardless; the host chooses its own output dir via the -v mount.
+ARG BOOK_CONFIG="book.yaml"
+ENV BOOK_CONFIG=$BOOK_CONFIG
+
 # Compile markdown chapters to Typst source code
 RUN python scripts/build_typst.py
 

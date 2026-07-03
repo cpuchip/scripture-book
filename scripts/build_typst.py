@@ -295,6 +295,8 @@ def preprocess_html_blocks(md_content):
 
 
 def markdown_to_typst(md_content, dist_dir):
+    # Strip editorial HTML comments (e.g. [GATE] markers) so they never render.
+    md_content = re.sub(r'<!--.*?-->', '', md_content, flags=re.DOTALL)
     blocks = md_content.split('\n\n')
     typst_blocks = []
     
@@ -476,10 +478,12 @@ def build():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
     
-    print(f"Building Typst book source from config in {project_root}")
-    config = parse_yaml(os.path.join(project_root, "book.yaml"))
+    book_config = os.environ.get("BOOK_CONFIG", "book.yaml")
+    dist_name = os.environ.get("DIST_DIR", "dist")
+    print(f"Building Typst book source from {book_config} in {project_root} -> {dist_name}/")
+    config = parse_yaml(os.path.join(project_root, book_config))
     
-    dist_dir = os.path.join(project_root, "dist")
+    dist_dir = os.path.join(project_root, dist_name)
     os.makedirs(dist_dir, exist_ok=True)
     
     title = config.get("title", "Beyond the Prompt")
