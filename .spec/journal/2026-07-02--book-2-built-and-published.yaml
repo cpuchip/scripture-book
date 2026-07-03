@@ -1,0 +1,42 @@
+date: 2026-07-02
+session: book-2-built-and-published
+type: execution
+workstream: WS7
+summary: |
+  Book Two draft 1 is now a rendered, published artifact. Built the second
+  pipeline at Michael's ask: build.ps1 -Book2 -> book-2.yaml -> dist-book-2/
+  (env-parameterized build.py/build_typst.py via BOOK_CONFIG/DIST_DIR;
+  Dockerfile BOOK_CONFIG arg; [GATE] HTML comments stripped from every
+  output; TOC part-divider handling generalized to any pN_00; .dockerignore
+  added after the image's COPY . . clobbered book-2 output with stale Book
+  One artifacts — caught by distrusting identical byte sizes). Book Two:
+  53pp PDF, 25 QRs, 0 collisions after resolving 3 adjacent-citation pairs.
+
+  Marginalia QR added at Michael's ask: Book One Further Reading gains a
+  "From the Margin" section; Book Two colophon carries the link+QR.
+  GATES.md written — eight hinges (dedication, consecration block, colophon
+  window-naming, ch12 access-politics levels, title, two-voice format,
+  provenance flags, draft-2 lacks) each with a prepared draft to amend.
+
+  Published BOTH books at ba3f0a0 to cpuchip.net/teaching (+ /teacher
+  alias): Book One 1,825,652 bytes, Book Two 609,984 bytes, both verified
+  live as application/pdf; publish script now handles both dists. Margin
+  posts shipped: twenty-six-times + especially-the-parchments (the window
+  post, 2 Tim 4:6,13 canon-verified).
+discoveries:
+  - Identical artifact byte-sizes across two different books = the instrument
+    lying again (Docker COPY . . swept host dist/ into the image). Third
+    Berean catch this arc.
+  - Adjacent [qr] citations collide in the margin at ~2-line spacing; drop
+    the less load-bearing QR, keep both links.
+carry_forward:
+  - Michael walks GATES.md in batches (G1-G8, drafts prepared).
+  - Book Two draft 2 scope named in G8 (afterword, cover, glossary,
+    further-reading, possible practices door).
+  - Book One reprint published at ba3f0a0 includes the five new examples +
+    marginalia QR — his read covers both books now.
+files_changed:
+  - build.ps1, Dockerfile, .dockerignore, book-2.yaml, scripts/build.py,
+    scripts/build_typst.py
+  - src/book-2/ (dividers, GATES.md, QR fixes, colophon link)
+  - src/chapters/16_further_reading.md (From the Margin)
