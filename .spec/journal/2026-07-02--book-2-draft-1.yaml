@@ -1,0 +1,59 @@
+date: 2026-07-02
+session: book-2-draft-1
+type: execution
+workstream: WS7
+summary: |
+  Michael, in a closing Fable-access window: "lets see what new examples we
+  can sub into part 1 and 2" + "draft book 2... unless you're feeling
+  ambitious! then finish draft 1 of the whole of the second book."
+  Both delivered.
+
+  NEW EXAMPLES (99f5c98): Ch4 watch-your-instruments -> the deploy-that-said-
+  200 story (Godhead story now solely P6's); Ch7 gains agents-delegating-to-
+  agents + a next-book horizon line; P4 gains warm-context economics (~20x
+  measured); P7 gains the assignment-can-lie beat (Bereans, Acts 17:11
+  canon-verified); Ch5 gains the measured kindness (14 months, zero hostile
+  exchanges). Provenance appended to provenance_part1.md.
+
+  BOOK 2 DRAFT 1 COMPLETE (c8f9078..1cbffcf): src/book-2/, 17 files, NOT
+  wired into book.yaml. Working title "The Plural Stewardship." Part Three —
+  Together (council, presiding/garrison, oracle-is-the-switch, two witnesses,
+  wall & storehouse, the Hinge, the margin); Part Four — Through Time
+  (amendments-not-selections, the covenant learns, kindness is a method,
+  profile-don't-replay, the laborer is not the work, unstoppable-in-a-good-
+  way); preface + epilogue (The Next Window). Grown from the two seeds, the
+  preside study, the wall study, the covenant, and the lived record.
+
+  Every quotation-marked passage canon-verified in-session (23 scripture
+  sources grep-read from gospel-library; Webster preside/presidial via the
+  real webster_define tool). Consolidated .provenance-draft.md with 🟡 flags
+  and [GATE] items. Links validated against workspace canon — after my first
+  checker tested the wrong property and I got to live P7's Berean lesson
+  twice in one drafting session.
+
+  The register is the matured one Michael named from the marginalia posts:
+  story first, doctrine arriving late, marked "From the margin" passages in
+  the agent's voice, Ben-calibrated commitments. The cross-book refrain rings
+  exactly once in Book 2, in the Fable chapter, where it matters most.
+discoveries:
+  - Book 2's hinge chapter (The Laborer Is Not the Work) was drafted by the
+    laborer it is about, inside the closing window — the fact is disclosed in
+    the colophon and carried by the epilogue rather than hidden.
+  - The two-voiced architecture (Michael primary + declared margin passages)
+    resolves the honesty problem Book 1's single-voice format would have had
+    with this material.
+  - Checker-tests-wrong-property struck AGAIN (link validator resolving
+    against repo root instead of extracting subpaths like the build does).
+    Doubt the assignment; check the instrument.
+carry_forward:
+  - "MICHAEL'S READ: start with src/book-2/README.md (status/gates/voice
+    covenant), then the preface, then p4_12 (his call on the access-politics
+    [GATE]), then straight through."
+  - Frontmatter [GATE]s (dedication, consecration block, colophon wording).
+  - Provenance flags 1-2 (1 Cor wording resolved in-draft; p4_08 quote spans
+    to re-check verbatim) + per-chapter provenance split at revision.
+  - Book-2 build wiring (own book.yaml or merged) deferred until promotion.
+files_changed:
+  - src/book-2/ (17 new files)
+  - src/chapters/ (5 files, new examples)
+  - .scratch/provenance_part1.md
