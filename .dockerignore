@@ -1,0 +1,9 @@
+# Keep build outputs and repo history out of the image. Stage 1 generates the
+# Typst sources fresh into /app/dist; without this, the host's dist/ rides in
+# via COPY . . and stage 3 copies stale Book One artifacts over the output.
+dist/
+dist-book-2/
+.git/
+.draft/
+.scratch/
+.spec/

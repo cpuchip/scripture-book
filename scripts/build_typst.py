@@ -516,11 +516,15 @@ def build():
         stem = os.path.splitext(os.path.basename(chapter_path))[0]
         if "frontmatter" in stem:
             continue  # title page is not listed in the TOC
-        if stem.startswith("p1_00"):
-            toc_entries.append(("part", "Part One · How"))
-            continue
-        if stem.startswith("p2_00"):
-            toc_entries.append(("part", "Part Two · Why"))
+        if re.match(r'p\d+_00_.*_divider$', stem):
+            # Any part divider (p1_00, p2_00, p3_00, ...) becomes a TOC part
+            # header, titled from its own part-label/part-title divs.
+            with open(full_path, 'r', encoding='utf-8') as f:
+                div_src = f.read()
+            lab = re.search(r'<div class="part-label">(.*?)</div>', div_src)
+            pt = re.search(r'<div class="part-title">(.*?)</div>', div_src)
+            header = f"{lab.group(1)} · {pt.group(1)}" if (lab and pt) else stem
+            toc_entries.append(("part", header))
             continue
         with open(full_path, 'r', encoding='utf-8') as f:
             ttl = chapter_title(f.read())
