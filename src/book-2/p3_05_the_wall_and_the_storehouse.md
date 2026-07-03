@@ -69,7 +69,7 @@ consecrate thy performance unto thee"
 [qr](../../gospel-library/eng/scriptures/bofm/2-ne/32.md?verse=9) Paul leaves
 no exception open — "whatsoever ye do in word or deed, do all in the name of
 the Lord Jesus" ([Colossians 3:17](../../gospel-library/eng/scriptures/nt/col/3.md?verse=17)).
-[qr](../../gospel-library/eng/scriptures/nt/col/3.md?verse=17) In the code
+In the code
 this collapsed two features into one line: the context that establishes *whose
 act this is* is the same context that carries *what it is offered for*. The
 wall's WHO and consecration's WHY are one move, made once, at the door.

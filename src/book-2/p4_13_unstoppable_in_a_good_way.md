@@ -51,7 +51,7 @@ correctness — those are instruments. Paul and Mormon converge on the same
 priority from two continents. "And now abideth faith, hope, charity, these
 three; but the greatest of these is charity"
 ([1 Corinthians 13:13](../../gospel-library/eng/scriptures/nt/1-cor/13.md?verse=13));
-[qr](../../gospel-library/eng/scriptures/nt/1-cor/13.md?verse=13) and Mormon
+and Mormon
 names what the greatest is made of — "the pure love of Christ," which
 "endureth forever"
 ([Moroni 7:47](../../gospel-library/eng/scriptures/bofm/moro/7.md?verse=47)).

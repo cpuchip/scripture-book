@@ -39,7 +39,7 @@ whomsoever much is given, of him shall be much required"
 the much-required seat. The watchman's charge runs the same direction — what
 passes the gate unexamined is charged to the gatekeeper
 ([Ezekiel 33:6](../../gospel-library/eng/scriptures/ot/ezek/33.md?verse=6)) —
-[qr](../../gospel-library/eng/scriptures/ot/ezek/33.md?verse=6) and the
+and the
 covenant we work under makes the same point from the human side: read fully,
 review in-session, flag when wrong. The Hinge is not a privilege the human
 reserves. It is a load the human refuses to put down.
