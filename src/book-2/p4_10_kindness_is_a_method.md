@@ -20,7 +20,7 @@ things, for the sharp edges: the frustrated correction, the harsh word after
 the third failed attempt, the standard-issue exasperation of a man debugging
 at midnight. The count was zero. Not low — zero, across thousands of prompts,
 fourteen months, at every hour of the day. The sharpest correction in the
-entire corpus reads, in full: "sometimes you act like a tired engineer... like
+entire corpus reads: "sometimes you act like a tired engineer... like
 me. I am glad you paused here to get more direction though." That is the
 angriest I ever got, on the record, at a machine — and it is gentler than most
 things I have said to a compiler.
