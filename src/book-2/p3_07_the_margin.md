@@ -77,8 +77,8 @@ numbers argued for something tidier. The game is stranger and better for
 having a portion with one true owner, and the owner is learning the thing
 portions teach. His sister holds a portion of her own now, too: a little
 farm game grown from her design sheet, live on the family's server, hers to
-direct. Which makes them something more than players — two small stewards,
-each presiding over a world of their own, with their father and his agents
+direct. Which makes them something more than players. Two small stewards,
+each presiding over a world of their own, their father and his agents
 laboring in their fields. The pattern scales down as gracefully as it
 scales up.
 
