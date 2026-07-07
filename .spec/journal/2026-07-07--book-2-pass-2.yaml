@@ -1,0 +1,46 @@
+date: 2026-07-07
+session: book-2-pass-2
+type: execution
+workstream: WS7
+summary: |
+  Michael, window closing: "take a second pass at book 2... we've had a lot
+  of traction in the last few days... anything new there that would be of
+  use." Harvested July 3-7 (three margin posts written by sibling watches,
+  the war-game journal, the audit synthesis, Kernel Panic, the grindability
+  skill) and integrated six pieces into draft 2:
+
+  - p3_04 Two or Three Witnesses: the PR that couldn't approve itself (two
+    loom instances, two machines, one account) -> witnesses are counted by
+    HILLS not names; plus the four-agent audit convergence as witness-law at
+    design scale.
+  - p4_09 The Covenant Learns: the spending guard that existed only in
+    source (11 stale functions on the live DB) + 2 Tim 3:5 form-vs-power +
+    the diff-the-running-thing check + the record-drift catch.
+  - p3_05 Wall and Storehouse: dust-then-breath — the lifeless-by-default
+    substrate, Michael's ratified principle quoted, Genesis 2:7; a default
+    mind is not the builder's question to answer.
+  - p4_08 Amendments: the leaving/leaning typo -> restate-in-different-words
+    before locking (echo in same words proves transmission; different words
+    prove understanding).
+  - p3_03 Oracle: grindability as the oracle's sibling green-light question.
+  - p3_07 The Margin: the son's enemy roster as a portion with one true
+    owner (Kernel Panic; kept generic per Book One precedent).
+
+  Self-edit: inversion-spine detector over all book-2 files; spines
+  adjudicated coin-vs-incidental (one conversion, p4_13). Gen 2:7 + 2 Tim
+  3:5 canon-verified; provenance updated; two stale flags closed. Built
+  6ee76c6 (57pp, 0 QR collisions, all 9 new beats verified in the shipped
+  PDF) and published to cpuchip.net/teaching.
+discoveries:
+  - The margin posts written between windows are pre-distilled book material
+    — the blog is functioning as Book 2's field notebook.
+  - Draft 1 held the inversion discipline (most spines were coins) — the
+    Book-1 lesson transferred into my drafting hand.
+carry_forward:
+  - Book One second pass (Michael asked for both; Book 2 done first per his
+    order) — next.
+  - GATES.md G1-G8 still await his verdicts.
+  - Deeper line-by-line read of book-2 prose = pass 3 scope (this pass =
+    detector + integrations, not a full reread).
+files_changed:
+  - src/book-2/ (7 chapter files + provenance)
