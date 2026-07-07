@@ -14,6 +14,6 @@ Today the practice runs like this, and the mechanics will age. An idea arrives, 
 
 The shape under it is older than any of this. Before the world was made, "the Gods took counsel among themselves" ([Abraham 4:26](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=26)) [qr](../../gospel-library/eng/scriptures/pgp/abr/4.md?verse=26) and only then went down to form it. Counsel precedes creation. It always has. (Part Two: Council & Covenant · Spiritual Creation — the doctrine under this practice.)
 
-**Try this.** Before your next real build, refuse to start cold. Ask the model: *what are two or three ways to do this, what does each cost, and what in our existing work bears on it?* Pick one, and say why. Then hold the plan loosely: revise it the moment the ground disagrees.
+**Try this.** Before your next real build, refuse to start cold. Ask the model: *what are two or three ways to do this, what does each cost, and what in our existing work bears on it?* Pick one, and say why. Then hold the plan loosely, and go — the ground will tell you what to revise.
 
 > **Remember:** Council before you build — surface the options, check what exists, ratify the path before a word is written. The plan is the spiritual creation, made in counsel before it's made in fact. But a plan is a map, not a debt: build *from* it, revise *with* it, and don't let its size become the reason you never start.
