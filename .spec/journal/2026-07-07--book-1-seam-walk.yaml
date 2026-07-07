@@ -1,0 +1,37 @@
+date: 2026-07-07
+session: book-1-seam-walk
+type: execution
+workstream: WS7
+summary: |
+  Book One walked with the seam lens (Michael: "lets go and walk book 1") --
+  every pass-3/4/new-example edit site re-read whole in current state, plus
+  the detector oracles re-run (shingles + em-dash + QR).
+
+  Result: draft is in strong shape. ONE seam found and fixed -- my own
+  pass-4 edit had made P2's Try-This duplicate the body's "revise it the
+  moment the ground disagrees" verbatim six lines apart; Try-This now closes
+  "hold the plan loosely, and go -- the ground will tell you what to
+  revise." All other junctions read clean (P1 coda handoff, P7's three-
+  direction escalation, ch4's deploy-200 flow, ch7's A2A + next-book
+  horizon, ch5 kindness beat, ch0/ch8/ch9 bare affirmations).
+
+  Detector: only designed echoes remain (anchor exemptions, the chosen
+  refrain, ch8->ch9 handoff, P3 first-encounter). ONE borderline flagged
+  for Michael: ch8/ch10 share the wrongness-triple near-verbatim ("too
+  literal, missing a constraint, optimizing for the wrong thing") --
+  refrain-or-vary is his rubric-4 call. Em-dash: only the Oaks interior
+  (deliberate). Both books rebuilt at e078c6a, 0 QR collisions each,
+  published + live-verified (1,825,669 / 647,338 bytes).
+discoveries:
+  - Seams are mostly a self-inflicted class: the one found was created by my
+    own earlier fix. Editing passes need their own seam-check pass -- now
+    it has one.
+carry_forward:
+  - "Michael's verdicts: (1) ch8/ch10 wrongness-triple -- tune to exact
+    refrain, vary ch10's, or leave; (2) whether the daughter's Little Farm
+    Game joins the son's roster beat in Book 2 p3_07 (both kids now hold
+    game stewardships)."
+  - GATES.md G1-G8 still await verdicts.
+  - KDP remains gated on his manual read.
+files_changed:
+  - src/chapters/p1_02_council_before_you_build.md
