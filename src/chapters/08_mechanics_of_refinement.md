@@ -28,7 +28,7 @@ This Atonement operates physically as a refiner's fire, separating the pure spir
 
 Scripture has carried the pattern of refinement-by-orientation for millennia. Engineering is reaching toward part of it now, every time a developer sits down with an AI assistant.
 
-The loop is familiar to anyone who has built with the current generation of tools. You have a task. You write the prompt. The output comes back not quite right — too literal, missing a constraint, optimizing for the wrong thing. You see the gap between what you asked and what you wanted. You write the prompt again, tighter this time. You add context. You make a constraint explicit. The output improves. The cycle continues.
+The loop is familiar to anyone who has built with the current generation of tools. You have a task. You write the prompt. The output comes back not quite right. Too literal. Missing a constraint. Optimizing for the wrong thing. You see the gap between what you asked and what you wanted. You write the prompt again, tighter this time. You add context. You make a constraint explicit. The output improves. The cycle continues.
 
 What is being refined in this loop is not the model. The model stays the same; Claude is Claude. What is being refined is the developer. Over weeks and months, your prompts get more precise. Your context surfaces the right material at the right level. Your specs anticipate the constraints you used to leave implicit. The next project starts further forward than the last one did, because something in you has been quietly trained.
 
