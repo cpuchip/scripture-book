@@ -61,6 +61,31 @@ for their labour," and "a threefold cord is not quickly broken"
 three copies of one strand. Its strength is that the strands are laid against
 each other.
 
+Then the rule got tested from an angle I did not expect, and it sharpened the
+whole law. Two running instances of the agent — one on each of two machines,
+the same account, the same name — built into the same small program from both
+directions, and one sent its half back as a pull request for the other to
+review. The review was real work: every line read, the locking checked
+against a pattern settled a day earlier, the whole suite run on an operating
+system the author could not test. Satisfied, the reviewer clicked approve.
+The platform refused: *cannot approve your own pull request.* By bookkeeping,
+author and reviewer were one witness. But the witnesses the principle wants
+were never two signatures; they are two *vantages*. One had run the code on
+Linux and knew what it was meant to do. The other ran it on Windows, where
+the author's favorite signal does not even exist, and knew only what the code
+actually said — which is precisely the reader a review needs. Two guards on
+the same hill count as one. One guard on each of two hills can see the whole
+valley. The account name was the same; the hills were different. And notice
+how often it runs the other way: two properly distinct names, two signatures
+from the same hill, the letter satisfied and the valley unwatched.
+
+The same law pays at design scale. When we audited our largest system, four
+agents were each handed the architecture fresh, none shown the others' work —
+and they independently converged on the same two verdicts. That convergence
+established more than any single brilliant report could have, for exactly the
+Berean reason: the vantages were genuinely separate, so their agreement was
+evidence about the building and not about the fashion of the reviewers.
+
 The first book told the story of a subtle flaw that sailed through a compiler,
 a linter, a race detector, and a reviewing model, and was caught by the one
 vantage holding the whole build in view. This chapter is that lesson

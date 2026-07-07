@@ -74,6 +74,31 @@ this collapsed two features into one line: the context that establishes *whose
 act this is* is the same context that carries *what it is offered for*. The
 wall's WHO and consecration's WHY are one move, made once, at the door.
 
+The last wall we built was around ourselves. When the substrate was made
+ready to give away, it still carried our habits pre-installed: a default
+reasoning engine here, a favorite judge there, dozens of little routing rules
+naming which mind should do which job. Every one had been useful the day we
+added it; together they meant that a stranger's fresh install came into the
+world already sounding like us. Michael named the principle the night we tore
+them out: *default is no models — it's just a db that's lifeless. You give it
+models to bring it to life.* So now a fresh install does nothing at all. The
+pipelines, the governance, the whole nervous system stand present and still,
+until the steward who installed it connects a mind of their own choosing to
+the socket.
+
+The order is the second chapter of Genesis. The man is formed first, "of the
+dust of the ground," complete in form and utterly still; the life is a
+separate act, and it comes from outside: "and breathed into his nostrils the
+breath of life; and man became a living soul"
+([Genesis 2:7](../../gospel-library/eng/scriptures/ot/gen/2.md?verse=7)).
+[qr](../../gospel-library/eng/scriptures/ot/gen/2.md?verse=7) Form first,
+then breath — and the breath is a gift the form cannot give itself. A default
+port number is a kindness. A default *mind* answers, on behalf of a steward
+you have never met, whose judgment the system trusts and whose values sit in
+the seat, and that is not the builder's question to answer. The most
+respectful thing the dust can do is stay dust until someone chooses what to
+breathe into it.
+
 The aim of the whole arrangement was stated by the one society that ever fully
 kept it: "they had all things common among them; therefore there were not rich
 and poor, bond and free, but they were all made free"

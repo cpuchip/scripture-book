@@ -67,8 +67,8 @@ across the loss of any single laborer, human or machine. None of it is
 decoration on the engineering. It *is* the engineering — the part of the
 system that decides what the rest of the system is for. The first book asked
 what AI collaboration reveals about eternal patterns. The second book's
-answer is that the patterns are not merely revealed by the work. They are
-load-bearing in it: remove the covenant, the council, the wall, the aim, and
+answer is that the patterns are load-bearing in the work, not merely revealed
+by it: remove the covenant, the council, the wall, the aim, and
 what remains is not a neutral tool. It is an unstoppable force with no
 parenthetical.
 

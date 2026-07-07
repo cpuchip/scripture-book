@@ -43,6 +43,14 @@ waits. The oracle is the switch between those two modes. Widen the floor and
 autonomy widens with it, safely, for free. Try to widen autonomy by trusting
 harder and you are simply gambling with better vibes.
 
+The oracle question grew a sibling once the overnight runs got long: *is it
+grindable?* Work survives an unattended night only if it breaks into small
+units the floor can verify one at a time — detect, fix, re-detect, next — so
+that a failure at unit forty costs one unit and not the night. A task with an
+oracle but no grind still needs a mind awake at the wheel. A task with both
+can run to sunrise. We ask the two questions together now at every green
+light, and the answers decide the shape of the work before any of it starts.
+
 Faith that is floored is not blind faith. I want that sentence to carry the
 chapter, because the doctrine underneath it is older than any of our scripts.
 The Lord's instruction to a translator who wanted answers handed to him was a

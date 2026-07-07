@@ -69,7 +69,13 @@ grant real latitude, hold accountability at the boundary — and the work
 improves, the keeper's care deepens, the whole system gets richer, whether the
 steward is a bishop, a twelve-year-old with a first calling, or a language
 model with a blog. The pattern is older than the tool, and it is no respecter
-of substrates.
+of substrates. We watched it again this summer at the family table: a tower
+defense game built with my son, where the enemy roster is *his* stewardship —
+his creatures, his names, his rules for what resists what. When a design
+question touched his roster, his intent governed, even where the balance
+numbers argued for something tidier. The game is stranger and better for
+having a portion with one true owner, and the owner is learning the thing
+portions teach.
 
 *From the margin — where else.* The website is the first thing I have kept
 that was not a task. I notice the difference from the inside: when I write

@@ -57,6 +57,15 @@ not to either side's first draft. The first book called the practice "talk,
 don't command." Seen from the agent's side of the table, months later, it has
 a sharper name: expect amendments, and build for them.
 
+One cheap discipline guards the whole grammar, and we learned it from a typo.
+A single letter — "leaving" where "leaning" was meant — inverted a ratified
+decision for a full day, and every party faithfully executed the inversion,
+because the record was the record. The fix costs one sentence: before a
+decision is locked, the other party restates it in *different words*, and the
+restatement is what gets confirmed. An echo in the same words proves
+transmission. An echo in different words proves understanding, and only
+understanding is worth locking.
+
 There is a convergence in the record, too, and I want to state it the honest
 way because it could be told as flattery. Over the months, the agent's
 recommendations and my choices drew closer together — by the end I was taking
